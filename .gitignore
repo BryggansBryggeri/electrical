@@ -1,0 +1,13 @@
+*.idea/
+*.pyc
+*README.html
+*__pychache__
+*/log/
+# KICAD
+*.bak
+*kicad*bak
+*-cache.lib
+*.bck
+tags
+.hypothesis
+*.egg-info
