@@ -176,19 +176,6 @@ F 3 "~" H 5650 4250 50  0001 C CNN
 	1    5650 4250
 	-1   0    0    1   
 $EndComp
-$Comp
-L bryggan:SSR U?
-U 1 1 5BF6AAD0
-P 6950 4350
-AR Path="/5BF6AAD0" Ref="U?"  Part="1" 
-AR Path="/5BF6A1D6/5BF6AAD0" Ref="U10"  Part="1" 
-F 0 "U10" H 6950 4675 50  0000 C CNN
-F 1 "SSR" H 6950 4584 50  0000 C CNN
-F 2 "" H 6750 4100 50  0001 L CIN
-F 3 "https://docs.broadcom.com/docs/AV02-0173EN" H 6900 4350 50  0001 L CNN
-	1    6950 4350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5300 4250 5500 4250
 Wire Wire Line
@@ -236,19 +223,6 @@ F 3 "~" H 5650 3150 50  0001 C CNN
 	1    5650 3150
 	-1   0    0    1   
 $EndComp
-$Comp
-L bryggan:SSR U?
-U 1 1 5BF6AAEF
-P 6950 3250
-AR Path="/5BF6AAEF" Ref="U?"  Part="1" 
-AR Path="/5BF6A1D6/5BF6AAEF" Ref="U9"  Part="1" 
-F 0 "U9" H 6950 3575 50  0000 C CNN
-F 1 "SSR" H 6950 3484 50  0000 C CNN
-F 2 "" H 6750 3000 50  0001 L CIN
-F 3 "https://docs.broadcom.com/docs/AV02-0173EN" H 6900 3250 50  0001 L CNN
-	1    6950 3250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5300 3150 5500 3150
 Wire Wire Line
@@ -280,4 +254,26 @@ Connection ~ 3950 3600
 Wire Wire Line
 	3600 3800 3950 3800
 Connection ~ 3950 3800
+$Comp
+L bryggan:CTRD6025 SSR1
+U 1 1 5BF5C55C
+P 6950 3250
+F 0 "SSR1" H 6950 3575 50  0000 C CNN
+F 1 "CTRD6025" H 6950 3484 50  0000 C CNN
+F 2 "" H 6750 3000 50  0001 L CIN
+F 3 "https://docs.broadcom.com/docs/AV02-0173EN" H 6900 3250 50  0001 L CNN
+	1    6950 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L bryggan:CTRD6025 SSR2
+U 1 1 5BF5C59E
+P 6950 4350
+F 0 "SSR2" H 6950 4675 50  0000 C CNN
+F 1 "CTRD6025" H 6950 4584 50  0000 C CNN
+F 2 "" H 6750 4100 50  0001 L CIN
+F 3 "https://docs.broadcom.com/docs/AV02-0173EN" H 6900 4350 50  0001 L CNN
+	1    6950 4350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
