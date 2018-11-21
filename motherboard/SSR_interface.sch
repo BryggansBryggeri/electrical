@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L bryggan:AND U?
+L bryggan:AND_3 U?
 U 1 1 5BF6AA78
 P 5050 3150
 AR Path="/5BF6AA78" Ref="U?"  Part="1" 
@@ -28,7 +28,7 @@ F 3 "" H 5000 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L bryggan:AND U?
+L bryggan:AND_3 U?
 U 1 1 5BF6AA7F
 P 5050 4250
 AR Path="/5BF6AA7F" Ref="U?"  Part="1" 
@@ -121,21 +121,21 @@ F 3 "" H 5050 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3950 3800 3950 4300
+	3950 3800 3950 4250
 Wire Wire Line
-	3950 4300 4750 4300
+	3950 4250 4750 4250
 Wire Wire Line
-	3950 3600 3950 3100
+	3950 3600 3950 3150
 Wire Wire Line
-	3950 3100 4750 3100
+	3950 3150 4750 3150
 Wire Wire Line
-	4550 3700 4550 3200
+	4550 3700 4550 3250
 Wire Wire Line
-	4550 3200 4750 3200
+	4550 3250 4750 3250
 Wire Wire Line
-	4550 3700 4550 4200
+	4550 3700 4550 4150
 Wire Wire Line
-	4550 4200 4750 4200
+	4550 4150 4750 4150
 Connection ~ 4550 3700
 $Comp
 L bryggan:+5V U?
@@ -153,14 +153,14 @@ $EndComp
 $Comp
 L bryggan:Float_Switch SW?
 U 1 1 5BF6AAC2
-P 6200 4250
+P 4550 4600
 AR Path="/5BF6AAC2" Ref="SW?"  Part="1" 
 AR Path="/5BF6A1D6/5BF6AAC2" Ref="SW2"  Part="1" 
-F 0 "SW2" H 6200 4485 50  0000 C CNN
-F 1 "Float_Switch" H 6200 4394 50  0000 C CNN
-F 2 "" H 6200 4250 50  0001 C CNN
-F 3 "" H 6200 4250 50  0001 C CNN
-	1    6200 4250
+F 0 "SW2" H 4550 4835 50  0000 C CNN
+F 1 "Float_Switch" H 4550 4744 50  0000 C CNN
+F 2 "" H 4550 4600 50  0001 C CNN
+F 3 "" H 4550 4600 50  0001 C CNN
+	1    4550 4600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -179,9 +179,7 @@ $EndComp
 Wire Wire Line
 	5300 4250 5500 4250
 Wire Wire Line
-	5800 4250 6000 4250
-Wire Wire Line
-	6400 4250 6650 4250
+	5800 4250 6650 4250
 $Comp
 L bryggan:GND #PWR?
 U 1 1 5BF6AADA
@@ -200,14 +198,14 @@ Wire Wire Line
 $Comp
 L bryggan:Float_Switch SW?
 U 1 1 5BF6AAE1
-P 6200 3150
+P 4550 2800
 AR Path="/5BF6AAE1" Ref="SW?"  Part="1" 
 AR Path="/5BF6A1D6/5BF6AAE1" Ref="SW1"  Part="1" 
-F 0 "SW1" H 6200 3385 50  0000 C CNN
-F 1 "Float_Switch" H 6200 3294 50  0000 C CNN
-F 2 "" H 6200 3150 50  0001 C CNN
-F 3 "" H 6200 3150 50  0001 C CNN
-	1    6200 3150
+F 0 "SW1" H 4550 3035 50  0000 C CNN
+F 1 "Float_Switch" H 4550 2944 50  0000 C CNN
+F 2 "" H 4550 2800 50  0001 C CNN
+F 3 "" H 4550 2800 50  0001 C CNN
+	1    4550 2800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -226,9 +224,7 @@ $EndComp
 Wire Wire Line
 	5300 3150 5500 3150
 Wire Wire Line
-	5800 3150 6000 3150
-Wire Wire Line
-	6400 3150 6650 3150
+	5800 3150 6650 3150
 $Comp
 L bryggan:GND #PWR?
 U 1 1 5BF6AAF9
@@ -276,4 +272,34 @@ F 3 "https://docs.broadcom.com/docs/AV02-0173EN" H 6900 4350 50  0001 L CNN
 	1    6950 4350
 	1    0    0    -1  
 $EndComp
+$Comp
+L bryggan:+5V U?
+U 1 1 5BF5E05C
+P 4000 2800
+F 0 "U?" V 4031 2696 50  0000 R CNN
+F 1 "+5V" V 3940 2696 50  0000 R CNN
+F 2 "" H 4000 2800 50  0001 C CNN
+F 3 "" H 4000 2800 50  0001 C CNN
+	1    4000 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L bryggan:+5V U?
+U 1 1 5BF5E0F6
+P 4000 4600
+F 0 "U?" V 4031 4496 50  0000 R CNN
+F 1 "+5V" V 3940 4496 50  0000 R CNN
+F 2 "" H 4000 4600 50  0001 C CNN
+F 3 "" H 4000 4600 50  0001 C CNN
+	1    4000 4600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4350 2800 4050 2800
+Wire Wire Line
+	4750 2800 4750 3050
+Wire Wire Line
+	4050 4600 4350 4600
+Wire Wire Line
+	4750 4600 4750 4350
 $EndSCHEMATC
