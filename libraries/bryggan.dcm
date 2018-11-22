@@ -11,4 +11,16 @@ D Single Pole Single Throw (SPST) switch
 K switch lever
 $ENDCMP
 #
+$CMP N-MOSFET
+D N-MOSFET transistor, drain/gate/source
+K transistor NMOS N-MOS N-MOSFET
+F ~
+$ENDCMP
+#
+$CMP OPAMP
+D OPAmp symbol for simulation only
+K simulation
+F ~
+$ENDCMP
+#
 #End Doc Library
