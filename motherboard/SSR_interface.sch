@@ -14,9 +14,9 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 3150 3200 0    50   Input ~ 0
+Text HLabel 3050 3200 0    50   Input ~ 0
 SSR1_GPIO
-Text HLabel 3100 4300 0    50   Input ~ 0
+Text HLabel 3000 4300 0    50   Input ~ 0
 SSR2_GPIO
 $Sheet
 S 5600 4100 1100 650 
@@ -38,21 +38,10 @@ Wire Wire Line
 	5000 4250 5600 4250
 Wire Wire Line
 	5000 3150 5550 3150
-$Comp
-L Connector:Conn_01x03_Male J2
-U 1 1 5C099157
-P 7400 3900
-F 0 "J2" H 7373 3830 50  0000 R CNN
-F 1 "Conn_01x03_Male" H 7373 3921 50  0000 R CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-3-5.08_1x03_P5.08mm_Horizontal" H 7400 3900 50  0001 C CNN
-F 3 "~" H 7400 3900 50  0001 C CNN
-	1    7400 3900
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	6650 3150 7200 3150
 Wire Wire Line
-	7200 3150 7200 3800
+	7200 3150 7200 3900
 Wire Wire Line
 	6700 4250 6900 4250
 Wire Wire Line
@@ -60,10 +49,10 @@ Wire Wire Line
 Wire Wire Line
 	6900 3900 7200 3900
 $Comp
-L bryggan:GND #PWR05
+L bryggan:GND #PWR011
 U 1 1 5C09950A
 P 7200 4350
-F 0 "#PWR05" H 7200 4100 50  0001 C CNN
+F 0 "#PWR011" H 7200 4100 50  0001 C CNN
 F 1 "GND" H 7205 4177 50  0000 C CNN
 F 2 "" H 7200 4350 50  0001 C CNN
 F 3 "" H 7200 4350 50  0001 C CNN
@@ -74,130 +63,71 @@ Wire Wire Line
 	7200 4000 7200 4350
 $Comp
 L 74xGxx:74AUC2G04 U1
-U 2 1 5C0AC439
-P 3800 3200
-F 0 "U1" H 3775 3467 50  0000 C CNN
-F 1 "74AUC2G04" H 3775 3376 50  0000 C CNN
-F 2 "" H 3800 3200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3800 3200 50  0001 C CNN
-	2    3800 3200
+U 1 1 5C0AC439
+P 3700 3200
+F 0 "U1" H 3675 3467 50  0000 C CNN
+F 1 "74AUC2G04" H 3675 3376 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 3700 3200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3700 3200 50  0001 C CNN
+	1    3700 3200
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xGxx:74AUC2G04 U1
-U 1 1 5C0AC4C9
-P 3750 4300
-F 0 "U1" H 3725 4567 50  0000 C CNN
-F 1 "74AUC2G04" H 3725 4476 50  0000 C CNN
-F 2 "" H 3750 4300 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3750 4300 50  0001 C CNN
-	1    3750 4300
+U 2 1 5C0AC4C9
+P 3700 4300
+F 0 "U1" H 3675 4567 50  0000 C CNN
+F 1 "74AUC2G04" H 3675 4476 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 3700 4300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3700 4300 50  0001 C CNN
+	2    3700 4300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3150 3200 3300 3200
+	3050 3200 3200 3200
 Wire Wire Line
-	3500 3200 3500 2850
+	3400 3200 3400 2850
+Connection ~ 3400 3200
 Wire Wire Line
-	3500 2850 4450 2850
+	3000 4300 3250 4300
 Wire Wire Line
-	4450 2850 4450 3100
-Connection ~ 3500 3200
+	3400 4300 3400 4450
 Wire Wire Line
-	3100 4300 3350 4300
+	3400 4450 4400 4450
 Wire Wire Line
-	3450 4300 3450 4450
+	3950 4300 3950 3750
 Wire Wire Line
-	3450 4450 4450 4450
+	3950 3750 4400 3750
 Wire Wire Line
-	4450 4450 4450 4300
-Connection ~ 3450 4300
+	3950 3200 4150 3200
 Wire Wire Line
-	4000 4300 4000 3750
+	4150 3200 4150 4150
 Wire Wire Line
-	4000 3750 4450 3750
+	4150 4150 4400 4150
 Wire Wire Line
-	4450 3750 4450 3200
+	3200 3200 3200 5050
+Connection ~ 3200 3200
 Wire Wire Line
-	4050 3200 4250 3200
+	3200 3200 3400 3200
 Wire Wire Line
-	4250 3200 4250 4200
-Wire Wire Line
-	4250 4200 4450 4200
+	3250 4300 3250 4850
+Connection ~ 3250 4300
 $Comp
-L 74xGxx:74AUC2G08 U2
-U 1 1 5C0AC6D4
-P 4750 3150
-F 0 "U2" H 4725 3417 50  0000 C CNN
-F 1 "74AUC2G08" H 4725 3326 50  0000 C CNN
-F 2 "" H 4750 3150 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 4750 3150 50  0001 C CNN
-	1    4750 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xGxx:74AUC2G08 U2
-U 2 1 5C0AC73B
-P 4750 4250
-F 0 "U2" H 4725 4517 50  0000 C CNN
-F 1 "74AUC2G08" H 4725 4426 50  0000 C CNN
-F 2 "" H 4750 4250 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 4750 4250 50  0001 C CNN
-	2    4750 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xGxx:74AUC2G08 U?
-U 2 1 5C0AF5BF
-P 4750 4900
-F 0 "U?" H 4725 5167 50  0000 C CNN
-F 1 "74AUC2G08" H 4725 5076 50  0000 C CNN
-F 2 "" H 4750 4900 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 4750 4900 50  0001 C CNN
-	2    4750 4900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3300 3200 3300 4850
-Wire Wire Line
-	3300 4850 4450 4850
-Connection ~ 3300 3200
-Wire Wire Line
-	3300 3200 3500 3200
-Wire Wire Line
-	3350 4300 3350 4950
-Wire Wire Line
-	3350 4950 4450 4950
-Connection ~ 3350 4300
-Wire Wire Line
-	3350 4300 3450 4300
-$Comp
-L Device:LED D?
-U 1 1 5C0AFCAD
-P 5250 5500
-F 0 "D?" V 5288 5383 50  0000 R CNN
-F 1 "LED" V 5197 5383 50  0000 R CNN
-F 2 "" H 5250 5500 50  0001 C CNN
-F 3 "~" H 5250 5500 50  0001 C CNN
-	1    5250 5500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L bryggan:R R?
+L bryggan:R R1
 U 1 1 5C0AFD6B
-P 5250 5050
-F 0 "R?" H 5180 5004 50  0000 R CNN
-F 1 "R" H 5180 5095 50  0000 R CNN
-F 2 "" V 5180 5050 50  0001 C CNN
-F 3 "" H 5250 5050 50  0001 C CNN
-	1    5250 5050
+P 5250 5100
+F 0 "R1" H 5180 5054 50  0000 R CNN
+F 1 "R" H 5180 5145 50  0000 R CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" V 5180 5100 50  0001 C CNN
+F 3 "" H 5250 5100 50  0001 C CNN
+	1    5250 5100
 	-1   0    0    1   
 $EndComp
 $Comp
-L bryggan:GND #PWR?
+L bryggan:GND #PWR010
 U 1 1 5C0AFE3E
 P 5250 5800
-F 0 "#PWR?" H 5250 5550 50  0001 C CNN
+F 0 "#PWR010" H 5250 5550 50  0001 C CNN
 F 1 "GND" H 5255 5627 50  0000 C CNN
 F 2 "" H 5250 5800 50  0001 C CNN
 F 3 "" H 5250 5800 50  0001 C CNN
@@ -205,9 +135,184 @@ F 3 "" H 5250 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5000 4900 5250 4900
+	5000 4950 5250 4950
 Wire Wire Line
-	5250 5200 5250 5350
+	5250 5250 5250 5350
 Wire Wire Line
-	5250 5650 5250 5800
+	3250 4850 4400 4850
+Wire Wire Line
+	3200 5050 4400 5050
+$Comp
+L bryggan:GND #PWR07
+U 1 1 5C1176C8
+P 3700 4700
+F 0 "#PWR07" H 3700 4450 50  0001 C CNN
+F 1 "GND" H 3705 4527 50  0000 C CNN
+F 2 "" H 3700 4700 50  0001 C CNN
+F 3 "" H 3700 4700 50  0001 C CNN
+	1    3700 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L bryggan:GND #PWR05
+U 1 1 5C117788
+P 3700 3550
+F 0 "#PWR05" H 3700 3300 50  0001 C CNN
+F 1 "GND" H 3705 3377 50  0000 C CNN
+F 2 "" H 3700 3550 50  0001 C CNN
+F 3 "" H 3700 3550 50  0001 C CNN
+	1    3700 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 3550 3700 3300
+Wire Wire Line
+	3700 4700 3700 4400
+$Comp
+L 4xxx:4081 U2
+U 1 1 5C119F67
+P 4700 3150
+F 0 "U2" H 4700 3475 50  0000 C CNN
+F 1 "4081" H 4700 3384 50  0000 C CNN
+F 2 "Package_SO:SSOP-14_5.3x6.2mm_P0.65mm" H 4700 3150 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf" H 4700 3150 50  0001 C CNN
+	1    4700 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:4081 U2
+U 2 1 5C11AB54
+P 4700 4250
+F 0 "U2" H 4700 4575 50  0000 C CNN
+F 1 "4081" H 4700 4484 50  0000 C CNN
+F 2 "Package_SO:SSOP-14_5.3x6.2mm_P0.65mm" H 4700 4250 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf" H 4700 4250 50  0001 C CNN
+	2    4700 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:4081 U2
+U 3 1 5C11ABC8
+P 5600 1700
+F 0 "U2" H 5600 2025 50  0000 C CNN
+F 1 "4081" H 5600 1934 50  0000 C CNN
+F 2 "Package_SO:SSOP-14_5.3x6.2mm_P0.65mm" H 5600 1700 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf" H 5600 1700 50  0001 C CNN
+	3    5600 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:4081 U2
+U 5 1 5C11AD0D
+P 4700 1800
+F 0 "U2" H 4930 1846 50  0000 L CNN
+F 1 "4081" H 4930 1755 50  0000 L CNN
+F 2 "Package_SO:SSOP-14_5.3x6.2mm_P0.65mm" H 4700 1800 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf" H 4700 1800 50  0001 C CNN
+	5    4700 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 2850 4400 3050
+Wire Wire Line
+	4400 3750 4400 3250
+Wire Wire Line
+	4400 4450 4400 4350
+$Comp
+L bryggan:GND #PWR09
+U 1 1 5C1201F3
+P 4700 2500
+F 0 "#PWR09" H 4700 2250 50  0001 C CNN
+F 1 "GND" H 4705 2327 50  0000 C CNN
+F 2 "" H 4700 2500 50  0001 C CNN
+F 3 "" H 4700 2500 50  0001 C CNN
+	1    4700 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 2300 4700 2500
+$Comp
+L power:+5V #PWR08
+U 1 1 5C120788
+P 4700 1050
+F 0 "#PWR08" H 4700 900 50  0001 C CNN
+F 1 "+5V" H 4715 1223 50  0000 C CNN
+F 2 "" H 4700 1050 50  0001 C CNN
+F 3 "" H 4700 1050 50  0001 C CNN
+	1    4700 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 1050 4700 1300
+$Comp
+L power:+5V #PWR06
+U 1 1 5C120DDD
+P 3700 4000
+F 0 "#PWR06" H 3700 3850 50  0001 C CNN
+F 1 "+5V" H 3715 4173 50  0000 C CNN
+F 2 "" H 3700 4000 50  0001 C CNN
+F 3 "" H 3700 4000 50  0001 C CNN
+	1    3700 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 2850 4400 2850
+Wire Wire Line
+	3700 4000 3700 4200
+Connection ~ 3400 4300
+Wire Wire Line
+	3250 4300 3400 4300
+Wire Wire Line
+	5250 5350 5450 5350
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 5C126476
+P 5650 5450
+AR Path="/5BF6A1D6/5C0971B5/5C126476" Ref="J?"  Part="1" 
+AR Path="/5BF6A1D6/5C098030/5C126476" Ref="J?"  Part="1" 
+AR Path="/5BF6A1D6/5C126476" Ref="J6"  Part="1" 
+F 0 "J6" H 5623 5330 50  0000 R CNN
+F 1 "Conn_01x02_Male" H 5623 5421 50  0000 R CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 5650 5450 50  0001 C CNN
+F 3 "~" H 5650 5450 50  0001 C CNN
+	1    5650 5450
+	-1   0    0    1   
+$EndComp
+Text Notes 5450 5200 0    50   ~ 0
+LED: Error signal, both SSR HIGH
+Wire Wire Line
+	5250 5450 5450 5450
+Wire Wire Line
+	5250 5450 5250 5800
+Text Notes 7450 3800 0    50   ~ 0
++24VDC
+$Comp
+L 4xxx:4081 U2
+U 4 1 5C127C9B
+P 4700 4950
+F 0 "U2" H 4700 5275 50  0000 C CNN
+F 1 "4081" H 4700 5184 50  0000 C CNN
+F 2 "Package_SO:SSOP-14_5.3x6.2mm_P0.65mm" H 4700 4950 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf" H 4700 4950 50  0001 C CNN
+	4    4700 4950
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5900 1700
+NoConn ~ 5300 1800
+NoConn ~ 5300 1600
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 5C12BED8
+P 7400 4000
+AR Path="/5BF6A1D6/5C0971B5/5C12BED8" Ref="J?"  Part="1" 
+AR Path="/5BF6A1D6/5C098030/5C12BED8" Ref="J?"  Part="1" 
+AR Path="/5BF6A1D6/5C12BED8" Ref="J2"  Part="1" 
+F 0 "J2" H 7373 3880 50  0000 R CNN
+F 1 "Conn_01x02_Male" H 7373 3971 50  0000 R CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 7400 4000 50  0001 C CNN
+F 3 "~" H 7400 4000 50  0001 C CNN
+	1    7400 4000
+	-1   0    0    1   
+$EndComp
+Connection ~ 7200 3900
 $EndSCHEMATC
