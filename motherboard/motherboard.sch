@@ -4,10 +4,10 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 5
+Sheet 1 6
 Title "Motherboard"
-Date "2018-12-06"
-Rev "0.3"
+Date "2018-12-13"
+Rev "0.4"
 Comp "Bryggans Bryggeri"
 Comment1 ""
 Comment2 ""

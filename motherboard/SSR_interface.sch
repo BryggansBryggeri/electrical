@@ -4,10 +4,10 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 5
+Sheet 2 6
 Title "SSR interface"
-Date "2018-12-06"
-Rev "0.3"
+Date "2018-12-13"
+Rev "0.4"
 Comp "Bryggans Bryggeri"
 Comment1 ""
 Comment2 ""
@@ -25,6 +25,7 @@ F0 "SSR_driver_1" 50
 F1 "SSR_driver.sch" 50
 F2 "sig_in" I L 5600 4250 50 
 F3 "ssr_in" I R 6700 4250 50 
+F4 "indicator" O R 6700 4550 50 
 $EndSheet
 $Sheet
 S 5550 3000 1100 650 
@@ -33,34 +34,25 @@ F0 "SSR_driver_2" 50
 F1 "SSR_driver.sch" 50
 F2 "sig_in" I L 5550 3150 50 
 F3 "ssr_in" I R 6650 3150 50 
+F4 "indicator" O R 6650 3500 50 
 $EndSheet
 Wire Wire Line
 	5000 4250 5600 4250
 Wire Wire Line
 	5000 3150 5550 3150
-Wire Wire Line
-	6650 3150 7200 3150
-Wire Wire Line
-	7200 3150 7200 3900
-Wire Wire Line
-	6700 4250 6900 4250
-Wire Wire Line
-	6900 4250 6900 3900
-Wire Wire Line
-	6900 3900 7200 3900
 $Comp
 L bryggan:GND #PWR011
 U 1 1 5C09950A
-P 7200 4350
-F 0 "#PWR011" H 7200 4100 50  0001 C CNN
-F 1 "GND" H 7205 4177 50  0000 C CNN
-F 2 "" H 7200 4350 50  0001 C CNN
-F 3 "" H 7200 4350 50  0001 C CNN
-	1    7200 4350
+P 7300 5800
+F 0 "#PWR011" H 7300 5550 50  0001 C CNN
+F 1 "GND" H 7305 5627 50  0000 C CNN
+F 2 "" H 7300 5800 50  0001 C CNN
+F 3 "" H 7300 5800 50  0001 C CNN
+	1    7300 5800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7200 4000 7200 4350
+	7300 5400 7300 5800
 $Comp
 L 74xGxx:74AUC2G04 U1
 U 1 1 5C0AC439
@@ -118,7 +110,7 @@ U 1 1 5C0AFD6B
 P 5250 5100
 F 0 "R1" H 5180 5054 50  0000 R CNN
 F 1 "R" H 5180 5145 50  0000 R CNN
-F 2 "Resistor_SMD:R_0201_0603Metric" V 5180 5100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5180 5100 50  0001 C CNN
 F 3 "" H 5250 5100 50  0001 C CNN
 	1    5250 5100
 	-1   0    0    1   
@@ -270,8 +262,8 @@ U 1 1 5C126476
 P 5650 5450
 AR Path="/5BF6A1D6/5C0971B5/5C126476" Ref="J?"  Part="1" 
 AR Path="/5BF6A1D6/5C098030/5C126476" Ref="J?"  Part="1" 
-AR Path="/5BF6A1D6/5C126476" Ref="J6"  Part="1" 
-F 0 "J6" H 5623 5330 50  0000 R CNN
+AR Path="/5BF6A1D6/5C126476" Ref="J2"  Part="1" 
+F 0 "J2" H 5623 5330 50  0000 R CNN
 F 1 "Conn_01x02_Male" H 5623 5421 50  0000 R CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 5650 5450 50  0001 C CNN
 F 3 "~" H 5650 5450 50  0001 C CNN
@@ -284,7 +276,7 @@ Wire Wire Line
 	5250 5450 5450 5450
 Wire Wire Line
 	5250 5450 5250 5800
-Text Notes 7450 3800 0    50   ~ 0
+Text Notes 7550 5200 0    50   ~ 0
 +24VDC
 $Comp
 L 4xxx:4081 U2
@@ -303,16 +295,44 @@ NoConn ~ 5300 1600
 $Comp
 L Connector:Conn_01x02_Male J?
 U 1 1 5C12BED8
-P 7400 4000
+P 7500 5400
 AR Path="/5BF6A1D6/5C0971B5/5C12BED8" Ref="J?"  Part="1" 
 AR Path="/5BF6A1D6/5C098030/5C12BED8" Ref="J?"  Part="1" 
-AR Path="/5BF6A1D6/5C12BED8" Ref="J2"  Part="1" 
-F 0 "J2" H 7373 3880 50  0000 R CNN
-F 1 "Conn_01x02_Male" H 7373 3971 50  0000 R CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 7400 4000 50  0001 C CNN
-F 3 "~" H 7400 4000 50  0001 C CNN
-	1    7400 4000
+AR Path="/5BF6A1D6/5C12BED8" Ref="J3"  Part="1" 
+F 0 "J3" H 7473 5280 50  0000 R CNN
+F 1 "Conn_01x02_Male" H 7473 5371 50  0000 R CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 7500 5400 50  0001 C CNN
+F 3 "~" H 7500 5400 50  0001 C CNN
+	1    7500 5400
 	-1   0    0    1   
 $EndComp
-Connection ~ 7200 3900
+$Sheet
+S 8500 3000 1100 650 
+U 5C12D07D
+F0 "Comparator" 50
+F1 "comparator.sch" 50
+F2 "indicator_1" O L 8500 3150 50 
+F3 "indicator_2" O L 8500 3500 50 
+$EndSheet
+Wire Wire Line
+	6650 3500 7800 3500
+Wire Wire Line
+	7800 3500 7800 3150
+Wire Wire Line
+	7800 3150 8500 3150
+Wire Wire Line
+	8100 4550 8100 3500
+Wire Wire Line
+	8100 3500 8500 3500
+Wire Wire Line
+	6700 4550 8100 4550
+Wire Wire Line
+	6700 4250 7300 4250
+Wire Wire Line
+	7300 4250 7300 5300
+Wire Wire Line
+	6650 3150 7300 3150
+Wire Wire Line
+	7300 3150 7300 4250
+Connection ~ 7300 4250
 $EndSCHEMATC
