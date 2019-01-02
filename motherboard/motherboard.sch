@@ -61,7 +61,6 @@ NoConn ~ 9450 4900
 NoConn ~ 9450 4650
 NoConn ~ 6900 6300
 NoConn ~ 6900 6400
-NoConn ~ 6900 4550
 Wire Wire Line
 	6900 5200 6600 5200
 Wire Wire Line
@@ -81,8 +80,6 @@ F1 "SSR_interface.sch" 50
 F2 "SSR1_GPIO" I L 10450 6100 50 
 F3 "SSR2_GPIO" I L 10450 6350 50 
 $EndSheet
-Wire Wire Line
-	9450 6100 10450 6100
 $Sheet
 S 10450 5350 900  450 
 U 5BF6D5FF
@@ -94,9 +91,9 @@ $EndSheet
 Wire Wire Line
 	9450 5700 10450 5700
 Wire Wire Line
-	6900 4650 6700 4650
+	6900 4550 6700 4550
 Wire Wire Line
-	6700 4650 6700 3900
+	6700 4550 6700 3900
 Wire Wire Line
 	6700 3900 9950 3900
 Wire Wire Line
@@ -111,12 +108,6 @@ NoConn ~ 9450 6400
 NoConn ~ 9450 4200
 NoConn ~ 9450 4300
 NoConn ~ 9450 4550
-Wire Wire Line
-	9450 6200 9950 6200
-Wire Wire Line
-	9950 6200 9950 6350
-Wire Wire Line
-	9950 6350 10450 6350
 Wire Wire Line
 	6450 4200 6800 4200
 $Comp
@@ -167,4 +158,17 @@ F 3 "" H 6450 4200 50  0001 C CNN
 	1    6450 4200
 	1    0    0    -1  
 $EndComp
+NoConn ~ 6900 4650
+Wire Wire Line
+	9450 6200 10200 6200
+Wire Wire Line
+	10200 6200 10200 6100
+Wire Wire Line
+	10200 6100 10450 6100
+Wire Wire Line
+	9450 6100 9750 6100
+Wire Wire Line
+	9750 6100 9750 6350
+Wire Wire Line
+	9750 6350 10450 6350
 $EndSCHEMATC
