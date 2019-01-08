@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:motherboard-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -260,7 +259,7 @@ Wire Wire Line
 Wire Wire Line
 	5250 5450 5250 5800
 Text Notes 7550 5200 0    50   ~ 0
-+24VDC
+SSR_in_1
 $Comp
 L 4xxx:4081 U2
 U 4 1 5C127C9B
@@ -315,9 +314,6 @@ Wire Wire Line
 	7300 4250 7300 5300
 Wire Wire Line
 	6650 3150 7300 3150
-Wire Wire Line
-	7300 3150 7300 4250
-Connection ~ 7300 4250
 $Comp
 L power:+5V #PWR0101
 U 1 1 5C19087A
@@ -348,4 +344,37 @@ F 3 "" H 4700 1050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4700 1300 4700 1050
+$Comp
+L bryggan:GND #PWR026
+U 1 1 5C34D5DA
+P 7500 3100
+F 0 "#PWR026" H 7500 2850 50  0001 C CNN
+F 1 "GND" H 7505 2927 50  0000 C CNN
+F 2 "" H 7500 3100 50  0001 C CNN
+F 3 "" H 7500 3100 50  0001 C CNN
+	1    7500 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 2700 7500 3100
+Text Notes 7750 2500 0    50   ~ 0
+SSR_in_2
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 5C34D5E2
+P 7700 2700
+AR Path="/5BF6A1D6/5C0971B5/5C34D5E2" Ref="J?"  Part="1" 
+AR Path="/5BF6A1D6/5C098030/5C34D5E2" Ref="J?"  Part="1" 
+AR Path="/5BF6A1D6/5C34D5E2" Ref="J7"  Part="1" 
+F 0 "J7" H 7673 2580 50  0000 R CNN
+F 1 "Conn_01x02_Male" H 7673 2671 50  0000 R CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 7700 2700 50  0001 C CNN
+F 3 "~" H 7700 2700 50  0001 C CNN
+	1    7700 2700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7300 3150 7300 2600
+Wire Wire Line
+	7300 2600 7500 2600
 $EndSCHEMATC
