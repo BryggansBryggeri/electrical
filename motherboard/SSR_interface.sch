@@ -78,7 +78,6 @@ Wire Wire Line
 	3050 3200 3200 3200
 Wire Wire Line
 	3400 3200 3400 2850
-Connection ~ 3400 3200
 Wire Wire Line
 	3000 4300 3250 4300
 Wire Wire Line
@@ -160,23 +159,23 @@ Wire Wire Line
 $Comp
 L 4xxx:4081 U2
 U 1 1 5C119F67
-P 4700 3150
-F 0 "U2" H 4700 3475 50  0000 C CNN
-F 1 "4081" H 4700 3384 50  0000 C CNN
-F 2 "Package_SO:SSOP-14_5.3x6.2mm_P0.65mm" H 4700 3150 50  0001 C CNN
-F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf" H 4700 3150 50  0001 C CNN
-	1    4700 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L 4xxx:4081 U2
-U 2 1 5C11AB54
 P 4700 4250
 F 0 "U2" H 4700 4575 50  0000 C CNN
 F 1 "4081" H 4700 4484 50  0000 C CNN
 F 2 "Package_SO:SSOP-14_5.3x6.2mm_P0.65mm" H 4700 4250 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf" H 4700 4250 50  0001 C CNN
-	2    4700 4250
+	1    4700 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:4081 U2
+U 2 1 5C11AB54
+P 4700 3150
+F 0 "U2" H 4700 3475 50  0000 C CNN
+F 1 "4081" H 4700 3384 50  0000 C CNN
+F 2 "Package_SO:SSOP-14_5.3x6.2mm_P0.65mm" H 4700 3150 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf" H 4700 3150 50  0001 C CNN
+	2    4700 3150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -233,7 +232,6 @@ Wire Wire Line
 	3400 2850 4400 2850
 Wire Wire Line
 	3700 4000 3700 4200
-Connection ~ 3400 4300
 Wire Wire Line
 	3250 4300 3400 4300
 Wire Wire Line
@@ -377,4 +375,6 @@ Wire Wire Line
 	7300 3150 7300 2600
 Wire Wire Line
 	7300 2600 7500 2600
+Connection ~ 3400 4300
+Connection ~ 3400 3200
 $EndSCHEMATC
