@@ -1,0 +1,11 @@
+{
+  "parts":{
+    "opamp": "http://www.ti.com/lit/ds/slos091e/slos091e.pdf",
+    "and": "http://www.farnell.com/datasheets/1645571.pdf",
+    "quad_2_input_and": "https://assets.nexperia.com/documents/data-sheet/74HC_HCT08.pdf",
+    "xor": "http://www.ti.com/lit/ds/symlink/sn74ahc1g86.pdf",
+    "ssr": "http://www.farnell.com/datasheets/2612585.pdf",
+    "potentiometer": "http://www.farnell.com/datasheets/2243510.pdf"
+  },
+  "mail_structure": "order_id, antal, namn"
+}
