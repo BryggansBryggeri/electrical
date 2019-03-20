@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 6
 Title "SSR interface"
-Date "2018-12-13"
-Rev "0.4"
+Date "2019-03-20"
+Rev "1.0"
 Comp "Bryggans Bryggeri"
 Comment1 ""
 Comment2 ""
@@ -56,23 +56,23 @@ Wire Wire Line
 $Comp
 L 74xGxx:74AUC2G04 U1
 U 1 1 5C0AC439
-P 3700 3200
-F 0 "U1" H 3675 3467 50  0000 C CNN
-F 1 "74AUC2G04" H 3675 3376 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6" H 3700 3200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3700 3200 50  0001 C CNN
-	1    3700 3200
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xGxx:74AUC2G04 U1
-U 2 1 5C0AC4C9
 P 3700 4300
 F 0 "U1" H 3675 4567 50  0000 C CNN
 F 1 "74AUC2G04" H 3675 4476 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-6" H 3700 4300 50  0001 C CNN
 F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3700 4300 50  0001 C CNN
-	2    3700 4300
+	1    3700 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx:74AUC2G04 U1
+U 2 1 5C0AC4C9
+P 3700 3200
+F 0 "U1" H 3675 3467 50  0000 C CNN
+F 1 "74AUC2G04" H 3675 3376 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 3700 3200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3700 3200 50  0001 C CNN
+	2    3700 3200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -84,15 +84,7 @@ Wire Wire Line
 Wire Wire Line
 	3400 4300 3400 4450
 Wire Wire Line
-	3950 4300 3950 3750
-Wire Wire Line
-	3950 3750 4400 3750
-Wire Wire Line
 	3950 3200 4150 3200
-Wire Wire Line
-	4150 3200 4150 4150
-Wire Wire Line
-	4150 4150 4400 4150
 Wire Wire Line
 	3200 3200 3200 5050
 Connection ~ 3200 3200
@@ -127,84 +119,32 @@ Wire Wire Line
 	5000 4950 5250 4950
 Wire Wire Line
 	5250 5250 5250 5350
-Wire Wire Line
-	3250 4850 4400 4850
-Wire Wire Line
-	3200 5050 4400 5050
 $Comp
 L bryggan:GND #PWR07
 U 1 1 5C1176C8
-P 3700 4700
-F 0 "#PWR07" H 3700 4450 50  0001 C CNN
-F 1 "GND" H 3705 4527 50  0000 C CNN
-F 2 "" H 3700 4700 50  0001 C CNN
-F 3 "" H 3700 4700 50  0001 C CNN
-	1    3700 4700
+P 3700 3450
+F 0 "#PWR07" H 3700 3200 50  0001 C CNN
+F 1 "GND" H 3705 3277 50  0000 C CNN
+F 2 "" H 3700 3450 50  0001 C CNN
+F 3 "" H 3700 3450 50  0001 C CNN
+	1    3700 3450
 	1    0    0    -1  
 $EndComp
 $Comp
 L bryggan:GND #PWR05
 U 1 1 5C117788
-P 3700 3550
-F 0 "#PWR05" H 3700 3300 50  0001 C CNN
-F 1 "GND" H 3705 3377 50  0000 C CNN
-F 2 "" H 3700 3550 50  0001 C CNN
-F 3 "" H 3700 3550 50  0001 C CNN
-	1    3700 3550
+P 3700 4600
+F 0 "#PWR05" H 3700 4350 50  0001 C CNN
+F 1 "GND" H 3705 4427 50  0000 C CNN
+F 2 "" H 3700 4600 50  0001 C CNN
+F 3 "" H 3700 4600 50  0001 C CNN
+	1    3700 4600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3700 3550 3700 3300
+	3700 4600 3700 4400
 Wire Wire Line
-	3700 4700 3700 4400
-$Comp
-L 4xxx:4081 U2
-U 1 1 5C119F67
-P 4700 4250
-F 0 "U2" H 4700 4575 50  0000 C CNN
-F 1 "4081" H 4700 4484 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4700 4250 50  0001 C CNN
-F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf" H 4700 4250 50  0001 C CNN
-	1    4700 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L 4xxx:4081 U2
-U 2 1 5C11AB54
-P 4700 3150
-F 0 "U2" H 4700 3475 50  0000 C CNN
-F 1 "4081" H 4700 3384 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4700 3150 50  0001 C CNN
-F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf" H 4700 3150 50  0001 C CNN
-	2    4700 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L 4xxx:4081 U2
-U 3 1 5C11ABC8
-P 5600 1700
-F 0 "U2" H 5600 2025 50  0000 C CNN
-F 1 "4081" H 5600 1934 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5600 1700 50  0001 C CNN
-F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf" H 5600 1700 50  0001 C CNN
-	3    5600 1700
-	1    0    0    -1  
-$EndComp
-$Comp
-L 4xxx:4081 U2
-U 5 1 5C11AD0D
-P 4700 1800
-F 0 "U2" H 4930 1846 50  0000 L CNN
-F 1 "4081" H 4930 1755 50  0000 L CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4700 1800 50  0001 C CNN
-F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf" H 4700 1800 50  0001 C CNN
-	5    4700 1800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4400 2850 4400 3050
-Wire Wire Line
-	4400 3750 4400 3250
+	3700 3450 3700 3300
 $Comp
 L bryggan:GND #PWR09
 U 1 1 5C1201F3
@@ -221,18 +161,14 @@ Wire Wire Line
 $Comp
 L power:+5V #PWR06
 U 1 1 5C120DDD
-P 3700 4000
-F 0 "#PWR06" H 3700 3850 50  0001 C CNN
-F 1 "+5V" H 3715 4173 50  0000 C CNN
-F 2 "" H 3700 4000 50  0001 C CNN
-F 3 "" H 3700 4000 50  0001 C CNN
-	1    3700 4000
+P 3700 3900
+F 0 "#PWR06" H 3700 3750 50  0001 C CNN
+F 1 "+5V" H 3715 4073 50  0000 C CNN
+F 2 "" H 3700 3900 50  0001 C CNN
+F 3 "" H 3700 3900 50  0001 C CNN
+	1    3700 3900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3400 2850 4400 2850
-Wire Wire Line
-	3700 4000 3700 4200
 Wire Wire Line
 	3250 4300 3400 4300
 Wire Wire Line
@@ -259,17 +195,6 @@ Wire Wire Line
 	5250 5450 5250 5800
 Text Notes 7550 5200 0    50   ~ 0
 SSR_in_1
-$Comp
-L 4xxx:4081 U2
-U 4 1 5C127C9B
-P 4700 4950
-F 0 "U2" H 4700 5275 50  0000 C CNN
-F 1 "4081" H 4700 5184 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4700 4950 50  0001 C CNN
-F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf" H 4700 4950 50  0001 C CNN
-	4    4700 4950
-	1    0    0    -1  
-$EndComp
 NoConn ~ 5900 1700
 NoConn ~ 5300 1800
 NoConn ~ 5300 1600
@@ -316,20 +241,16 @@ Wire Wire Line
 $Comp
 L power:+5V #PWR0101
 U 1 1 5C19087A
-P 3700 2650
-F 0 "#PWR0101" H 3700 2500 50  0001 C CNN
-F 1 "+5V" H 3715 2823 50  0000 C CNN
-F 2 "" H 3700 2650 50  0001 C CNN
-F 3 "" H 3700 2650 50  0001 C CNN
-	1    3700 2650
+P 3700 2700
+F 0 "#PWR0101" H 3700 2550 50  0001 C CNN
+F 1 "+5V" H 3715 2873 50  0000 C CNN
+F 2 "" H 3700 2700 50  0001 C CNN
+F 3 "" H 3700 2700 50  0001 C CNN
+	1    3700 2700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3700 2650 3700 3100
-Wire Wire Line
-	3400 4450 4400 4450
-Wire Wire Line
-	4400 4450 4400 4350
+	3400 4450 4300 4450
 $Comp
 L power:+5V #PWR08
 U 1 1 5C120788
@@ -378,4 +299,87 @@ Wire Wire Line
 	7300 2600 7500 2600
 Connection ~ 3400 4300
 Connection ~ 3400 3200
+Wire Wire Line
+	3700 3900 3700 4200
+Wire Wire Line
+	3950 4300 4050 4300
+Wire Wire Line
+	4050 4300 4050 3050
+Wire Wire Line
+	4050 3050 4400 3050
+Wire Wire Line
+	3400 2850 4300 2850
+Wire Wire Line
+	4300 2850 4300 3250
+Wire Wire Line
+	4300 3250 4400 3250
+Wire Wire Line
+	3700 2700 3700 3100
+$Comp
+L bryggan:quad_and U2
+U 1 1 5C93A178
+P 4700 3150
+F 0 "U2" H 4700 3475 50  0000 C CNN
+F 1 "quad_and" H 4700 3384 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4700 3150 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf" H 4700 3150 50  0001 C CNN
+	1    4700 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L bryggan:quad_and U2
+U 2 1 5C93A299
+P 4700 4250
+F 0 "U2" H 4700 4575 50  0000 C CNN
+F 1 "quad_and" H 4700 4484 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4700 4250 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf" H 4700 4250 50  0001 C CNN
+	2    4700 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L bryggan:quad_and U2
+U 3 1 5C93A2FD
+P 5600 1700
+F 0 "U2" H 5600 2025 50  0000 C CNN
+F 1 "quad_and" H 5600 1934 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5600 1700 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf" H 5600 1700 50  0001 C CNN
+	3    5600 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L bryggan:quad_and U2
+U 4 1 5C93A370
+P 4700 4950
+F 0 "U2" H 4700 5275 50  0000 C CNN
+F 1 "quad_and" H 4700 5184 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4700 4950 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf" H 4700 4950 50  0001 C CNN
+	4    4700 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L bryggan:quad_and U2
+U 5 1 5C93A40E
+P 4700 1800
+F 0 "U2" H 4930 1846 50  0000 L CNN
+F 1 "quad_and" H 4930 1755 50  0000 L CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4700 1800 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf" H 4700 1800 50  0001 C CNN
+	5    4700 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 5050 4400 5050
+Wire Wire Line
+	3250 4850 4400 4850
+Wire Wire Line
+	4300 4450 4300 4150
+Wire Wire Line
+	4300 4150 4400 4150
+Wire Wire Line
+	4150 4350 4400 4350
+Wire Wire Line
+	4150 3200 4150 4350
 $EndSCHEMATC

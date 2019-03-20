@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 6
 Title ""
-Date "2018-12-13"
-Rev "0.4"
+Date "2019-03-20"
+Rev "1.0"
 Comp "Bryggans Bryggeri"
 Comment1 ""
 Comment2 ""
@@ -223,7 +223,7 @@ AR Path="/5BF6A1D6/5C12D7F9" Ref="U?"  Part="1"
 AR Path="/5BF6A1D6/5C12D07D/5C12D7F9" Ref="U3"  Part="1" 
 F 0 "U3" H 5500 3967 50  0000 C CNN
 F 1 "TLC272" H 5500 3876 50  0000 C CNN
-F 2 "Package_SO:TSSOP-8_4.4x3mm_P0.65mm" H 5500 3600 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5500 3600 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tlc272.pdf" H 5500 3600 50  0001 C CNN
 	1    5500 3600
 	1    0    0    -1  
@@ -238,7 +238,7 @@ AR Path="/5BF6A1D6/5C12D800" Ref="U?"  Part="2"
 AR Path="/5BF6A1D6/5C12D07D/5C12D800" Ref="U3"  Part="2" 
 F 0 "U3" H 5500 5067 50  0000 C CNN
 F 1 "TLC272" H 5500 4976 50  0000 C CNN
-F 2 "Package_SO:TSSOP-8_4.4x3mm_P0.65mm" H 5500 4700 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5500 4700 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tlc272.pdf" H 5500 4700 50  0001 C CNN
 	2    5500 4700
 	1    0    0    -1  
@@ -253,7 +253,7 @@ AR Path="/5BF6A1D6/5C12D80A" Ref="U?"  Part="3"
 AR Path="/5BF6A1D6/5C12D07D/5C12D80A" Ref="U3"  Part="3" 
 F 0 "U3" H 5458 3646 50  0000 L CNN
 F 1 "TLC272" H 5458 3555 50  0000 L CNN
-F 2 "Package_SO:TSSOP-8_4.4x3mm_P0.65mm" H 5500 3600 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5500 3600 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tlc272.pdf" H 5500 3600 50  0001 C CNN
 	3    5500 3600
 	1    0    0    -1  

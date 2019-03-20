@@ -6,8 +6,8 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 6
 Title "Motherboard"
-Date "2018-12-13"
-Rev "0.4"
+Date "2019-03-20"
+Rev "1.0"
 Comp "Bryggans Bryggeri"
 Comment1 ""
 Comment2 ""

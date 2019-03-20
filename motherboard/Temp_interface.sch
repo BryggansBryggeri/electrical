@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 6
 Title "Temperature sensor interface"
-Date "2018-12-13"
-Rev "0.4"
+Date "2019-03-20"
+Rev "1.0"
 Comp "Bryggans Bryggeri"
 Comment1 ""
 Comment2 ""
@@ -38,7 +38,7 @@ F 1 "XLR3" V 6955 3828 50  0000 L CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-3-5.08_1x03_P5.08mm_Horizontal" H 7000 3600 50  0001 C CNN
 F 3 " ~" H 7000 3600 50  0001 C CNN
 	1    7000 3600
-	0    -1   -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L bryggan:GND #PWR?

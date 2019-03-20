@@ -11,3 +11,7 @@
 tags
 .hypothesis
 *.egg-info
+gerber
+*.zip
+*.png
+_autosave*

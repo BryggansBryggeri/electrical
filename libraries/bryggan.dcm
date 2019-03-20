@@ -23,4 +23,10 @@ K simulation
 F ~
 $ENDCMP
 #
+$CMP quad_and
+D Quad And 2 inputs
+K CMOS And2
+F http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf
+$ENDCMP
+#
 #End Doc Library
