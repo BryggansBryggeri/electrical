@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:motherboard-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -162,7 +163,7 @@ U 1 1 5C119F67
 P 4700 4250
 F 0 "U2" H 4700 4575 50  0000 C CNN
 F 1 "4081" H 4700 4484 50  0000 C CNN
-F 2 "Package_SO:SSOP-14_5.3x6.2mm_P0.65mm" H 4700 4250 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4700 4250 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf" H 4700 4250 50  0001 C CNN
 	1    4700 4250
 	1    0    0    -1  
@@ -173,7 +174,7 @@ U 2 1 5C11AB54
 P 4700 3150
 F 0 "U2" H 4700 3475 50  0000 C CNN
 F 1 "4081" H 4700 3384 50  0000 C CNN
-F 2 "Package_SO:SSOP-14_5.3x6.2mm_P0.65mm" H 4700 3150 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4700 3150 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf" H 4700 3150 50  0001 C CNN
 	2    4700 3150
 	1    0    0    -1  
@@ -184,7 +185,7 @@ U 3 1 5C11ABC8
 P 5600 1700
 F 0 "U2" H 5600 2025 50  0000 C CNN
 F 1 "4081" H 5600 1934 50  0000 C CNN
-F 2 "Package_SO:SSOP-14_5.3x6.2mm_P0.65mm" H 5600 1700 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5600 1700 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf" H 5600 1700 50  0001 C CNN
 	3    5600 1700
 	1    0    0    -1  
@@ -195,7 +196,7 @@ U 5 1 5C11AD0D
 P 4700 1800
 F 0 "U2" H 4930 1846 50  0000 L CNN
 F 1 "4081" H 4930 1755 50  0000 L CNN
-F 2 "Package_SO:SSOP-14_5.3x6.2mm_P0.65mm" H 4700 1800 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4700 1800 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf" H 4700 1800 50  0001 C CNN
 	5    4700 1800
 	1    0    0    -1  
@@ -264,7 +265,7 @@ U 4 1 5C127C9B
 P 4700 4950
 F 0 "U2" H 4700 5275 50  0000 C CNN
 F 1 "4081" H 4700 5184 50  0000 C CNN
-F 2 "Package_SO:SSOP-14_5.3x6.2mm_P0.65mm" H 4700 4950 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4700 4950 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf" H 4700 4950 50  0001 C CNN
 	4    4700 4950
 	1    0    0    -1  

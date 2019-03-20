@@ -1,8 +1,8 @@
 (export (version D)
   (design
-    (source /home/swebro/projects/BryggansBryggeri/electrical/motherboard/motherboard.sch)
-    (date "Tue 08 Jan 2019 06:52:21 PM CET")
-    (tool "Eeschema 5.0.1")
+    (source /home/jakob/personal/dev/bryggans/electrical/motherboard/motherboard.sch)
+    (date "ons 20 mar 2019 13:31:18")
+    (tool "Eeschema 5.0.2-bee76a0~70~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title Motherboard)
@@ -100,7 +100,7 @@
       (tstamp 5C0AFD6B))
     (comp (ref U2)
       (value 4081)
-      (footprint Package_SO:SSOP-14_5.3x6.2mm_P0.65mm)
+      (footprint Package_SO:SOIC-14_3.9x8.7mm_P1.27mm)
       (datasheet http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf)
       (libsource (lib 4xxx) (part 4081) (description "Quad And 2 inputs"))
       (sheetpath (names /SSR_interface/) (tstamps /5BF6A1D6/))
@@ -551,7 +551,7 @@
     (library (logical Device)
       (uri /usr/share/kicad/library/Device.lib))
     (library (logical bryggan)
-      (uri /home/swebro/projects/BryggansBryggeri/electrical/motherboard/../libraries/bryggan.lib))
+      (uri /home/jakob/personal/dev/bryggans/electrical/motherboard/../libraries/bryggan.lib))
     (library (logical pspice)
       (uri /usr/share/kicad/library/pspice.lib)))
   (nets
