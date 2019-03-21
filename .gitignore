@@ -13,5 +13,12 @@ tags
 *.egg-info
 gerber
 *.zip
-*.png
 _autosave*
+
+# Images
+*.jpg
+*.svg
+*.png
+
+# Documents
+*.odf
