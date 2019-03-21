@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name high_power)(type Legacy)(uri /home/jakob/personal/dev/bryggans/electrical/libraries/high_power.lib)(options "")(descr ""))
+)
