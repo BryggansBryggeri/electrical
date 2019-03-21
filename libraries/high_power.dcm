@@ -10,4 +10,29 @@ D Power flag, alternating current
 K power-flag
 $ENDCMP
 #
+$CMP 3_phase_fuse
+D Power flag, alternating current
+K power-flag
+$ENDCMP
+#
+$CMP 3_phase_relay
+D 3x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol
+K dip switch
+$ENDCMP
+#
+$CMP 3_phase_res_current_device
+D Power flag, alternating current
+K power-flag
+$ENDCMP
+#
+$CMP PSU_24V
+D Power flag, alternating current
+K power-flag
+$ENDCMP
+#
+$CMP PSU_5V
+D Power flag, alternating current
+K power-flag
+$ENDCMP
+#
 #End Doc Library
