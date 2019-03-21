@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:enclosure-cache
 EELAYER 26 0
 EELAYER END
 $Descr User 27559 27559
 encoding utf-8
-Sheet 1 1
+Sheet 1 7
 Title ""
 Date ""
 Rev ""
@@ -65,4 +66,17 @@ F 3 "" H 17000 25600 50  0001 C CNN
 	1    17000 25600
 	1    0    0    -1  
 $EndComp
+$Sheet
+S 7450 6200 1950 2300
+U 5C9368DF
+F0 "Rbpi" 50
+F1 "../motherboard/motherboard.sch" 50
+F2 "5V+" I L 7450 6850 50 
+F3 "GND" I L 7450 7250 50 
+F4 "SSR_in_1_enc" I R 9400 8000 50 
+F5 "SSR_in_2_enc" I R 9400 8200 50 
+F6 "TEMP_IN_PWR" I R 9400 6450 50 
+F7 "TEMP_IN_MEAS" I R 9400 6600 50 
+F8 "TEMP_IN_GND" I R 9400 6750 50 
+$EndSheet
 $EndSCHEMATC

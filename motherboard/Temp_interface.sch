@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
-LIBS:motherboard-cache
+LIBS:enclosure-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 6
+Sheet 7 7
 Title "Temperature sensor interface"
 Date "2019-03-20"
 Rev "1.0"
@@ -20,38 +20,13 @@ U 1 1 5BF6D983
 P 6200 3600
 AR Path="/5BF6D983" Ref="R?"  Part="1" 
 AR Path="/5BF6D5FF/5BF6D983" Ref="R11"  Part="1" 
+AR Path="/5C9368DF/5BF6D5FF/5BF6D983" Ref="R11"  Part="1" 
 F 0 "R11" V 6280 3600 50  0000 C CNN
 F 1 "4.7k" V 6200 3600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6130 3600 50  0001 C CNN
 F 3 "" H 6200 3600 50  0001 C CNN
 	1    6200 3600
 	1    0    0    1   
-$EndComp
-$Comp
-L Connector:XLR3 J?
-U 1 1 5BF6D999
-P 7000 3600
-AR Path="/5BF6D999" Ref="J?"  Part="1" 
-AR Path="/5BF6D5FF/5BF6D999" Ref="J6"  Part="1" 
-F 0 "J6" V 7046 3828 50  0000 L CNN
-F 1 "XLR3" V 6955 3828 50  0000 L CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-3-5.08_1x03_P5.08mm_Horizontal" H 7000 3600 50  0001 C CNN
-F 3 " ~" H 7000 3600 50  0001 C CNN
-	1    7000 3600
-	0    -1   1    0   
-$EndComp
-$Comp
-L bryggan:GND #PWR?
-U 1 1 5BF6D9B0
-P 7300 4700
-AR Path="/5BF6D9B0" Ref="#PWR?"  Part="1" 
-AR Path="/5BF6D5FF/5BF6D9B0" Ref="#PWR025"  Part="1" 
-F 0 "#PWR025" H 7300 4450 50  0001 C CNN
-F 1 "GND" H 7305 4527 50  0000 C CNN
-F 2 "" H 7300 4700 50  0001 C CNN
-F 3 "" H 7300 4700 50  0001 C CNN
-	1    7300 4700
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	6200 3900 6200 3850
@@ -88,10 +63,10 @@ F 3 "~" H 5600 3050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L bryggan:GND #PWR024
+L bryggan:GND #PWR010
 U 1 1 5C09A99D
 P 5600 2650
-F 0 "#PWR024" H 5600 2400 50  0001 C CNN
+F 0 "#PWR010" H 5600 2400 50  0001 C CNN
 F 1 "GND" H 5605 2477 50  0000 C CNN
 F 2 "" H 5600 2650 50  0001 C CNN
 F 3 "" H 5600 2650 50  0001 C CNN
@@ -126,7 +101,6 @@ Wire Wire Line
 	5350 3300 5600 3300
 Wire Wire Line
 	6100 3300 6200 3300
-Connection ~ 6200 3300
 Wire Wire Line
 	5600 3200 5600 3300
 Connection ~ 5600 3300
@@ -134,16 +108,14 @@ Wire Wire Line
 	5600 3300 5800 3300
 Wire Wire Line
 	5600 3300 5600 3450
-Connection ~ 6200 3900
 Wire Wire Line
 	5600 3750 5600 3900
 Connection ~ 5600 3900
 Wire Wire Line
 	5600 3900 6200 3900
+Text HLabel 6650 3300 2    50   Input ~ 0
+TEMP_IN
 Wire Wire Line
-	7300 3600 7300 4700
-Wire Wire Line
-	6200 3300 7000 3300
-Wire Wire Line
-	6200 3900 7000 3900
+	6650 3300 6200 3300
+Connection ~ 6200 3300
 $EndSCHEMATC
