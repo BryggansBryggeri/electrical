@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name high_power)(type Legacy)(uri $KIPRJMOD/../libraries/high_power.lib)(options "")(descr ""))
+  (lib (name enclosure-rescue)(type Legacy)(uri ${KIPRJMOD}/enclosure-rescue.lib)(options "")(descr ""))
 )
