@@ -171,17 +171,6 @@ F 3 "" H 8675 18175 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 3_phase:LC1d Relay?
-U 1 1 63EF8EB4
-P 11750 12850
-F 0 "Relay?" H 12680 12871 50  0000 L CNN
-F 1 "LC1d" H 12680 12780 50  0000 L CNN
-F 2 "" V 12400 12650 50  0001 C CNN
-F 3 "" V 12400 12650 50  0001 C CNN
-	1    11750 12850
-	1    0    0    -1  
-$EndComp
-$Comp
 L Switch:SW_DIP_x01 SW?
 U 1 1 63EF8EBA
 P 4750 9700
@@ -195,12 +184,12 @@ $EndComp
 $Comp
 L Switch:SW_DIP_x01 SW?
 U 1 1 63EF8EC0
-P 5050 7650
-F 0 "SW?" H 5050 7917 98  0000 C CNN
-F 1 "Emergency" H 5050 7826 98  0000 C CNN
-F 2 "" H 5050 7650 50  0001 C CNN
-F 3 "" H 5050 7650 50  0001 C CNN
-	1    5050 7650
+P 4750 8800
+F 0 "SW?" H 4750 9067 98  0000 C CNN
+F 1 "Emergency" H 4750 8976 98  0000 C CNN
+F 2 "" H 4750 8800 50  0001 C CNN
+F 3 "" H 4750 8800 50  0001 C CNN
+	1    4750 8800
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -215,18 +204,9 @@ F 3 "" H 4450 7650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4750 9400 4750 8600
-Wire Wire Line
-	4450 8600 4450 7950
-Wire Wire Line
-	5050 8600 5050 7950
-Connection ~ 4750 8600
-Wire Wire Line
-	4750 8600 5050 8600
-Wire Wire Line
-	4450 8600 4750 8600
+	4450 8300 4450 7950
 $Comp
-L 3_phase:LC1d Relay?
+L high_power:3_phase_relay Relay?
 U 1 1 63EF8ED2
 P 8300 12900
 F 0 "Relay?" H 9230 12921 50  0000 L CNN
@@ -236,7 +216,7 @@ F 3 "" V 8950 12700 50  0001 C CNN
 	1    8300 12900
 	1    0    0    -1  
 $EndComp
-Text Notes 3850 8800 0    50   ~ 0
+Text Notes 4250 10200 1    50   ~ 0
 Panelmounted splitter? (On door) reduces cables by alot.
 $Comp
 L high_power:Split_4 S?
@@ -277,8 +257,8 @@ $Comp
 L high_power:Split_4 S?
 U 1 1 63EF8EEB
 P 6650 12950
-F 0 "S?" H 6778 12946 50  0000 L CNN
-F 1 "Split A1" H 6778 12855 50  0000 L CNN
+F 0 "S?" H 6600 13200 50  0000 L CNN
+F 1 "Split A1" V 6650 12800 50  0000 L CNN
 F 2 "" H 6150 12350 50  0001 C CNN
 F 3 "" H 6150 12350 50  0001 C CNN
 	1    6650 12950
@@ -293,25 +273,7 @@ Wire Wire Line
 Wire Wire Line
 	6700 14600 6700 14700
 Wire Wire Line
-	6700 14700 7500 14700
-Wire Wire Line
-	7500 14700 7500 13400
-Wire Wire Line
-	6600 14600 6600 15150
-Wire Wire Line
-	6600 15150 10950 15150
-Wire Wire Line
-	10950 15150 10950 13350
-Wire Wire Line
-	9100 13400 9100 15450
-Wire Wire Line
-	9100 15450 17200 15450
-Wire Wire Line
 	17200 15450 17200 18350
-Wire Wire Line
-	12550 13350 12550 15400
-Wire Wire Line
-	12550 15400 17400 15400
 Wire Wire Line
 	17400 15400 17400 18350
 Wire Wire Line
@@ -320,41 +282,14 @@ Wire Wire Line
 	7700 15500 17000 15500
 Wire Wire Line
 	17000 15500 17000 18950
-$Comp
-L high_power:Split_4 S?
-U 1 1 63EF8F03
-P 6850 12950
-F 0 "S?" H 6978 12946 50  0000 L CNN
-F 1 "Split A1" H 6978 12855 50  0000 L CNN
-F 2 "" H 6350 12350 50  0001 C CNN
-F 3 "" H 6350 12350 50  0001 C CNN
-	1    6850 12950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4750 10000 4750 11350
 Wire Wire Line
-	5050 7350 5050 7050
-Wire Wire Line
 	5050 7050 5850 7050
 Wire Wire Line
-	5850 15350 7750 15350
-Wire Wire Line
-	7750 15350 7750 13400
-Wire Wire Line
-	5950 15300 11200 15300
-Wire Wire Line
-	11200 15300 11200 13350
-Wire Wire Line
-	11200 12350 11200 10450
-Wire Wire Line
-	11200 10450 6700 10450
+	11500 15350 11500 13700
 Wire Wire Line
 	6700 10450 6700 11300
-Wire Wire Line
-	7750 12400 7750 10500
-Wire Wire Line
-	7750 10500 6800 10500
 Wire Wire Line
 	6800 10500 6800 11300
 Wire Wire Line
@@ -392,14 +327,79 @@ Wire Wire Line
 Wire Wire Line
 	15400 17700 15400 18950
 Wire Wire Line
-	5950 7050 5850 7050
-Connection ~ 5850 7050
-Wire Wire Line
 	5850 7050 5850 15350
-Wire Wire Line
-	5950 7050 5950 15300
 Text Notes 4750 6950 0    50   ~ 0
 Panelmounted splitter? (On door) reduces cables by alot.
+$Comp
+L high_power:3_phase_relay Relay?
+U 1 1 5CDE0E78
+P 11750 12850
+F 0 "Relay?" H 12680 12871 50  0000 L CNN
+F 1 "LC1d" H 12680 12780 50  0000 L CNN
+F 2 "" V 12400 12650 50  0001 C CNN
+F 3 "" V 12400 12650 50  0001 C CNN
+	1    11750 12850
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	2750 10750 3350 10750
+	12000 13700 12000 15400
+Wire Wire Line
+	12000 15400 17400 15400
+Wire Wire Line
+	8550 13750 8550 15450
+Wire Wire Line
+	8550 15450 17200 15450
+Wire Wire Line
+	4450 8300 4750 8300
+Wire Wire Line
+	4750 8500 4750 8300
+Connection ~ 4750 8300
+Wire Wire Line
+	4750 8300 5050 8300
+Wire Wire Line
+	5050 7050 5050 8300
+Wire Wire Line
+	5850 15350 8050 15350
+Wire Wire Line
+	8050 13750 8050 15350
+Connection ~ 8050 15350
+Wire Wire Line
+	8050 15350 11500 15350
+Wire Wire Line
+	6700 10450 8050 10450
+Wire Wire Line
+	8050 10450 8050 11850
+$Comp
+L high_power:Split_4 S?
+U 1 1 5CE138FC
+P 6850 12950
+F 0 "S?" H 6800 13200 50  0000 L CNN
+F 1 "Split A1" V 6850 12800 50  0000 L CNN
+F 2 "" H 6350 12350 50  0001 C CNN
+F 3 "" H 6350 12350 50  0001 C CNN
+	1    6850 12950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 10500 8550 11850
+Wire Wire Line
+	6800 10500 8550 10500
+Wire Wire Line
+	6700 14700 6800 14700
+Wire Wire Line
+	6800 14700 6800 14600
+Wire Wire Line
+	6900 11300 6900 10400
+Wire Wire Line
+	6900 10400 11500 10400
+Wire Wire Line
+	11500 10400 11500 11800
+Wire Wire Line
+	6900 14600 7000 14600
+Wire Wire Line
+	7000 14600 7000 10350
+Wire Wire Line
+	7000 10350 12000 10350
+Wire Wire Line
+	12000 10350 12000 11800
 $EndSCHEMATC
