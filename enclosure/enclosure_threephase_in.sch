@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:enclosure_threephase_in-cache
 EELAYER 29 0
 EELAYER END
 $Descr User 35433 35433
@@ -285,8 +286,6 @@ Wire Wire Line
 Wire Wire Line
 	4750 10000 4750 11350
 Wire Wire Line
-	5050 7050 5850 7050
-Wire Wire Line
 	11500 15350 11500 13700
 Wire Wire Line
 	6700 10450 6700 11300
@@ -326,8 +325,6 @@ Wire Wire Line
 	12150 17700 15400 17700
 Wire Wire Line
 	15400 17700 15400 18950
-Wire Wire Line
-	5850 7050 5850 15350
 Text Notes 4750 6950 0    50   ~ 0
 Panelmounted splitter? (On door) reduces cables by alot.
 $Comp
@@ -359,12 +356,7 @@ Wire Wire Line
 Wire Wire Line
 	5050 7050 5050 8300
 Wire Wire Line
-	5850 15350 8050 15350
-Wire Wire Line
 	8050 13750 8050 15350
-Connection ~ 8050 15350
-Wire Wire Line
-	8050 15350 11500 15350
 Wire Wire Line
 	6700 10450 8050 10450
 Wire Wire Line
@@ -402,4 +394,26 @@ Wire Wire Line
 	7000 10350 12000 10350
 Wire Wire Line
 	12000 10350 12000 11800
+$Comp
+L high_power:Split_4 S?
+U 1 1 5CDDF093
+P 6450 12950
+F 0 "S?" H 6400 13200 50  0000 L CNN
+F 1 "Split 14" V 6450 12800 50  0000 L CNN
+F 2 "" H 5950 12350 50  0001 C CNN
+F 3 "" H 5950 12350 50  0001 C CNN
+	1    6450 12950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 7050 6400 11300
+Wire Wire Line
+	5050 7050 6400 7050
+Wire Wire Line
+	6600 14600 6600 15350
+Wire Wire Line
+	6600 15350 8050 15350
+Wire Wire Line
+	8050 15350 11500 15350
+Connection ~ 8050 15350
 $EndSCHEMATC
