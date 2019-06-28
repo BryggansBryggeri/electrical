@@ -272,11 +272,7 @@ Wire Wire Line
 Wire Wire Line
 	6600 6600 6600 11300
 Wire Wire Line
-	6700 14600 6700 14700
-Wire Wire Line
 	17200 15450 17200 18350
-Wire Wire Line
-	17400 15400 17400 18350
 Wire Wire Line
 	7700 16250 7700 15500
 Wire Wire Line
@@ -289,8 +285,6 @@ Wire Wire Line
 	11500 15350 11500 13700
 Wire Wire Line
 	6700 10450 6700 11300
-Wire Wire Line
-	6800 10500 6800 11300
 Wire Wire Line
 	7900 11050 7900 9950
 Wire Wire Line
@@ -325,8 +319,6 @@ Wire Wire Line
 	12150 17700 15400 17700
 Wire Wire Line
 	15400 17700 15400 18950
-Text Notes 4750 6950 0    50   ~ 0
-Panelmounted splitter? (On door) reduces cables by alot.
 $Comp
 L high_power:3_phase_relay Relay?
 U 1 1 5CDE0E78
@@ -356,64 +348,47 @@ Wire Wire Line
 Wire Wire Line
 	5050 7050 5050 8300
 Wire Wire Line
-	8050 13750 8050 15350
-Wire Wire Line
 	6700 10450 8050 10450
 Wire Wire Line
 	8050 10450 8050 11850
-$Comp
-L high_power:Split_4 S?
-U 1 1 5CE138FC
-P 6850 12950
-F 0 "S?" H 6800 13200 50  0000 L CNN
-F 1 "Split A1" V 6850 12800 50  0000 L CNN
-F 2 "" H 6350 12350 50  0001 C CNN
-F 3 "" H 6350 12350 50  0001 C CNN
-	1    6850 12950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8550 10500 8550 11850
 Wire Wire Line
 	6800 10500 8550 10500
 Wire Wire Line
-	6700 14700 6800 14700
-Wire Wire Line
-	6800 14700 6800 14600
-Wire Wire Line
-	6900 11300 6900 10400
-Wire Wire Line
-	6900 10400 11500 10400
-Wire Wire Line
-	11500 10400 11500 11800
-Wire Wire Line
-	6900 14600 7000 14600
-Wire Wire Line
-	7000 14600 7000 10350
-Wire Wire Line
 	7000 10350 12000 10350
 Wire Wire Line
 	12000 10350 12000 11800
-$Comp
-L high_power:Split_4 S?
-U 1 1 5CDDF093
-P 6450 12950
-F 0 "S?" H 6400 13200 50  0000 L CNN
-F 1 "Split 14" V 6450 12800 50  0000 L CNN
-F 2 "" H 5950 12350 50  0001 C CNN
-F 3 "" H 5950 12350 50  0001 C CNN
-	1    6450 12950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6400 7050 6400 11300
 Wire Wire Line
 	5050 7050 6400 7050
 Wire Wire Line
-	6600 14600 6600 15350
+	4750 9400 4750 9100
 Wire Wire Line
-	6600 15350 8050 15350
+	17400 15400 17400 18350
 Wire Wire Line
-	8050 15350 11500 15350
-Connection ~ 8050 15350
+	6400 7050 6400 15350
+Wire Wire Line
+	6400 15350 11500 15350
+Wire Wire Line
+	8050 13750 8050 14950
+Wire Wire Line
+	8050 14950 9400 14950
+Wire Wire Line
+	9400 14950 9400 10950
+Wire Wire Line
+	7000 14850 6600 14850
+Wire Wire Line
+	6600 14850 6600 14600
+Wire Wire Line
+	7000 10350 7000 14850
+Wire Wire Line
+	6800 14750 6700 14750
+Wire Wire Line
+	6700 14750 6700 14600
+Wire Wire Line
+	6800 10500 6800 14750
+Wire Wire Line
+	11500 10950 11500 11800
+Wire Wire Line
+	9400 10950 11500 10950
 $EndSCHEMATC
