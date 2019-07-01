@@ -6,8 +6,8 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 2 7
 Title "Motherboard"
-Date "2019-03-20"
-Rev "1.0"
+Date "2019-07-01"
+Rev "1.1"
 Comp "Bryggans Bryggeri"
 Comment1 ""
 Comment2 ""
@@ -174,4 +174,12 @@ Wire Wire Line
 	12150 5650 11900 5650
 Wire Wire Line
 	11900 5650 11900 5800
+Text HLabel 12000 6750 2    50   Input ~ 0
+220V_1
+Text HLabel 12000 6900 2    50   Input ~ 0
+220V_2
+Text HLabel 12000 7050 2    50   Input ~ 0
+220V_3
+Text HLabel 12000 7200 2    50   Input ~ 0
+220V_4
 $EndSCHEMATC
