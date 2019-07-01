@@ -1,13 +1,13 @@
 EESchema Schematic File Version 4
-LIBS:enclosure_threephase_in-cache
+LIBS:enclosure-cache
 EELAYER 29 0
 EELAYER END
 $Descr User 35433 35433
 encoding utf-8
-Sheet 1 1
-Title "Bryggan180 Enclosure"
-Date "2019-03-22"
-Rev "0.5"
+Sheet 8 8
+Title "Bryggan180 Dubbel kontaktor"
+Date "2019-07-01"
+Rev "0.1"
 Comp "BRYGGANS BRYGGERI BÄRS BB"
 Comment1 ""
 Comment2 ""
@@ -57,10 +57,10 @@ Wire Wire Line
 Wire Wire Line
 	18250 28350 18250 23050
 $Comp
-L high_power:Security_switch SW4
+L high_power:Security_switch SW?
 U 1 1 63EF8E8E
 P 16050 24950
-F 0 "SW4" H 16980 24921 98  0000 L CNN
+F 0 "SW?" H 16980 24921 98  0000 L CNN
 F 1 "Security_switch" H 16980 24830 98  0000 L CNN
 F 2 "" H 16000 25500 50  0001 C CNN
 F 3 "" H 16000 25500 50  0001 C CNN
@@ -68,10 +68,10 @@ F 3 "" H 16000 25500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L high_power:3_phase_AC #PWR01
+L high_power:3_phase_AC #PWR?
 U 1 1 63EF8E9E
 P 17400 28650
-F 0 "#PWR01" H 17400 28425 98  0001 C CNN
+F 0 "#PWR?" H 17400 28425 98  0001 C CNN
 F 1 "3_phase_AC" H 17400 28277 98  0000 C CNN
 F 2 "" H 17400 28525 50  0001 C CNN
 F 3 "" H 17400 28525 50  0001 C CNN
@@ -87,10 +87,10 @@ Wire Wire Line
 Wire Wire Line
 	17100 18350 17100 18100
 $Comp
-L high_power:3_phase_res_current_device #PWR03
+L high_power:3_phase_res_current_device #PWR?
 U 1 1 63EF8EA8
 P 18050 20250
-F 0 "#PWR03" H 18075 20175 98  0001 C CNN
+F 0 "#PWR?" H 18075 20175 98  0001 C CNN
 F 1 "3_phase_res_current_device" H 18650 20250 98  0000 R CNN
 F 2 "" H 18075 20275 50  0001 C CNN
 F 3 "" H 18075 20275 50  0001 C CNN
@@ -98,10 +98,10 @@ F 3 "" H 18075 20275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L high_power:3_phase_fuse #PWR02
+L high_power:3_phase_fuse #PWR?
 U 1 1 63EF8EAE
 P 18050 16200
-F 0 "#PWR02" H 18075 16125 98  0001 C CNN
+F 0 "#PWR?" H 18075 16125 98  0001 C CNN
 F 1 "3_phase_fuse" H 18300 16200 98  0000 R CNN
 F 2 "" H 18075 16225 50  0001 C CNN
 F 3 "" H 18075 16225 50  0001 C CNN
@@ -109,10 +109,10 @@ F 3 "" H 18075 16225 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_DIP_x01 SW3
+L Switch:SW_DIP_x01 SW?
 U 1 1 63EF8EBA
 P 15500 8300
-F 0 "SW3" H 15500 8567 98  0000 C CNN
+F 0 "SW?" H 15500 8567 98  0000 C CNN
 F 1 "Key" H 15500 8476 98  0000 C CNN
 F 2 "" H 15500 8300 50  0001 C CNN
 F 3 "" H 15500 8300 50  0001 C CNN
@@ -120,10 +120,10 @@ F 3 "" H 15500 8300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_DIP_x01 SW2
+L Switch:SW_DIP_x01 SW?
 U 1 1 63EF8EC0
 P 15500 7400
-F 0 "SW2" H 15500 7667 98  0000 C CNN
+F 0 "SW?" H 15500 7667 98  0000 C CNN
 F 1 "Emergency" H 15500 7576 98  0000 C CNN
 F 2 "" H 15500 7400 50  0001 C CNN
 F 3 "" H 15500 7400 50  0001 C CNN
@@ -131,10 +131,10 @@ F 3 "" H 15500 7400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_DIP_x01 SW1
+L Switch:SW_DIP_x01 SW?
 U 1 1 63EF8EC6
 P 15200 6250
-F 0 "SW1" H 15200 6517 98  0000 C CNN
+F 0 "SW?" H 15200 6517 98  0000 C CNN
 F 1 "Start" H 15200 6426 98  0000 C CNN
 F 2 "" H 15200 6250 50  0001 C CNN
 F 3 "" H 15200 6250 50  0001 C CNN
@@ -144,10 +144,10 @@ $EndComp
 Wire Wire Line
 	15200 6900 15200 6550
 $Comp
-L high_power:3_phase_relay Relay1
+L high_power:3_phase_relay Relay?
 U 1 1 63EF8ED2
 P 19000 10900
-F 0 "Relay1" H 18850 11000 50  0000 L CNN
+F 0 "Relay?" H 18850 11000 50  0000 L CNN
 F 1 "LC1d" H 18900 10900 50  0000 L CNN
 F 2 "" V 19650 10700 50  0001 C CNN
 F 3 "" V 19650 10700 50  0001 C CNN
@@ -157,10 +157,10 @@ $EndComp
 Text Notes 15000 8800 1    50   ~ 0
 Panelmounted splitter? (On door) reduces cables by a lot.
 $Comp
-L high_power:Split_4 S1
+L high_power:Split_4 S?
 U 1 1 63EF8ED9
 P 15550 11600
-F 0 "S1" H 15500 12000 50  0000 L CNN
+F 0 "S?" H 15500 12000 50  0000 L CNN
 F 1 "Split Incoming L1" V 15550 11250 50  0000 L CNN
 F 2 "" H 15050 11000 50  0001 C CNN
 F 3 "" H 15050 11000 50  0001 C CNN
@@ -168,10 +168,10 @@ F 3 "" H 15050 11000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L high_power:Split_4 S2
+L high_power:Split_4 S?
 U 1 1 63EF8EEB
 P 15950 11600
-F 0 "S2" H 15900 11850 50  0000 L CNN
+F 0 "S?" H 15900 11850 50  0000 L CNN
 F 1 "Split A1" V 15950 11450 50  0000 L CNN
 F 2 "" H 15450 11000 50  0001 C CNN
 F 3 "" H 15450 11000 50  0001 C CNN
@@ -226,10 +226,10 @@ Wire Wire Line
 Wire Wire Line
 	15900 9950 15900 8350
 $Comp
-L high_power:Split_19 N1
+L high_power:Split_19 N?
 U 1 1 63EF8E98
 P 20800 14900
-F 0 "N1" H 20700 14900 98  0000 L CNN
+F 0 "N?" H 20700 14900 98  0000 L CNN
 F 1 "Split_19" H 20500 14700 98  0000 L CNN
 F 2 "" H 20300 14300 50  0001 C CNN
 F 3 "" H 20300 14300 50  0001 C CNN
@@ -237,10 +237,10 @@ F 3 "" H 20300 14300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L high_power:Split_13 L1_1
+L high_power:Split_13 L1_?
 U 1 1 63EF8E6D
 P 22700 14900
-F 0 "L1_1" H 22600 14950 98  0000 L CNN
+F 0 "L1_?" H 22600 14950 98  0000 L CNN
 F 1 "Split_13" H 22400 14800 98  0000 L CNN
 F 2 "" H 22500 14300 50  0001 C CNN
 F 3 "" H 22500 14300 50  0001 C CNN
@@ -248,10 +248,10 @@ F 3 "" H 22500 14300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L high_power:Split_13 L2_1
+L high_power:Split_13 L2_?
 U 1 1 63EF8E67
 P 24300 14900
-F 0 "L2_1" H 24200 14950 98  0000 L CNN
+F 0 "L2_?" H 24200 14950 98  0000 L CNN
 F 1 "Split_13" H 24000 14800 98  0000 L CNN
 F 2 "" H 24100 14300 50  0001 C CNN
 F 3 "" H 24100 14300 50  0001 C CNN
@@ -259,10 +259,10 @@ F 3 "" H 24100 14300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L high_power:Split_13 L3_1
+L high_power:Split_13 L3_?
 U 1 1 63EF8E61
 P 25900 14900
-F 0 "L3_1" H 25800 14950 98  0000 L CNN
+F 0 "L3_?" H 25800 14950 98  0000 L CNN
 F 1 "Split_13" H 25600 14800 98  0000 L CNN
 F 2 "" H 25700 14300 50  0001 C CNN
 F 3 "" H 25700 14300 50  0001 C CNN
@@ -282,8 +282,6 @@ Wire Wire Line
 Wire Wire Line
 	20000 11950 20000 14300
 Wire Wire Line
-	20200 11950 20200 14300
-Wire Wire Line
 	19000 14300 19000 13650
 Wire Wire Line
 	19000 13650 19400 13650
@@ -301,8 +299,6 @@ Wire Wire Line
 	21550 14000 25200 14000
 Wire Wire Line
 	25200 14000 25200 14900
-Wire Wire Line
-	21400 11950 20200 11950
 Wire Wire Line
 	19400 8700 21550 8700
 Wire Wire Line
@@ -323,15 +319,11 @@ Wire Wire Line
 	21150 12800 21150 14100
 Wire Wire Line
 	20750 12800 20750 14200
-Wire Wire Line
-	21400 11750 21400 11950
-Wire Wire Line
-	21400 8350 21400 9850
 $Comp
-L high_power:3_phase_relay Relay2
+L high_power:3_phase_relay Relay?
 U 1 1 5CDE0E78
 P 21150 10900
-F 0 "Relay2" H 21000 11000 50  0000 L CNN
+F 0 "Relay?" H 21000 11000 50  0000 L CNN
 F 1 "LC1d" H 21050 10900 50  0000 L CNN
 F 2 "" V 21800 10700 50  0001 C CNN
 F 3 "" V 21800 10700 50  0001 C CNN
@@ -367,10 +359,10 @@ Wire Wire Line
 Wire Wire Line
 	21150 12050 22400 12050
 $Comp
-L Device:Lamp LA2
+L Device:Lamp LA?
 U 1 1 5D2601CC
 P 22600 8700
-F 0 "LA2" V 22335 8700 50  0000 C CNN
+F 0 "LA?" V 22335 8700 50  0000 C CNN
 F 1 "Lamp" V 22426 8700 50  0000 C CNN
 F 2 "" V 22600 8800 50  0001 C CNN
 F 3 "~" V 22600 8800 50  0001 C CNN
@@ -386,10 +378,10 @@ Wire Wire Line
 Wire Wire Line
 	20400 13900 20400 14300
 $Comp
-L Device:Lamp LA1
+L Device:Lamp LA?
 U 1 1 5D270A8A
 P 10750 22350
-F 0 "LA1" H 10878 22396 50  0000 L CNN
+F 0 "LA?" H 10878 22396 50  0000 L CNN
 F 1 "Security_swith_indicator" H 10878 22305 50  0000 L CNN
 F 2 "" V 10750 22450 50  0001 C CNN
 F 3 "~" V 10750 22450 50  0001 C CNN
@@ -411,10 +403,10 @@ Wire Wire Line
 Wire Wire Line
 	10750 9750 15600 9750
 $Comp
-L power:Earth_Protective #PWR04
+L power:Earth_Protective #PWR?
 U 1 1 5D2912DC
 P 20650 28400
-F 0 "#PWR04" H 20900 28150 50  0001 C CNN
+F 0 "#PWR?" H 20900 28150 50  0001 C CNN
 F 1 "Earth_Protective" H 21100 28250 50  0001 C CNN
 F 2 "" H 20650 28300 50  0001 C CNN
 F 3 "~" H 20650 28300 50  0001 C CNN
@@ -445,4 +437,12 @@ Wire Wire Line
 Wire Wire Line
 	18600 12800 18600 13750
 Connection ~ 17700 13750
+Wire Wire Line
+	20200 14300 20200 13000
+Wire Wire Line
+	20200 13000 21400 13000
+Wire Wire Line
+	21400 11750 21400 13000
+Wire Wire Line
+	21400 9850 21400 8350
 $EndSCHEMATC
