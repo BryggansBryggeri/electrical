@@ -6,8 +6,8 @@ $Descr User 35433 35433
 encoding utf-8
 Sheet 1 7
 Title "Bryggan180 Enclosure"
-Date "2019-07-01"
-Rev "0.6"
+Date "2019-07-02"
+Rev "0.6.1"
 Comp "BRYGGANS BRYGGERI BÄRS BB"
 Comment1 ""
 Comment2 ""
@@ -297,10 +297,10 @@ $EndComp
 Text Notes 21000 25100 0    50   ~ 0
 x 3 i skåp
 $Comp
-L power:Earth_Protective #PWR?
+L power:Earth_Protective #PWR035
 U 1 1 5D2BBA8A
 P 21050 24750
-F 0 "#PWR?" H 21300 24500 50  0001 C CNN
+F 0 "#PWR035" H 21300 24500 50  0001 C CNN
 F 1 "Earth_Protective" H 21500 24600 50  0001 C CNN
 F 2 "" H 21050 24650 50  0001 C CNN
 F 3 "~" H 21050 24650 50  0001 C CNN
@@ -308,10 +308,10 @@ F 3 "~" H 21050 24650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L high_power:3_phase_Solid_state_relay SSR_kok
+L high_power:3_phase_Solid_state_relay SSR_kok1
 U 1 1 5C9BA9AE
 P 26050 23000
-F 0 "SSR_kok" H 25950 23100 98  0000 L CNN
+F 0 "SSR_kok1" H 25950 23100 98  0000 L CNN
 F 1 "3_phase_Solid_state_relay" H 25150 22950 98  0000 L CNN
 F 2 "" H 26100 23000 50  0001 C CNN
 F 3 "" H 26100 23000 50  0001 C CNN
@@ -319,10 +319,10 @@ F 3 "" H 26100 23000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L high_power:3_phase_res_current_device #PWR?
+L high_power:3_phase_res_current_device #PWR031
 U 1 1 5D440B39
 P 7500 22600
-F 0 "#PWR?" H 7525 22525 98  0001 C CNN
+F 0 "#PWR031" H 7525 22525 98  0001 C CNN
 F 1 "3_phase_res_current_device" H 8100 22600 98  0000 R CNN
 F 2 "" H 7525 22625 50  0001 C CNN
 F 3 "" H 7525 22625 50  0001 C CNN
@@ -330,10 +330,10 @@ F 3 "" H 7525 22625 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L high_power:3_phase_fuse #PWR?
+L high_power:3_phase_fuse #PWR030
 U 1 1 5D440B3F
 P 7500 17500
-F 0 "#PWR?" H 7525 17425 98  0001 C CNN
+F 0 "#PWR030" H 7525 17425 98  0001 C CNN
 F 1 "3_phase_fuse" H 7750 17500 98  0000 R CNN
 F 2 "" H 7525 17525 50  0001 C CNN
 F 3 "" H 7525 17525 50  0001 C CNN
@@ -341,10 +341,10 @@ F 3 "" H 7525 17525 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_DIP_x01 SW?
+L Switch:SW_DIP_x01 SW2
 U 1 1 5D440B45
 P 10350 4900
-F 0 "SW?" H 10350 5167 98  0000 C CNN
+F 0 "SW2" H 10350 5167 98  0000 C CNN
 F 1 "Key" H 10350 5076 98  0000 C CNN
 F 2 "" H 10350 4900 50  0001 C CNN
 F 3 "" H 10350 4900 50  0001 C CNN
@@ -352,10 +352,10 @@ F 3 "" H 10350 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_DIP_x01 SW?
+L Switch:SW_DIP_x01 SW1
 U 1 1 5D440B4B
 P 8300 6050
-F 0 "SW?" H 8300 6317 98  0000 C CNN
+F 0 "SW1" H 8300 6317 98  0000 C CNN
 F 1 "Emergency" H 8300 6226 98  0000 C CNN
 F 2 "" H 8300 6050 50  0001 C CNN
 F 3 "" H 8300 6050 50  0001 C CNN
@@ -363,10 +363,10 @@ F 3 "" H 8300 6050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_DIP_x01 SW?
+L Switch:SW_DIP_x01 SW3
 U 1 1 5D440B51
 P 10350 6050
-F 0 "SW?" H 10350 6317 98  0000 C CNN
+F 0 "SW3" H 10350 6317 98  0000 C CNN
 F 1 "Start" H 10350 6226 98  0000 C CNN
 F 2 "" H 10350 6050 50  0001 C CNN
 F 3 "" H 10350 6050 50  0001 C CNN
@@ -378,8 +378,8 @@ L high_power:Split_4 S?
 U 1 1 5D440B5F
 P 6450 11000
 AR Path="/5D35836A/5D440B5F" Ref="S?"  Part="1" 
-AR Path="/5D440B5F" Ref="S?"  Part="1" 
-F 0 "S?" H 6400 11400 50  0000 L CNN
+AR Path="/5D440B5F" Ref="S1"  Part="1" 
+F 0 "S1" H 6400 11400 50  0000 L CNN
 F 1 "Split Incoming L1" V 6450 10650 50  0000 L CNN
 F 2 "" H 5950 10400 50  0001 C CNN
 F 3 "" H 5950 10400 50  0001 C CNN
@@ -387,10 +387,10 @@ F 3 "" H 5950 10400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L high_power:Split_4 S?
+L high_power:Split_4 S2
 U 1 1 5D440B65
 P 6650 11000
-F 0 "S?" H 6600 11250 50  0000 L CNN
+F 0 "S2" H 6600 11250 50  0000 L CNN
 F 1 "Split A1" V 6650 10850 50  0000 L CNN
 F 2 "" H 6150 10400 50  0001 C CNN
 F 3 "" H 6150 10400 50  0001 C CNN
@@ -402,8 +402,8 @@ L high_power:Split_19 N?
 U 1 1 5D440B83
 P 12850 17450
 AR Path="/5D35836A/5D440B83" Ref="N?"  Part="1" 
-AR Path="/5D440B83" Ref="N?"  Part="1" 
-F 0 "N?" H 12750 17450 98  0000 L CNN
+AR Path="/5D440B83" Ref="N1"  Part="1" 
+F 0 "N1" H 12750 17450 98  0000 L CNN
 F 1 "Split_19" H 12550 17250 98  0000 L CNN
 F 2 "" H 12350 16850 50  0001 C CNN
 F 3 "" H 12350 16850 50  0001 C CNN
@@ -411,10 +411,10 @@ F 3 "" H 12350 16850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L high_power:Split_13 L1_?
+L high_power:Split_13 L1_1
 U 1 1 5D440B89
 P 14750 17450
-F 0 "L1_?" H 14650 17500 98  0000 L CNN
+F 0 "L1_1" H 14650 17500 98  0000 L CNN
 F 1 "Split_13" H 14450 17350 98  0000 L CNN
 F 2 "" H 14550 16850 50  0001 C CNN
 F 3 "" H 14550 16850 50  0001 C CNN
@@ -422,10 +422,10 @@ F 3 "" H 14550 16850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L high_power:Split_13 L2_?
+L high_power:Split_13 L2_1
 U 1 1 5D440B8F
 P 16350 17450
-F 0 "L2_?" H 16250 17500 98  0000 L CNN
+F 0 "L2_1" H 16250 17500 98  0000 L CNN
 F 1 "Split_13" H 16050 17350 98  0000 L CNN
 F 2 "" H 16150 16850 50  0001 C CNN
 F 3 "" H 16150 16850 50  0001 C CNN
@@ -433,10 +433,10 @@ F 3 "" H 16150 16850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L high_power:Split_13 L3_?
+L high_power:Split_13 L3_1
 U 1 1 5D440B95
 P 17950 17450
-F 0 "L3_?" H 17850 17500 98  0000 L CNN
+F 0 "L3_1" H 17850 17500 98  0000 L CNN
 F 1 "Split_13" H 17650 17350 98  0000 L CNN
 F 2 "" H 17750 16850 50  0001 C CNN
 F 3 "" H 17750 16850 50  0001 C CNN
@@ -444,10 +444,10 @@ F 3 "" H 17750 16850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L high_power:3_phase_relay Relay?
+L high_power:3_phase_relay Relay2
 U 1 1 5D440BB4
 P 9450 11000
-F 0 "Relay?" H 9300 11100 50  0000 L CNN
+F 0 "Relay2" H 9300 11100 50  0000 L CNN
 F 1 "LC1d" H 9350 11000 50  0000 L CNN
 F 2 "" V 10100 10800 50  0001 C CNN
 F 3 "" V 10100 10800 50  0001 C CNN
@@ -463,8 +463,8 @@ L high_power:3_phase_relay Relay?
 U 1 1 5D440B58
 P 7650 11000
 AR Path="/5D35836A/5D440B58" Ref="Relay?"  Part="1" 
-AR Path="/5D440B58" Ref="Relay?"  Part="1" 
-F 0 "Relay?" H 7500 11100 50  0000 L CNN
+AR Path="/5D440B58" Ref="Relay1"  Part="1" 
+F 0 "Relay1" H 7500 11100 50  0000 L CNN
 F 1 "LC1d" H 7550 11000 50  0000 L CNN
 F 2 "" V 8300 10800 50  0001 C CNN
 F 3 "" V 8300 10800 50  0001 C CNN
@@ -474,10 +474,10 @@ $EndComp
 Wire Wire Line
 	7650 9700 7650 9950
 $Comp
-L high_power:fuse_220V_6A U?
+L high_power:fuse_220V_6A U11
 U 1 1 5D606B1F
 P 19900 22900
-F 0 "U?" H 19800 24200 98  0000 L CNN
+F 0 "U11" H 19800 24200 98  0000 L CNN
 F 1 "fuse_220V_6A" V 20150 21550 98  0000 L CNN
 F 2 "" H 19900 23050 50  0001 C CNN
 F 3 "" H 19900 23050 50  0001 C CNN
@@ -485,10 +485,10 @@ F 3 "" H 19900 23050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L high_power:fuse_220V_6A U?
+L high_power:fuse_220V_6A U10
 U 1 1 5D612D0B
 P 19200 22900
-F 0 "U?" H 19100 24200 98  0000 L CNN
+F 0 "U10" H 19100 24200 98  0000 L CNN
 F 1 "fuse_220V_6A" V 19450 21550 98  0000 L CNN
 F 2 "" H 19200 23050 50  0001 C CNN
 F 3 "" H 19200 23050 50  0001 C CNN
@@ -496,10 +496,10 @@ F 3 "" H 19200 23050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L high_power:fuse_220V_6A U?
+L high_power:fuse_220V_6A U9
 U 1 1 5D6157FC
 P 18500 22900
-F 0 "U?" H 18400 24200 98  0000 L CNN
+F 0 "U9" H 18400 24200 98  0000 L CNN
 F 1 "fuse_220V_6A" V 18750 21550 98  0000 L CNN
 F 2 "" H 18500 23050 50  0001 C CNN
 F 3 "" H 18500 23050 50  0001 C CNN
@@ -507,10 +507,10 @@ F 3 "" H 18500 23050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L high_power:fuse_220V_6A U?
+L high_power:fuse_220V_6A U8
 U 1 1 5D615B82
 P 17800 22900
-F 0 "U?" H 17700 24200 98  0000 L CNN
+F 0 "U8" H 17700 24200 98  0000 L CNN
 F 1 "fuse_220V_6A" V 18050 21550 98  0000 L CNN
 F 2 "" H 17800 23050 50  0001 C CNN
 F 3 "" H 17800 23050 50  0001 C CNN
@@ -518,10 +518,10 @@ F 3 "" H 17800 23050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L high_power:220V_relay U?
+L high_power:220V_relay U4
 U 1 1 5D612963
 P 14350 22900
-F 0 "U?" H 14350 23200 98  0000 C CNN
+F 0 "U4" H 14350 23200 98  0000 C CNN
 F 1 "220V_relay" V 14350 22600 98  0000 C CNN
 F 2 "" H 14400 24500 50  0001 C CNN
 F 3 "" H 14400 24500 50  0001 C CNN
@@ -540,10 +540,10 @@ F 3 "" H 13400 11100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L high_power:3_phase_Solid_state_relay SSR_mash
+L high_power:3_phase_Solid_state_relay SSR_mash1
 U 1 1 5C9BA874
 P 22800 23000
-F 0 "SSR_mash" H 22700 23050 98  0000 L CNN
+F 0 "SSR_mash1" H 22700 23050 98  0000 L CNN
 F 1 "3_phase_Solid_state_relay" H 21850 22900 98  0000 L CNN
 F 2 "" H 22850 23000 50  0001 C CNN
 F 3 "" H 22850 23000 50  0001 C CNN
@@ -901,10 +901,10 @@ F 3 "~" V 12500 4100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Lamp LA?
+L Device:Lamp LA5
 U 1 1 5D8B0427
 P 10300 3950
-F 0 "LA?" V 10035 3950 98  0000 C CNN
+F 0 "LA5" V 10035 3950 98  0000 C CNN
 F 1 "ready_for_start_ind" V 10126 3950 98  0000 C CNN
 F 2 "" V 10300 4050 50  0001 C CNN
 F 3 "~" V 10300 4050 50  0001 C CNN
@@ -1212,10 +1212,10 @@ F11 "220V_3" I L 25000 11500 50
 F12 "220V_4" I L 25000 11650 50 
 $EndSheet
 $Comp
-L high_power:220V_relay U?
+L high_power:220V_relay U5
 U 1 1 5E7D832A
 P 15000 22900
-F 0 "U?" H 15000 23200 98  0000 C CNN
+F 0 "U5" H 15000 23200 98  0000 C CNN
 F 1 "220V_relay" V 15000 22600 98  0000 C CNN
 F 2 "" H 15050 24500 50  0001 C CNN
 F 3 "" H 15050 24500 50  0001 C CNN
@@ -1223,10 +1223,10 @@ F 3 "" H 15050 24500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L high_power:220V_relay U?
+L high_power:220V_relay U6
 U 1 1 5E7DB044
 P 15650 22900
-F 0 "U?" H 15650 23200 98  0000 C CNN
+F 0 "U6" H 15650 23200 98  0000 C CNN
 F 1 "220V_relay" V 15650 22600 98  0000 C CNN
 F 2 "" H 15700 24500 50  0001 C CNN
 F 3 "" H 15700 24500 50  0001 C CNN
@@ -1234,10 +1234,10 @@ F 3 "" H 15700 24500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L high_power:220V_relay U?
+L high_power:220V_relay U7
 U 1 1 5E7DB535
 P 16300 22900
-F 0 "U?" H 16300 23200 98  0000 C CNN
+F 0 "U7" H 16300 23200 98  0000 C CNN
 F 1 "220V_relay" V 16300 22600 98  0000 C CNN
 F 2 "" H 16350 24500 50  0001 C CNN
 F 3 "" H 16350 24500 50  0001 C CNN
