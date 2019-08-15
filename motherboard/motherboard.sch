@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
-LIBS:enclosure-cache
+LIBS:motherboard-cache
 EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 2 7
+Sheet 1 6
 Title "Motherboard"
 Date "2019-07-01"
 Rev "1.1"
@@ -145,9 +145,9 @@ Wire Wire Line
 Wire Wire Line
 	11350 6100 12000 6100
 Wire Wire Line
-	11350 5450 12150 5450
+	11350 5450 12100 5450
 Wire Wire Line
-	9950 5250 12150 5250
+	9950 5250 12000 5250
 Text HLabel 12150 5250 2    50   Input ~ 0
 TEMP_IN_PWR
 Text HLabel 12150 5450 2    50   Input ~ 0
@@ -182,4 +182,38 @@ Text HLabel 12000 7050 2    50   Input ~ 0
 220V_3
 Text HLabel 12000 7200 2    50   Input ~ 0
 220V_4
+$Comp
+L Connector:Conn_01x03_Male J6
+U 1 1 5DC10027
+P 12000 4200
+F 0 "J6" V 12062 4344 50  0000 L CNN
+F 1 "Conn_01x03_Male" V 12153 4344 50  0000 L CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal" H 12000 4200 50  0001 C CNN
+F 3 "~" H 12000 4200 50  0001 C CNN
+	1    12000 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L bryggan:GND #PWR0101
+U 1 1 5DC1314B
+P 11900 4600
+F 0 "#PWR0101" H 11900 4350 50  0001 C CNN
+F 1 "GND" H 11905 4427 50  0000 C CNN
+F 2 "" H 11900 4600 50  0001 C CNN
+F 3 "" H 11900 4600 50  0001 C CNN
+	1    11900 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11900 4400 11900 4600
+Wire Wire Line
+	12000 5250 12000 4400
+Connection ~ 12000 5250
+Wire Wire Line
+	12000 5250 12150 5250
+Wire Wire Line
+	12100 5450 12100 4400
+Connection ~ 12100 5450
+Wire Wire Line
+	12100 5450 12150 5450
 $EndSCHEMATC
