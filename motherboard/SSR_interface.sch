@@ -149,9 +149,9 @@ Wire Wire Line
 	3250 4300 3400 4300
 Text Notes 5450 5200 0    50   ~ 0
 LED: Error signal, both SSR HIGH
-NoConn ~ 5900 1700
-NoConn ~ 5300 1800
-NoConn ~ 5300 1600
+NoConn ~ 6100 1700
+NoConn ~ 5500 1800
+NoConn ~ 5500 1600
 Wire Wire Line
 	6650 3500 7800 3500
 Wire Wire Line
@@ -236,17 +236,6 @@ F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms
 $EndComp
 $Comp
 L bryggan:quad_and U2
-U 3 1 5C93A2FD
-P 5600 1700
-F 0 "U2" H 5600 2025 50  0000 C CNN
-F 1 "quad_and" H 5600 1934 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5600 1700 50  0001 C CNN
-F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf" H 5600 1700 50  0001 C CNN
-	3    5600 1700
-	1    0    0    -1  
-$EndComp
-$Comp
-L bryggan:quad_and U2
 U 4 1 5C93A370
 P 4700 4950
 F 0 "U2" H 4700 5275 50  0000 C CNN
@@ -307,4 +296,15 @@ Wire Wire Line
 	9600 3250 9800 3250
 Wire Wire Line
 	9600 3350 9800 3350
+$Comp
+L bryggan:quad_and U2
+U 3 1 5C93A2FD
+P 5800 1700
+F 0 "U2" H 5800 2025 50  0000 C CNN
+F 1 "quad_and" H 5800 1934 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5800 1700 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf" H 5800 1700 50  0001 C CNN
+	3    5800 1700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

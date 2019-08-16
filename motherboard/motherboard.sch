@@ -14,25 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L bryggan:Raspberry_Pi_+_Conn P1
-U 1 1 54E92361
-P 8000 6000
-F 0 "P1" H 6900 7950 60  0000 C CNN
-F 1 "Raspberry_Pi_+_Conn" H 8300 4550 60  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical" H 8000 6000 60  0001 C CNN
-F 3 "" H 8000 6000 60  0000 C CNN
-F 4 "517-30340-6002" H 8000 6000 60  0001 C CNN "Mouser Part No."
-	1    8000 6000
-	-1   0    0    -1  
-$EndComp
-NoConn ~ 6900 5100
-NoConn ~ 6900 5300
-NoConn ~ 6900 5500
-NoConn ~ 6900 5600
-NoConn ~ 6900 5400
-NoConn ~ 6900 4900
-NoConn ~ 6900 5000
 NoConn ~ 9450 7300
 NoConn ~ 9450 7100
 NoConn ~ 9450 7000
@@ -244,4 +225,38 @@ F 3 "~" H 12300 4800 50  0001 C CNN
 	1    12300 4800
 	0    -1   1    0   
 $EndComp
+NoConn ~ 12650 9200
+NoConn ~ 12750 9200
+$Comp
+L bryggan:Raspberry_Pi_+_Conn P1
+U 1 1 54E92361
+P 8000 6000
+F 0 "P1" H 6900 7950 60  0000 C CNN
+F 1 "Raspberry_Pi_+_Conn" H 8300 4550 60  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical" H 8000 6000 60  0001 C CNN
+F 3 "" H 8000 6000 60  0000 C CNN
+F 4 "517-30340-6002" H 8000 6000 60  0001 C CNN "Mouser Part No."
+	1    8000 6000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 4900 6900 5000
+Connection ~ 6900 5000
+Wire Wire Line
+	6900 5000 6900 5100
+Connection ~ 6900 5100
+Wire Wire Line
+	6900 5100 6900 5200
+Connection ~ 6900 5200
+Wire Wire Line
+	6900 5200 6900 5300
+Connection ~ 6900 5300
+Wire Wire Line
+	6900 5300 6900 5400
+Connection ~ 6900 5400
+Wire Wire Line
+	6900 5400 6900 5500
+Connection ~ 6900 5500
+Wire Wire Line
+	6900 5500 6900 5600
 $EndSCHEMATC
