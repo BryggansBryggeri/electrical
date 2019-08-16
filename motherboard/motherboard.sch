@@ -58,16 +58,6 @@ Connection ~ 6800 4200
 Wire Wire Line
 	6800 4200 6900 4200
 $Sheet
-S 10450 6000 900  450 
-U 5BF6A1D6
-F0 "SSR_interface" 50
-F1 "SSR_interface.sch" 50
-F2 "SSR1_GPIO" I L 10450 6100 50 
-F3 "SSR2_GPIO" I L 10450 6350 50 
-F4 "SSR_in_2" I R 11350 6350 50 
-F5 "SSR_in_1" I R 11350 6100 50 
-$EndSheet
-$Sheet
 S 10450 5350 900  450 
 U 5BF6D5FF
 F0 "Temp_interface" 50
@@ -109,17 +99,13 @@ F 3 "~" H 5750 3800 50  0001 C CNN
 $EndComp
 NoConn ~ 6900 4650
 Wire Wire Line
-	9450 6200 10200 6200
-Wire Wire Line
-	10200 6200 10200 6100
-Wire Wire Line
-	10200 6100 10450 6100
+	9450 6200 10450 6200
 Wire Wire Line
 	9450 6100 9750 6100
 Wire Wire Line
-	9750 6100 9750 6350
+	9750 6100 9750 6500
 Wire Wire Line
-	9750 6350 10450 6350
+	9750 6500 10450 6500
 Text HLabel 5250 4200 0    50   Input ~ 0
 5V+
 Text HLabel 5250 5200 0    50   Input ~ 0
@@ -136,23 +122,15 @@ Wire Wire Line
 Connection ~ 5750 5200
 Wire Wire Line
 	5750 5200 5250 5200
-Text HLabel 12000 6100 2    50   Input ~ 0
-SSR_in_1_enc
-Text HLabel 12000 6350 2    50   Input ~ 0
-SSR_in_2_enc
 Wire Wire Line
-	11350 6350 12000 6350
+	11350 5450 12200 5450
 Wire Wire Line
-	11350 6100 12000 6100
-Wire Wire Line
-	11350 5450 12100 5450
-Wire Wire Line
-	9950 5250 12000 5250
-Text HLabel 12150 5250 2    50   Input ~ 0
+	9950 5250 12300 5250
+Text HLabel 12500 5250 2    50   Input ~ 0
 TEMP_IN_PWR
-Text HLabel 12150 5450 2    50   Input ~ 0
+Text HLabel 12500 5450 2    50   Input ~ 0
 TEMP_IN_MEAS
-Text HLabel 12150 5650 2    50   Input ~ 0
+Text HLabel 12500 5650 2    50   Input ~ 0
 TEMP_IN_GND
 Connection ~ 9950 5250
 Wire Wire Line
@@ -171,49 +149,99 @@ F 3 "" H 11900 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12150 5650 11900 5650
+	12500 5650 12400 5650
 Wire Wire Line
 	11900 5650 11900 5800
-Text HLabel 12000 6750 2    50   Input ~ 0
-220V_1
-Text HLabel 12000 6900 2    50   Input ~ 0
-220V_2
-Text HLabel 12000 7050 2    50   Input ~ 0
-220V_3
-Text HLabel 12000 7200 2    50   Input ~ 0
+Text HLabel 12500 6500 2    50   Input ~ 0
+SSR_in_2_enc
+Text HLabel 12500 6200 2    50   Input ~ 0
+SSR_in_1_enc
+$Sheet
+S 10450 6050 1350 1250
+U 5D5AE47C
+F0 "SSR_interface" 50
+F1 "SSR_interface.sch" 50
+F2 "SSR1_GPIO" I L 10450 6200 50 
+F3 "SSR2_GPIO" I L 10450 6500 50 
+F4 "SSR_in_2" I R 11800 6500 50 
+F5 "SSR_in_1" I R 11800 6200 50 
+F6 "error_signal" I L 10450 7100 50 
+F7 "indicator_1_pi" I L 10450 6700 50 
+F8 "indicator_2_pi" I L 10450 6900 50 
+$EndSheet
+Wire Wire Line
+	12500 6200 12050 6200
+Text HLabel 12600 8200 2    50   Input ~ 0
 220V_4
+Text HLabel 12600 8050 2    50   Input ~ 0
+220V_3
+Text HLabel 12600 7900 2    50   Input ~ 0
+220V_2
+Text HLabel 12600 7750 2    50   Input ~ 0
+220V_1
+Wire Wire Line
+	11800 6500 12150 6500
+Wire Wire Line
+	12200 5000 12200 5450
+Connection ~ 12200 5450
+Wire Wire Line
+	12200 5450 12500 5450
+Wire Wire Line
+	12300 5000 12300 5250
+Connection ~ 12300 5250
+Wire Wire Line
+	12300 5250 12500 5250
+Wire Wire Line
+	12400 5000 12400 5650
+Connection ~ 12400 5650
+Wire Wire Line
+	12400 5650 11900 5650
 $Comp
-L Connector:Conn_01x03_Male J6
-U 1 1 5DC10027
-P 12000 4200
-F 0 "J6" V 12062 4344 50  0000 L CNN
-F 1 "Conn_01x03_Male" V 12153 4344 50  0000 L CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal" H 12000 4200 50  0001 C CNN
-F 3 "~" H 12000 4200 50  0001 C CNN
-	1    12000 4200
-	0    1    1    0   
+L Connector:Conn_01x08_Male J3
+U 1 1 5D5682CF
+P 12350 9400
+F 0 "J3" V 12277 9328 50  0000 C CNN
+F 1 "24V_connector" V 12186 9328 50  0000 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-8-5.08_1x08_P5.08mm_Horizontal" H 12350 9400 50  0001 C CNN
+F 3 "~" H 12350 9400 50  0001 C CNN
+	1    12350 9400
+	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	12050 6200 12050 9200
+Connection ~ 12050 6200
+Wire Wire Line
+	12050 6200 11800 6200
+Wire Wire Line
+	12150 6500 12150 9200
+Connection ~ 12150 6500
+Wire Wire Line
+	12150 6500 12500 6500
+Wire Wire Line
+	12600 7750 12250 7750
+Wire Wire Line
+	12250 7750 12250 9200
+Wire Wire Line
+	12600 7900 12350 7900
+Wire Wire Line
+	12350 7900 12350 9200
+Wire Wire Line
+	12600 8050 12450 8050
+Wire Wire Line
+	12450 8050 12450 9200
+Wire Wire Line
+	12600 8200 12550 8200
+Wire Wire Line
+	12550 8200 12550 9200
 $Comp
-L bryggan:GND #PWR0101
-U 1 1 5DC1314B
-P 11900 4600
-F 0 "#PWR0101" H 11900 4350 50  0001 C CNN
-F 1 "GND" H 11905 4427 50  0000 C CNN
-F 2 "" H 11900 4600 50  0001 C CNN
-F 3 "" H 11900 4600 50  0001 C CNN
-	1    11900 4600
-	1    0    0    -1  
+L Connector:Conn_01x03_Male J2
+U 1 1 5D565F3E
+P 12300 4800
+F 0 "J2" V 12362 4612 50  0000 R CNN
+F 1 "Temp_connector" V 12453 4612 50  0000 R CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal" H 12300 4800 50  0001 C CNN
+F 3 "~" H 12300 4800 50  0001 C CNN
+	1    12300 4800
+	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	11900 4400 11900 4600
-Wire Wire Line
-	12000 5250 12000 4400
-Connection ~ 12000 5250
-Wire Wire Line
-	12000 5250 12150 5250
-Wire Wire Line
-	12100 5450 12100 4400
-Connection ~ 12100 5450
-Wire Wire Line
-	12100 5450 12150 5450
 $EndSCHEMATC

@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 6
+Sheet 3 6
 Title "SSR interface"
 Date "2019-03-20"
 Rev "1.0"
@@ -40,19 +40,6 @@ Wire Wire Line
 	5000 4250 5600 4250
 Wire Wire Line
 	5000 3150 5550 3150
-$Comp
-L bryggan:GND #PWR08
-U 1 1 5C09950A
-P 7300 5800
-F 0 "#PWR08" H 7300 5550 50  0001 C CNN
-F 1 "GND" H 7305 5627 50  0000 C CNN
-F 2 "" H 7300 5800 50  0001 C CNN
-F 3 "" H 7300 5800 50  0001 C CNN
-	1    7300 5800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7300 5400 7300 5800
 $Comp
 L 74xGxx:74AUC2G04 U1
 U 2 1 5C0AC439
@@ -103,17 +90,6 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5180 5100 50  0
 F 3 "" H 5250 5100 50  0001 C CNN
 	1    5250 5100
 	-1   0    0    1   
-$EndComp
-$Comp
-L bryggan:GND #PWR07
-U 1 1 5C0AFE3E
-P 5250 5800
-F 0 "#PWR07" H 5250 5550 50  0001 C CNN
-F 1 "GND" H 5255 5627 50  0000 C CNN
-F 2 "" H 5250 5800 50  0001 C CNN
-F 3 "" H 5250 5800 50  0001 C CNN
-	1    5250 5800
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5000 4950 5250 4950
@@ -171,57 +147,11 @@ F 3 "" H 3700 3900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3250 4300 3400 4300
-Wire Wire Line
-	5250 5350 5450 5350
-$Comp
-L Connector:Conn_01x02_Male J?
-U 1 1 5C126476
-P 5650 5450
-AR Path="/5BF6A1D6/5C0971B5/5C126476" Ref="J?"  Part="1" 
-AR Path="/5BF6A1D6/5C098030/5C126476" Ref="J?"  Part="1" 
-AR Path="/5BF6A1D6/5C126476" Ref="J2"  Part="1" 
-AR Path="/5C9368DF/5BF6A1D6/5C126476" Ref="J2"  Part="1" 
-F 0 "J2" H 5623 5330 50  0000 R CNN
-F 1 "Conn_01x02_Male" H 5623 5421 50  0000 R CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 5650 5450 50  0001 C CNN
-F 3 "~" H 5650 5450 50  0001 C CNN
-	1    5650 5450
-	-1   0    0    1   
-$EndComp
 Text Notes 5450 5200 0    50   ~ 0
 LED: Error signal, both SSR HIGH
-Wire Wire Line
-	5250 5450 5450 5450
-Wire Wire Line
-	5250 5450 5250 5800
-Text Notes 7550 5200 0    50   ~ 0
-SSR_in_1
 NoConn ~ 5900 1700
 NoConn ~ 5300 1800
 NoConn ~ 5300 1600
-$Comp
-L Connector:Conn_01x02_Male J?
-U 1 1 5C12BED8
-P 7500 5400
-AR Path="/5BF6A1D6/5C0971B5/5C12BED8" Ref="J?"  Part="1" 
-AR Path="/5BF6A1D6/5C098030/5C12BED8" Ref="J?"  Part="1" 
-AR Path="/5BF6A1D6/5C12BED8" Ref="J3"  Part="1" 
-AR Path="/5C9368DF/5BF6A1D6/5C12BED8" Ref="J3"  Part="1" 
-F 0 "J3" H 7473 5280 50  0000 R CNN
-F 1 "Conn_01x02_Male" H 7473 5371 50  0000 R CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 7500 5400 50  0001 C CNN
-F 3 "~" H 7500 5400 50  0001 C CNN
-	1    7500 5400
-	-1   0    0    1   
-$EndComp
-$Sheet
-S 8500 3000 1100 650 
-U 5C12D07D
-F0 "Comparator" 50
-F1 "comparator.sch" 50
-F2 "indicator_1" O L 8500 3150 50 
-F3 "indicator_2" O L 8500 3500 50 
-$EndSheet
 Wire Wire Line
 	6650 3500 7800 3500
 Wire Wire Line
@@ -266,42 +196,6 @@ F 3 "" H 4700 1050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4700 1300 4700 1050
-$Comp
-L bryggan:GND #PWR09
-U 1 1 5C34D5DA
-P 7500 3100
-F 0 "#PWR09" H 7500 2850 50  0001 C CNN
-F 1 "GND" H 7505 2927 50  0000 C CNN
-F 2 "" H 7500 3100 50  0001 C CNN
-F 3 "" H 7500 3100 50  0001 C CNN
-	1    7500 3100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7500 2700 7500 3100
-Text Notes 7750 2500 0    50   ~ 0
-SSR_in_2
-$Comp
-L Connector:Conn_01x02_Male J?
-U 1 1 5C34D5E2
-P 7700 2700
-AR Path="/5BF6A1D6/5C0971B5/5C34D5E2" Ref="J?"  Part="1" 
-AR Path="/5BF6A1D6/5C098030/5C34D5E2" Ref="J?"  Part="1" 
-AR Path="/5BF6A1D6/5C34D5E2" Ref="J7"  Part="1" 
-AR Path="/5C9368DF/5BF6A1D6/5C34D5E2" Ref="J7"  Part="1" 
-F 0 "J7" H 7673 2580 50  0000 R CNN
-F 1 "Conn_01x02_Male" H 7673 2671 50  0000 R CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 7700 2700 50  0001 C CNN
-F 3 "~" H 7700 2700 50  0001 C CNN
-	1    7700 2700
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	7300 3150 7300 2600
-Wire Wire Line
-	7300 2600 7500 2600
-Connection ~ 3400 4300
-Connection ~ 3400 3200
 Wire Wire Line
 	3700 3900 3700 4200
 Wire Wire Line
@@ -387,14 +281,30 @@ Wire Wire Line
 	4150 3200 4150 4350
 Text HLabel 7300 2200 1    50   Input ~ 0
 SSR_in_2
-Wire Wire Line
-	7300 2600 7300 2200
-Connection ~ 7300 2600
 Text HLabel 8400 5000 2    50   Input ~ 0
 SSR_in_1
 Wire Wire Line
 	7300 5000 8400 5000
-Connection ~ 7300 5000
 Wire Wire Line
-	7300 5000 7300 5300
+	7300 2200 7300 3150
+Text HLabel 5250 5350 3    50   Input ~ 0
+error_signal
+$Sheet
+S 8500 3000 1100 650 
+U 5C12D07D
+F0 "Comparator" 50
+F1 "comparator.sch" 50
+F2 "indicator_1_in" O L 8500 3150 50 
+F3 "indicator_2_in" O L 8500 3500 50 
+F4 "indicator_1_out" I R 9600 3250 50 
+F5 "indicator_2_out" I R 9600 3350 50 
+$EndSheet
+Text HLabel 9800 3250 2    50   Input ~ 0
+indicator_1_pi
+Text HLabel 9800 3350 2    50   Input ~ 0
+indicator_2_pi
+Wire Wire Line
+	9600 3250 9800 3250
+Wire Wire Line
+	9600 3350 9800 3350
 $EndSCHEMATC
