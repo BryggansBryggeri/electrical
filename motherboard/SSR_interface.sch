@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 7
+Sheet 3 8
 Title "SSR interface"
 Date "2019-03-20"
 Rev "1.0"
@@ -19,13 +19,13 @@ SSR1_GPIO
 Text HLabel 3000 4300 0    50   Input ~ 0
 SSR2_GPIO
 $Sheet
-S 5600 4100 1100 650 
+S 5550 4100 1100 650 
 U 5C0971B5
 F0 "SSR_driver_1" 50
 F1 "SSR_driver.sch" 50
-F2 "sig_in" I L 5600 4250 50 
-F3 "ssr_in" I R 6700 4250 50 
-F4 "indicator" O R 6700 4550 50 
+F2 "sig_in" I L 5550 4250 50 
+F3 "ssr_in" I R 6650 4250 50 
+F4 "indicator" O R 6650 4550 50 
 $EndSheet
 $Sheet
 S 5550 3000 1100 650 
@@ -37,7 +37,7 @@ F3 "ssr_in" I R 6650 3150 50
 F4 "indicator" O R 6650 3500 50 
 $EndSheet
 Wire Wire Line
-	5000 4250 5600 4250
+	5000 4250 5550 4250
 Wire Wire Line
 	5000 3150 5550 3150
 $Comp
@@ -163,9 +163,9 @@ Wire Wire Line
 Wire Wire Line
 	8100 3500 8500 3500
 Wire Wire Line
-	6700 4550 8100 4550
+	6650 4550 8100 4550
 Wire Wire Line
-	6700 4250 7300 4250
+	6650 4250 7300 4250
 Wire Wire Line
 	7300 4250 7300 5000
 Wire Wire Line

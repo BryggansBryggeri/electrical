@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 7
+Sheet 1 8
 Title "Motherboard"
 Date "2019-07-01"
 Rev "1.1"
@@ -148,13 +148,13 @@ $EndSheet
 Wire Wire Line
 	12500 6200 12050 6200
 Text HLabel 12600 8200 2    50   Input ~ 0
-220V_4
+220V_4_enc
 Text HLabel 12600 8050 2    50   Input ~ 0
-220V_3
+220V_3_enc
 Text HLabel 12600 7900 2    50   Input ~ 0
-220V_2
+220V_2_enc
 Text HLabel 12600 7750 2    50   Input ~ 0
-220V_1
+220V_1_enc
 Wire Wire Line
 	11800 6500 12150 6500
 Wire Wire Line
@@ -177,7 +177,7 @@ L Connector:Conn_01x08_Male J3
 U 1 1 5D5682CF
 P 12350 9400
 F 0 "J3" V 12277 9328 50  0000 C CNN
-F 1 "24V_connector" V 12186 9328 50  0000 C CNN
+F 1 "24VDC_connector" V 12186 9328 50  0000 C CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-8-5.08_1x08_P5.08mm_Horizontal" H 12350 9400 50  0001 C CNN
 F 3 "~" H 12350 9400 50  0001 C CNN
 	1    12350 9400
@@ -314,4 +314,10 @@ Wire Wire Line
 	12200 4200 12200 4550
 Wire Wire Line
 	12200 4550 11350 4550
+$Sheet
+S 10450 7750 1350 1200
+U 5D570AE0
+F0 "230V_relay_interface" 50
+F1 "230V_relay_interface.sch" 50
+$EndSheet
 $EndSCHEMATC
