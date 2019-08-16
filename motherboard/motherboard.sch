@@ -259,8 +259,10 @@ S 10450 4400 900  450
 U 5D58BFA7
 F0 "serial_comm" 50
 F1 "Serial_comm.sch" 50
-F2 "txd_rbpi" I L 10450 4550 50 
-F3 "rxd_rbpi" I L 10450 4650 50 
+F2 "txd_pi" I L 10450 4550 50 
+F3 "rxd_pi" I L 10450 4650 50 
+F4 "txd_conn" I R 11350 4550 50 
+F5 "rxd_conn" I R 11350 4650 50 
 $EndSheet
 Wire Wire Line
 	9450 4550 10450 4550
@@ -280,4 +282,36 @@ Wire Wire Line
 	9700 7000 9700 7100
 Wire Wire Line
 	9700 7100 10450 7100
+$Comp
+L Connector:Conn_01x03_Male J4
+U 1 1 5D59D17A
+P 12300 4000
+F 0 "J4" V 12362 3812 50  0000 R CNN
+F 1 "serial_comm_conn" V 12453 3812 50  0000 R CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal" H 12300 4000 50  0001 C CNN
+F 3 "~" H 12300 4000 50  0001 C CNN
+	1    12300 4000
+	0    -1   1    0   
+$EndComp
+$Comp
+L bryggan:GND #PWR018
+U 1 1 5D59D80F
+P 12400 4400
+F 0 "#PWR018" H 12400 4150 50  0001 C CNN
+F 1 "GND" H 12405 4227 50  0000 C CNN
+F 2 "" H 12400 4400 50  0001 C CNN
+F 3 "" H 12400 4400 50  0001 C CNN
+	1    12400 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12400 4200 12400 4400
+Wire Wire Line
+	12300 4200 12300 4650
+Wire Wire Line
+	12300 4650 11350 4650
+Wire Wire Line
+	12200 4200 12200 4550
+Wire Wire Line
+	12200 4550 11350 4550
 $EndSCHEMATC

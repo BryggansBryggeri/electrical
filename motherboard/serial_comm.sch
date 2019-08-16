@@ -15,7 +15,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text HLabel 3500 3050 0    50   Input ~ 0
-txd_rbpi
+txd_pi
 Text HLabel 3500 3350 0    50   Input ~ 0
-rxd_rbpi
+rxd_pi
+Text HLabel 4400 3050 2    50   Input ~ 0
+txd_conn
+Text HLabel 4400 3350 2    50   Input ~ 0
+rxd_conn
 $EndSCHEMATC
