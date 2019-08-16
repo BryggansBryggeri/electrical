@@ -38,8 +38,8 @@ Wire Wire Line
 $Sheet
 S 10450 5350 900  450 
 U 5BF6D5FF
-F0 "Temp_interface" 50
-F1 "Temp_interface.sch" 50
+F0 "temp_interface" 50
+F1 "temp_interface.sch" 50
 F2 "+3.3V" I L 10450 5450 50 
 F3 "TEMP_GPIO" I L 10450 5700 50 
 F4 "TEMP_IN" I R 11350 5450 50 
@@ -67,7 +67,7 @@ L Connector:Conn_01x02_Male J1
 U 1 1 5C09D68A
 P 5750 3800
 F 0 "J1" V 5810 3840 50  0000 L CNN
-F 1 "Conn_01x02_Male" V 5901 3840 50  0000 L CNN
+F 1 "power_conn" V 5901 3840 50  0000 L CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 5750 3800 50  0001 C CNN
 F 3 "~" H 5750 3800 50  0001 C CNN
 	1    5750 3800
@@ -258,7 +258,7 @@ $Sheet
 S 10450 4400 900  450 
 U 5D58BFA7
 F0 "serial_comm" 50
-F1 "Serial_comm.sch" 50
+F1 "serial_comm.sch" 50
 F2 "txd_pi" I L 10450 4550 50 
 F3 "rxd_pi" I L 10450 4650 50 
 F4 "txd_conn" I R 11350 4550 50 
