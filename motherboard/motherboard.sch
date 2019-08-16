@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 6
+Sheet 1 7
 Title "Motherboard"
 Date "2019-07-01"
 Rev "1.1"
@@ -16,8 +16,6 @@ Comment4 ""
 $EndDescr
 NoConn ~ 9450 7300
 NoConn ~ 9450 7100
-NoConn ~ 9450 7000
-NoConn ~ 9450 6900
 NoConn ~ 9450 6800
 NoConn ~ 9450 6300
 NoConn ~ 9450 6000
@@ -28,7 +26,6 @@ NoConn ~ 9450 5200
 NoConn ~ 9450 5100
 NoConn ~ 9450 5000
 NoConn ~ 9450 4900
-NoConn ~ 9450 4650
 NoConn ~ 6900 6300
 NoConn ~ 6900 6400
 Wire Wire Line
@@ -61,10 +58,8 @@ NoConn ~ 9450 7200
 NoConn ~ 9450 6700
 NoConn ~ 9450 6600
 NoConn ~ 9450 6500
-NoConn ~ 9450 6400
 NoConn ~ 9450 4200
 NoConn ~ 9450 4300
-NoConn ~ 9450 4550
 Wire Wire Line
 	5650 4200 6800 4200
 $Comp
@@ -259,4 +254,30 @@ Wire Wire Line
 Connection ~ 6900 5500
 Wire Wire Line
 	6900 5500 6900 5600
+$Sheet
+S 10450 4400 900  450 
+U 5D58BFA7
+F0 "serial_comm" 50
+F1 "Serial_comm.sch" 50
+F2 "txd_rbpi" I L 10450 4550 50 
+F3 "rxd_rbpi" I L 10450 4650 50 
+$EndSheet
+Wire Wire Line
+	9450 4550 10450 4550
+Wire Wire Line
+	9450 4650 10450 4650
+Wire Wire Line
+	9450 6400 9700 6400
+Wire Wire Line
+	9700 6400 9700 6700
+Wire Wire Line
+	9700 6700 10450 6700
+Wire Wire Line
+	9450 6900 10450 6900
+Wire Wire Line
+	9450 7000 9700 7000
+Wire Wire Line
+	9700 7000 9700 7100
+Wire Wire Line
+	9700 7100 10450 7100
 $EndSCHEMATC

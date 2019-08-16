@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 6
+Sheet 3 7
 Title "SSR interface"
 Date "2019-03-20"
 Rev "1.0"
@@ -276,7 +276,7 @@ Wire Wire Line
 	7300 5000 8400 5000
 Wire Wire Line
 	7300 2200 7300 3150
-Text HLabel 5250 5350 3    50   Input ~ 0
+Text HLabel 5250 5750 3    50   Input ~ 0
 error_signal
 $Sheet
 S 8500 3000 1100 650 
@@ -288,9 +288,9 @@ F3 "indicator_2_in" O L 8500 3500 50
 F4 "indicator_1_out" I R 9600 3250 50 
 F5 "indicator_2_out" I R 9600 3350 50 
 $EndSheet
-Text HLabel 9800 3250 2    50   Input ~ 0
+Text HLabel 10150 3250 2    50   Input ~ 0
 indicator_1_pi
-Text HLabel 9800 3350 2    50   Input ~ 0
+Text HLabel 10150 3350 2    50   Input ~ 0
 indicator_2_pi
 Wire Wire Line
 	9600 3250 9800 3250
@@ -307,4 +307,8 @@ F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms
 	3    5800 1700
 	1    0    0    -1  
 $EndComp
+Text Notes 10100 3150 0    50   ~ 0
+Make sure the rbpi can handle this signal (voltage)
+Text Notes 5350 5750 0    50   ~ 0
+Make sure the rbpi can handle this signal (voltage)
 $EndSCHEMATC
