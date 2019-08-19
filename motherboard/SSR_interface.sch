@@ -1,13 +1,13 @@
 EESchema Schematic File Version 4
-LIBS:enclosure-cache
+LIBS:motherboard-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 15 16
+Sheet 15 15
 Title "SSR interface"
 Date "2019-03-20"
-Rev "1.0"
+Rev "1.1"
 Comp "Bryggans Bryggeri"
 Comment1 ""
 Comment2 ""

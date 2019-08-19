@@ -1,12 +1,12 @@
 EESchema Schematic File Version 4
-LIBS:enclosure-cache
+LIBS:motherboard-cache
 EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 16
+Sheet 1 15
 Title "Motherboard"
-Date "2019-07-01"
+Date "2019-08-19"
 Rev "1.1"
 Comp "Bryggans Bryggeri"
 Comment1 ""
