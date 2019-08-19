@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr User 35433 35433
 encoding utf-8
-Sheet 1 7
+Sheet 1 16
 Title "Bryggan180 Enclosure"
 Date "2019-08-12"
 Rev "0.7"
@@ -93,11 +93,11 @@ F 3 "" H 27550 10350 50  0001 C CNN
 	1    28050 10950
 	1    0    0    -1  
 $EndComp
-Text Notes 29900 11150 0    787  ~ 0
+Text Notes 29900 11050 0    787  ~ 0
 .
-Text Notes 29900 10900 0    787  ~ 0
+Text Notes 29900 10800 0    787  ~ 0
 .
-Text Notes 29900 10650 0    787  ~ 0
+Text Notes 29900 10550 0    787  ~ 0
 .
 $Comp
 L Connector:XLR3 J9
@@ -851,17 +851,9 @@ Wire Wire Line
 Wire Wire Line
 	23550 21050 23550 18650
 Wire Wire Line
-	23550 18650 27100 18650
-Wire Wire Line
-	27100 18650 27100 11750
-Wire Wire Line
 	27100 11750 26950 11750
 Wire Wire Line
 	26800 21050 26800 18750
-Wire Wire Line
-	26800 18750 27250 18750
-Wire Wire Line
-	27250 18750 27250 11550
 Wire Wire Line
 	27250 11550 26950 11550
 $Comp
@@ -1439,4 +1431,46 @@ Wire Wire Line
 	16550 19150 24500 19150
 Wire Wire Line
 	24500 11650 25000 11650
+$Comp
+L Connector:XLR3 J?
+U 1 1 5D7D8610
+P 30050 13450
+F 0 "J?" V 30096 13678 98  0000 L CNN
+F 1 "float_switch_conn" V 30005 13678 98  0000 L CNN
+F 2 "" H 30050 13450 50  0001 C CNN
+F 3 " ~" H 30050 13450 50  0001 C CNN
+	1    30050 13450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:XLR3 J?
+U 1 1 5D7D8D7D
+P 30050 14200
+F 0 "J?" V 30096 14428 98  0000 L CNN
+F 1 "float_switch_conn" V 30005 14428 98  0000 L CNN
+F 2 "" H 30050 14200 50  0001 C CNN
+F 3 " ~" H 30050 14200 50  0001 C CNN
+	1    30050 14200
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 30350 14150
+NoConn ~ 30350 13450
+Wire Wire Line
+	30050 18750 30050 14500
+Wire Wire Line
+	26800 18750 30050 18750
+Wire Wire Line
+	30450 18650 30450 13750
+Wire Wire Line
+	30450 13750 30050 13750
+Wire Wire Line
+	23550 18650 30450 18650
+Wire Wire Line
+	30050 13150 27250 13150
+Wire Wire Line
+	27250 13150 27250 11550
+Wire Wire Line
+	27100 11750 27100 13900
+Wire Wire Line
+	27100 13900 30050 13900
 $EndSCHEMATC
