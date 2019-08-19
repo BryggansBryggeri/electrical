@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
-LIBS:motherboard-cache
+LIBS:enclosure-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 14 15
+Sheet 14 16
 Title ""
 Date ""
 Rev ""
@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Interface_Expansion:MCP23017_ML U?
+L Interface_Expansion:MCP23017_ML U6
 U 1 1 5D70FB5A
 P 5200 3750
-F 0 "U?" H 5200 5031 50  0000 C CNN
+F 0 "U6" H 5200 5031 50  0000 C CNN
 F 1 "MCP23017_ML" H 5200 4940 50  0000 C CNN
 F 2 "Package_DFN_QFN:QFN-28-1EP_6x6mm_P0.65mm_EP4.25x4.25mm" H 5400 2750 50  0001 L CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 5400 2650 50  0001 L CNN
