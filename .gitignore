@@ -5,6 +5,7 @@
 */log/
 # KICAD
 *.bak
+*.sch-bak
 *kicad*bak
 *-cache.lib
 *-rescue.lib

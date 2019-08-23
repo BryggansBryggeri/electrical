@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
 LIBS:enclosure-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr User 35433 35433
 encoding utf-8
-Sheet 1 16
+Sheet 1 18
 Title "Bryggan180 Enclosure"
 Date "2019-08-12"
 Rev "0.7"
@@ -729,8 +729,6 @@ Wire Wire Line
 Wire Wire Line
 	25650 19500 25650 21050
 Wire Wire Line
-	18250 18150 18250 19650
-Wire Wire Line
 	18250 19650 23200 19650
 Wire Wire Line
 	23200 19650 23200 21050
@@ -1132,8 +1130,6 @@ Wire Wire Line
 Wire Wire Line
 	30400 9950 30400 12900
 Wire Wire Line
-	30400 12900 22650 12900
-Wire Wire Line
 	22650 12900 22650 16850
 Connection ~ 30400 9950
 Text Notes 30450 9100 0    50   ~ 0
@@ -1287,17 +1283,9 @@ Wire Wire Line
 Wire Wire Line
 	16100 21700 16100 18950
 Wire Wire Line
-	16100 18950 18050 18950
-Wire Wire Line
-	17850 18900 15450 18900
-Wire Wire Line
 	15450 18900 15450 21700
 Wire Wire Line
 	14800 21700 14800 18850
-Wire Wire Line
-	14800 18850 17650 18850
-Wire Wire Line
-	17450 18800 14150 18800
 Wire Wire Line
 	14150 18800 14150 21700
 Wire Wire Line
@@ -1398,14 +1386,6 @@ Wire Wire Line
 Text Notes 10600 5300 0    50   ~ 0
 WAGO
 Wire Wire Line
-	17450 18150 17450 18800
-Wire Wire Line
-	17650 18150 17650 18850
-Wire Wire Line
-	17850 18900 17850 18150
-Wire Wire Line
-	18050 18150 18050 18950
-Wire Wire Line
 	24350 19000 24350 11200
 Wire Wire Line
 	14600 19000 24350 19000
@@ -1473,4 +1453,44 @@ Wire Wire Line
 	27100 11750 27100 13900
 Wire Wire Line
 	27100 13900 30050 13900
+Wire Wire Line
+	27600 10000 27600 12750
+Wire Wire Line
+	27600 12750 28000 12750
+Wire Wire Line
+	28000 12750 28000 12600
+Wire Wire Line
+	26950 10000 27600 10000
+Wire Wire Line
+	30400 12900 22650 12900
+Wire Wire Line
+	26950 10150 27550 10150
+Wire Wire Line
+	27550 10150 27550 12800
+Wire Wire Line
+	27550 12800 27900 12800
+Wire Wire Line
+	27900 12800 27900 12600
+Text Notes 27000 10350 0    50   ~ 0
+Ok, signal-wise to not ground here but in NDC-split?
+Wire Wire Line
+	19050 18150 19050 18800
+Wire Wire Line
+	14150 18800 19050 18800
+Wire Wire Line
+	19250 18850 19250 18150
+Wire Wire Line
+	14800 18850 19250 18850
+Wire Wire Line
+	19450 18150 19450 18900
+Wire Wire Line
+	15450 18900 19450 18900
+Wire Wire Line
+	19550 18950 19550 16750
+Wire Wire Line
+	19550 16750 19650 16750
+Wire Wire Line
+	19650 16750 19650 16850
+Wire Wire Line
+	16100 18950 19550 18950
 $EndSCHEMATC
