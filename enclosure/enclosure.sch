@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
 LIBS:enclosure-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr User 35433 35433
 encoding utf-8
-Sheet 1 16
+Sheet 1 18
 Title "Bryggan180 Enclosure"
 Date "2019-08-12"
 Rev "0.7"
@@ -1132,8 +1132,6 @@ Wire Wire Line
 Wire Wire Line
 	30400 9950 30400 12900
 Wire Wire Line
-	30400 12900 22650 12900
-Wire Wire Line
 	22650 12900 22650 16850
 Connection ~ 30400 9950
 Text Notes 30450 9100 0    50   ~ 0
@@ -1473,4 +1471,24 @@ Wire Wire Line
 	27100 11750 27100 13900
 Wire Wire Line
 	27100 13900 30050 13900
+Wire Wire Line
+	27600 10000 27600 12750
+Wire Wire Line
+	27600 12750 28000 12750
+Wire Wire Line
+	28000 12750 28000 12600
+Wire Wire Line
+	26950 10000 27600 10000
+Wire Wire Line
+	30400 12900 22650 12900
+Wire Wire Line
+	26950 10150 27550 10150
+Wire Wire Line
+	27550 10150 27550 12800
+Wire Wire Line
+	27550 12800 27900 12800
+Wire Wire Line
+	27900 12800 27900 12600
+Text Notes 27000 10350 0    50   ~ 0
+Ok, signal-wise to not ground here but in NDC-split?
 $EndSCHEMATC
