@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 18
+Sheet 3 16
 Title ""
 Date ""
 Rev "1.1"
@@ -22,4 +22,8 @@ Text HLabel 4400 3050 2    50   Input ~ 0
 txd_conn
 Text HLabel 4400 3350 2    50   Input ~ 0
 rxd_conn
+NoConn ~ 3500 3050
+NoConn ~ 3500 3350
+NoConn ~ 4400 3050
+NoConn ~ 4400 3350
 $EndSCHEMATC

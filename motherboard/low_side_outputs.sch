@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 18
+Sheet 5 16
 Title ""
 Date ""
 Rev "1.1"
@@ -265,8 +265,6 @@ F8 "sense_4_in" I L 5550 2800 50
 F9 "indicator_4_out" I R 6900 2800 50 
 F10 "indicator_3_out" I R 6900 2700 50 
 $EndSheet
-NoConn ~ 6900 2700
-NoConn ~ 6900 2800
 $Sheet
 S 5550 3400 1350 850 
 U 5D7EF009
@@ -390,6 +388,16 @@ Wire Wire Line
 	4150 5900 4850 5900
 Wire Wire Line
 	4850 5900 4850 3950
-NoConn ~ 2750 2350
-NoConn ~ 2750 3050
+Text HLabel 2750 2350 0    50   Input ~ 0
+extra_1_in
+Text HLabel 2750 3050 0    50   Input ~ 0
+extra_2_in
+Text HLabel 6900 2700 2    50   Output ~ 0
+extra_1_indicator
+Text HLabel 6900 2800 2    50   Output ~ 0
+extra_2_indicator
+Text HLabel 4150 2550 2    50   Input ~ 0
+extra_1_drain
+Text HLabel 4150 3250 2    50   Input ~ 0
+extra_2_drain
 $EndSCHEMATC
