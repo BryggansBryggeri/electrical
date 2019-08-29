@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
-LIBS:enclosure-cache
+LIBS:motherboard-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 16 18
+Sheet 16 17
 Title ""
 Date ""
 Rev ""
@@ -17,14 +17,14 @@ $EndDescr
 Text HLabel 5700 3950 0    50   Input ~ 0
 breaker_input
 $Comp
-L bryggan:N-MOSFET Q1
+L bryggan:N-MOSFET Q9
 U 1 1 5D5B7FE5
 P 6000 3950
-AR Path="/5D5B6A91/5D5B7FE5" Ref="Q1"  Part="1" 
-AR Path="/5D5C3C56/5D5B7FE5" Ref="Q2"  Part="1" 
-AR Path="/5C9368DF/5D5B6A91/5D5B7FE5" Ref="Q2"  Part="1" 
-AR Path="/5C9368DF/5D5C3C56/5D5B7FE5" Ref="Q2"  Part="1" 
-F 0 "Q2" H 6206 3996 50  0000 L CNN
+AR Path="/5D5B6A91/5D5B7FE5" Ref="Q9"  Part="1" 
+AR Path="/5D5C3C56/5D5B7FE5" Ref="Q10"  Part="1" 
+AR Path="/5C9368DF/5D5B6A91/5D5B7FE5" Ref="Q?"  Part="1" 
+AR Path="/5C9368DF/5D5C3C56/5D5B7FE5" Ref="Q?"  Part="1" 
+F 0 "Q10" H 6206 3996 50  0000 L CNN
 F 1 "N-MOSFET" H 6206 3905 50  0000 L CNN
 F 2 "" H 6200 4050 50  0001 C CNN
 F 3 "~" H 6000 3950 50  0001 C CNN

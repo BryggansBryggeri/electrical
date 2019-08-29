@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
-LIBS:enclosure-cache
+LIBS:motherboard-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 18
+Sheet 1 17
 Title "Motherboard"
 Date "2019-08-19"
 Rev "1.1"
@@ -104,10 +104,10 @@ Wire Wire Line
 Wire Wire Line
 	8100 2700 8100 4050
 $Comp
-L bryggan:GND #PWR025
+L bryggan:GND #PWR01
 U 1 1 5C93E432
 P 10050 4500
-F 0 "#PWR025" H 10050 4250 50  0001 C CNN
+F 0 "#PWR01" H 10050 4250 50  0001 C CNN
 F 1 "GND" H 10055 4327 50  0000 C CNN
 F 2 "" H 10050 4500 50  0001 C CNN
 F 3 "" H 10050 4500 50  0001 C CNN
@@ -134,10 +134,10 @@ Connection ~ 10550 4450
 Wire Wire Line
 	10550 4450 10050 4450
 $Comp
-L Connector:Conn_01x08_Male J3
+L Connector:Conn_01x08_Male J5
 U 1 1 5D5682CF
 P 13000 7750
-F 0 "J3" V 12927 7678 50  0000 C CNN
+F 0 "J5" V 12927 7678 50  0000 C CNN
 F 1 "24VDC_connector" V 12836 7678 50  0000 C CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-8-5.08_1x08_P5.08mm_Horizontal" H 13000 7750 50  0001 C CNN
 F 3 "~" H 13000 7750 50  0001 C CNN
@@ -145,10 +145,10 @@ F 3 "~" H 13000 7750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x03_Male J2
+L Connector:Conn_01x03_Male J3
 U 1 1 5D565F3E
 P 10450 3600
-F 0 "J2" V 10512 3412 50  0000 R CNN
+F 0 "J3" V 10512 3412 50  0000 R CNN
 F 1 "Temp_connector" V 10603 3412 50  0000 R CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal" H 10450 3600 50  0001 C CNN
 F 3 "~" H 10450 3600 50  0001 C CNN
@@ -202,10 +202,10 @@ Wire Wire Line
 Wire Wire Line
 	7600 3450 8600 3450
 $Comp
-L Connector:Conn_01x03_Male J4
+L Connector:Conn_01x03_Male J2
 U 1 1 5D59D17A
 P 10450 2800
-F 0 "J4" V 10512 2612 50  0000 R CNN
+F 0 "J2" V 10512 2612 50  0000 R CNN
 F 1 "serial_comm_conn" V 10603 2612 50  0000 R CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal" H 10450 2800 50  0001 C CNN
 F 3 "~" H 10450 2800 50  0001 C CNN
@@ -213,10 +213,10 @@ F 3 "~" H 10450 2800 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L bryggan:GND #PWR018
+L bryggan:GND #PWR02
 U 1 1 5D59D80F
 P 10550 3200
-F 0 "#PWR018" H 10550 2950 50  0001 C CNN
+F 0 "#PWR02" H 10550 2950 50  0001 C CNN
 F 1 "GND" H 10555 3027 50  0000 C CNN
 F 2 "" H 10550 3200 50  0001 C CNN
 F 3 "" H 10550 3200 50  0001 C CNN
@@ -431,10 +431,10 @@ Wire Wire Line
 Wire Wire Line
 	12900 5300 13150 5300
 $Comp
-L Connector:Conn_01x02_Male J5
+L Connector:Conn_01x02_Male J4
 U 1 1 5D5CDF09
 P 11800 2800
-F 0 "J5" V 11860 2840 50  0000 L CNN
+F 0 "J4" V 11860 2840 50  0000 L CNN
 F 1 "float_switch" V 11951 2840 50  0000 L CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 11800 2800 50  0001 C CNN
 F 3 "~" H 11800 2800 50  0001 C CNN
@@ -451,10 +451,10 @@ Connection ~ 11700 4700
 Wire Wire Line
 	11700 4700 11700 5200
 $Comp
-L bryggan:GND #PWR016
+L bryggan:GND #PWR03
 U 1 1 5D5D22AF
 P 11800 3200
-F 0 "#PWR016" H 11800 2950 50  0001 C CNN
+F 0 "#PWR03" H 11800 2950 50  0001 C CNN
 F 1 "GND" H 11805 3027 50  0000 C CNN
 F 2 "" H 11800 3200 50  0001 C CNN
 F 3 "" H 11800 3200 50  0001 C CNN
