@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 17
+Sheet 1 18
 Title "Motherboard"
 Date "2019-08-19"
 Rev "1.1"
@@ -355,25 +355,17 @@ Wire Wire Line
 Wire Wire Line
 	10950 7100 10950 5650
 Wire Wire Line
-	10950 5650 11600 5650
-Wire Wire Line
 	9450 7250 11000 7250
 Wire Wire Line
 	11000 7250 11000 5950
-Wire Wire Line
-	11000 5950 11600 5950
 Wire Wire Line
 	9450 7400 11050 7400
 Wire Wire Line
 	11050 7400 11050 6250
 Wire Wire Line
-	11050 6250 11600 6250
-Wire Wire Line
 	9450 7550 11100 7550
 Wire Wire Line
 	11100 7550 11100 6550
-Wire Wire Line
-	11100 6550 11600 6550
 Text Label 14500 5000 0    50   ~ 0
 SSR_1_ind
 Text Label 14500 5350 0    50   ~ 0
@@ -470,4 +462,12 @@ Wire Wire Line
 Connection ~ 11700 3550
 Wire Wire Line
 	11700 3550 11700 4700
+Wire Wire Line
+	10950 5650 13150 5650
+Wire Wire Line
+	11000 5950 13150 5950
+Wire Wire Line
+	11050 6250 13150 6250
+Wire Wire Line
+	11100 6550 13150 6550
 $EndSCHEMATC

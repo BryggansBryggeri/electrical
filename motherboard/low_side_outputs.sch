@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 17
+Sheet 4 18
 Title ""
 Date ""
 Rev "1.1"
@@ -15,59 +15,26 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 2750 1900 1400 850 
+S 2750 1500 1400 450 
 U 5D63C6FA
 F0 "SSR2_driver" 50
 F1 "low_side_driver.sch" 50
-F2 "sig_in" I L 2750 2050 50 
-F3 "drain" I R 4150 2250 50 
-F4 "indicator" O R 4150 2100 50 
+F2 "sig_in" I L 2750 1650 50 
+F3 "drain" I R 4150 1850 50 
+F4 "indicator" O R 4150 1700 50 
 $EndSheet
 $Sheet
-S 2750 3050 1400 850 
-U 5D63C716
-F0 "relay_1_driver" 50
-F1 "low_side_driver.sch" 50
-F2 "sig_in" I L 2750 3200 50 
-F3 "drain" I R 4150 3400 50 
-F4 "indicator" O R 4150 3250 50 
-$EndSheet
-$Sheet
-S 2750 4150 1400 850 
-U 5D63C76E
-F0 "relay_2_driver" 50
-F1 "low_side_driver.sch" 50
-F2 "sig_in" I L 2750 4300 50 
-F3 "drain" I R 4150 4500 50 
-F4 "indicator" O R 4150 4350 50 
-$EndSheet
-$Sheet
-S 2750 5250 1400 850 
-U 5D63C7A1
-F0 "relay_3_driver" 50
-F1 "low_side_driver.sch" 50
-F2 "sig_in" I L 2750 5400 50 
-F3 "drain" I R 4150 5600 50 
-F4 "indicator" O R 4150 5450 50 
-$EndSheet
-$Sheet
-S 2750 6350 1400 850 
+S 2750 5700 1400 450 
 U 5D63C7C9
 F0 "relay_4_driver" 50
 F1 "low_side_driver.sch" 50
-F2 "sig_in" I L 2750 6500 50 
-F3 "drain" I R 4150 6700 50 
-F4 "indicator" O R 4150 6550 50 
+F2 "sig_in" I L 2750 5850 50 
+F3 "drain" I R 4150 6050 50 
+F4 "indicator" O R 4150 5900 50 
 $EndSheet
-Text HLabel 2750 6500 0    50   Input ~ 0
+Text HLabel 2750 5850 0    50   Input ~ 0
 relay_4_in
-Text HLabel 2750 5400 0    50   Input ~ 0
-relay_3_in
-Text HLabel 2750 4300 0    50   Input ~ 0
-relay_2_in
-Text HLabel 2750 3200 0    50   Input ~ 0
-relay_1_in
-Text HLabel 2750 2050 0    50   Input ~ 0
+Text HLabel 2750 1650 0    50   Input ~ 0
 SSR_2_in
 Text HLabel 2750 950  0    50   Input ~ 0
 SSR_1_in
@@ -75,16 +42,12 @@ Text HLabel 6900 2500 2    50   Output ~ 0
 SSR_1_indicator
 Text HLabel 6900 3650 2    50   Input ~ 0
 relay_1_indicator
-Text HLabel 6900 3800 2    50   Input ~ 0
+Text HLabel 6900 3750 2    50   Input ~ 0
 relay_2_indicator
-Text HLabel 6900 4800 2    50   Input ~ 0
-relay_3_indicator
-Text HLabel 6900 4950 2    50   Input ~ 0
-relay_4_indicator
 Text HLabel 4150 1150 2    50   Input ~ 0
 SSR_1_drain
 $Sheet
-S 2750 750  1400 850 
+S 2750 750  1400 500 
 U 5D63C697
 F0 "SSR1_driver" 50
 F1 "low_side_driver.sch" 50
@@ -92,15 +55,9 @@ F2 "sig_in" I L 2750 950 50
 F3 "drain" I R 4150 1150 50 
 F4 "indicator" O R 4150 1000 50 
 $EndSheet
-Text HLabel 4150 2250 2    50   Input ~ 0
+Text HLabel 4150 1850 2    50   Input ~ 0
 SSR_2_drain
-Text HLabel 4150 3400 2    50   Input ~ 0
-relay_1_drain
-Text HLabel 4150 4500 2    50   Input ~ 0
-relay_2_drain
-Text HLabel 4150 5600 2    50   Input ~ 0
-relay_3_drain
-Text HLabel 4150 6700 2    50   Input ~ 0
+Text HLabel 4150 6050 2    50   Input ~ 0
 relay_4_drain
 $Comp
 L bryggan:R R?
@@ -276,60 +233,15 @@ F 3 "" H 5000 6350 50  0001 C CNN
 	1    5000 6350
 	1    0    0    -1  
 $EndComp
-$Sheet
-S 5550 2250 1350 850 
-U 5D66D499
-F0 "SSR_1_2_comparator" 50
-F1 "comparator.sch" 50
-F2 "indicator_1_out" I R 6900 2500 50 
-F3 "indicator_2_out" I R 6900 2650 50 
-F4 "reference_voltage" I L 5550 2800 50 
-F5 "sense_1_in" I L 5550 2500 50 
-F6 "sense_2_in" I L 5550 2650 50 
-$EndSheet
 Wire Wire Line
 	5900 6650 5900 5700
 Wire Wire Line
 	5900 5700 5350 5700
 Connection ~ 5900 6650
 Wire Wire Line
-	5350 2800 5550 2800
-Text HLabel 6900 2650 2    50   Output ~ 0
+	5350 3000 5550 3000
+Text HLabel 6900 2600 2    50   Output ~ 0
 SSR_2_indicator
-Wire Wire Line
-	5350 2800 5350 3950
-$Sheet
-S 5550 3400 1350 850 
-U 5D6B2E82
-F0 "sheet5D6B2E7A" 50
-F1 "comparator.sch" 50
-F2 "indicator_1_out" I R 6900 3650 50 
-F3 "indicator_2_out" I R 6900 3800 50 
-F4 "reference_voltage" I L 5550 3950 50 
-F5 "sense_1_in" I L 5550 3650 50 
-F6 "sense_2_in" I L 5550 3800 50 
-$EndSheet
-$Sheet
-S 5550 4550 1350 850 
-U 5D6B3177
-F0 "sheet5D6B316F" 50
-F1 "comparator.sch" 50
-F2 "indicator_1_out" I R 6900 4800 50 
-F3 "indicator_2_out" I R 6900 4950 50 
-F4 "reference_voltage" I L 5550 5100 50 
-F5 "sense_1_in" I L 5550 4800 50 
-F6 "sense_2_in" I L 5550 4950 50 
-$EndSheet
-Wire Wire Line
-	5550 5100 5350 5100
-Connection ~ 5350 5100
-Wire Wire Line
-	5350 5100 5350 5700
-Wire Wire Line
-	5550 3950 5350 3950
-Connection ~ 5350 3950
-Wire Wire Line
-	5350 3950 5350 5100
 Wire Wire Line
 	5350 1000 5350 2500
 Wire Wire Line
@@ -337,33 +249,147 @@ Wire Wire Line
 Wire Wire Line
 	4150 1000 5350 1000
 Wire Wire Line
-	4150 2100 5250 2100
+	5250 2600 5550 2600
+$Sheet
+S 5550 2250 1350 850 
+U 5D66D499
+F0 "SSR_1_2_comparator" 50
+F1 "comparator.sch" 50
+F2 "indicator_1_out" I R 6900 2500 50 
+F3 "indicator_2_out" I R 6900 2600 50 
+F4 "reference_voltage" I L 5550 3000 50 
+F5 "sense_1_in" I L 5550 2500 50 
+F6 "sense_2_in" I L 5550 2600 50 
+F7 "sense_3_in" I L 5550 2700 50 
+F8 "sense_4_in" I L 5550 2800 50 
+F9 "indicator_4_out" I R 6900 2800 50 
+F10 "indicator_3_out" I R 6900 2700 50 
+$EndSheet
+NoConn ~ 6900 2700
+NoConn ~ 6900 2800
+$Sheet
+S 5550 3400 1350 850 
+U 5D7EF009
+F0 "relay_comparator" 50
+F1 "comparator.sch" 50
+F2 "sense_1_in" I L 5550 3650 50 
+F3 "sense_2_in" I L 5550 3750 50 
+F4 "indicator_1_out" I R 6900 3650 50 
+F5 "indicator_2_out" I R 6900 3750 50 
+F6 "reference_voltage" I L 5550 4150 50 
+F7 "sense_3_in" I L 5550 3850 50 
+F8 "sense_4_in" I L 5550 3950 50 
+F9 "indicator_4_out" I R 6900 3850 50 
+F10 "indicator_3_out" I R 6900 3950 50 
+$EndSheet
 Wire Wire Line
-	5250 2100 5250 2650
+	5350 3000 5350 4150
 Wire Wire Line
-	5250 2650 5550 2650
+	5550 4150 5350 4150
+Connection ~ 5350 4150
 Wire Wire Line
-	4150 3250 5250 3250
+	4850 3950 5550 3950
 Wire Wire Line
-	5250 3250 5250 3650
+	4750 3850 5550 3850
 Wire Wire Line
-	5250 3650 5550 3650
+	4750 3850 4750 5200
 Wire Wire Line
-	4150 4350 5250 4350
+	5350 4150 5350 5700
+Text HLabel 6900 3850 2    50   Input ~ 0
+relay_3_indicator
+Text HLabel 6900 3950 2    50   Input ~ 0
+relay_4_indicator
+$Sheet
+S 2750 2200 1400 450 
+U 5D7F4D71
+F0 "extra_1_driver" 50
+F1 "low_side_driver.sch" 50
+F2 "sig_in" I L 2750 2350 50 
+F3 "drain" I R 4150 2550 50 
+F4 "indicator" O R 4150 2400 50 
+$EndSheet
+$Sheet
+S 2750 2900 1400 450 
+U 5D7F4DF5
+F0 "extra_2_driver" 50
+F1 "low_side_driver.sch" 50
+F2 "sig_in" I L 2750 3050 50 
+F3 "drain" I R 4150 3250 50 
+F4 "indicator" O R 4150 3100 50 
+$EndSheet
+Text HLabel 4150 5350 2    50   Input ~ 0
+relay_3_drain
+Text HLabel 4150 4650 2    50   Input ~ 0
+relay_2_drain
+Text HLabel 4150 3950 2    50   Input ~ 0
+relay_1_drain
+Text HLabel 2750 3750 0    50   Input ~ 0
+relay_1_in
+Text HLabel 2750 4450 0    50   Input ~ 0
+relay_2_in
+Text HLabel 2750 5150 0    50   Input ~ 0
+relay_3_in
+$Sheet
+S 2750 5000 1400 450 
+U 5D63C7A1
+F0 "relay_3_driver" 50
+F1 "low_side_driver.sch" 50
+F2 "sig_in" I L 2750 5150 50 
+F3 "drain" I R 4150 5350 50 
+F4 "indicator" O R 4150 5200 50 
+$EndSheet
+$Sheet
+S 2750 4300 1400 450 
+U 5D63C76E
+F0 "relay_2_driver" 50
+F1 "low_side_driver.sch" 50
+F2 "sig_in" I L 2750 4450 50 
+F3 "drain" I R 4150 4650 50 
+F4 "indicator" O R 4150 4500 50 
+$EndSheet
+$Sheet
+S 2750 3600 1400 450 
+U 5D63C716
+F0 "relay_1_driver" 50
+F1 "low_side_driver.sch" 50
+F2 "sig_in" I L 2750 3750 50 
+F3 "drain" I R 4150 3950 50 
+F4 "indicator" O R 4150 3800 50 
+$EndSheet
 Wire Wire Line
-	5250 4350 5250 3800
+	4150 1700 5250 1700
 Wire Wire Line
-	5250 3800 5550 3800
+	5250 1700 5250 2600
 Wire Wire Line
-	4150 6550 4850 6550
+	4150 2400 5150 2400
 Wire Wire Line
-	4850 6550 4850 4950
+	5150 2400 5150 2700
 Wire Wire Line
-	4850 4950 5550 4950
+	5150 2700 5550 2700
 Wire Wire Line
-	4150 5450 4750 5450
+	4150 3100 5050 3100
 Wire Wire Line
-	4750 5450 4750 4800
+	5050 3100 5050 2800
 Wire Wire Line
-	4750 4800 5550 4800
+	5050 2800 5550 2800
+Wire Wire Line
+	4150 3800 4250 3800
+Wire Wire Line
+	4250 3800 4250 3650
+Wire Wire Line
+	4250 3650 5550 3650
+Wire Wire Line
+	4350 3750 4350 4500
+Wire Wire Line
+	4350 4500 4150 4500
+Wire Wire Line
+	4350 3750 5550 3750
+Wire Wire Line
+	4150 5200 4750 5200
+Wire Wire Line
+	4150 5900 4850 5900
+Wire Wire Line
+	4850 5900 4850 3950
+NoConn ~ 2750 2350
+NoConn ~ 2750 3050
 $EndSCHEMATC
