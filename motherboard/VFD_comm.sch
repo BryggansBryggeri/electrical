@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:motherboard-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 16
+Sheet 3 19
 Title ""
 Date ""
 Rev "1.1"

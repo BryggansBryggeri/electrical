@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name bryggan)(type Legacy)(uri $KIPRJMOD/../libraries/bryggan.lib)(options "")(descr ""))
+  (lib (name MAX734ESA+)(type Legacy)(uri ${KIPRJMOD}/lib/MAX734ESA+.lib)(options "")(descr ""))
 )

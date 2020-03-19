@@ -1,0 +1,164 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 17 19
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Analog_DAC:MCP4728 U?
+U 1 1 5E78FBC7
+P 4650 3550
+AR Path="/5E78FBC7" Ref="U?"  Part="1" 
+AR Path="/5E7855D6/5E78FBC7" Ref="U1701"  Part="1" 
+F 0 "U1701" H 4650 4031 50  0000 C CNN
+F 1 "MCP4728" H 4650 3940 50  0000 C CNN
+F 2 "Package_SO:MSOP-10_3x3mm_P0.5mm" H 4650 2950 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22187E.pdf" H 4650 3800 50  0001 C CNN
+	1    4650 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L bryggan:+5V U1702
+U 1 1 5E78FD91
+P 5950 2600
+F 0 "U1702" H 6008 2633 50  0000 L CNN
+F 1 "+5V" H 6008 2542 50  0000 L CNN
+F 2 "" H 5950 2600 50  0001 C CNN
+F 3 "" H 5950 2600 50  0001 C CNN
+	1    5950 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C1702
+U 1 1 5E7905B5
+P 5950 2950
+F 0 "C1702" H 6068 2996 50  0000 L CNN
+F 1 "10u" H 6068 2905 50  0000 L CNN
+F 2 "" H 5988 2800 50  0001 C CNN
+F 3 "~" H 5950 2950 50  0001 C CNN
+	1    5950 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1701
+U 1 1 5E790B22
+P 5250 2950
+F 0 "C1701" H 5365 2996 50  0000 L CNN
+F 1 "0.1u" H 5365 2905 50  0000 L CNN
+F 2 "" H 5288 2800 50  0001 C CNN
+F 3 "~" H 5250 2950 50  0001 C CNN
+	1    5250 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 2650 5950 2800
+Wire Wire Line
+	5950 2800 5250 2800
+Connection ~ 5950 2800
+Wire Wire Line
+	5250 2800 4650 2800
+Wire Wire Line
+	4650 2800 4650 3250
+Connection ~ 5250 2800
+Text HLabel 4050 3550 0    50   BiDi ~ 0
+sda
+Text HLabel 4050 3450 0    50   Input ~ 0
+scl
+NoConn ~ 4050 3750
+$Comp
+L bryggan:R R1701
+U 1 1 5E79A003
+P 3800 3800
+F 0 "R1701" H 3870 3846 50  0000 L CNN
+F 1 "R" H 3870 3755 50  0000 L CNN
+F 2 "" V 3730 3800 50  0001 C CNN
+F 3 "" H 3800 3800 50  0001 C CNN
+	1    3800 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 3650 4050 3650
+$Comp
+L bryggan:GND #PWR01701
+U 1 1 5E79BAA0
+P 3800 3950
+F 0 "#PWR01701" H 3800 3700 50  0001 C CNN
+F 1 "GND" H 3805 3777 50  0000 C CNN
+F 2 "" H 3800 3950 50  0001 C CNN
+F 3 "" H 3800 3950 50  0001 C CNN
+	1    3800 3950
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 6100 3350 950  650 
+U 5E79BD59
+F0 "DAC_amp" 50
+F1 "DAC_amp.sch" 50
+F2 "A_in" I L 6100 3450 50 
+F3 "A_out" O R 7050 3450 50 
+F4 "B_in" I L 6100 3550 50 
+F5 "B_out" O R 7050 3550 50 
+F6 "C_in" I L 6100 3650 50 
+F7 "C_out" O R 7050 3650 50 
+F8 "D_in" I L 6100 3750 50 
+F9 "D_out" O R 7050 3750 50 
+$EndSheet
+Text HLabel 7050 3450 2    50   Output ~ 0
+A_out
+Text HLabel 7050 3550 2    50   Output ~ 0
+B_out
+Text HLabel 7050 3650 2    50   Output ~ 0
+C_out
+Text HLabel 7050 3750 2    50   Output ~ 0
+D_out
+Wire Wire Line
+	5250 3450 6100 3450
+Wire Wire Line
+	6100 3550 5250 3550
+Wire Wire Line
+	5250 3650 6100 3650
+Wire Wire Line
+	6100 3750 5250 3750
+$Comp
+L bryggan:GND #PWR01702
+U 1 1 5E841FB2
+P 4650 3950
+F 0 "#PWR01702" H 4650 3700 50  0001 C CNN
+F 1 "GND" H 4655 3777 50  0000 C CNN
+F 2 "" H 4650 3950 50  0001 C CNN
+F 3 "" H 4650 3950 50  0001 C CNN
+	1    4650 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L bryggan:GND #PWR01703
+U 1 1 5E84227A
+P 5250 3100
+F 0 "#PWR01703" H 5250 2850 50  0001 C CNN
+F 1 "GND" H 5255 2927 50  0000 C CNN
+F 2 "" H 5250 3100 50  0001 C CNN
+F 3 "" H 5250 3100 50  0001 C CNN
+	1    5250 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L bryggan:GND #PWR01704
+U 1 1 5E84290C
+P 5950 3100
+F 0 "#PWR01704" H 5950 2850 50  0001 C CNN
+F 1 "GND" H 5955 2927 50  0000 C CNN
+F 2 "" H 5950 3100 50  0001 C CNN
+F 3 "" H 5950 3100 50  0001 C CNN
+	1    5950 3100
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

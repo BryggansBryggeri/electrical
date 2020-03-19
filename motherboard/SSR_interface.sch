@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:motherboard-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 16
+Sheet 4 19
 Title "SSR interface"
 Date "2019-03-20"
 Rev "1.1"
@@ -23,10 +22,10 @@ Wire Wire Line
 Wire Wire Line
 	5000 3150 5550 3150
 $Comp
-L 74xGxx:74AUC2G04 U5
+L 74xGxx:74AUC2G04 U401
 U 2 1 5C0AC439
 P 3700 4300
-F 0 "U5" H 3675 4567 50  0000 C CNN
+F 0 "U401" H 3675 4567 50  0000 C CNN
 F 1 "74AUC2G04" H 3675 4476 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-6" H 3700 4300 50  0001 C CNN
 F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3700 4300 50  0001 C CNN
@@ -34,10 +33,10 @@ F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3700 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xGxx:74AUC2G04 U5
+L 74xGxx:74AUC2G04 U401
 U 1 1 5C0AC4C9
 P 3700 3200
-F 0 "U5" H 3675 3467 50  0000 C CNN
+F 0 "U401" H 3675 3467 50  0000 C CNN
 F 1 "74AUC2G04" H 3675 3376 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-6" H 3700 3200 50  0001 C CNN
 F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3700 3200 50  0001 C CNN
@@ -63,10 +62,10 @@ Wire Wire Line
 	3250 4300 3250 4850
 Connection ~ 3250 4300
 $Comp
-L bryggan:R R29
+L bryggan:R R403
 U 1 1 5C0AFD6B
 P 5250 5100
-F 0 "R29" H 5180 5054 50  0000 R CNN
+F 0 "R403" H 5180 5054 50  0000 R CNN
 F 1 "3k3" H 5180 5145 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5180 5100 50  0001 C CNN
 F 3 "" H 5250 5100 50  0001 C CNN
@@ -76,10 +75,10 @@ $EndComp
 Wire Wire Line
 	5000 4950 5250 4950
 $Comp
-L bryggan:GND #PWR034
+L bryggan:GND #PWR0403
 U 1 1 5C1176C8
 P 3700 3450
-F 0 "#PWR034" H 3700 3200 50  0001 C CNN
+F 0 "#PWR0403" H 3700 3200 50  0001 C CNN
 F 1 "GND" H 3705 3277 50  0000 C CNN
 F 2 "" H 3700 3450 50  0001 C CNN
 F 3 "" H 3700 3450 50  0001 C CNN
@@ -87,10 +86,10 @@ F 3 "" H 3700 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L bryggan:GND #PWR036
+L bryggan:GND #PWR0405
 U 1 1 5C117788
 P 3700 4600
-F 0 "#PWR036" H 3700 4350 50  0001 C CNN
+F 0 "#PWR0405" H 3700 4350 50  0001 C CNN
 F 1 "GND" H 3705 4427 50  0000 C CNN
 F 2 "" H 3700 4600 50  0001 C CNN
 F 3 "" H 3700 4600 50  0001 C CNN
@@ -102,10 +101,10 @@ Wire Wire Line
 Wire Wire Line
 	3700 3450 3700 3300
 $Comp
-L bryggan:GND #PWR039
+L bryggan:GND #PWR0408
 U 1 1 5C1201F3
 P 4700 2500
-F 0 "#PWR039" H 4700 2250 50  0001 C CNN
+F 0 "#PWR0408" H 4700 2250 50  0001 C CNN
 F 1 "GND" H 4705 2327 50  0000 C CNN
 F 2 "" H 4700 2500 50  0001 C CNN
 F 3 "" H 4700 2500 50  0001 C CNN
@@ -115,10 +114,10 @@ $EndComp
 Wire Wire Line
 	4700 2300 4700 2500
 $Comp
-L power:+5V #PWR035
+L power:+5V #PWR0404
 U 1 1 5C120DDD
 P 3700 3900
-F 0 "#PWR035" H 3700 3750 50  0001 C CNN
+F 0 "#PWR0404" H 3700 3750 50  0001 C CNN
 F 1 "+5V" H 3715 4073 50  0000 C CNN
 F 2 "" H 3700 3900 50  0001 C CNN
 F 3 "" H 3700 3900 50  0001 C CNN
@@ -131,10 +130,10 @@ NoConn ~ 6100 1700
 NoConn ~ 5500 1800
 NoConn ~ 5500 1600
 $Comp
-L power:+5V #PWR033
+L power:+5V #PWR0402
 U 1 1 5C19087A
 P 3700 2700
-F 0 "#PWR033" H 3700 2550 50  0001 C CNN
+F 0 "#PWR0402" H 3700 2550 50  0001 C CNN
 F 1 "+5V" H 3715 2873 50  0000 C CNN
 F 2 "" H 3700 2700 50  0001 C CNN
 F 3 "" H 3700 2700 50  0001 C CNN
@@ -144,10 +143,10 @@ $EndComp
 Wire Wire Line
 	3400 4450 4300 4450
 $Comp
-L power:+5V #PWR038
+L power:+5V #PWR0407
 U 1 1 5C120788
 P 4700 1050
-F 0 "#PWR038" H 4700 900 50  0001 C CNN
+F 0 "#PWR0407" H 4700 900 50  0001 C CNN
 F 1 "+5V" H 4715 1223 50  0000 C CNN
 F 2 "" H 4700 1050 50  0001 C CNN
 F 3 "" H 4700 1050 50  0001 C CNN
@@ -173,10 +172,10 @@ Wire Wire Line
 Wire Wire Line
 	3700 2700 3700 3100
 $Comp
-L bryggan:quad_and U6
+L bryggan:quad_and U402
 U 1 1 5C93A178
 P 4700 3150
-F 0 "U6" H 4700 3475 50  0000 C CNN
+F 0 "U402" H 4700 3475 50  0000 C CNN
 F 1 "quad_and" H 4700 3384 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4700 3150 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf" H 4700 3150 50  0001 C CNN
@@ -184,10 +183,10 @@ F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms
 	1    0    0    -1  
 $EndComp
 $Comp
-L bryggan:quad_and U6
+L bryggan:quad_and U402
 U 2 1 5C93A299
 P 4700 4250
-F 0 "U6" H 4700 4575 50  0000 C CNN
+F 0 "U402" H 4700 4575 50  0000 C CNN
 F 1 "quad_and" H 4700 4484 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4700 4250 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf" H 4700 4250 50  0001 C CNN
@@ -195,10 +194,10 @@ F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms
 	1    0    0    -1  
 $EndComp
 $Comp
-L bryggan:quad_and U6
+L bryggan:quad_and U402
 U 4 1 5C93A370
 P 4700 4950
-F 0 "U6" H 4700 5275 50  0000 C CNN
+F 0 "U402" H 4700 5275 50  0000 C CNN
 F 1 "quad_and" H 4700 5184 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4700 4950 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf" H 4700 4950 50  0001 C CNN
@@ -206,10 +205,10 @@ F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms
 	1    0    0    -1  
 $EndComp
 $Comp
-L bryggan:quad_and U6
+L bryggan:quad_and U402
 U 5 1 5C93A40E
 P 4700 1800
-F 0 "U6" H 4930 1846 50  0000 L CNN
+F 0 "U402" H 4930 1846 50  0000 L CNN
 F 1 "quad_and" H 4930 1755 50  0000 L CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4700 1800 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf" H 4700 1800 50  0001 C CNN
@@ -231,10 +230,10 @@ Wire Wire Line
 Text HLabel 4750 5450 0    50   Output ~ 0
 error_signal
 $Comp
-L bryggan:quad_and U6
+L bryggan:quad_and U402
 U 3 1 5C93A2FD
 P 5800 1700
-F 0 "U6" H 5800 2025 50  0000 C CNN
+F 0 "U402" H 5800 2025 50  0000 C CNN
 F 1 "quad_and" H 5800 1934 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5800 1700 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf" H 5800 1700 50  0001 C CNN
@@ -246,10 +245,10 @@ SSR1_GPIO_safe
 Text HLabel 5550 4250 2    50   Input ~ 0
 SSR2_GPIO_safe
 $Comp
-L bryggan:R R30
+L bryggan:R R404
 U 1 1 5D61B685
 P 5250 5700
-F 0 "R30" H 5320 5746 50  0000 L CNN
+F 0 "R404" H 5320 5746 50  0000 L CNN
 F 1 "5k6" H 5320 5655 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5180 5700 50  0001 C CNN
 F 3 "" H 5250 5700 50  0001 C CNN
@@ -264,10 +263,10 @@ Connection ~ 5250 5450
 Wire Wire Line
 	5250 5450 5250 5550
 $Comp
-L bryggan:GND #PWR040
+L bryggan:GND #PWR0409
 U 1 1 5D621C34
 P 5250 6000
-F 0 "#PWR040" H 5250 5750 50  0001 C CNN
+F 0 "#PWR0409" H 5250 5750 50  0001 C CNN
 F 1 "GND" H 5255 5827 50  0000 C CNN
 F 2 "" H 5250 6000 50  0001 C CNN
 F 3 "" H 5250 6000 50  0001 C CNN
@@ -277,10 +276,10 @@ $EndComp
 Wire Wire Line
 	5250 5850 5250 6000
 $Comp
-L bryggan:R R31
+L bryggan:R R405
 U 1 1 5D623CDF
 P 5700 5100
-F 0 "R31" H 5770 5146 50  0000 L CNN
+F 0 "R405" H 5770 5146 50  0000 L CNN
 F 1 "240" H 5770 5055 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5630 5100 50  0001 C CNN
 F 3 "" H 5700 5100 50  0001 C CNN
@@ -291,10 +290,10 @@ Wire Wire Line
 	5250 4950 5700 4950
 Connection ~ 5250 4950
 $Comp
-L Device:LED D4
+L Device:LED D401
 U 1 1 5D625162
 P 5700 5700
-F 0 "D4" V 5739 5583 50  0000 R CNN
+F 0 "D401" V 5739 5583 50  0000 R CNN
 F 1 "LED" V 5648 5583 50  0000 R CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 5700 5700 50  0001 C CNN
 F 3 "~" H 5700 5700 50  0001 C CNN
@@ -304,10 +303,10 @@ $EndComp
 Wire Wire Line
 	5700 5250 5700 5550
 $Comp
-L bryggan:GND #PWR041
+L bryggan:GND #PWR0410
 U 1 1 5D62A615
 P 5700 6000
-F 0 "#PWR041" H 5700 5750 50  0001 C CNN
+F 0 "#PWR0410" H 5700 5750 50  0001 C CNN
 F 1 "GND" H 5705 5827 50  0000 C CNN
 F 2 "" H 5700 6000 50  0001 C CNN
 F 3 "" H 5700 6000 50  0001 C CNN
@@ -317,10 +316,10 @@ $EndComp
 Wire Wire Line
 	5700 5850 5700 6000
 $Comp
-L bryggan:R R27
+L bryggan:R R401
 U 1 1 5D694842
 P 3450 5400
-F 0 "R27" H 3520 5446 50  0000 L CNN
+F 0 "R401" H 3520 5446 50  0000 L CNN
 F 1 "100k" H 3520 5355 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3380 5400 50  0001 C CNN
 F 3 "" H 3450 5400 50  0001 C CNN
@@ -328,10 +327,10 @@ F 3 "" H 3450 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L bryggan:R R28
+L bryggan:R R402
 U 1 1 5D696125
 P 3800 5400
-F 0 "R28" H 3870 5446 50  0000 L CNN
+F 0 "R402" H 3870 5446 50  0000 L CNN
 F 1 "100k" H 3870 5355 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3730 5400 50  0001 C CNN
 F 3 "" H 3800 5400 50  0001 C CNN
@@ -339,10 +338,10 @@ F 3 "" H 3800 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L bryggan:GND #PWR032
+L bryggan:GND #PWR0401
 U 1 1 5D6969FD
 P 3450 6000
-F 0 "#PWR032" H 3450 5750 50  0001 C CNN
+F 0 "#PWR0401" H 3450 5750 50  0001 C CNN
 F 1 "GND" H 3455 5827 50  0000 C CNN
 F 2 "" H 3450 6000 50  0001 C CNN
 F 3 "" H 3450 6000 50  0001 C CNN
@@ -350,10 +349,10 @@ F 3 "" H 3450 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L bryggan:GND #PWR037
+L bryggan:GND #PWR0406
 U 1 1 5D6973FC
 P 3800 6000
-F 0 "#PWR037" H 3800 5750 50  0001 C CNN
+F 0 "#PWR0406" H 3800 5750 50  0001 C CNN
 F 1 "GND" H 3805 5827 50  0000 C CNN
 F 2 "" H 3800 6000 50  0001 C CNN
 F 3 "" H 3800 6000 50  0001 C CNN
