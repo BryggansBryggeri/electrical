@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 20
+Sheet 2 25
 Title "Temperature sensor interface"
 Date "2019-03-20"
 Rev "1.1"

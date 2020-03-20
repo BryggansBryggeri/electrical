@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 20
+Sheet 8 25
 Title "SSR Driver"
 Date "2019-03-20"
 Rev "1.1"
