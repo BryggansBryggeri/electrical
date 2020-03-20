@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 19
+Sheet 1 20
 Title "Motherboard"
 Date "2019-08-19"
 Rev "1.1"
@@ -57,17 +57,6 @@ NoConn ~ 7600 6000
 NoConn ~ 7600 5500
 NoConn ~ 7600 5400
 NoConn ~ 7600 5300
-$Comp
-L Connector:Conn_01x02_Male J101
-U 1 1 5C09D68A
-P 3900 2600
-F 0 "J101" V 3960 2640 50  0000 L CNN
-F 1 "power_conn" V 4051 2640 50  0000 L CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 3900 2600 50  0001 C CNN
-F 3 "~" H 3900 2600 50  0001 C CNN
-	1    3900 2600
-	0    1    1    0   
-$EndComp
 NoConn ~ 5050 3450
 Text HLabel 3400 3000 0    50   Input ~ 0
 5V+
@@ -669,18 +658,6 @@ F 3 "" H 1650 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 1650 4050
-$Sheet
-S 5050 7050 1550 1350
-U 5E7855D6
-F0 "DAC" 50
-F1 "DAC.sch" 50
-F2 "sda" B R 6600 7200 50 
-F3 "scl" I R 6600 7300 50 
-F4 "A_out" O R 6600 7400 50 
-F5 "B_out" O R 6600 7500 50 
-F6 "C_out" O R 6600 7600 50 
-F7 "D_out" O R 6600 7700 50 
-$EndSheet
 $Comp
 L Connector:Conn_01x08_Male J102
 U 1 1 5E875402
@@ -774,4 +751,152 @@ U 5E91F57E
 F0 "12Vreg" 50
 F1 "12Vreg.sch" 50
 $EndSheet
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5E75ED40
+P 1000 2150
+F 0 "#FLG?" H 1000 2225 50  0001 C CNN
+F 1 "PWR_FLAG" H 1000 2323 50  0000 C CNN
+F 2 "" H 1000 2150 50  0001 C CNN
+F 3 "~" H 1000 2150 50  0001 C CNN
+	1    1000 2150
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+24V #PWR?
+U 1 1 5E762706
+P 1000 2150
+F 0 "#PWR?" H 1000 2000 50  0001 C CNN
+F 1 "+24V" H 1015 2323 50  0000 C CNN
+F 2 "" H 1000 2150 50  0001 C CNN
+F 3 "" H 1000 2150 50  0001 C CNN
+	1    1000 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 5E767D3A
+P 3800 2600
+F 0 "J?" V 3764 2780 50  0000 L CNN
+F 1 "Conn_01x03" V 3673 2780 50  0000 L CNN
+F 2 "" H 3800 2600 50  0001 C CNN
+F 3 "~" H 3800 2600 50  0001 C CNN
+	1    3800 2600
+	0    1    -1   0   
+$EndComp
+$Comp
+L power:+24V #PWR?
+U 1 1 5E77380A
+P 3500 2800
+F 0 "#PWR?" H 3500 2650 50  0001 C CNN
+F 1 "+24V" H 3515 2973 50  0000 C CNN
+F 2 "" H 3500 2800 50  0001 C CNN
+F 3 "" H 3500 2800 50  0001 C CNN
+	1    3500 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 2800 3700 2900
+Wire Wire Line
+	3700 2900 3500 2900
+Wire Wire Line
+	3500 2900 3500 2800
+$Comp
+L Device:CP C?
+U 1 1 5E7879C1
+P 1650 5000
+F 0 "C?" H 1768 5046 50  0000 L CNN
+F 1 "1u" H 1768 4955 50  0000 L CNN
+F 2 "" H 1688 4850 50  0001 C CNN
+F 3 "~" H 1650 5000 50  0001 C CNN
+	1    1650 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E7879C7
+P 2000 5000
+F 0 "C?" H 2115 5046 50  0000 L CNN
+F 1 "10n" H 2115 4955 50  0000 L CNN
+F 2 "" H 2038 4850 50  0001 C CNN
+F 3 "~" H 2000 5000 50  0001 C CNN
+	1    2000 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E7879CD
+P 2350 5000
+F 0 "C?" H 2465 5046 50  0000 L CNN
+F 1 "100p" H 2465 4955 50  0000 L CNN
+F 2 "" H 2388 4850 50  0001 C CNN
+F 3 "~" H 2350 5000 50  0001 C CNN
+	1    2350 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 4850 2000 4850
+Wire Wire Line
+	2000 4850 2350 4850
+Connection ~ 2000 4850
+Wire Wire Line
+	2350 5150 2000 5150
+Wire Wire Line
+	1650 5150 2000 5150
+Connection ~ 2000 5150
+$Comp
+L bryggan:GND #PWR?
+U 1 1 5E7879D9
+P 1650 5150
+F 0 "#PWR?" H 1650 4900 50  0001 C CNN
+F 1 "GND" H 1655 4977 50  0000 C CNN
+F 2 "" H 1650 5150 50  0001 C CNN
+F 3 "" H 1650 5150 50  0001 C CNN
+	1    1650 5150
+	1    0    0    -1  
+$EndComp
+Connection ~ 1650 5150
+$Comp
+L power:+24V #PWR?
+U 1 1 5E78B26F
+P 1650 4850
+F 0 "#PWR?" H 1650 4700 50  0001 C CNN
+F 1 "+24V" H 1665 5023 50  0000 C CNN
+F 2 "" H 1650 4850 50  0001 C CNN
+F 3 "" H 1650 4850 50  0001 C CNN
+	1    1650 4850
+	1    0    0    -1  
+$EndComp
+Connection ~ 1650 4850
+$Sheet
+S 5050 7050 1550 1350
+U 5E7855D6
+F0 "DAC" 50
+F1 "DAC.sch" 50
+F2 "sda" B R 6600 7200 50 
+F3 "scl" I R 6600 7300 50 
+F4 "D_out_10V" O R 6600 7700 50 
+F5 "C_out_10V" O R 6600 7600 50 
+F6 "B_out_10V" O R 6600 7500 50 
+F7 "A_out_10V" O R 6600 7400 50 
+F8 "D_out_20mA_low" I L 5050 8000 50 
+F9 "C_out_20mA_low" I L 5050 7800 50 
+F10 "B_out_20mA_low" I L 5050 7600 50 
+F11 "A_out_20mA_low" I L 5050 7400 50 
+F12 "A_out_20mA_high" O L 5050 7300 50 
+F13 "B_out_20mA_high" O L 5050 7500 50 
+F14 "C_out_20mA_high" O L 5050 7700 50 
+F15 "D_out_20mA_high" O L 5050 7900 50 
+$EndSheet
+$Comp
+L Connector:Conn_01x08_Male J?
+U 1 1 5E8FD9E9
+P 4850 7600
+F 0 "J?" V 4777 7528 50  0000 C CNN
+F 1 "24VDC_connector" V 4686 7528 50  0000 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-8-5.08_1x08_P5.08mm_Horizontal" H 4850 7600 50  0001 C CNN
+F 3 "~" H 4850 7600 50  0001 C CNN
+	1    4850 7600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
