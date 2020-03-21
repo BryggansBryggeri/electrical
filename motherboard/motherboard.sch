@@ -510,13 +510,13 @@ F 3 "~" H 7750 6000 50  0001 C CNN
 	1    7750 6000
 	-1   0    0    -1  
 $EndComp
-Text Label 14600 3000 0    50   ~ 0
+Text Label 14600 3300 0    50   ~ 0
 extra_2_ind
-Text Label 14600 2700 0    50   ~ 0
+Text Label 14600 3000 0    50   ~ 0
 extra_1_ind
 Text Label 14600 3400 0    50   ~ 0
 extra_2_enclosure
-Text Label 14600 2800 0    50   ~ 0
+Text Label 14600 3100 0    50   ~ 0
 extra_1_enclosure
 Text Label 13200 7850 0    50   ~ 0
 extra_2_enclosure
