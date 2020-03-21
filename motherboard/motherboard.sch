@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:motherboard-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 25
+Sheet 1 24
 Title "Motherboard"
 Date "2019-08-19"
 Rev "1.1"
@@ -579,25 +580,25 @@ F3 "relay_3_in" I L 13250 4550 50
 F4 "relay_2_in" I L 13250 4250 50 
 F5 "relay_1_in" I L 13250 3950 50 
 F6 "SSR_1_in" I L 13250 3300 50 
-F7 "SSR_1_indicator" I R 14600 3300 50 
-F8 "SSR_2_indicator" I R 14600 3650 50 
-F9 "relay_1_indicator" I R 14600 3950 50 
-F10 "relay_2_indicator" I R 14600 4250 50 
-F11 "relay_3_indicator" I R 14600 4550 50 
-F12 "relay_4_indicator" I R 14600 4850 50 
-F13 "SSR_1_drain" I R 14600 3450 50 
-F14 "relay_1_drain" I R 14600 4050 50 
-F15 "relay_2_drain" I R 14600 4350 50 
-F16 "relay_3_drain" I R 14600 4650 50 
-F17 "relay_4_drain" I R 14600 4950 50 
-F18 "SSR_2_in" I L 13250 3600 50 
-F19 "SSR_2_drain" I R 14600 3750 50 
-F20 "extra_1_in" I L 13250 2700 50 
-F21 "extra_2_in" I L 13250 3000 50 
-F22 "extra_1_indicator" O R 14600 2700 50 
-F23 "extra_2_indicator" O R 14600 3000 50 
-F24 "extra_1_drain" I R 14600 2800 50 
-F25 "extra_2_drain" I R 14600 3100 50 
+F7 "SSR_1_drain" I R 14600 3450 50 
+F8 "relay_1_drain" I R 14600 4050 50 
+F9 "relay_2_drain" I R 14600 4350 50 
+F10 "relay_3_drain" I R 14600 4650 50 
+F11 "relay_4_drain" I R 14600 4950 50 
+F12 "SSR_2_in" I L 13250 3600 50 
+F13 "SSR_2_drain" I R 14600 3750 50 
+F14 "extra_1_in" I L 13250 2700 50 
+F15 "extra_2_in" I L 13250 3000 50 
+F16 "extra_1_indicator" O R 14600 2700 50 
+F17 "extra_2_indicator" O R 14600 3000 50 
+F18 "extra_1_drain" I R 14600 2800 50 
+F19 "extra_2_drain" I R 14600 3100 50 
+F20 "SSR_1_indicator" O R 14600 3300 50 
+F21 "relay_1_indicator" O R 14600 3950 50 
+F22 "relay_2_indicator" O R 14600 4250 50 
+F23 "SSR_2_indicator" O R 14600 3650 50 
+F24 "relay_3_indicator" O R 14600 4550 50 
+F25 "relay_4_indicator" O R 14600 4850 50 
 $EndSheet
 Wire Wire Line
 	11100 3300 13250 3300

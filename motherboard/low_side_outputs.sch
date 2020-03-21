@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:motherboard-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 25
+Sheet 7 24
 Title ""
 Date ""
 Rev "1.1"
@@ -39,9 +40,9 @@ Text HLabel 2750 950  0    50   Input ~ 0
 SSR_1_in
 Text HLabel 6900 2500 2    50   Output ~ 0
 SSR_1_indicator
-Text HLabel 6900 3650 2    50   Input ~ 0
+Text HLabel 6900 3650 2    50   Output ~ 0
 relay_1_indicator
-Text HLabel 6900 3750 2    50   Input ~ 0
+Text HLabel 6900 3750 2    50   Output ~ 0
 relay_2_indicator
 Text HLabel 4150 1150 2    50   Input ~ 0
 SSR_1_drain
@@ -249,36 +250,6 @@ Wire Wire Line
 	4150 1000 5350 1000
 Wire Wire Line
 	5250 2600 5550 2600
-$Sheet
-S 5550 2250 1350 850 
-U 5D66D499
-F0 "SSR_1_2_comparator" 50
-F1 "comparator.sch" 50
-F2 "indicator_1_out" I R 6900 2500 50 
-F3 "indicator_2_out" I R 6900 2600 50 
-F4 "reference_voltage" I L 5550 3000 50 
-F5 "sense_1_in" I L 5550 2500 50 
-F6 "sense_2_in" I L 5550 2600 50 
-F7 "sense_3_in" I L 5550 2700 50 
-F8 "sense_4_in" I L 5550 2800 50 
-F9 "indicator_4_out" I R 6900 2800 50 
-F10 "indicator_3_out" I R 6900 2700 50 
-$EndSheet
-$Sheet
-S 5550 3400 1350 850 
-U 5D7EF009
-F0 "relay_comparator" 50
-F1 "comparator.sch" 50
-F2 "sense_1_in" I L 5550 3650 50 
-F3 "sense_2_in" I L 5550 3750 50 
-F4 "indicator_1_out" I R 6900 3650 50 
-F5 "indicator_2_out" I R 6900 3750 50 
-F6 "reference_voltage" I L 5550 4150 50 
-F7 "sense_3_in" I L 5550 3850 50 
-F8 "sense_4_in" I L 5550 3950 50 
-F9 "indicator_4_out" I R 6900 3850 50 
-F10 "indicator_3_out" I R 6900 3950 50 
-$EndSheet
 Wire Wire Line
 	5350 3000 5350 4150
 Wire Wire Line
@@ -292,9 +263,9 @@ Wire Wire Line
 	4750 3850 4750 5200
 Wire Wire Line
 	5350 4150 5350 5700
-Text HLabel 6900 3850 2    50   Input ~ 0
+Text HLabel 6900 3850 2    50   Output ~ 0
 relay_3_indicator
-Text HLabel 6900 3950 2    50   Input ~ 0
+Text HLabel 6900 3950 2    50   Output ~ 0
 relay_4_indicator
 $Sheet
 S 2750 2200 1400 450 
@@ -399,4 +370,34 @@ Text HLabel 4150 2550 2    50   Input ~ 0
 extra_1_drain
 Text HLabel 4150 3250 2    50   Input ~ 0
 extra_2_drain
+$Sheet
+S 5550 2250 1350 850 
+U 5D66D499
+F0 "SSR_1_2_comparator" 50
+F1 "comparator.sch" 50
+F2 "reference_voltage" I L 5550 3000 50 
+F3 "sense_1_in" I L 5550 2500 50 
+F4 "sense_2_in" I L 5550 2600 50 
+F5 "sense_3_in" I L 5550 2700 50 
+F6 "sense_4_in" I L 5550 2800 50 
+F7 "indicator_1_out" O R 6900 2500 50 
+F8 "indicator_2_out" O R 6900 2600 50 
+F9 "indicator_4_out" O R 6900 2700 50 
+F10 "indicator_3_out" O R 6900 2800 50 
+$EndSheet
+$Sheet
+S 5550 3400 1350 850 
+U 5D7EF009
+F0 "relay_comparator" 50
+F1 "comparator.sch" 50
+F2 "sense_1_in" I L 5550 3650 50 
+F3 "sense_2_in" I L 5550 3750 50 
+F4 "reference_voltage" I L 5550 4150 50 
+F5 "sense_3_in" I L 5550 3850 50 
+F6 "sense_4_in" I L 5550 3950 50 
+F7 "indicator_1_out" O R 6900 3650 50 
+F8 "indicator_2_out" O R 6900 3750 50 
+F9 "indicator_4_out" O R 6900 3850 50 
+F10 "indicator_3_out" O R 6900 3950 50 
+$EndSheet
 $EndSCHEMATC

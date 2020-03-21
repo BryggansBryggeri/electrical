@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:motherboard-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 25
+Sheet 16 24
 Title ""
 Date "2019-03-20"
 Rev "1.1"
@@ -139,9 +140,9 @@ Text Notes 4500 2000 0    50   ~ 0
 Indicating that the SSR's are firing.\nCompares the actual 24V signal to the SSR's.\nI.e. float switch behaviour is taken into account. 
 Text Notes 4700 1400 0    50   ~ 0
 TODO: add LED here for debug?
-Text HLabel 6650 2550 2    50   Input ~ 0
+Text HLabel 6650 2550 2    50   Output ~ 0
 indicator_1_out
-Text HLabel 6650 3650 2    50   Input ~ 0
+Text HLabel 6650 3650 2    50   Output ~ 0
 indicator_2_out
 $Comp
 L power:+5V #PWR?
@@ -343,7 +344,7 @@ Wire Wire Line
 	5800 4450 5950 4450
 Wire Wire Line
 	6450 4450 6650 4450
-Text HLabel 6650 5550 2    50   Input ~ 0
+Text HLabel 6650 5550 2    50   Output ~ 0
 indicator_4_out
 Text HLabel 3800 4650 0    50   Input ~ 0
 reference_voltage
@@ -400,7 +401,7 @@ Wire Wire Line
 Wire Wire Line
 	9400 3900 9050 3900
 Connection ~ 9050 3900
-Text HLabel 6650 4450 2    50   Input ~ 0
+Text HLabel 6650 4450 2    50   Output ~ 0
 indicator_3_out
 $Comp
 L Device:LED D901
