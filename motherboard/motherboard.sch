@@ -514,26 +514,20 @@ Text Label 14600 3000 0    50   ~ 0
 extra_2_ind
 Text Label 14600 2700 0    50   ~ 0
 extra_1_ind
-Text Label 14600 3100 0    50   ~ 0
+Text Label 14600 3400 0    50   ~ 0
 extra_2_enclosure
 Text Label 14600 2800 0    50   ~ 0
 extra_1_enclosure
-Text Label 13300 6450 0    50   ~ 0
+Text Label 13200 7850 0    50   ~ 0
 extra_2_enclosure
-Text Label 13300 6350 0    50   ~ 0
+Text Label 13200 7750 0    50   ~ 0
 extra_1_enclosure
 Wire Wire Line
-	11300 3000 13250 3000
+	11300 3300 13250 3300
 Wire Wire Line
-	11300 6150 11300 3000
+	11250 3000 11250 6000
 Wire Wire Line
-	9550 6150 11300 6150
-Wire Wire Line
-	11250 6000 9550 6000
-Wire Wire Line
-	11250 2700 11250 6000
-Wire Wire Line
-	13250 2700 11250 2700
+	13250 3000 11250 3000
 Text Label 9550 7350 0    50   ~ 0
 extra_2_ind
 Text Label 9550 7200 0    50   ~ 0
@@ -563,47 +557,47 @@ F18 "extra_2_ind" I R 9550 7350 50
 F19 "extra_1_ind" I R 9550 7200 50 
 $EndSheet
 $Sheet
-S 13250 2500 1350 2550
+S 13250 2800 1350 2550
 U 5D63C483
 F0 "low_side_outputs" 50
 F1 "low_side_outputs.sch" 50
-F2 "relay_4_in" I L 13250 4850 50 
-F3 "relay_3_in" I L 13250 4550 50 
-F4 "relay_2_in" I L 13250 4250 50 
-F5 "relay_1_in" I L 13250 3950 50 
-F6 "SSR_1_in" I L 13250 3300 50 
-F7 "SSR_1_drain" I R 14600 3450 50 
-F8 "relay_1_drain" I R 14600 4050 50 
-F9 "relay_2_drain" I R 14600 4350 50 
-F10 "relay_3_drain" I R 14600 4650 50 
-F11 "relay_4_drain" I R 14600 4950 50 
-F12 "SSR_2_in" I L 13250 3600 50 
-F13 "SSR_2_drain" I R 14600 3750 50 
-F14 "extra_1_in" I L 13250 2700 50 
-F15 "extra_2_in" I L 13250 3000 50 
-F16 "extra_1_indicator" O R 14600 2700 50 
-F17 "extra_2_indicator" O R 14600 3000 50 
-F18 "extra_1_drain" I R 14600 2800 50 
-F19 "extra_2_drain" I R 14600 3100 50 
-F20 "SSR_1_indicator" O R 14600 3300 50 
-F21 "relay_1_indicator" O R 14600 3950 50 
-F22 "relay_2_indicator" O R 14600 4250 50 
-F23 "SSR_2_indicator" O R 14600 3650 50 
-F24 "relay_3_indicator" O R 14600 4550 50 
-F25 "relay_4_indicator" O R 14600 4850 50 
+F2 "relay_4_in" I L 13250 5150 50 
+F3 "relay_3_in" I L 13250 4850 50 
+F4 "relay_2_in" I L 13250 4550 50 
+F5 "relay_1_in" I L 13250 4250 50 
+F6 "SSR_1_in" I L 13250 3600 50 
+F7 "SSR_1_drain" I R 14600 3750 50 
+F8 "relay_1_drain" I R 14600 4350 50 
+F9 "relay_2_drain" I R 14600 4650 50 
+F10 "relay_3_drain" I R 14600 4950 50 
+F11 "relay_4_drain" I R 14600 5250 50 
+F12 "SSR_2_in" I L 13250 3900 50 
+F13 "SSR_2_drain" I R 14600 4050 50 
+F14 "extra_1_in" I L 13250 3000 50 
+F15 "extra_2_in" I L 13250 3300 50 
+F16 "extra_1_indicator" O R 14600 3000 50 
+F17 "extra_2_indicator" O R 14600 3300 50 
+F18 "extra_1_drain" I R 14600 3100 50 
+F19 "extra_2_drain" I R 14600 3400 50 
+F20 "SSR_1_indicator" O R 14600 3600 50 
+F21 "relay_1_indicator" O R 14600 4250 50 
+F22 "relay_2_indicator" O R 14600 4550 50 
+F23 "SSR_2_indicator" O R 14600 3950 50 
+F24 "relay_3_indicator" O R 14600 4850 50 
+F25 "relay_4_indicator" O R 14600 5150 50 
 $EndSheet
 Wire Wire Line
-	11100 3300 13250 3300
-Wire Wire Line
-	11200 4850 13250 4850
-Wire Wire Line
-	11150 4550 13250 4550
-Wire Wire Line
-	11100 4250 13250 4250
-Wire Wire Line
-	11050 3950 13250 3950
-Wire Wire Line
 	11100 3600 13250 3600
+Wire Wire Line
+	11200 5150 13250 5150
+Wire Wire Line
+	11150 4850 13250 4850
+Wire Wire Line
+	11100 4550 13250 4550
+Wire Wire Line
+	11050 4250 13250 4250
+Wire Wire Line
+	11100 3900 13250 3900
 Text Label 9550 7050 0    50   ~ 0
 relay_4_ind
 Text Label 9550 6900 0    50   ~ 0
@@ -616,66 +610,38 @@ Text Label 9550 6450 0    50   ~ 0
 SSR_2_ind
 Text Label 9550 6300 0    50   ~ 0
 SSR_1_ind
-Text Label 14600 4850 0    50   ~ 0
+Text Label 14600 5150 0    50   ~ 0
 relay_4_ind
-Text Label 14600 4550 0    50   ~ 0
+Text Label 14600 4850 0    50   ~ 0
 relay_3_ind
-Text Label 14600 4250 0    50   ~ 0
+Text Label 14600 4550 0    50   ~ 0
 relay_2_ind
-Text Label 14600 3950 0    50   ~ 0
+Text Label 14600 4250 0    50   ~ 0
 relay_1_ind
-Text Label 14600 3650 0    50   ~ 0
+Text Label 14600 3950 0    50   ~ 0
 SSR_2_ind
-Text Label 14600 3300 0    50   ~ 0
+Text Label 14600 3600 0    50   ~ 0
 SSR_1_ind
 Wire Wire Line
-	11200 5850 11200 4850
-Wire Wire Line
-	9550 5850 11200 5850
-Wire Wire Line
-	11150 5700 11150 4550
-Wire Wire Line
-	9550 5700 11150 5700
-Wire Wire Line
-	11100 5550 11100 4250
-Wire Wire Line
-	9550 5550 11100 5550
-Wire Wire Line
-	11050 5400 11050 3950
-Wire Wire Line
-	9550 5400 11050 5400
-Wire Wire Line
-	9800 3600 9850 3600
-Wire Wire Line
-	9800 5250 9800 3600
+	9800 3900 9850 3900
 Wire Wire Line
 	9550 5250 9800 5250
 Wire Wire Line
-	9700 3300 9850 3300
-Wire Wire Line
-	9700 5100 9700 3300
-Wire Wire Line
-	9550 5100 9700 5100
+	9700 3600 9850 3600
 NoConn ~ 7700 3200
 NoConn ~ 7700 3300
 NoConn ~ 7700 3500
 NoConn ~ 7700 4000
-Wire Wire Line
-	8500 3800 9850 3800
-Wire Wire Line
-	8500 4100 8500 3800
-Wire Wire Line
-	7700 4100 8500 4100
 $Sheet
-S 9850 3150 1250 750 
+S 9850 3450 1250 750 
 U 5D5AE47C
 F0 "SSR_interface" 50
 F1 "SSR_interface.sch" 50
-F2 "SSR1_GPIO" I L 9850 3300 50 
-F3 "SSR2_GPIO" I L 9850 3600 50 
-F4 "error_signal" O L 9850 3800 50 
-F5 "SSR1_GPIO_safe" O R 11100 3300 50 
-F6 "SSR2_GPIO_safe" O R 11100 3600 50 
+F2 "SSR1_GPIO" I L 9850 3600 50 
+F3 "SSR2_GPIO" I L 9850 3900 50 
+F4 "error_signal" O L 9850 4100 50 
+F5 "SSR1_GPIO_safe" O R 11100 3600 50 
+F6 "SSR2_GPIO_safe" O R 11100 3900 50 
 $EndSheet
 Wire Wire Line
 	8100 5250 8200 5250
@@ -685,29 +651,29 @@ Wire Wire Line
 	8150 5100 8200 5100
 Wire Wire Line
 	8150 1300 8150 5100
-Text Label 14600 4950 0    50   ~ 0
+Text Label 14600 5250 0    50   ~ 0
 relay_4_enclosure
+Text Label 14600 4950 0    50   ~ 0
+relay_3_enclosure
 Text Label 14600 4650 0    50   ~ 0
-relay_3_enclosure
+relay_2_enclosure
 Text Label 14600 4350 0    50   ~ 0
-relay_2_enclosure
+relay_1_enclosure
 Text Label 14600 4050 0    50   ~ 0
-relay_1_enclosure
+SSR_2_enclosure
+Text Label 13200 7250 0    50   ~ 0
+SSR_2_enclosure
 Text Label 14600 3750 0    50   ~ 0
-SSR_2_enclosure
-Text Label 13300 5850 0    50   ~ 0
-SSR_2_enclosure
-Text Label 14600 3450 0    50   ~ 0
 SSR_1_enclosure
-Text Label 13300 5750 0    50   ~ 0
+Text Label 13200 7150 0    50   ~ 0
 SSR_1_enclosure
-Text Label 13300 5950 0    50   ~ 0
+Text Label 13200 7350 0    50   ~ 0
 relay_1_enclosure
-Text Label 13300 6050 0    50   ~ 0
+Text Label 13200 7450 0    50   ~ 0
 relay_2_enclosure
-Text Label 13300 6150 0    50   ~ 0
+Text Label 13200 7550 0    50   ~ 0
 relay_3_enclosure
-Text Label 13300 6250 0    50   ~ 0
+Text Label 13200 7650 0    50   ~ 0
 relay_4_enclosure
 Wire Wire Line
 	10450 1650 9600 1650
@@ -790,12 +756,12 @@ $EndComp
 $Comp
 L Connector:Conn_01x08_Male J105
 U 1 1 5D5682CF
-P 13100 6050
-F 0 "J105" V 13027 5978 50  0000 C CNN
-F 1 "24VDC_connector" V 12936 5978 50  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-8-5.08_1x08_P5.08mm_Horizontal" H 13100 6050 50  0001 C CNN
-F 3 "~" H 13100 6050 50  0001 C CNN
-	1    13100 6050
+P 13000 7450
+F 0 "J105" V 12927 7378 50  0000 C CNN
+F 1 "24VDC_connector" V 12836 7378 50  0000 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-8-5.08_1x08_P5.08mm_Horizontal" H 13000 7450 50  0001 C CNN
+F 3 "~" H 13000 7450 50  0001 C CNN
+	1    13000 7450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -883,4 +849,34 @@ U 5E942055
 F0 "Analog inputs" 50
 F1 "analog_inputs.sch" 50
 $EndSheet
+Wire Wire Line
+	9800 5250 9800 3900
+Wire Wire Line
+	7700 4100 9850 4100
+Wire Wire Line
+	9550 5100 9700 5100
+Wire Wire Line
+	9700 5100 9700 3600
+Wire Wire Line
+	9550 5400 11050 5400
+Wire Wire Line
+	11050 5400 11050 4250
+Wire Wire Line
+	9550 5550 11100 5550
+Wire Wire Line
+	11100 5550 11100 4550
+Wire Wire Line
+	11150 5700 11150 4850
+Wire Wire Line
+	11200 5850 11200 5150
+Wire Wire Line
+	11300 6150 11300 3300
+Wire Wire Line
+	9550 6150 11300 6150
+Wire Wire Line
+	9550 6000 11250 6000
+Wire Wire Line
+	9550 5850 11200 5850
+Wire Wire Line
+	9550 5700 11150 5700
 $EndSCHEMATC

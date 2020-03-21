@@ -169,17 +169,6 @@ Wire Wire Line
 	1350 6000 1350 5900
 Text Notes 650  5100 0    50   ~ 0
 TODO: Calc. filter
-$Comp
-L bryggan:+5V U2101
-U 1 1 5E7E6DDD
-P 3300 5200
-F 0 "U2101" H 3358 5233 50  0000 L CNN
-F 1 "+5V" H 3358 5142 50  0000 L CNN
-F 2 "" H 3300 5200 50  0001 C CNN
-F 3 "" H 3300 5200 50  0001 C CNN
-	1    3300 5200
-	1    0    0    -1  
-$EndComp
 Text Label 2850 5400 0    50   ~ 0
 Vref_inter
 $Comp
@@ -325,4 +314,15 @@ $EndComp
 Connection ~ 1350 6600
 Wire Wire Line
 	1350 6600 1450 6600
+$Comp
+L power:+5V #PWR02107
+U 1 1 5E8CD75F
+P 3300 5250
+F 0 "#PWR02107" H 3300 5100 50  0001 C CNN
+F 1 "+5V" H 3315 5423 50  0000 C CNN
+F 2 "" H 3300 5250 50  0001 C CNN
+F 3 "" H 3300 5250 50  0001 C CNN
+	1    3300 5250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
