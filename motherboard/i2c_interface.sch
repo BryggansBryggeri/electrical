@@ -33,13 +33,13 @@ Text HLabel 7550 3350 2    50   Input ~ 0
 SSR_1_i2c_ind
 Text HLabel 7550 3450 2    50   Input ~ 0
 SSR_2_i2c_ind
-Text HLabel 7550 3550 2    50   Input ~ 0
-relay_1_i2c_ind
-Text HLabel 7550 3650 2    50   Input ~ 0
-relay_2_i2c_ind
 Text HLabel 7550 3750 2    50   Input ~ 0
-relay_3_i2c_ind
+relay_1_i2c_ind
 Text HLabel 7550 3850 2    50   Input ~ 0
+relay_2_i2c_ind
+Text HLabel 7550 3950 2    50   Input ~ 0
+relay_3_i2c_ind
+Text HLabel 7550 4050 2    50   Input ~ 0
 relay_4_i2c_ind
 $Comp
 L power:+5V #PWR01603
@@ -355,9 +355,9 @@ F 3 "~" H 3750 4050 50  0001 C CNN
 	1    3750 4050
 	1    0    0    1   
 $EndComp
-Text HLabel 7550 4050 2    50   Input ~ 0
+Text HLabel 7550 3650 2    50   Input ~ 0
 extra_2_ind
-Text HLabel 7550 3950 2    50   Input ~ 0
+Text HLabel 7550 3550 2    50   Input ~ 0
 extra_1_ind
 $Comp
 L bryggan:GND #PWR01609
@@ -422,17 +422,17 @@ F 3 "" H 5850 4650 50  0001 C CNN
 	1    5850 4650
 	1    0    0    -1  
 $EndComp
-Text HLabel 7550 4950 2    50   Output ~ 0
-extra_2_out
-Text HLabel 7550 4850 2    50   Output ~ 0
-extra_1_out
-Text HLabel 7550 4750 2    50   Output ~ 0
-relay_4_i2c_out
-Text HLabel 7550 4650 2    50   Output ~ 0
-relay_3_i2c_out
 Text HLabel 7550 4550 2    50   Output ~ 0
-relay_2_i2c_out
+extra_2_out
 Text HLabel 7550 4450 2    50   Output ~ 0
+extra_1_out
+Text HLabel 7550 4950 2    50   Output ~ 0
+relay_4_i2c_out
+Text HLabel 7550 4850 2    50   Output ~ 0
+relay_3_i2c_out
+Text HLabel 7550 4750 2    50   Output ~ 0
+relay_2_i2c_out
+Text HLabel 7550 4650 2    50   Output ~ 0
 relay_1_i2c_out
 Text HLabel 7550 4350 2    50   Output ~ 0
 SSR_2_i2c_out
