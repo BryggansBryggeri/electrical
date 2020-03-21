@@ -518,9 +518,9 @@ Text Label 14600 3400 0    50   ~ 0
 extra_2_enclosure
 Text Label 14600 3100 0    50   ~ 0
 extra_1_enclosure
-Text Label 13200 7850 0    50   ~ 0
+Text Label 13200 7450 0    50   ~ 0
 extra_2_enclosure
-Text Label 13200 7750 0    50   ~ 0
+Text Label 13200 7350 0    50   ~ 0
 extra_1_enclosure
 Wire Wire Line
 	11300 3300 13250 3300
@@ -667,13 +667,13 @@ Text Label 14600 3750 0    50   ~ 0
 SSR_1_enclosure
 Text Label 13200 7150 0    50   ~ 0
 SSR_1_enclosure
-Text Label 13200 7350 0    50   ~ 0
-relay_1_enclosure
-Text Label 13200 7450 0    50   ~ 0
-relay_2_enclosure
 Text Label 13200 7550 0    50   ~ 0
-relay_3_enclosure
+relay_1_enclosure
 Text Label 13200 7650 0    50   ~ 0
+relay_2_enclosure
+Text Label 13200 7750 0    50   ~ 0
+relay_3_enclosure
+Text Label 13200 7850 0    50   ~ 0
 relay_4_enclosure
 Wire Wire Line
 	10450 1650 9600 1650
