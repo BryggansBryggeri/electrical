@@ -241,9 +241,9 @@ F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms
 	3    5800 1700
 	1    0    0    -1  
 $EndComp
-Text HLabel 5550 3150 2    50   Input ~ 0
+Text HLabel 5550 3150 2    50   Output ~ 0
 SSR1_GPIO_safe
-Text HLabel 5550 4250 2    50   Input ~ 0
+Text HLabel 5550 4250 2    50   Output ~ 0
 SSR2_GPIO_safe
 $Comp
 L bryggan:R R404
