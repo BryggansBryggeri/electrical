@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 24
+Sheet 1 25
 Title "Motherboard"
 Date "2019-08-19"
 Rev "1.1"
@@ -631,7 +631,6 @@ Wire Wire Line
 NoConn ~ 7700 3200
 NoConn ~ 7700 3300
 NoConn ~ 7700 3500
-NoConn ~ 7700 4000
 $Sheet
 S 9850 3450 1250 750 
 U 5D5AE47C
@@ -879,4 +878,48 @@ Wire Wire Line
 	9550 5850 11200 5850
 Wire Wire Line
 	9550 5700 11150 5700
+$Sheet
+S 8400 3250 1050 650 
+U 5E9EF063
+F0 "Safety stop" 50
+F1 "low_side_driver.sch" 50
+F2 "sig_in" I L 8400 3350 50 
+F3 "drain" I R 9450 3350 50 
+F4 "indicator" O R 9450 3450 50 
+$EndSheet
+NoConn ~ 9450 3450
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5E9F61CA
+P 9950 3100
+F 0 "J?" H 10030 3092 50  0000 L CNN
+F 1 "Safety stop" H 10030 3001 50  0000 L CNN
+F 2 "" H 9950 3100 50  0001 C CNN
+F 3 "~" H 9950 3100 50  0001 C CNN
+	1    9950 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+24V #PWR?
+U 1 1 5E9FA5DA
+P 9750 3100
+F 0 "#PWR?" H 9750 2950 50  0001 C CNN
+F 1 "+24V" V 9765 3228 50  0000 L CNN
+F 2 "" H 9750 3100 50  0001 C CNN
+F 3 "" H 9750 3100 50  0001 C CNN
+	1    9750 3100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9600 3350 9600 3200
+Wire Wire Line
+	9600 3200 9750 3200
+Wire Wire Line
+	9450 3350 9600 3350
+Wire Wire Line
+	7700 4000 7900 4000
+Wire Wire Line
+	7900 4000 7900 3350
+Wire Wire Line
+	7900 3350 8400 3350
 $EndSCHEMATC
