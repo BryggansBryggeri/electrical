@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 16 24
+Sheet 6 24
 Title ""
 Date ""
 Rev "1.1"
@@ -381,12 +381,12 @@ Wire Wire Line
 $Comp
 L power:+5V #PWR01607
 U 1 1 5D84FBF1
-P 5300 4000
-F 0 "#PWR01607" H 5300 3850 50  0001 C CNN
-F 1 "+5V" H 5315 4173 50  0000 C CNN
-F 2 "" H 5300 4000 50  0001 C CNN
-F 3 "" H 5300 4000 50  0001 C CNN
-	1    5300 4000
+P 5100 4000
+F 0 "#PWR01607" H 5100 3850 50  0001 C CNN
+F 1 "+5V" H 5115 4173 50  0000 C CNN
+F 2 "" H 5100 4000 50  0001 C CNN
+F 3 "" H 5100 4000 50  0001 C CNN
+	1    5100 4000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -404,21 +404,8 @@ F 3 "" H 5850 4500 50  0001 C CNN
 	1    5850 4500
 	1    0    0    -1  
 $EndComp
-$Comp
-L Jumper:Jumper_2_Open JP1601
-U 1 1 5E77B2F1
-P 5650 4100
-F 0 "JP1601" H 5650 4335 50  0000 C CNN
-F 1 "Jumper_2_Open" H 5650 4244 50  0000 C CNN
-F 2 "" H 5650 4100 50  0001 C CNN
-F 3 "~" H 5650 4100 50  0001 C CNN
-	1    5650 4100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	5300 4000 5300 4100
-Wire Wire Line
-	5300 4100 5450 4100
+	5100 4000 5100 4100
 Wire Wire Line
 	5850 4100 5850 4250
 Wire Wire Line
@@ -451,4 +438,17 @@ Text HLabel 7550 3450 2    50   Output ~ 0
 SSR_2_i2c_out
 Text HLabel 7550 3350 2    50   Output ~ 0
 SSR_1_i2c_out
+$Comp
+L Device:Jumper JP?
+U 1 1 5E7C25B3
+P 5550 4100
+F 0 "JP?" H 5550 4364 50  0000 C CNN
+F 1 "Jumper" H 5550 4273 50  0000 C CNN
+F 2 "" H 5550 4100 50  0001 C CNN
+F 3 "~" H 5550 4100 50  0001 C CNN
+	1    5550 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 4100 5250 4100
 $EndSCHEMATC

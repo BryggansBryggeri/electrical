@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 18 24
+Sheet 3 24
 Title ""
 Date ""
 Rev ""
@@ -352,4 +352,6 @@ Text HLabel 7050 5550 2    50   Output ~ 0
 C_out_20mA_high
 Text HLabel 7050 5750 2    50   Output ~ 0
 D_out_20mA_high
+Text Notes 2950 3200 0    50   ~ 0
+TODO: Do we need level converter?
 $EndSCHEMATC

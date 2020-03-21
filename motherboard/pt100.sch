@@ -87,4 +87,6 @@ Wire Wire Line
 	4150 1450 4100 1450
 Wire Wire Line
 	3800 1450 3550 1450
+Text Notes 3200 1150 0    50   ~ 0
+PT100: 100-150ohm for 0C to approx 130C
 $EndSCHEMATC
