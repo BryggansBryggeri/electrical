@@ -14,79 +14,1298 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L bryggan:R R2201
-U 1 1 59C9D839
-P 3550 1700
-F 0 "R2201" H 3620 1746 50  0000 L CNN
-F 1 "R" H 3620 1655 50  0000 L CNN
-F 2 "" V 3480 1700 50  0001 C CNN
-F 3 "" H 3550 1700 50  0001 C CNN
-	1    3550 1700
-	1    0    0    -1  
-$EndComp
-$Comp
-L bryggan:R R2203
-U 1 1 59C9D9AD
-P 3950 1450
-F 0 "R2203" H 4020 1496 50  0000 L CNN
-F 1 "R" H 4020 1405 50  0000 L CNN
-F 2 "" V 3880 1450 50  0001 C CNN
-F 3 "" H 3950 1450 50  0001 C CNN
-	1    3950 1450
-	0    -1   -1   0   
-$EndComp
-$Comp
-L bryggan:R R2202
-U 1 1 59C9DA7C
-P 3550 2200
-F 0 "R2202" H 3620 2246 50  0000 L CNN
-F 1 "R" H 3620 2155 50  0000 L CNN
-F 2 "" V 3480 2200 50  0001 C CNN
-F 3 "" H 3550 2200 50  0001 C CNN
-	1    3550 2200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3550 1450 3550 1550
-Text HLabel 3750 1450 1    50   Input ~ 0
-Vref
-Text HLabel 4150 1450 2    50   Output ~ 0
-A
-Text HLabel 4150 2450 2    50   Output ~ 0
-B
-Wire Wire Line
-	3550 2350 3550 2450
-Wire Wire Line
-	3550 2450 3750 2450
+Text HLabel 2450 2100 0    50   Output ~ 0
+A_pos
+Text HLabel 2450 2450 0    50   Input ~ 0
+A_neg
 $Comp
 L bryggan:GND #PWR02201
 U 1 1 5E76280B
-P 3750 2450
-F 0 "#PWR02201" H 3750 2200 50  0001 C CNN
-F 1 "GND" H 3755 2277 50  0000 C CNN
-F 2 "" H 3750 2450 50  0001 C CNN
-F 3 "" H 3750 2450 50  0001 C CNN
-	1    3750 2450
+P 2850 2450
+F 0 "#PWR02201" H 2850 2200 50  0001 C CNN
+F 1 "GND" H 2855 2277 50  0000 C CNN
+F 2 "" H 2850 2450 50  0001 C CNN
+F 3 "" H 2850 2450 50  0001 C CNN
+	1    2850 2450
+	-1   0    0    -1  
+$EndComp
+Text HLabel 2450 2300 0    50   Input ~ 0
+A_tap
+Wire Wire Line
+	2850 2450 2450 2450
+Text Notes 4500 1000 2    50   ~ 0
+PT100: 100-150ohm for 0C to approx 130C
+$Comp
+L Amplifier_Operational:LM324 U?
+U 1 1 5E7A82D6
+P 3700 2200
+F 0 "U?" H 3700 2567 50  0000 C CNN
+F 1 "LM324" H 3700 2476 50  0000 C CNN
+F 2 "" H 3650 2300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 3750 2400 50  0001 C CNN
+	1    3700 2200
 	1    0    0    -1  
 $EndComp
-Connection ~ 3750 2450
-Text HLabel 3550 1950 0    50   Output ~ 0
-+
-Text HLabel 3950 1950 0    50   Output ~ 0
--
-Text HLabel 4150 1950 2    50   Input ~ 0
-C
+$Comp
+L Amplifier_Operational:LM324 U?
+U 5 1 5E7AAA6F
+P 5200 6500
+F 0 "U?" H 5158 6546 50  0000 L CNN
+F 1 "LM324" H 5158 6455 50  0000 L CNN
+F 2 "" H 5150 6600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 5250 6700 50  0001 C CNN
+	5    5200 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L bryggan:R R?
+U 1 1 5E7BD59F
+P 3250 2300
+F 0 "R?" V 3043 2300 50  0000 C CNN
+F 1 "20k" V 3134 2300 50  0000 C CNN
+F 2 "" V 3180 2300 50  0001 C CNN
+F 3 "" H 3250 2300 50  0001 C CNN
+	1    3250 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L bryggan:R R?
+U 1 1 5E7BD95C
+P 3250 2100
+F 0 "R?" V 3043 2100 50  0000 C CNN
+F 1 "28k" V 3134 2100 50  0000 C CNN
+F 2 "" V 3180 2100 50  0001 C CNN
+F 3 "" H 3250 2100 50  0001 C CNN
+	1    3250 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L bryggan:R R?
+U 1 1 5E7BDBB0
+P 3700 2600
+F 0 "R?" V 3493 2600 50  0000 C CNN
+F 1 "100k" V 3584 2600 50  0000 C CNN
+F 2 "" V 3630 2600 50  0001 C CNN
+F 3 "" H 3700 2600 50  0001 C CNN
+	1    3700 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L bryggan:R R?
+U 1 1 5E7BE05A
+P 3250 1800
+F 0 "R?" V 3043 1800 50  0000 C CNN
+F 1 "20k" V 3134 1800 50  0000 C CNN
+F 2 "" V 3180 1800 50  0001 C CNN
+F 3 "" H 3250 1800 50  0001 C CNN
+	1    3250 1800
+	0    1    1    0   
+$EndComp
 Wire Wire Line
-	3550 2050 3550 1850
+	3400 2100 3400 1800
+Connection ~ 3400 2100
+$Comp
+L bryggan:GND #PWR?
+U 1 1 5E7BE52F
+P 3100 1800
+F 0 "#PWR?" H 3100 1550 50  0001 C CNN
+F 1 "GND" H 3105 1627 50  0000 C CNN
+F 2 "" H 3100 1800 50  0001 C CNN
+F 3 "" H 3100 1800 50  0001 C CNN
+	1    3100 1800
+	0    1    -1   0   
+$EndComp
 Wire Wire Line
-	3750 2450 4150 2450
+	3400 2300 3400 2600
 Wire Wire Line
-	3950 1950 4150 1950
+	3400 2600 3550 2600
+Connection ~ 3400 2300
 Wire Wire Line
-	4150 1450 4100 1450
+	3850 2600 4000 2600
 Wire Wire Line
-	3800 1450 3550 1450
-Text Notes 3200 1150 0    50   ~ 0
-PT100: 100-150ohm for 0C to approx 130C
+	4000 2600 4000 2200
+Wire Wire Line
+	2450 2300 3100 2300
+Text Notes 3900 1900 0    50   ~ 0
+Uout=2.5*Upos - 2*Uneg\nThis removes voltage \nloss from leads
+Text HLabel 4700 2200 2    50   Output ~ 0
+A_out
+Text HLabel 7450 2100 0    50   Output ~ 0
+B_pos
+Text HLabel 7450 2450 0    50   Input ~ 0
+B_neg
+Text HLabel 7450 2300 0    50   Input ~ 0
+B_tap
+Text HLabel 2450 4300 0    50   Output ~ 0
+C_pos
+Text HLabel 2450 4650 0    50   Input ~ 0
+C_neg
+Text HLabel 2450 4500 0    50   Input ~ 0
+C_tap
+Text HLabel 4700 4400 2    50   Output ~ 0
+C_out
+Text HLabel 7450 4300 0    50   Output ~ 0
+D_pos
+Text HLabel 7450 4650 0    50   Input ~ 0
+D_neg
+Text HLabel 7450 4500 0    50   Input ~ 0
+D_tap
+Text HLabel 9700 4400 2    50   Output ~ 0
+D_out
+$Comp
+L bryggan:R R?
+U 1 1 5E850C41
+P 4150 2200
+F 0 "R?" V 3943 2200 50  0000 C CNN
+F 1 "1k" V 4034 2200 50  0000 C CNN
+F 2 "" V 4080 2200 50  0001 C CNN
+F 3 "" H 4150 2200 50  0001 C CNN
+	1    4150 2200
+	0    1    1    0   
+$EndComp
+Connection ~ 4000 2200
+$Comp
+L Device:D D?
+U 1 1 5E86086B
+P 4350 2400
+F 0 "D?" V 4396 2321 50  0000 R CNN
+F 1 "D" V 4305 2321 50  0000 R CNN
+F 2 "" H 4350 2400 50  0001 C CNN
+F 3 "~" H 4350 2400 50  0001 C CNN
+	1    4350 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L bryggan:R R?
+U 1 1 5E862587
+P 4550 2200
+F 0 "R?" V 4343 2200 50  0000 C CNN
+F 1 "1k" V 4434 2200 50  0000 C CNN
+F 2 "" V 4480 2200 50  0001 C CNN
+F 3 "" H 4550 2200 50  0001 C CNN
+	1    4550 2200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4350 2200 4350 2250
+Wire Wire Line
+	4350 2200 4400 2200
+Text HLabel 4350 2550 3    50   Input ~ 0
+Vref
+Wire Wire Line
+	4300 2200 4350 2200
+Connection ~ 4350 2200
+Text Notes 4500 2550 0    50   ~ 0
+Clamp to protect ADC
+Text HLabel 9700 2200 2    50   Output ~ 0
+B_out
+Text Notes 4200 1550 0    50   ~ 0
+Rpt100=Uout/(5mA*2.5)
+$Comp
+L bryggan:R R2203
+U 1 1 59C9D9AD
+P 2650 1450
+F 0 "R2203" H 2720 1496 50  0000 L CNN
+F 1 "50R 0.1%" H 2720 1405 50  0000 L CNN
+F 2 "" V 2580 1450 50  0001 C CNN
+F 3 "" H 2650 1450 50  0001 C CNN
+	1    2650 1450
+	1    0    0    -1  
+$EndComp
+Text HLabel 2650 1300 1    50   Input ~ 0
+Vref
+Wire Wire Line
+	2650 1700 2650 1650
+Connection ~ 2650 2100
+Wire Wire Line
+	2450 2100 2650 2100
+Wire Wire Line
+	2650 2100 3100 2100
+$Comp
+L bryggan:N-MOSFET Q?
+U 1 1 5E8E9E4F
+P 2550 1900
+F 0 "Q?" H 2756 1946 50  0000 L CNN
+F 1 "N-MOSFET" H 2756 1855 50  0000 L CNN
+F 2 "" H 2750 2000 50  0001 C CNN
+F 3 "~" H 2550 1900 50  0001 C CNN
+	1    2550 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM324 U?
+U 2 1 5E8CFFE7
+P 2050 1900
+F 0 "U?" H 2050 2267 50  0000 C CNN
+F 1 "LM324" H 2050 2176 50  0000 C CNN
+F 2 "" H 2000 2000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 2100 2100 50  0001 C CNN
+	2    2050 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 1650 2650 1600
+Connection ~ 2650 1650
+Wire Wire Line
+	1750 1650 2650 1650
+Text Label 2200 5750 2    50   ~ 0
+Vref_buf
+$Comp
+L bryggan:GND #PWR?
+U 1 1 5E91AE0A
+P 2000 6450
+AR Path="/5E942055/5E91AE0A" Ref="#PWR?"  Part="1" 
+AR Path="/5E942055/5E943CD5/5E91AE0A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2000 6200 50  0001 C CNN
+F 1 "GND" H 2005 6277 50  0000 C CNN
+F 2 "" H 2000 6450 50  0001 C CNN
+F 3 "" H 2000 6450 50  0001 C CNN
+	1    2000 6450
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2200 5650
+Text Label 2300 6950 2    50   ~ 0
+Vref_inter
+$Comp
+L bryggan:R R?
+U 1 1 5E91AE19
+P 3350 7100
+AR Path="/5E942055/5E91AE19" Ref="R?"  Part="1" 
+AR Path="/5E942055/5E943CD5/5E91AE19" Ref="R?"  Part="1" 
+F 0 "R?" H 3420 7146 50  0000 L CNN
+F 1 "100k" H 3420 7055 50  0000 L CNN
+F 2 "" V 3280 7100 50  0001 C CNN
+F 3 "" H 3350 7100 50  0001 C CNN
+	1    3350 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L bryggan:GND #PWR?
+U 1 1 5E91AE1F
+P 3350 7250
+AR Path="/5E942055/5E91AE1F" Ref="#PWR?"  Part="1" 
+AR Path="/5E942055/5E943CD5/5E91AE1F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3350 7000 50  0001 C CNN
+F 1 "GND" H 3355 7077 50  0000 C CNN
+F 2 "" H 3350 7250 50  0001 C CNN
+F 3 "" H 3350 7250 50  0001 C CNN
+	1    3350 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L bryggan:R R?
+U 1 1 5E91AE31
+P 1500 5850
+AR Path="/5E942055/5E91AE31" Ref="R?"  Part="1" 
+AR Path="/5E942055/5E943CD5/5E91AE31" Ref="R?"  Part="1" 
+F 0 "R?" V 1293 5850 50  0000 C CNN
+F 1 "R" V 1384 5850 50  0000 C CNN
+F 2 "" V 1430 5850 50  0001 C CNN
+F 3 "" H 1500 5850 50  0001 C CNN
+	1    1500 5850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E91AE37
+P 1800 6100
+AR Path="/5E942055/5E91AE37" Ref="C?"  Part="1" 
+AR Path="/5E942055/5E943CD5/5E91AE37" Ref="C?"  Part="1" 
+F 0 "C?" H 1915 6146 50  0000 L CNN
+F 1 "C" H 1915 6055 50  0000 L CNN
+F 2 "" H 1838 5950 50  0001 C CNN
+F 3 "~" H 1800 6100 50  0001 C CNN
+	1    1800 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 6450 2000 6350
+Text Notes 1600 5450 0    50   ~ 0
+TODO: Calc. filter
+Text Label 3500 5850 0    50   ~ 0
+Vref_inter
+$Comp
+L AD8551ARZ:AD8551ARZ IC?
+U 1 1 5E91AE48
+P 2200 5650
+AR Path="/5E942055/5E91AE48" Ref="IC?"  Part="1" 
+AR Path="/5E942055/5E943CD5/5E91AE48" Ref="IC?"  Part="1" 
+F 0 "IC?" H 2850 5915 50  0000 C CNN
+F 1 "AD8551ARZ" H 2850 5824 50  0000 C CNN
+F 2 "SOIC127P600X175-8N" H 3350 5750 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/2/AD8551ARZ.pdf" H 3350 5650 50  0001 L CNN
+F 4 "Analog Devices AD8551ARZ Op Amp, 1.5MHz CMOS, Rail to Rail, 3 V, 8-Pin SOIC" H 3350 5550 50  0001 L CNN "Description"
+F 5 "1.75" H 3350 5450 50  0001 L CNN "Height"
+F 6 "Analog Devices" H 3350 5350 50  0001 L CNN "Manufacturer_Name"
+F 7 "AD8551ARZ" H 3350 5250 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "584-AD8551ARZ" H 3350 5150 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=584-AD8551ARZ" H 3350 5050 50  0001 L CNN "Mouser Price/Stock"
+F 10 "0412844" H 3350 4950 50  0001 L CNN "RS Part Number"
+F 11 "http://uk.rs-online.com/web/p/products/0412844" H 3350 4850 50  0001 L CNN "RS Price/Stock"
+	1    2200 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L bryggan:GND #PWR?
+U 1 1 5E91AE4E
+P 3950 6100
+AR Path="/5E942055/5E91AE4E" Ref="#PWR?"  Part="1" 
+AR Path="/5E942055/5E943CD5/5E91AE4E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3950 5850 50  0001 C CNN
+F 1 "GND" H 3955 5927 50  0000 C CNN
+F 2 "" H 3950 6100 50  0001 C CNN
+F 3 "" H 3950 6100 50  0001 C CNN
+	1    3950 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 5800 3950 5750
+$Comp
+L Device:C C?
+U 1 1 5E91AE55
+P 3950 5950
+AR Path="/5E942055/5E91AE55" Ref="C?"  Part="1" 
+AR Path="/5E942055/5E943CD5/5E91AE55" Ref="C?"  Part="1" 
+F 0 "C?" H 4065 5996 50  0000 L CNN
+F 1 "100n" H 4065 5905 50  0000 L CNN
+F 2 "" H 3988 5800 50  0001 C CNN
+F 3 "~" H 3950 5950 50  0001 C CNN
+	1    3950 5950
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3500 5650
+NoConn ~ 3500 5950
+Wire Wire Line
+	1650 5850 1800 5850
+Wire Wire Line
+	1800 6350 1800 6250
+Wire Wire Line
+	1800 5950 1800 5850
+Connection ~ 1800 5850
+Connection ~ 2000 6350
+Wire Wire Line
+	1800 6350 2000 6350
+Wire Wire Line
+	2200 5950 2200 6350
+Wire Wire Line
+	2000 6350 2200 6350
+$Comp
+L Device:C C?
+U 1 1 5E91AE66
+P 2900 7100
+AR Path="/5E942055/5E91AE66" Ref="C?"  Part="1" 
+AR Path="/5E942055/5E943CD5/5E91AE66" Ref="C?"  Part="1" 
+F 0 "C?" H 3015 7146 50  0000 L CNN
+F 1 "C" H 3015 7055 50  0000 L CNN
+F 2 "" H 2938 6950 50  0001 C CNN
+F 3 "~" H 2900 7100 50  0001 C CNN
+	1    2900 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L bryggan:GND #PWR?
+U 1 1 5E91AE6C
+P 2900 7250
+AR Path="/5E942055/5E91AE6C" Ref="#PWR?"  Part="1" 
+AR Path="/5E942055/5E943CD5/5E91AE6C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2900 7000 50  0001 C CNN
+F 1 "GND" H 2905 7077 50  0000 C CNN
+F 2 "" H 2900 7250 50  0001 C CNN
+F 3 "" H 2900 7250 50  0001 C CNN
+	1    2900 7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 5750 3500 5750
+Connection ~ 3950 5750
+Wire Wire Line
+	3950 5750 3950 5700
+$Comp
+L bryggan:R R?
+U 1 1 5E91AE75
+P 2650 6950
+AR Path="/5E942055/5E91AE75" Ref="R?"  Part="1" 
+AR Path="/5E942055/5E943CD5/5E91AE75" Ref="R?"  Part="1" 
+F 0 "R?" V 2443 6950 50  0000 C CNN
+F 1 "R" V 2534 6950 50  0000 C CNN
+F 2 "" V 2580 6950 50  0001 C CNN
+F 3 "" H 2650 6950 50  0001 C CNN
+	1    2650 6950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2800 6950 2900 6950
+Wire Wire Line
+	3700 6950 3350 6950
+Connection ~ 3350 6950
+Text Notes 2350 7600 0    50   ~ 0
+TODO: Calc. filter
+Text Label 2300 7250 2    50   ~ 0
+Vref_buf
+Wire Wire Line
+	2300 7250 2400 7250
+Wire Wire Line
+	2300 6950 2400 6950
+$Comp
+L Device:C C?
+U 1 1 5E91AE8A
+P 2400 7100
+AR Path="/5E942055/5E91AE8A" Ref="C?"  Part="1" 
+AR Path="/5E942055/5E943CD5/5E91AE8A" Ref="C?"  Part="1" 
+F 0 "C?" H 2515 7146 50  0000 L CNN
+F 1 "C" H 2515 7055 50  0000 L CNN
+F 2 "" H 2438 6950 50  0001 C CNN
+F 3 "~" H 2400 7100 50  0001 C CNN
+	1    2400 7100
+	1    0    0    -1  
+$EndComp
+Connection ~ 2400 6950
+Wire Wire Line
+	2400 6950 2500 6950
+$Comp
+L power:+5V #PWR?
+U 1 1 5E91AE92
+P 3950 5700
+AR Path="/5E942055/5E91AE92" Ref="#PWR?"  Part="1" 
+AR Path="/5E942055/5E943CD5/5E91AE92" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3950 5550 50  0001 C CNN
+F 1 "+5V" H 3965 5873 50  0000 C CNN
+F 2 "" H 3950 5700 50  0001 C CNN
+F 3 "" H 3950 5700 50  0001 C CNN
+	1    3950 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 6950 3350 6950
+Connection ~ 2900 6950
+Text Label 1750 2000 2    50   ~ 0
+Vref_bias
+Text Label 3700 6950 0    50   ~ 0
+Vref_bias
+Wire Wire Line
+	1750 1800 1750 1650
+Text Notes 1200 1450 0    50   ~ 0
+Positive feedback due to inversion
+Text Notes 2750 1250 0    50   ~ 0
+Vref bias gives 100mV over resistor -> 5mA
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5E97DBF3
+P 1800 5850
+F 0 "TP?" H 1858 5968 50  0000 L CNN
+F 1 "TestPoint" H 1858 5877 50  0000 L CNN
+F 2 "" H 2000 5850 50  0001 C CNN
+F 3 "~" H 2000 5850 50  0001 C CNN
+	1    1800 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 5850 2200 5850
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5E97F510
+P 3350 6950
+F 0 "TP?" H 3408 7068 50  0000 L CNN
+F 1 "TestPoint" H 3408 6977 50  0000 L CNN
+F 2 "" H 3550 6950 50  0001 C CNN
+F 3 "~" H 3550 6950 50  0001 C CNN
+	1    3350 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L bryggan:R R?
+U 1 1 5E986518
+P 950 5500
+F 0 "R?" H 1020 5546 50  0000 L CNN
+F 1 "100R temp stable" H 1020 5455 50  0000 L CNN
+F 2 "" V 880 5500 50  0001 C CNN
+F 3 "" H 950 5500 50  0001 C CNN
+	1    950  5500
+	1    0    0    -1  
+$EndComp
+Text HLabel 950  5350 1    50   Input ~ 0
+Vref
+$Comp
+L Reference_Current:LM334M U?
+U 1 1 5E993787
+P 950 6200
+F 0 "U?" H 830 6246 50  0000 R CNN
+F 1 "LM334M" H 830 6155 50  0000 R CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 975 6050 50  0001 L CIN
+F 3 "http://www.ti.com/lit/ds/symlink/lm134.pdf" H 950 6200 50  0001 C CIN
+	1    950  6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  6000 950  5850
+Wire Wire Line
+	950  5850 1350 5850
+Connection ~ 950  5850
+Wire Wire Line
+	950  5850 950  5650
+$Comp
+L Device:R_POT RV?
+U 1 1 5E976B3B
+P 950 6650
+F 0 "RV?" H 880 6696 50  0000 R CNN
+F 1 "220R" H 880 6605 50  0000 R CNN
+F 2 "" H 950 6650 50  0001 C CNN
+F 3 "~" H 950 6650 50  0001 C CNN
+	1    950  6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  6500 950  6400
+$Comp
+L Device:D D?
+U 1 1 5E9A6FC4
+P 950 6950
+F 0 "D?" V 996 6871 50  0000 R CNN
+F 1 "1N457" V 905 6871 50  0000 R CNN
+F 2 "" H 950 6950 50  0001 C CNN
+F 3 "~" H 950 6950 50  0001 C CNN
+	1    950  6950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L bryggan:R R?
+U 1 1 5E9A7DD9
+P 1450 6950
+AR Path="/5E942055/5E9A7DD9" Ref="R?"  Part="1" 
+AR Path="/5E942055/5E943CD5/5E9A7DD9" Ref="750R"  Part="1" 
+F 0 "750R" V 1243 6950 50  0000 C CNN
+F 1 "R" V 1334 6950 50  0000 C CNN
+F 2 "" V 1380 6950 50  0001 C CNN
+F 3 "" H 1450 6950 50  0001 C CNN
+	1    1450 6950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1200 6300 1200 6200
+Wire Wire Line
+	1200 6650 1200 6600
+$Comp
+L bryggan:R R?
+U 1 1 5E9A2CD0
+P 1200 6450
+AR Path="/5E942055/5E9A2CD0" Ref="R?"  Part="1" 
+AR Path="/5E942055/5E943CD5/5E9A2CD0" Ref="R?"  Part="1" 
+F 0 "R?" V 993 6450 50  0000 C CNN
+F 1 "75R" V 1084 6450 50  0000 C CNN
+F 2 "" V 1130 6450 50  0001 C CNN
+F 3 "" H 1200 6450 50  0001 C CNN
+	1    1200 6450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1200 6200 1150 6200
+Wire Wire Line
+	1100 6650 1200 6650
+Wire Wire Line
+	1450 6800 1450 6200
+Wire Wire Line
+	1450 6200 1200 6200
+Connection ~ 1200 6200
+Wire Wire Line
+	1450 7150 1450 7100
+Wire Wire Line
+	1450 7150 1200 7150
+Wire Wire Line
+	950  7150 950  7100
+$Comp
+L bryggan:GND #PWR?
+U 1 1 5E9BFFFE
+P 1200 7250
+AR Path="/5E942055/5E9BFFFE" Ref="#PWR?"  Part="1" 
+AR Path="/5E942055/5E943CD5/5E9BFFFE" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1200 7000 50  0001 C CNN
+F 1 "GND" H 1205 7077 50  0000 C CNN
+F 2 "" H 1200 7250 50  0001 C CNN
+F 3 "" H 1200 7250 50  0001 C CNN
+	1    1200 7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 7250 1200 7150
+Connection ~ 1200 7150
+Wire Wire Line
+	1200 7150 950  7150
+$Comp
+L bryggan:GND #PWR?
+U 1 1 5E9F06C2
+P 7850 2450
+F 0 "#PWR?" H 7850 2200 50  0001 C CNN
+F 1 "GND" H 7855 2277 50  0000 C CNN
+F 2 "" H 7850 2450 50  0001 C CNN
+F 3 "" H 7850 2450 50  0001 C CNN
+	1    7850 2450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 2450 7450 2450
+$Comp
+L bryggan:R R?
+U 1 1 5E9F06D1
+P 8250 2300
+F 0 "R?" V 8043 2300 50  0000 C CNN
+F 1 "20k" V 8134 2300 50  0000 C CNN
+F 2 "" V 8180 2300 50  0001 C CNN
+F 3 "" H 8250 2300 50  0001 C CNN
+	1    8250 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L bryggan:R R?
+U 1 1 5E9F06D7
+P 8250 2100
+F 0 "R?" V 8043 2100 50  0000 C CNN
+F 1 "28k" V 8134 2100 50  0000 C CNN
+F 2 "" V 8180 2100 50  0001 C CNN
+F 3 "" H 8250 2100 50  0001 C CNN
+	1    8250 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L bryggan:R R?
+U 1 1 5E9F06DD
+P 8700 2600
+F 0 "R?" V 8493 2600 50  0000 C CNN
+F 1 "100k" V 8584 2600 50  0000 C CNN
+F 2 "" V 8630 2600 50  0001 C CNN
+F 3 "" H 8700 2600 50  0001 C CNN
+	1    8700 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L bryggan:R R?
+U 1 1 5E9F06E3
+P 8250 1800
+F 0 "R?" V 8043 1800 50  0000 C CNN
+F 1 "20k" V 8134 1800 50  0000 C CNN
+F 2 "" V 8180 1800 50  0001 C CNN
+F 3 "" H 8250 1800 50  0001 C CNN
+	1    8250 1800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8400 2100 8400 1800
+$Comp
+L bryggan:GND #PWR?
+U 1 1 5E9F06EB
+P 8100 1800
+F 0 "#PWR?" H 8100 1550 50  0001 C CNN
+F 1 "GND" H 8105 1627 50  0000 C CNN
+F 2 "" H 8100 1800 50  0001 C CNN
+F 3 "" H 8100 1800 50  0001 C CNN
+	1    8100 1800
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	8400 2300 8400 2600
+Wire Wire Line
+	8400 2600 8550 2600
+Wire Wire Line
+	8850 2600 9000 2600
+Wire Wire Line
+	9000 2600 9000 2200
+Wire Wire Line
+	7450 2300 8100 2300
+$Comp
+L bryggan:R R?
+U 1 1 5E9F06F9
+P 9150 2200
+F 0 "R?" V 8943 2200 50  0000 C CNN
+F 1 "1k" V 9034 2200 50  0000 C CNN
+F 2 "" V 9080 2200 50  0001 C CNN
+F 3 "" H 9150 2200 50  0001 C CNN
+	1    9150 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5E9F0700
+P 9350 2400
+F 0 "D?" V 9396 2321 50  0000 R CNN
+F 1 "D" V 9305 2321 50  0000 R CNN
+F 2 "" H 9350 2400 50  0001 C CNN
+F 3 "~" H 9350 2400 50  0001 C CNN
+	1    9350 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L bryggan:R R?
+U 1 1 5E9F0706
+P 9550 2200
+F 0 "R?" V 9343 2200 50  0000 C CNN
+F 1 "1k" V 9434 2200 50  0000 C CNN
+F 2 "" V 9480 2200 50  0001 C CNN
+F 3 "" H 9550 2200 50  0001 C CNN
+	1    9550 2200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9350 2200 9350 2250
+Wire Wire Line
+	9350 2200 9400 2200
+Text HLabel 9350 2550 3    50   Input ~ 0
+Vref
+Wire Wire Line
+	9300 2200 9350 2200
+Connection ~ 9350 2200
+$Comp
+L bryggan:R R?
+U 1 1 5E9F0713
+P 7650 1450
+F 0 "R?" H 7720 1496 50  0000 L CNN
+F 1 "50R 0.1%" H 7720 1405 50  0000 L CNN
+F 2 "" V 7580 1450 50  0001 C CNN
+F 3 "" H 7650 1450 50  0001 C CNN
+	1    7650 1450
+	1    0    0    -1  
+$EndComp
+Text HLabel 7650 1300 1    50   Input ~ 0
+Vref
+Wire Wire Line
+	7650 1700 7650 1650
+Connection ~ 7650 2100
+Wire Wire Line
+	7450 2100 7650 2100
+Wire Wire Line
+	7650 2100 8100 2100
+$Comp
+L bryggan:N-MOSFET Q?
+U 1 1 5E9F071E
+P 7550 1900
+F 0 "Q?" H 7756 1946 50  0000 L CNN
+F 1 "N-MOSFET" H 7756 1855 50  0000 L CNN
+F 2 "" H 7750 2000 50  0001 C CNN
+F 3 "~" H 7550 1900 50  0001 C CNN
+	1    7550 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 1650 7650 1600
+Connection ~ 7650 1650
+Wire Wire Line
+	6750 1650 7650 1650
+Text Label 6750 2000 2    50   ~ 0
+Vref_bias
+Wire Wire Line
+	6750 1800 6750 1650
+$Comp
+L Amplifier_Operational:LM324 U?
+U 3 1 5EA106C0
+P 8700 2200
+F 0 "U?" H 8700 2567 50  0000 C CNN
+F 1 "LM324" H 8700 2476 50  0000 C CNN
+F 2 "" H 8650 2300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 8750 2400 50  0001 C CNN
+	3    8700 2200
+	1    0    0    -1  
+$EndComp
+Connection ~ 8400 2100
+Connection ~ 9000 2200
+Connection ~ 8400 2300
+$Comp
+L Amplifier_Operational:LM324 U?
+U 4 1 5EA11B57
+P 7050 1900
+F 0 "U?" H 7050 2267 50  0000 C CNN
+F 1 "LM324" H 7050 2176 50  0000 C CNN
+F 2 "" H 7000 2000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 7100 2100 50  0001 C CNN
+	4    7050 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L bryggan:GND #PWR?
+U 1 1 5EA3D1A6
+P 2850 4650
+F 0 "#PWR?" H 2850 4400 50  0001 C CNN
+F 1 "GND" H 2855 4477 50  0000 C CNN
+F 2 "" H 2850 4650 50  0001 C CNN
+F 3 "" H 2850 4650 50  0001 C CNN
+	1    2850 4650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 4650 2450 4650
+$Comp
+L Amplifier_Operational:LM324 U?
+U 1 1 5EA3D1AF
+P 3700 4400
+F 0 "U?" H 3700 4767 50  0000 C CNN
+F 1 "LM324" H 3700 4676 50  0000 C CNN
+F 2 "" H 3650 4500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 3750 4600 50  0001 C CNN
+	1    3700 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L bryggan:R R?
+U 1 1 5EA3D1B5
+P 3250 4500
+F 0 "R?" V 3043 4500 50  0000 C CNN
+F 1 "20k" V 3134 4500 50  0000 C CNN
+F 2 "" V 3180 4500 50  0001 C CNN
+F 3 "" H 3250 4500 50  0001 C CNN
+	1    3250 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L bryggan:R R?
+U 1 1 5EA3D1BB
+P 3250 4300
+F 0 "R?" V 3043 4300 50  0000 C CNN
+F 1 "28k" V 3134 4300 50  0000 C CNN
+F 2 "" V 3180 4300 50  0001 C CNN
+F 3 "" H 3250 4300 50  0001 C CNN
+	1    3250 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L bryggan:R R?
+U 1 1 5EA3D1C1
+P 3700 4800
+F 0 "R?" V 3493 4800 50  0000 C CNN
+F 1 "100k" V 3584 4800 50  0000 C CNN
+F 2 "" V 3630 4800 50  0001 C CNN
+F 3 "" H 3700 4800 50  0001 C CNN
+	1    3700 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L bryggan:R R?
+U 1 1 5EA3D1C7
+P 3250 4000
+F 0 "R?" V 3043 4000 50  0000 C CNN
+F 1 "20k" V 3134 4000 50  0000 C CNN
+F 2 "" V 3180 4000 50  0001 C CNN
+F 3 "" H 3250 4000 50  0001 C CNN
+	1    3250 4000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3400 4300 3400 4000
+Connection ~ 3400 4300
+$Comp
+L bryggan:GND #PWR?
+U 1 1 5EA3D1CF
+P 3100 4000
+F 0 "#PWR?" H 3100 3750 50  0001 C CNN
+F 1 "GND" H 3105 3827 50  0000 C CNN
+F 2 "" H 3100 4000 50  0001 C CNN
+F 3 "" H 3100 4000 50  0001 C CNN
+	1    3100 4000
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	3400 4500 3400 4800
+Wire Wire Line
+	3400 4800 3550 4800
+Connection ~ 3400 4500
+Wire Wire Line
+	3850 4800 4000 4800
+Wire Wire Line
+	4000 4800 4000 4400
+Wire Wire Line
+	2450 4500 3100 4500
+$Comp
+L bryggan:R R?
+U 1 1 5EA3D1E0
+P 4150 4400
+F 0 "R?" V 3943 4400 50  0000 C CNN
+F 1 "1k" V 4034 4400 50  0000 C CNN
+F 2 "" V 4080 4400 50  0001 C CNN
+F 3 "" H 4150 4400 50  0001 C CNN
+	1    4150 4400
+	0    1    1    0   
+$EndComp
+Connection ~ 4000 4400
+$Comp
+L Device:D D?
+U 1 1 5EA3D1E7
+P 4350 4600
+F 0 "D?" V 4396 4521 50  0000 R CNN
+F 1 "D" V 4305 4521 50  0000 R CNN
+F 2 "" H 4350 4600 50  0001 C CNN
+F 3 "~" H 4350 4600 50  0001 C CNN
+	1    4350 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L bryggan:R R?
+U 1 1 5EA3D1ED
+P 4550 4400
+F 0 "R?" V 4343 4400 50  0000 C CNN
+F 1 "1k" V 4434 4400 50  0000 C CNN
+F 2 "" V 4480 4400 50  0001 C CNN
+F 3 "" H 4550 4400 50  0001 C CNN
+	1    4550 4400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4350 4400 4350 4450
+Wire Wire Line
+	4350 4400 4400 4400
+Text HLabel 4350 4750 3    50   Input ~ 0
+Vref
+Wire Wire Line
+	4300 4400 4350 4400
+Connection ~ 4350 4400
+$Comp
+L bryggan:R R?
+U 1 1 5EA3D1FB
+P 2650 3650
+F 0 "R?" H 2720 3696 50  0000 L CNN
+F 1 "50R 0.1%" H 2720 3605 50  0000 L CNN
+F 2 "" V 2580 3650 50  0001 C CNN
+F 3 "" H 2650 3650 50  0001 C CNN
+	1    2650 3650
+	1    0    0    -1  
+$EndComp
+Text HLabel 2650 3500 1    50   Input ~ 0
+Vref
+Wire Wire Line
+	2650 3900 2650 3850
+Connection ~ 2650 4300
+Wire Wire Line
+	2450 4300 2650 4300
+Wire Wire Line
+	2650 4300 3100 4300
+$Comp
+L bryggan:N-MOSFET Q?
+U 1 1 5EA3D206
+P 2550 4100
+F 0 "Q?" H 2756 4146 50  0000 L CNN
+F 1 "N-MOSFET" H 2756 4055 50  0000 L CNN
+F 2 "" H 2750 4200 50  0001 C CNN
+F 3 "~" H 2550 4100 50  0001 C CNN
+	1    2550 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM324 U?
+U 2 1 5EA3D20C
+P 2050 4100
+F 0 "U?" H 2050 4467 50  0000 C CNN
+F 1 "LM324" H 2050 4376 50  0000 C CNN
+F 2 "" H 2000 4200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 2100 4300 50  0001 C CNN
+	2    2050 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 3850 2650 3800
+Connection ~ 2650 3850
+Wire Wire Line
+	1750 3850 2650 3850
+Text Label 1750 4200 2    50   ~ 0
+Vref_bias
+Wire Wire Line
+	1750 4000 1750 3850
+$Comp
+L bryggan:GND #PWR?
+U 1 1 5EA3D219
+P 7850 4650
+F 0 "#PWR?" H 7850 4400 50  0001 C CNN
+F 1 "GND" H 7855 4477 50  0000 C CNN
+F 2 "" H 7850 4650 50  0001 C CNN
+F 3 "" H 7850 4650 50  0001 C CNN
+	1    7850 4650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 4650 7450 4650
+$Comp
+L bryggan:R R?
+U 1 1 5EA3D220
+P 8250 4500
+F 0 "R?" V 8043 4500 50  0000 C CNN
+F 1 "20k" V 8134 4500 50  0000 C CNN
+F 2 "" V 8180 4500 50  0001 C CNN
+F 3 "" H 8250 4500 50  0001 C CNN
+	1    8250 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L bryggan:R R?
+U 1 1 5EA3D226
+P 8250 4300
+F 0 "R?" V 8043 4300 50  0000 C CNN
+F 1 "28k" V 8134 4300 50  0000 C CNN
+F 2 "" V 8180 4300 50  0001 C CNN
+F 3 "" H 8250 4300 50  0001 C CNN
+	1    8250 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L bryggan:R R?
+U 1 1 5EA3D22C
+P 8700 4800
+F 0 "R?" V 8493 4800 50  0000 C CNN
+F 1 "100k" V 8584 4800 50  0000 C CNN
+F 2 "" V 8630 4800 50  0001 C CNN
+F 3 "" H 8700 4800 50  0001 C CNN
+	1    8700 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L bryggan:R R?
+U 1 1 5EA3D232
+P 8250 4000
+F 0 "R?" V 8043 4000 50  0000 C CNN
+F 1 "20k" V 8134 4000 50  0000 C CNN
+F 2 "" V 8180 4000 50  0001 C CNN
+F 3 "" H 8250 4000 50  0001 C CNN
+	1    8250 4000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8400 4300 8400 4000
+$Comp
+L bryggan:GND #PWR?
+U 1 1 5EA3D239
+P 8100 4000
+F 0 "#PWR?" H 8100 3750 50  0001 C CNN
+F 1 "GND" H 8105 3827 50  0000 C CNN
+F 2 "" H 8100 4000 50  0001 C CNN
+F 3 "" H 8100 4000 50  0001 C CNN
+	1    8100 4000
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	8400 4500 8400 4800
+Wire Wire Line
+	8400 4800 8550 4800
+Wire Wire Line
+	8850 4800 9000 4800
+Wire Wire Line
+	9000 4800 9000 4400
+Wire Wire Line
+	7450 4500 8100 4500
+$Comp
+L bryggan:R R?
+U 1 1 5EA3D244
+P 9150 4400
+F 0 "R?" V 8943 4400 50  0000 C CNN
+F 1 "1k" V 9034 4400 50  0000 C CNN
+F 2 "" V 9080 4400 50  0001 C CNN
+F 3 "" H 9150 4400 50  0001 C CNN
+	1    9150 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5EA3D24A
+P 9350 4600
+F 0 "D?" V 9396 4521 50  0000 R CNN
+F 1 "D" V 9305 4521 50  0000 R CNN
+F 2 "" H 9350 4600 50  0001 C CNN
+F 3 "~" H 9350 4600 50  0001 C CNN
+	1    9350 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L bryggan:R R?
+U 1 1 5EA3D250
+P 9550 4400
+F 0 "R?" V 9343 4400 50  0000 C CNN
+F 1 "1k" V 9434 4400 50  0000 C CNN
+F 2 "" V 9480 4400 50  0001 C CNN
+F 3 "" H 9550 4400 50  0001 C CNN
+	1    9550 4400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9350 4400 9350 4450
+Wire Wire Line
+	9350 4400 9400 4400
+Text HLabel 9350 4750 3    50   Input ~ 0
+Vref
+Wire Wire Line
+	9300 4400 9350 4400
+Connection ~ 9350 4400
+$Comp
+L bryggan:R R?
+U 1 1 5EA3D25B
+P 7650 3650
+F 0 "R?" H 7720 3696 50  0000 L CNN
+F 1 "50R 0.1%" H 7720 3605 50  0000 L CNN
+F 2 "" V 7580 3650 50  0001 C CNN
+F 3 "" H 7650 3650 50  0001 C CNN
+	1    7650 3650
+	1    0    0    -1  
+$EndComp
+Text HLabel 7650 3500 1    50   Input ~ 0
+Vref
+Wire Wire Line
+	7650 3900 7650 3850
+Wire Wire Line
+	7650 3850 7650 3800
+Connection ~ 7650 3850
+Wire Wire Line
+	6750 3850 7650 3850
+Text Label 6750 4200 2    50   ~ 0
+Vref_bias
+$Comp
+L Amplifier_Operational:LM324 U?
+U 3 1 5EA3D271
+P 8700 4400
+F 0 "U?" H 8700 4767 50  0000 C CNN
+F 1 "LM324" H 8700 4676 50  0000 C CNN
+F 2 "" H 8650 4500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 8750 4600 50  0001 C CNN
+	3    8700 4400
+	1    0    0    -1  
+$EndComp
+Connection ~ 8400 4300
+Connection ~ 9000 4400
+Connection ~ 8400 4500
+$Comp
+L Amplifier_Operational:LM324 U?
+U 5 1 5EA85A17
+P 6150 6500
+F 0 "U?" H 6108 6546 50  0000 L CNN
+F 1 "LM324" H 6108 6455 50  0000 L CNN
+F 2 "" H 6100 6600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 6200 6700 50  0001 C CNN
+	5    6150 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 4300 8100 4300
+Wire Wire Line
+	7450 4300 7650 4300
+Connection ~ 7650 4300
+Wire Wire Line
+	6750 4000 6750 3850
+$Comp
+L Amplifier_Operational:LM324 U?
+U 4 1 5EA3D27A
+P 7050 4100
+F 0 "U?" H 7050 4467 50  0000 C CNN
+F 1 "LM324" H 7050 4376 50  0000 C CNN
+F 2 "" H 7000 4200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 7100 4300 50  0001 C CNN
+	4    7050 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L bryggan:N-MOSFET Q?
+U 1 1 5EA3D266
+P 7550 4100
+F 0 "Q?" H 7756 4146 50  0000 L CNN
+F 1 "N-MOSFET" H 7756 4055 50  0000 L CNN
+F 2 "" H 7750 4200 50  0001 C CNN
+F 3 "~" H 7550 4100 50  0001 C CNN
+	1    7550 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5EAE5B89
+P 5500 6500
+AR Path="/5E942055/5EAE5B89" Ref="C?"  Part="1" 
+AR Path="/5E942055/5E943CD5/5EAE5B89" Ref="C?"  Part="1" 
+F 0 "C?" H 5615 6546 50  0000 L CNN
+F 1 "100n" H 5615 6455 50  0000 L CNN
+F 2 "" H 5538 6350 50  0001 C CNN
+F 3 "~" H 5500 6500 50  0001 C CNN
+	1    5500 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5EAFE758
+P 6450 6500
+AR Path="/5E942055/5EAFE758" Ref="C?"  Part="1" 
+AR Path="/5E942055/5E943CD5/5EAFE758" Ref="C?"  Part="1" 
+F 0 "C?" H 6565 6546 50  0000 L CNN
+F 1 "100n" H 6565 6455 50  0000 L CNN
+F 2 "" H 6488 6350 50  0001 C CNN
+F 3 "~" H 6450 6500 50  0001 C CNN
+	1    6450 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 6800 5500 6650
+Wire Wire Line
+	5500 6350 5500 6200
+Wire Wire Line
+	6050 6200 6250 6200
+Wire Wire Line
+	6450 6200 6450 6350
+Wire Wire Line
+	6050 6800 6250 6800
+Wire Wire Line
+	6450 6800 6450 6650
+Wire Wire Line
+	5100 6200 5300 6200
+Wire Wire Line
+	5100 6800 5300 6800
+$Comp
+L bryggan:GND #PWR?
+U 1 1 5EB1AF81
+P 5300 6800
+AR Path="/5E942055/5EB1AF81" Ref="#PWR?"  Part="1" 
+AR Path="/5E942055/5E943CD5/5EB1AF81" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5300 6550 50  0001 C CNN
+F 1 "GND" H 5305 6627 50  0000 C CNN
+F 2 "" H 5300 6800 50  0001 C CNN
+F 3 "" H 5300 6800 50  0001 C CNN
+	1    5300 6800
+	1    0    0    -1  
+$EndComp
+Connection ~ 5300 6800
+Wire Wire Line
+	5300 6800 5500 6800
+$Comp
+L bryggan:GND #PWR?
+U 1 1 5EB1B4DE
+P 6250 6800
+AR Path="/5E942055/5EB1B4DE" Ref="#PWR?"  Part="1" 
+AR Path="/5E942055/5E943CD5/5EB1B4DE" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6250 6550 50  0001 C CNN
+F 1 "GND" H 6255 6627 50  0000 C CNN
+F 2 "" H 6250 6800 50  0001 C CNN
+F 3 "" H 6250 6800 50  0001 C CNN
+	1    6250 6800
+	1    0    0    -1  
+$EndComp
+Connection ~ 6250 6800
+Wire Wire Line
+	6250 6800 6450 6800
+$Comp
+L power:+5V #PWR?
+U 1 1 5EB1B987
+P 5300 6200
+AR Path="/5E942055/5EB1B987" Ref="#PWR?"  Part="1" 
+AR Path="/5E942055/5E943CD5/5EB1B987" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5300 6050 50  0001 C CNN
+F 1 "+5V" H 5315 6373 50  0000 C CNN
+F 2 "" H 5300 6200 50  0001 C CNN
+F 3 "" H 5300 6200 50  0001 C CNN
+	1    5300 6200
+	1    0    0    -1  
+$EndComp
+Connection ~ 5300 6200
+Wire Wire Line
+	5300 6200 5500 6200
+$Comp
+L power:+5V #PWR?
+U 1 1 5EB1C036
+P 6250 6200
+AR Path="/5E942055/5EB1C036" Ref="#PWR?"  Part="1" 
+AR Path="/5E942055/5E943CD5/5EB1C036" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6250 6050 50  0001 C CNN
+F 1 "+5V" H 6265 6373 50  0000 C CNN
+F 2 "" H 6250 6200 50  0001 C CNN
+F 3 "" H 6250 6200 50  0001 C CNN
+	1    6250 6200
+	1    0    0    -1  
+$EndComp
+Connection ~ 6250 6200
+Wire Wire Line
+	6250 6200 6450 6200
 $EndSCHEMATC
