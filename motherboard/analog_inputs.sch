@@ -19,7 +19,7 @@ Text Label 4900 4875 2    50   ~ 0
 Vref_buf
 Text Label 750  5600 2    50   ~ 0
 Vref
-Text Label 3750 7000 0    50   ~ 0
+Text Label 4000 7000 0    50   ~ 0
 Vref_buf
 Text Label 1600 5500 2    50   ~ 0
 Vref_buf
@@ -127,7 +127,7 @@ U 1 1 5E7DEED3
 P 1600 5400
 F 0 "IC2102" H 2250 5665 50  0000 C CNN
 F 1 "AD8551ARZ" H 2250 5574 50  0000 C CNN
-F 2 "SOIC127P600X175-8N" H 2750 5500 50  0001 L CNN
+F 2 "" H 2750 5500 50  0001 L CNN
 F 3 "https://componentsearchengine.com/Datasheets/2/AD8551ARZ.pdf" H 2750 5400 50  0001 L CNN
 F 4 "Analog Devices AD8551ARZ Op Amp, 1.5MHz CMOS, Rail to Rail, 3 V, 8-Pin SOIC" H 2750 5300 50  0001 L CNN "Description"
 F 5 "1.75" H 2750 5200 50  0001 L CNN "Height"
@@ -341,7 +341,7 @@ U 1 1 5E93CA2F
 P 1575 2275
 F 0 "IC2101" H 2400 2150 50  0000 L CNN
 F 1 "ADS124S08IPBSR" H 2125 2300 50  0000 L CNN
-F 2 "QFP50P700X700X120-32N" H 3225 2975 50  0001 L CNN
+F 2 "" H 3225 2975 50  0001 L CNN
 F 3 "http://www.ti.com/lit/gpn/ads124s08" H 3225 2875 50  0001 L CNN
 F 4 "24-Bit, 4kSPS, 12-Ch Delta-Sigma ADC with PGA and Voltage Reference for Precision Sensor Measurement" H 3225 2775 50  0001 L CNN "Description"
 F 5 "1.2" H 3225 2675 50  0001 L CNN "Height"
@@ -727,6 +727,6 @@ F9 "D_in" I R 6250 4575 50
 F10 "D_out" O L 4900 4575 50 
 $EndSheet
 Wire Wire Line
-	4200 7000 3750 7000
+	4000 7000 3750 7000
 Connection ~ 3750 7000
 $EndSCHEMATC
