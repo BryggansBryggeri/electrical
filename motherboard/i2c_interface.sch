@@ -13,17 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Interface_Expansion:MCP23017_ML U601
-U 1 1 5D70FB5A
-P 6850 4150
-F 0 "U601" H 6850 5431 50  0000 C CNN
-F 1 "MCP23017_ML" H 6850 5340 50  0000 C CNN
-F 2 "Package_DFN_QFN:QFN-28-1EP_6x6mm_P0.65mm_EP4.25x4.25mm" H 7050 3150 50  0001 L CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 7050 3050 50  0001 L CNN
-	1    6850 4150
-	1    0    0    -1  
-$EndComp
 Text HLabel 2700 2700 0    50   BiDi ~ 0
 sda
 Text HLabel 2700 2800 0    50   Input ~ 0
@@ -257,8 +246,6 @@ $EndComp
 Wire Wire Line
 	6850 5250 6850 5350
 Wire Wire Line
-	6750 5250 6750 5350
-Wire Wire Line
 	6750 5350 6850 5350
 Connection ~ 6850 5350
 Wire Wire Line
@@ -289,7 +276,6 @@ Wire Wire Line
 	6850 3050 7250 3050
 Wire Wire Line
 	6850 3050 6850 2600
-Connection ~ 6850 3050
 $Comp
 L bryggan:GND #PWR0612
 U 1 1 5D76548A
@@ -358,25 +344,6 @@ Text HLabel 7550 3650 2    50   Input ~ 0
 extra_2_ind
 Text HLabel 7550 3550 2    50   Input ~ 0
 extra_1_ind
-$Comp
-L bryggan:GND #PWR0609
-U 1 1 5D847443
-P 6150 5450
-F 0 "#PWR0609" H 6150 5200 50  0001 C CNN
-F 1 "GND" H 6155 5277 50  0000 C CNN
-F 2 "" H 6150 5450 50  0001 C CNN
-F 3 "" H 6150 5450 50  0001 C CNN
-	1    6150 5450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6150 4750 6150 4850
-Connection ~ 6150 4850
-Wire Wire Line
-	6150 4850 6150 4950
-Connection ~ 6150 4950
-Wire Wire Line
-	6150 4950 6150 5450
 $Comp
 L power:+5V #PWR0607
 U 1 1 5D84FBF1
@@ -450,4 +417,26 @@ F 3 "~" H 5550 4100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5100 4100 5250 4100
+Text Notes 3275 3100 0    50   ~ 0
+TODO: Do we need level shifter?
+Wire Wire Line
+	6750 5250 6750 5350
+Connection ~ 6850 3050
+$Comp
+L Interface_Expansion:MCP23017_ML U601
+U 1 1 5D70FB5A
+P 6850 4150
+F 0 "U601" H 6850 5431 50  0000 C CNN
+F 1 "MCP23017_ML" H 6850 5340 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-28-1EP_6x6mm_P0.65mm_EP4.25x4.25mm" H 7050 3150 50  0001 L CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 7050 3050 50  0001 L CNN
+	1    6850 4150
+	1    0    0    -1  
+$EndComp
+Text HLabel 6150 4950 0    50   Input ~ 0
+A0
+Text HLabel 6150 4850 0    50   Input ~ 0
+A1
+Text HLabel 6150 4750 0    50   Input ~ 0
+A2
 $EndSCHEMATC

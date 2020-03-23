@@ -532,6 +532,9 @@ F16 "extra_1_out" O R 9550 6000 50
 F17 "extra_2_out" O R 9550 6150 50 
 F18 "extra_2_ind" I R 9550 7350 50 
 F19 "extra_1_ind" I R 9550 7200 50 
+F20 "A0" I L 8200 7425 50 
+F21 "A1" I L 8200 7350 50 
+F22 "A2" I L 8200 7275 50 
 $EndSheet
 $Sheet
 S 13250 2800 1350 2550
@@ -948,4 +951,29 @@ F 3 "~" H 2200 2150 50  0001 C CNN
 	1    2200 2150
 	-1   0    0    1   
 $EndComp
+$Comp
+L bryggan:GND #PWR?
+U 1 1 5EB5B967
+P 8075 7425
+F 0 "#PWR?" H 8075 7175 50  0001 C CNN
+F 1 "GND" H 8080 7252 50  0000 C CNN
+F 2 "" H 8075 7425 50  0001 C CNN
+F 3 "" H 8075 7425 50  0001 C CNN
+	1    8075 7425
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	8075 7425 8150 7425
+Wire Wire Line
+	8150 7425 8150 7350
+Wire Wire Line
+	8150 7350 8200 7350
+Connection ~ 8150 7425
+Wire Wire Line
+	8150 7425 8200 7425
+Wire Wire Line
+	8150 7350 8150 7275
+Wire Wire Line
+	8150 7275 8200 7275
+Connection ~ 8150 7350
 $EndSCHEMATC
