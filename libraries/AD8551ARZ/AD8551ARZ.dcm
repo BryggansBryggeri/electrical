@@ -2,7 +2,6 @@ EESchema-DOCLIB  Version 2.0
 #
 $CMP AD8551ARZ
 D Analog Devices AD8551ARZ Op Amp, 1.5MHz CMOS, Rail to Rail, 3 V, 8-Pin SOIC
-K
 F https://componentsearchengine.com/Datasheets/2/AD8551ARZ.pdf
 $ENDCMP
 #

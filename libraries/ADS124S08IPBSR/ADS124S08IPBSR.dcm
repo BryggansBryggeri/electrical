@@ -2,7 +2,6 @@ EESchema-DOCLIB  Version 2.0
 #
 $CMP ADS124S08IPBSR
 D 24-Bit, 4kSPS, 12-Ch Delta-Sigma ADC with PGA and Voltage Reference for Precision Sensor Measurement
-K
 F http://www.ti.com/lit/gpn/ads124s08
 $ENDCMP
 #
