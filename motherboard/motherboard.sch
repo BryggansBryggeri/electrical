@@ -627,8 +627,6 @@ Wire Wire Line
 	9550 5250 9800 5250
 Wire Wire Line
 	9700 3600 9850 3600
-NoConn ~ 7700 3200
-NoConn ~ 7700 3300
 NoConn ~ 7700 3500
 $Sheet
 S 9850 3450 1250 750 
@@ -818,14 +816,9 @@ F4 "TEMP_IN" I R 9600 2550 50
 $EndSheet
 NoConn ~ 5150 3500
 NoConn ~ 5150 3400
-NoConn ~ 7700 2000
-NoConn ~ 7700 2100
-NoConn ~ 7700 2200
-NoConn ~ 7700 2300
 NoConn ~ 7700 2400
 NoConn ~ 7700 2900
 NoConn ~ 7700 3000
-NoConn ~ 7700 3100
 NoConn ~ 7700 3400
 NoConn ~ 7700 3900
 NoConn ~ 7700 4200
@@ -846,6 +839,13 @@ S 1650 7350 3100 2300
 U 5E942055
 F0 "Analog inputs" 50
 F1 "analog_inputs.sch" 50
+F2 "~RESET" I L 1650 7475 50 
+F3 "~CS" I L 1650 7575 50 
+F4 "DIN" I L 1650 7675 50 
+F5 "SCLK" I L 1650 7775 50 
+F6 "DOUT-~DRDY" O L 1650 7875 50 
+F7 "~DRDY" O L 1650 7975 50 
+F8 "START-SYNC" I L 1650 8075 50 
 $EndSheet
 Wire Wire Line
 	9800 5250 9800 3900
@@ -921,4 +921,32 @@ Wire Wire Line
 	7900 4000 7900 3350
 Wire Wire Line
 	7900 3350 8400 3350
+Text Label 7700 2000 0    50   ~ 0
+SPI_MOSI
+Text Label 7700 2100 0    50   ~ 0
+SPI_MISO
+Text Label 7700 2200 0    50   ~ 0
+SPI_SCLK
+Text Label 1650 7675 2    50   ~ 0
+SPI_MOSI
+Text Label 1650 7875 2    50   ~ 0
+SPI_MISO
+Text Label 1650 7775 2    50   ~ 0
+SPI_SCLK
+Text Label 1650 7475 2    50   ~ 0
+~ADC_RESET
+Text Label 7700 3200 0    50   ~ 0
+~ADC_RESET
+Text Label 1650 7575 2    50   ~ 0
+~ADC_CS
+Text Label 7700 2300 0    50   ~ 0
+~ADC_CS
+Text Label 1650 7975 2    50   ~ 0
+~ADC_DRDY
+Text Label 7700 3100 0    50   ~ 0
+~ADC_DRDY
+Text Label 1650 8075 2    50   ~ 0
+ADC_START_SYNC
+Text Label 7700 3300 0    50   ~ 0
+ADC_START_SYNC
 $EndSCHEMATC
