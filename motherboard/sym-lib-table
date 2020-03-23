@@ -1,5 +1,5 @@
 (sym_lib_table
   (lib (name bryggan)(type Legacy)(uri $KIPRJMOD/../libraries/bryggan.lib)(options "")(descr ""))
   (lib (name MAX734ESA+)(type Legacy)(uri ${KIPRJMOD}/lib/MAX734ESA+.lib)(options "")(descr ""))
-  (lib (name AD8551ARZ)(type Legacy)(uri /home/swebro/Documents/projects/bryggan/electrical/motherboard/../libraries/AD8551ARZ/AD8551ARZ.lib)(options "")(descr ""))
+  (lib (name AD8551ARZ)(type Legacy)(uri ${KIPRJMOD}/../libraries/AD8551ARZ/AD8551ARZ.lib)(options "")(descr ""))
 )
