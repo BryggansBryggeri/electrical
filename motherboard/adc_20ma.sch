@@ -38,7 +38,7 @@ F 3 "" H 1850 2025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 1800 1575 0    50   Input ~ 0
-A_in
+A_in_low
 Wire Wire Line
 	1800 1575 1850 1575
 Wire Wire Line
@@ -115,7 +115,7 @@ F 3 "" H 1850 3375 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 1800 2925 0    50   Input ~ 0
-B_in
+B_in_low
 Wire Wire Line
 	1800 2925 1850 2925
 Wire Wire Line
@@ -192,7 +192,7 @@ F 3 "" H 1850 4675 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 1800 4225 0    50   Input ~ 0
-C_in
+C_in_low
 Wire Wire Line
 	1800 4225 1850 4225
 Wire Wire Line
@@ -269,7 +269,7 @@ F 3 "" H 1850 6025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 1800 5575 0    50   Input ~ 0
-D_in
+D_in_low
 Wire Wire Line
 	1800 5575 1850 5575
 Wire Wire Line
@@ -409,6 +409,29 @@ F 3 "" H 2300 5575 50  0001 C CNN
 	1    2300 5575
 	0    1    1    0   
 $EndComp
-Text Notes 850  1050 0    50   ~ 0
-TODO: Reciever should bias voltage
+Text Notes 1300 6975 0    50   ~ 0
+TODO: Overcurrent protection
+Text HLabel 1250 7100 2    50   Input ~ 0
+A_in_high
+Text HLabel 1250 7175 2    50   Input ~ 0
+B_in_high
+Text HLabel 1250 7250 2    50   Input ~ 0
+C_in_high
+Text HLabel 1250 7325 2    50   Input ~ 0
+D_in_high
+$Comp
+L power:+24V #PWR02405
+U 1 1 5E7CB289
+P 1100 7075
+F 0 "#PWR02405" H 1100 6925 50  0001 C CNN
+F 1 "+24V" H 1115 7248 50  0000 C CNN
+F 2 "" H 1100 7075 50  0001 C CNN
+F 3 "" H 1100 7075 50  0001 C CNN
+	1    1100 7075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 7075 1250 7075
+Wire Wire Line
+	1250 7075 1250 7325
 $EndSCHEMATC

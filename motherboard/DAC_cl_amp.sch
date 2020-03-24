@@ -438,8 +438,6 @@ F 3 "~" H 4850 3050 50  0001 C CNN
 	1    4850 3050
 	1    0    0    -1  
 $EndComp
-Text Notes 5150 2850 0    50   ~ 0
-TODO: Choose mosfet and select correct pinout
 Wire Wire Line
 	4950 3450 4950 3250
 Wire Wire Line
@@ -587,8 +585,6 @@ F 3 "~" H 4850 4500 50  0001 C CNN
 	1    4850 4500
 	1    0    0    -1  
 $EndComp
-Text Notes 5150 4300 0    50   ~ 0
-TODO: Choose mosfet and select correct pinout
 Wire Wire Line
 	4950 4900 4950 4700
 Wire Wire Line
@@ -736,8 +732,6 @@ F 3 "~" H 4850 5900 50  0001 C CNN
 	1    4850 5900
 	1    0    0    -1  
 $EndComp
-Text Notes 5150 5700 0    50   ~ 0
-TODO: Choose mosfet and select correct pinout
 Wire Wire Line
 	4950 6300 4950 6100
 Wire Wire Line
@@ -777,12 +771,14 @@ U 1 1 5E85BEAE
 P 1500 1275
 AR Path="/5E7855D6/5E79BD59/5E85BEAE" Ref="#PWR?"  Part="1" 
 AR Path="/5E7855D6/5E7F29DE/5E85BEAE" Ref="#PWR?"  Part="1" 
-AR Path="/5E7855D6/5E806431/5E85BEAE" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1500 1025 50  0001 C CNN
+AR Path="/5E7855D6/5E806431/5E85BEAE" Ref="#PWR0503"  Part="1" 
+F 0 "#PWR0503" H 1500 1025 50  0001 C CNN
 F 1 "GND" H 1505 1102 50  0000 C CNN
 F 2 "" H 1500 1275 50  0001 C CNN
 F 3 "" H 1500 1275 50  0001 C CNN
 	1    1500 1275
 	-1   0    0    -1  
 $EndComp
+Text Notes 5200 1475 0    50   ~ 0
+TODO: RPP protection throught bridge rectifier
 $EndSCHEMATC

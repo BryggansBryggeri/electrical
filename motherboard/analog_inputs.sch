@@ -721,6 +721,14 @@ F3 "A_out" O L 4900 4275 50
 F4 "B_out" O L 4900 4375 50 
 F5 "C_out" O L 4900 4475 50 
 F6 "D_out" O L 4900 4575 50 
+F7 "A_in_low" I R 6250 4375 50 
+F8 "B_in_low" I R 6250 4575 50 
+F9 "C_in_low" I R 6250 4775 50 
+F10 "D_in_low" I R 6250 4975 50 
+F11 "A_in_high" I R 6250 4275 50 
+F12 "B_in_high" I R 6250 4475 50 
+F13 "C_in_high" I R 6250 4675 50 
+F14 "D_in_high" I R 6250 4875 50 
 $EndSheet
 Wire Wire Line
 	4000 7000 3750 7000
