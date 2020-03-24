@@ -15,7 +15,7 @@ Comment4 ""
 $EndDescr
 Text Label 4900 3825 2    50   ~ 0
 Vref_buf
-Text Label 4900 4875 2    50   ~ 0
+Text Label 4925 5025 2    50   ~ 0
 Vref_buf
 Text Label 750  5600 2    50   ~ 0
 Vref
@@ -712,19 +712,15 @@ F9 "D_in" I R 6250 3525 50
 F10 "D_out" O L 4900 3525 50 
 $EndSheet
 $Sheet
-S 4900 4175 1350 800 
+S 4900 4175 1350 925 
 U 5E943D29
 F0 "20mA-1-4" 50
 F1 "adc_20ma.sch" 50
-F2 "A_in" I R 6250 4275 50 
-F3 "Vref" I L 4900 4875 50 
-F4 "A_out" O L 4900 4275 50 
-F5 "B_in" I R 6250 4375 50 
-F6 "B_out" O L 4900 4375 50 
-F7 "C_in" I R 6250 4475 50 
-F8 "C_out" O L 4900 4475 50 
-F9 "D_in" I R 6250 4575 50 
-F10 "D_out" O L 4900 4575 50 
+F2 "Vref" I L 4900 5025 50 
+F3 "A_out" O L 4900 4275 50 
+F4 "B_out" O L 4900 4375 50 
+F5 "C_out" O L 4900 4475 50 
+F6 "D_out" O L 4900 4575 50 
 $EndSheet
 Wire Wire Line
 	4000 7000 3750 7000

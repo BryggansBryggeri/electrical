@@ -256,14 +256,12 @@ F 3 "" H 4000 2400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4600 1600 4650 1600
-Text HLabel 4950 5700 1    50   Input ~ 0
+Text HLabel 1500 1100 0    50   Input ~ 0
 D_out_low
-Text HLabel 4950 4300 1    50   Input ~ 0
+Text HLabel 1500 1025 0    50   Input ~ 0
 C_out_low
-Text HLabel 4950 2850 1    50   Input ~ 0
+Text HLabel 1500 950  0    50   Input ~ 0
 B_out_low
-Text HLabel 2150 1000 2    50   Output ~ 0
-A_out_high
 $Comp
 L power:+12V #PWR?
 U 1 1 5E81BC9F
@@ -278,7 +276,7 @@ F 3 "" H 1950 1700 50  0001 C CNN
 	1    1950 1700
 	1    0    0    -1  
 $EndComp
-Text HLabel 5000 1400 1    50   Input ~ 0
+Text HLabel 1500 875  0    50   Input ~ 0
 A_out_low
 $Comp
 L Device:Q_NMOS_DGS Q504
@@ -293,17 +291,6 @@ F 3 "~" H 4900 1600 50  0001 C CNN
 $EndComp
 Text Notes 5200 1400 0    50   ~ 0
 TODO: Choose mosfet and select correct pinout
-$Comp
-L power:+24V #PWR0503
-U 1 1 5E870A31
-P 2000 900
-F 0 "#PWR0503" H 2000 750 50  0001 C CNN
-F 1 "+24V" H 2015 1073 50  0000 C CNN
-F 2 "" H 2000 900 50  0001 C CNN
-F 3 "" H 2000 900 50  0001 C CNN
-	1    2000 900 
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5000 2000 5000 1800
 Wire Wire Line
@@ -774,14 +761,28 @@ F 3 "" H 4600 5500 50  0001 C CNN
 	1    4600 5500
 	-1   0    0    1   
 $EndComp
-Text HLabel 2150 1100 2    50   Output ~ 0
-B_out_high
-Text HLabel 2150 1200 2    50   Output ~ 0
-C_out_high
-Text HLabel 2150 1300 2    50   Output ~ 0
+Wire Wire Line
+	1500 875  1500 1275
+Text HLabel 4950 5700 1    50   Output ~ 0
 D_out_high
-Wire Wire Line
-	2000 900  2150 900 
-Wire Wire Line
-	2150 900  2150 1300
+Text HLabel 4950 4300 1    50   Output ~ 0
+C_out_high
+Text HLabel 4950 2850 1    50   Output ~ 0
+B_out_high
+Text HLabel 5000 1400 1    50   Output ~ 0
+A_out_high
+$Comp
+L bryggan:GND #PWR?
+U 1 1 5E85BEAE
+P 1500 1275
+AR Path="/5E7855D6/5E79BD59/5E85BEAE" Ref="#PWR?"  Part="1" 
+AR Path="/5E7855D6/5E7F29DE/5E85BEAE" Ref="#PWR?"  Part="1" 
+AR Path="/5E7855D6/5E806431/5E85BEAE" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1500 1025 50  0001 C CNN
+F 1 "GND" H 1505 1102 50  0000 C CNN
+F 2 "" H 1500 1275 50  0001 C CNN
+F 3 "" H 1500 1275 50  0001 C CNN
+	1    1500 1275
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
