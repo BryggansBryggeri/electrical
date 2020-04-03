@@ -677,16 +677,6 @@ Wire Wire Line
 	7700 1750 8700 1750
 Wire Wire Line
 	7700 1650 8700 1650
-$Sheet
-S 8700 1500 900  450 
-U 5D58BFA7
-F0 "VFD_comm" 50
-F1 "VFD_comm.sch" 50
-F2 "txd_pi" I L 8700 1650 50 
-F3 "rxd_pi" I L 8700 1750 50 
-F4 "txd_conn" I R 9600 1650 50 
-F5 "rxd_conn" I R 9600 1750 50 
-$EndSheet
 Wire Wire Line
 	5150 2600 5150 2700
 Connection ~ 5150 2600
@@ -976,4 +966,18 @@ Wire Wire Line
 Wire Wire Line
 	8150 7275 8200 7275
 Connection ~ 8150 7350
+Text Notes -800 12550 0    394  ~ 0
+DIODES: https://www.farnell.com/datasheets/1911829.pdf
+Text Notes 3625 825  0    50   ~ 0
+TODO: fuses
+$Sheet
+S 8700 1500 900  450 
+U 5D58BFA7
+F0 "VFD_comm" 50
+F1 "VFD_comm.sch" 50
+F2 "txd_pi" I L 8700 1650 50 
+F3 "rxd_pi" O L 8700 1750 50 
+F4 "txd_conn" I R 9600 1650 50 
+F5 "rxd_conn" O R 9600 1750 50 
+$EndSheet
 $EndSCHEMATC

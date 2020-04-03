@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 21 25
+Sheet 20 25
 Title ""
 Date ""
 Rev ""
@@ -32,17 +32,6 @@ F 1 "GND" H 1405 6027 50  0000 C CNN
 F 2 "" H 1400 6200 50  0001 C CNN
 F 3 "" H 1400 6200 50  0001 C CNN
 	1    1400 6200
-	1    0    0    -1  
-$EndComp
-$Comp
-L bryggan:N-MOSFET Q2101
-U 1 1 5E7E00F4
-P 2900 6800
-F 0 "Q2101" H 3106 6846 50  0000 L CNN
-F 1 "N-MOSFET" H 3106 6755 50  0000 L CNN
-F 2 "" H 3100 6900 50  0001 C CNN
-F 3 "~" H 2900 6800 50  0001 C CNN
-	1    2900 6800
 	1    0    0    -1  
 $EndComp
 Text Notes 1900 6600 0    50   ~ 0
@@ -236,7 +225,6 @@ F 3 "" H 3000 7150 50  0001 C CNN
 	1    3000 7150
 	1    0    0    -1  
 $EndComp
-Connection ~ 3000 7000
 Text Notes 3100 7350 0    50   ~ 0
 Biasing resistor
 Text Label 1300 7100 2    50   ~ 0
@@ -725,12 +713,27 @@ F7 "A_in_low" I R 6250 4375 50
 F8 "B_in_low" I R 6250 4575 50 
 F9 "C_in_low" I R 6250 4775 50 
 F10 "D_in_low" I R 6250 4975 50 
-F11 "A_in_high" I R 6250 4275 50 
-F12 "B_in_high" I R 6250 4475 50 
-F13 "C_in_high" I R 6250 4675 50 
-F14 "D_in_high" I R 6250 4875 50 
+F11 "D_in_high" O R 6250 4875 50 
+F12 "C_in_high" O R 6250 4675 50 
+F13 "B_in_high" O R 6250 4475 50 
+F14 "A_in_high" O R 6250 4275 50 
 $EndSheet
 Wire Wire Line
 	4000 7000 3750 7000
 Connection ~ 3750 7000
+NoConn ~ 6250 4275
+$Comp
+L Device:Q_NMOS_GSD Q2101
+U 1 1 5E89560E
+P 2900 6800
+F 0 "Q2101" H 3104 6846 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 3104 6755 50  0000 L CNN
+F 2 "" H 3100 6900 50  0001 C CNN
+F 3 "~" H 2900 6800 50  0001 C CNN
+	1    2900 6800
+	1    0    0    -1  
+$EndComp
+Connection ~ 3000 7000
+Text Notes 2150 6200 0    50   ~ 0
+TODO: evaluate need as we don't use wheatstone anymore
 $EndSCHEMATC
