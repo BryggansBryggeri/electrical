@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name graphic)(type KiCad)(uri /home/jakob/personal/dev/bryggans/electrical/libraries/graphic)(options "")(descr ""))
+  (lib (name graphic)(type KiCad)(uri ${KIPRJMOD}/../libraries/graphic)(options "")(descr ""))
 )

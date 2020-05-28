@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/home/jakob/personal/dev/bryggans/electrical/motherboard/motherboard.sch</source>
-    <date>tis 12 mar 2019 10:03:06</date>
-    <tool>Eeschema 5.0.2-bee76a0~70~ubuntu18.04.1</tool>
+    <source>/home/kristoffer/Private/electrical/motherboard/motherboard.sch</source>
+    <date>Thu 28 May 2020 06:41:27 PM CEST</date>
+    <tool>Eeschema 5.1.5-52549c5~86~ubuntu18.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Motherboard</title>
         <company>Bryggans Bryggeri</company>
-        <rev>0.4</rev>
-        <date>2018-12-13</date>
+        <rev>1.1</rev>
+        <date>2019-08-19</date>
         <source>motherboard.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -17,51 +17,194 @@
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="2" name="/SSR_interface/" tstamps="/5BF6A1D6/">
+    <sheet number="2" name="/12Vreg/" tstamps="/5E91F57E/">
       <title_block>
-        <title>SSR interface</title>
-        <company>Bryggans Bryggeri</company>
-        <rev>0.4</rev>
-        <date>2018-12-13</date>
-        <source>SSR_interface.sch</source>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>12Vreg.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="3" name="/SSR_interface/SSR_driver_1/" tstamps="/5BF6A1D6/5C0971B5/">
+    <sheet number="3" name="/DAC/" tstamps="/5E7855D6/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>DAC.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/DAC/DAC_amp/" tstamps="/5E7855D6/5E79BD59/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>DAC_amp.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/DAC/DAC current loop amp/" tstamps="/5E7855D6/5E806431/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>DAC_cl_amp.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/i2c_interface/" tstamps="/5D709072/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev>1.1</rev>
+        <date/>
+        <source>i2c_interface.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/low_side_outputs/" tstamps="/5D63C483/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev>1.1</rev>
+        <date/>
+        <source>low_side_outputs.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="8" name="/low_side_outputs/SSR2_driver/" tstamps="/5D63C483/5D63C6FA/">
       <title_block>
         <title>SSR Driver</title>
         <company>Bryggans Bryggeri</company>
-        <rev>0.4</rev>
-        <date>2018-12-13</date>
-        <source>SSR_driver.sch</source>
+        <rev>1.1</rev>
+        <date>2019-03-20</date>
+        <source>low_side_driver.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="4" name="/SSR_interface/SSR_driver_2/" tstamps="/5BF6A1D6/5C098030/">
+    <sheet number="9" name="/low_side_outputs/relay_4_driver/" tstamps="/5D63C483/5D63C7C9/">
       <title_block>
         <title>SSR Driver</title>
         <company>Bryggans Bryggeri</company>
-        <rev>0.4</rev>
-        <date>2018-12-13</date>
-        <source>SSR_driver.sch</source>
+        <rev>1.1</rev>
+        <date>2019-03-20</date>
+        <source>low_side_driver.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="5" name="/SSR_interface/Comparator/" tstamps="/5BF6A1D6/5C12D07D/">
+    <sheet number="10" name="/low_side_outputs/SSR1_driver/" tstamps="/5D63C483/5D63C697/">
+      <title_block>
+        <title>SSR Driver</title>
+        <company>Bryggans Bryggeri</company>
+        <rev>1.1</rev>
+        <date>2019-03-20</date>
+        <source>low_side_driver.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="11" name="/low_side_outputs/extra_1_driver/" tstamps="/5D63C483/5D7F4D71/">
+      <title_block>
+        <title>SSR Driver</title>
+        <company>Bryggans Bryggeri</company>
+        <rev>1.1</rev>
+        <date>2019-03-20</date>
+        <source>low_side_driver.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="12" name="/low_side_outputs/extra_2_driver/" tstamps="/5D63C483/5D7F4DF5/">
+      <title_block>
+        <title>SSR Driver</title>
+        <company>Bryggans Bryggeri</company>
+        <rev>1.1</rev>
+        <date>2019-03-20</date>
+        <source>low_side_driver.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="13" name="/low_side_outputs/relay_3_driver/" tstamps="/5D63C483/5D63C7A1/">
+      <title_block>
+        <title>SSR Driver</title>
+        <company>Bryggans Bryggeri</company>
+        <rev>1.1</rev>
+        <date>2019-03-20</date>
+        <source>low_side_driver.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="14" name="/low_side_outputs/relay_2_driver/" tstamps="/5D63C483/5D63C76E/">
+      <title_block>
+        <title>SSR Driver</title>
+        <company>Bryggans Bryggeri</company>
+        <rev>1.1</rev>
+        <date>2019-03-20</date>
+        <source>low_side_driver.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="15" name="/low_side_outputs/relay_1_driver/" tstamps="/5D63C483/5D63C716/">
+      <title_block>
+        <title>SSR Driver</title>
+        <company>Bryggans Bryggeri</company>
+        <rev>1.1</rev>
+        <date>2019-03-20</date>
+        <source>low_side_driver.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="16" name="/low_side_outputs/SSR_1_2_comparator/" tstamps="/5D63C483/5D66D499/">
       <title_block>
         <title/>
         <company>Bryggans Bryggeri</company>
-        <rev>0.4</rev>
-        <date>2018-12-13</date>
+        <rev>1.1</rev>
+        <date>2019-03-20</date>
         <source>comparator.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -69,13 +212,117 @@
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="6" name="/Temp_interface/" tstamps="/5BF6D5FF/">
+    <sheet number="17" name="/low_side_outputs/relay_comparator/" tstamps="/5D63C483/5D7EF009/">
+      <title_block>
+        <title/>
+        <company>Bryggans Bryggeri</company>
+        <rev>1.1</rev>
+        <date>2019-03-20</date>
+        <source>comparator.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="18" name="/SSR_interface/" tstamps="/5D5AE47C/">
+      <title_block>
+        <title>SSR interface</title>
+        <company>Bryggans Bryggeri</company>
+        <rev>1.1</rev>
+        <date>2019-03-20</date>
+        <source>SSR_interface.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="19" name="/temp_interface/" tstamps="/5BF6D5FF/">
       <title_block>
         <title>Temperature sensor interface</title>
         <company>Bryggans Bryggeri</company>
-        <rev>0.4</rev>
-        <date>2018-12-13</date>
-        <source>Temp_interface.sch</source>
+        <rev>1.1</rev>
+        <date>2019-03-20</date>
+        <source>temp_interface.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="20" name="/Analog inputs/" tstamps="/5E942055/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>analog_inputs.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="21" name="/Analog inputs/PT-100-1/" tstamps="/5E942055/5E943CD5/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>pt100.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="22" name="/Analog inputs/10V-1-4/" tstamps="/5E942055/5E943CED/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>adc_10V.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="23" name="/Analog inputs/20mA-1-4/" tstamps="/5E942055/5E943D29/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>adc_20ma.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="24" name="/Safety stop/" tstamps="/5E9EF063/">
+      <title_block>
+        <title>SSR Driver</title>
+        <company>Bryggans Bryggeri</company>
+        <rev>1.1</rev>
+        <date>2019-03-20</date>
+        <source>low_side_driver.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="25" name="/VFD_comm/" tstamps="/5D58BFA7/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev>1.1</rev>
+        <date/>
+        <source>VFD_comm.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
@@ -84,7 +331,93 @@
     </sheet>
   </design>
   <components>
-    <comp ref="P1">
+    <comp ref="J105">
+      <value>serial_comm_conn</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D59D17A</tstamp>
+    </comp>
+    <comp ref="C101">
+      <value>1u</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E7440FE</tstamp>
+    </comp>
+    <comp ref="C104">
+      <value>10n</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E7443F6</tstamp>
+    </comp>
+    <comp ref="C107">
+      <value>100p</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E744A6F</tstamp>
+    </comp>
+    <comp ref="C102">
+      <value>1u</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E751FD5</tstamp>
+    </comp>
+    <comp ref="C105">
+      <value>10n</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E751FDF</tstamp>
+    </comp>
+    <comp ref="C108">
+      <value>100p</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E751FE9</tstamp>
+    </comp>
+    <comp ref="J101">
+      <value>Conn_01x03</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E767D3A</tstamp>
+    </comp>
+    <comp ref="C103">
+      <value>1u</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E7879C1</tstamp>
+    </comp>
+    <comp ref="C106">
+      <value>10n</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E7879C7</tstamp>
+    </comp>
+    <comp ref="C109">
+      <value>100p</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E7879CD</tstamp>
+    </comp>
+    <comp ref="J103">
+      <value>24VDC_connector</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-8-5.08_1x08_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x08_Male" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E875402</tstamp>
+    </comp>
+    <comp ref="P101">
       <value>Raspberry_Pi_+_Conn</value>
       <footprint>Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical</footprint>
       <fields>
@@ -94,248 +427,1948 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54E92361</tstamp>
     </comp>
-    <comp ref="J1">
-      <value>Conn_01x02_Male</value>
-      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</footprint>
+    <comp ref="J106">
+      <value>Temp_connector</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5C09D68A</tstamp>
+      <tstamp>5D565F3E</tstamp>
     </comp>
-    <comp ref="U1">
-      <value>74AUC2G04</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
-      <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
-      <libsource lib="74xGxx" part="74AUC2G04" description="Dual NOT Gate, Low-Voltage CMOS"/>
-      <sheetpath names="/SSR_interface/" tstamps="/5BF6A1D6/"/>
-      <tstamp>5C0AC439</tstamp>
+    <comp ref="J107">
+      <value>24VDC_connector</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-8-5.08_1x08_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x08_Male" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D5682CF</tstamp>
     </comp>
-    <comp ref="R1">
-      <value>R</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+    <comp ref="J102">
+      <value>24VDC_connector</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-8-5.08_1x08_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x08_Male" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8FD9E9</tstamp>
+    </comp>
+    <comp ref="J104">
+      <value>Safety stop</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E9F61CA</tstamp>
+    </comp>
+    <comp ref="C201">
+      <value>100u</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/12Vreg/" tstamps="/5E91F57E/"/>
+      <tstamp>5E929B37</tstamp>
+    </comp>
+    <comp ref="D201">
+      <value>1N5817</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <sheetpath names="/12Vreg/" tstamps="/5E91F57E/"/>
+      <tstamp>5E929B46</tstamp>
+    </comp>
+    <comp ref="C203">
+      <value>68u</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/12Vreg/" tstamps="/5E91F57E/"/>
+      <tstamp>5E929B4C</tstamp>
+    </comp>
+    <comp ref="C204">
+      <value>100n</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/12Vreg/" tstamps="/5E91F57E/"/>
+      <tstamp>5E93968B</tstamp>
+    </comp>
+    <comp ref="C202">
+      <value>10n</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/12Vreg/" tstamps="/5E91F57E/"/>
+      <tstamp>5E93AE05</tstamp>
+    </comp>
+    <comp ref="U201">
+      <value>LM2674M-12</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm2674.pdf</datasheet>
+      <libsource lib="Regulator_Switching" part="LM2674M-12" description="12V, 500mA Step-Down Voltage Regulator, SO-8"/>
+      <sheetpath names="/12Vreg/" tstamps="/5E91F57E/"/>
+      <tstamp>5E799F01</tstamp>
+    </comp>
+    <comp ref="L201">
+      <value>100n</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <sheetpath names="/12Vreg/" tstamps="/5E91F57E/"/>
+      <tstamp>5E929B2F</tstamp>
+    </comp>
+    <comp ref="R301">
+      <value>10k</value>
       <libsource lib="bryggan" part="R" description=""/>
-      <sheetpath names="/SSR_interface/" tstamps="/5BF6A1D6/"/>
-      <tstamp>5C0AFD6B</tstamp>
+      <sheetpath names="/DAC/" tstamps="/5E7855D6/"/>
+      <tstamp>5E79A003</tstamp>
     </comp>
-    <comp ref="U2">
-      <value>4081</value>
-      <footprint>Package_SO:SSOP-14_5.3x6.2mm_P0.65mm</footprint>
-      <datasheet>http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf</datasheet>
-      <libsource lib="4xxx" part="4081" description="Quad And 2 inputs"/>
-      <sheetpath names="/SSR_interface/" tstamps="/5BF6A1D6/"/>
-      <tstamp>5C119F67</tstamp>
-    </comp>
-    <comp ref="J2">
-      <value>Conn_01x02_Male</value>
-      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</footprint>
+    <comp ref="C301">
+      <value>0.1u</value>
       <datasheet>~</datasheet>
-      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/SSR_interface/" tstamps="/5BF6A1D6/"/>
-      <tstamp>5C126476</tstamp>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/DAC/" tstamps="/5E7855D6/"/>
+      <tstamp>5E790B22</tstamp>
     </comp>
-    <comp ref="J3">
-      <value>Conn_01x02_Male</value>
-      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</footprint>
+    <comp ref="C303">
+      <value>10u</value>
       <datasheet>~</datasheet>
-      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/SSR_interface/" tstamps="/5BF6A1D6/"/>
-      <tstamp>5C12BED8</tstamp>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/DAC/" tstamps="/5E7855D6/"/>
+      <tstamp>5E7905B5</tstamp>
     </comp>
-    <comp ref="J7">
-      <value>Conn_01x02_Male</value>
-      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</footprint>
+    <comp ref="U301">
+      <value>MCP4728</value>
+      <footprint>Package_SO:MSOP-10_3x3mm_P0.5mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/22187E.pdf</datasheet>
+      <libsource lib="Analog_DAC" part="MCP4728" description="12-bit digital to analog converter, quad output, 2.048V internal reference, integrated EEPROM, I2C interface"/>
+      <sheetpath names="/DAC/" tstamps="/5E7855D6/"/>
+      <tstamp>5E78FBC7</tstamp>
+    </comp>
+    <comp ref="R302">
+      <value>10k</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/DAC/" tstamps="/5E7855D6/"/>
+      <tstamp>5E7F29AE</tstamp>
+    </comp>
+    <comp ref="C302">
+      <value>0.1u</value>
       <datasheet>~</datasheet>
-      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/SSR_interface/" tstamps="/5BF6A1D6/"/>
-      <tstamp>5C34D5E2</tstamp>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/DAC/" tstamps="/5E7855D6/"/>
+      <tstamp>5E7F29EE</tstamp>
     </comp>
-    <comp ref="R2">
+    <comp ref="C304">
+      <value>10u</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/DAC/" tstamps="/5E7855D6/"/>
+      <tstamp>5E7F29F4</tstamp>
+    </comp>
+    <comp ref="U302">
+      <value>MCP4728</value>
+      <footprint>Package_SO:MSOP-10_3x3mm_P0.5mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/22187E.pdf</datasheet>
+      <libsource lib="Analog_DAC" part="MCP4728" description="12-bit digital to analog converter, quad output, 2.048V internal reference, integrated EEPROM, I2C interface"/>
+      <sheetpath names="/DAC/" tstamps="/5E7855D6/"/>
+      <tstamp>5E7F29FA</tstamp>
+    </comp>
+    <comp ref="JP302">
+      <value>Jumper</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Jumper" description="Jumper, normally closed"/>
+      <sheetpath names="/DAC/" tstamps="/5E7855D6/"/>
+      <tstamp>5E7F4096</tstamp>
+    </comp>
+    <comp ref="JP301">
+      <value>Jumper</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Jumper" description="Jumper, normally closed"/>
+      <sheetpath names="/DAC/" tstamps="/5E7855D6/"/>
+      <tstamp>5E7F9517</tstamp>
+    </comp>
+    <comp ref="U401">
+      <value>LM324</value>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm2902-n.pdf</datasheet>
+      <libsource lib="Amplifier_Operational" part="LM324" description="Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"/>
+      <sheetpath names="/DAC/DAC_amp/" tstamps="/5E7855D6/5E79BD59/"/>
+      <tstamp>5E7A1AA4</tstamp>
+    </comp>
+    <comp ref="R401">
+      <value>22k</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/DAC/DAC_amp/" tstamps="/5E7855D6/5E79BD59/"/>
+      <tstamp>5E7A7767</tstamp>
+    </comp>
+    <comp ref="R413">
+      <value>6k8</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/DAC/DAC_amp/" tstamps="/5E7855D6/5E79BD59/"/>
+      <tstamp>5E7A7F5B</tstamp>
+    </comp>
+    <comp ref="R417">
+      <value>1k2</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/DAC/DAC_amp/" tstamps="/5E7855D6/5E79BD59/"/>
+      <tstamp>5E7B0F9E</tstamp>
+    </comp>
+    <comp ref="R405">
+      <value>1M</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/DAC/DAC_amp/" tstamps="/5E7855D6/5E79BD59/"/>
+      <tstamp>5E7C744F</tstamp>
+    </comp>
+    <comp ref="R402">
+      <value>22k</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/DAC/DAC_amp/" tstamps="/5E7855D6/5E79BD59/"/>
+      <tstamp>5E7E5A1E</tstamp>
+    </comp>
+    <comp ref="R406">
+      <value>1M</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/DAC/DAC_amp/" tstamps="/5E7855D6/5E79BD59/"/>
+      <tstamp>5E7E5A75</tstamp>
+    </comp>
+    <comp ref="R403">
+      <value>22k</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/DAC/DAC_amp/" tstamps="/5E7855D6/5E79BD59/"/>
+      <tstamp>5E7F3AF0</tstamp>
+    </comp>
+    <comp ref="R407">
+      <value>1M</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/DAC/DAC_amp/" tstamps="/5E7855D6/5E79BD59/"/>
+      <tstamp>5E7F3B47</tstamp>
+    </comp>
+    <comp ref="R404">
+      <value>22k</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/DAC/DAC_amp/" tstamps="/5E7855D6/5E79BD59/"/>
+      <tstamp>5E7F3B64</tstamp>
+    </comp>
+    <comp ref="R408">
+      <value>1M</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/DAC/DAC_amp/" tstamps="/5E7855D6/5E79BD59/"/>
+      <tstamp>5E7F3BBB</tstamp>
+    </comp>
+    <comp ref="C402">
+      <value>10u</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/DAC/DAC_amp/" tstamps="/5E7855D6/5E79BD59/"/>
+      <tstamp>5E8314E4</tstamp>
+    </comp>
+    <comp ref="C401">
+      <value>2u2</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/DAC/DAC_amp/" tstamps="/5E7855D6/5E79BD59/"/>
+      <tstamp>5E831ED5</tstamp>
+    </comp>
+    <comp ref="R409">
+      <value>3k9</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/DAC/DAC_amp/" tstamps="/5E7855D6/5E79BD59/"/>
+      <tstamp>5E7A837F</tstamp>
+    </comp>
+    <comp ref="R418">
+      <value>1k2</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/DAC/DAC_amp/" tstamps="/5E7855D6/5E79BD59/"/>
+      <tstamp>5E920C29</tstamp>
+    </comp>
+    <comp ref="R419">
+      <value>1k2</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/DAC/DAC_amp/" tstamps="/5E7855D6/5E79BD59/"/>
+      <tstamp>5E921168</tstamp>
+    </comp>
+    <comp ref="R420">
+      <value>1k2</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/DAC/DAC_amp/" tstamps="/5E7855D6/5E79BD59/"/>
+      <tstamp>5E92166F</tstamp>
+    </comp>
+    <comp ref="R414">
+      <value>6k8</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/DAC/DAC_amp/" tstamps="/5E7855D6/5E79BD59/"/>
+      <tstamp>5E937F39</tstamp>
+    </comp>
+    <comp ref="R415">
+      <value>6k8</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/DAC/DAC_amp/" tstamps="/5E7855D6/5E79BD59/"/>
+      <tstamp>5E938486</tstamp>
+    </comp>
+    <comp ref="R416">
+      <value>6k8</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/DAC/DAC_amp/" tstamps="/5E7855D6/5E79BD59/"/>
+      <tstamp>5E938937</tstamp>
+    </comp>
+    <comp ref="R410">
+      <value>3k9</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/DAC/DAC_amp/" tstamps="/5E7855D6/5E79BD59/"/>
+      <tstamp>5E938E29</tstamp>
+    </comp>
+    <comp ref="R411">
+      <value>3k9</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/DAC/DAC_amp/" tstamps="/5E7855D6/5E79BD59/"/>
+      <tstamp>5E939351</tstamp>
+    </comp>
+    <comp ref="R412">
+      <value>3k9</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/DAC/DAC_amp/" tstamps="/5E7855D6/5E79BD59/"/>
+      <tstamp>5E939865</tstamp>
+    </comp>
+    <comp ref="C403">
+      <value>2u2</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/DAC/DAC_amp/" tstamps="/5E7855D6/5E79BD59/"/>
+      <tstamp>5E93C19B</tstamp>
+    </comp>
+    <comp ref="C404">
+      <value>2u2</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/DAC/DAC_amp/" tstamps="/5E7855D6/5E79BD59/"/>
+      <tstamp>5E93C7F7</tstamp>
+    </comp>
+    <comp ref="C405">
+      <value>2u2</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/DAC/DAC_amp/" tstamps="/5E7855D6/5E79BD59/"/>
+      <tstamp>5E93CD1D</tstamp>
+    </comp>
+    <comp ref="C406">
+      <value>2u2</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/DAC/DAC_amp/" tstamps="/5E7855D6/5E79BD59/"/>
+      <tstamp>5E93D33C</tstamp>
+    </comp>
+    <comp ref="U501">
+      <value>LM324</value>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm2902-n.pdf</datasheet>
+      <libsource lib="Amplifier_Operational" part="LM324" description="Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"/>
+      <sheetpath names="/DAC/DAC current loop amp/" tstamps="/5E7855D6/5E806431/"/>
+      <tstamp>5E81BB41</tstamp>
+    </comp>
+    <comp ref="R504">
+      <value>22k</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/DAC/DAC current loop amp/" tstamps="/5E7855D6/5E806431/"/>
+      <tstamp>5E81BB59</tstamp>
+    </comp>
+    <comp ref="R516">
       <value>100k</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/DAC/DAC current loop amp/" tstamps="/5E7855D6/5E806431/"/>
+      <tstamp>5E81BB5F</tstamp>
+    </comp>
+    <comp ref="R508">
+      <value>1M</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/DAC/DAC current loop amp/" tstamps="/5E7855D6/5E806431/"/>
+      <tstamp>5E81BB83</tstamp>
+    </comp>
+    <comp ref="C502">
+      <value>10u</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/DAC/DAC current loop amp/" tstamps="/5E7855D6/5E806431/"/>
+      <tstamp>5E81BC72</tstamp>
+    </comp>
+    <comp ref="C501">
+      <value>2u2</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/DAC/DAC current loop amp/" tstamps="/5E7855D6/5E806431/"/>
+      <tstamp>5E81BC78</tstamp>
+    </comp>
+    <comp ref="R512">
+      <value>180R</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/DAC/DAC current loop amp/" tstamps="/5E7855D6/5E806431/"/>
+      <tstamp>5E81BC87</tstamp>
+    </comp>
+    <comp ref="R501">
+      <value>22k</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/DAC/DAC current loop amp/" tstamps="/5E7855D6/5E806431/"/>
+      <tstamp>5E882221</tstamp>
+    </comp>
+    <comp ref="R513">
+      <value>100k</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/DAC/DAC current loop amp/" tstamps="/5E7855D6/5E806431/"/>
+      <tstamp>5E882227</tstamp>
+    </comp>
+    <comp ref="R505">
+      <value>1M</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/DAC/DAC current loop amp/" tstamps="/5E7855D6/5E806431/"/>
+      <tstamp>5E882240</tstamp>
+    </comp>
+    <comp ref="R509">
+      <value>180R</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/DAC/DAC current loop amp/" tstamps="/5E7855D6/5E806431/"/>
+      <tstamp>5E882250</tstamp>
+    </comp>
+    <comp ref="R502">
+      <value>22k</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/DAC/DAC current loop amp/" tstamps="/5E7855D6/5E806431/"/>
+      <tstamp>5E884FA2</tstamp>
+    </comp>
+    <comp ref="R514">
+      <value>100k</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/DAC/DAC current loop amp/" tstamps="/5E7855D6/5E806431/"/>
+      <tstamp>5E884FA8</tstamp>
+    </comp>
+    <comp ref="R506">
+      <value>1M</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/DAC/DAC current loop amp/" tstamps="/5E7855D6/5E806431/"/>
+      <tstamp>5E884FC1</tstamp>
+    </comp>
+    <comp ref="R510">
+      <value>180R</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/DAC/DAC current loop amp/" tstamps="/5E7855D6/5E806431/"/>
+      <tstamp>5E884FD1</tstamp>
+    </comp>
+    <comp ref="R503">
+      <value>22k</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/DAC/DAC current loop amp/" tstamps="/5E7855D6/5E806431/"/>
+      <tstamp>5E88A860</tstamp>
+    </comp>
+    <comp ref="R515">
+      <value>100k</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/DAC/DAC current loop amp/" tstamps="/5E7855D6/5E806431/"/>
+      <tstamp>5E88A866</tstamp>
+    </comp>
+    <comp ref="R507">
+      <value>1M</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/DAC/DAC current loop amp/" tstamps="/5E7855D6/5E806431/"/>
+      <tstamp>5E88A87F</tstamp>
+    </comp>
+    <comp ref="R511">
+      <value>180R</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/DAC/DAC current loop amp/" tstamps="/5E7855D6/5E806431/"/>
+      <tstamp>5E88A88F</tstamp>
+    </comp>
+    <comp ref="Q504">
+      <value>Q_NMOS_GSD</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/DAC/DAC current loop amp/" tstamps="/5E7855D6/5E806431/"/>
+      <tstamp>5E88C52E</tstamp>
+    </comp>
+    <comp ref="Q501">
+      <value>Q_NMOS_GSD</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/DAC/DAC current loop amp/" tstamps="/5E7855D6/5E806431/"/>
+      <tstamp>5E88E9AF</tstamp>
+    </comp>
+    <comp ref="Q502">
+      <value>Q_NMOS_GSD</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/DAC/DAC current loop amp/" tstamps="/5E7855D6/5E806431/"/>
+      <tstamp>5E8911B0</tstamp>
+    </comp>
+    <comp ref="Q503">
+      <value>Q_NMOS_GSD</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/DAC/DAC current loop amp/" tstamps="/5E7855D6/5E806431/"/>
+      <tstamp>5E891AC9</tstamp>
+    </comp>
+    <comp ref="C506">
+      <value>2u2</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/DAC/DAC current loop amp/" tstamps="/5E7855D6/5E806431/"/>
+      <tstamp>5E9427A3</tstamp>
+    </comp>
+    <comp ref="C503">
+      <value>2u2</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/DAC/DAC current loop amp/" tstamps="/5E7855D6/5E806431/"/>
+      <tstamp>5E942DDA</tstamp>
+    </comp>
+    <comp ref="C504">
+      <value>2u2</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/DAC/DAC current loop amp/" tstamps="/5E7855D6/5E806431/"/>
+      <tstamp>5E94347B</tstamp>
+    </comp>
+    <comp ref="C505">
+      <value>2u2</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/DAC/DAC current loop amp/" tstamps="/5E7855D6/5E806431/"/>
+      <tstamp>5E9439AB</tstamp>
+    </comp>
+    <comp ref="R604">
+      <value>1k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <libsource lib="bryggan" part="R" description=""/>
-      <sheetpath names="/SSR_interface/SSR_driver_1/" tstamps="/5BF6A1D6/5C0971B5/"/>
-      <tstamp>5C09780E</tstamp>
+      <sheetpath names="/i2c_interface/" tstamps="/5D709072/"/>
+      <tstamp>5D5D9785</tstamp>
     </comp>
-    <comp ref="R3">
-      <value>30</value>
+    <comp ref="R603">
+      <value>1k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <libsource lib="bryggan" part="R" description=""/>
-      <sheetpath names="/SSR_interface/SSR_driver_1/" tstamps="/5BF6A1D6/5C0971B5/"/>
-      <tstamp>5C097818</tstamp>
+      <sheetpath names="/i2c_interface/" tstamps="/5D709072/"/>
+      <tstamp>5D5C4D87</tstamp>
     </comp>
-    <comp ref="Q1">
+    <comp ref="R602">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/i2c_interface/" tstamps="/5D709072/"/>
+      <tstamp>5D5F066C</tstamp>
+    </comp>
+    <comp ref="R601">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/i2c_interface/" tstamps="/5D709072/"/>
+      <tstamp>5D5F34FC</tstamp>
+    </comp>
+    <comp ref="C601">
+      <value>130pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/i2c_interface/" tstamps="/5D709072/"/>
+      <tstamp>5D752B14</tstamp>
+    </comp>
+    <comp ref="C602">
+      <value>130pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/i2c_interface/" tstamps="/5D709072/"/>
+      <tstamp>5D74FA28</tstamp>
+    </comp>
+    <comp ref="C603">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/i2c_interface/" tstamps="/5D709072/"/>
+      <tstamp>5D76320B</tstamp>
+    </comp>
+    <comp ref="C604">
+      <value>10pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/i2c_interface/" tstamps="/5D709072/"/>
+      <tstamp>5D767BEA</tstamp>
+    </comp>
+    <comp ref="Q601">
       <value>Q_NMOS_GSD</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
-      <sheetpath names="/SSR_interface/SSR_driver_1/" tstamps="/5BF6A1D6/5C0971B5/"/>
-      <tstamp>5C09F6F4</tstamp>
+      <sheetpath names="/i2c_interface/" tstamps="/5D709072/"/>
+      <tstamp>5D810BA6</tstamp>
     </comp>
-    <comp ref="R4">
-      <value>100k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
-      <libsource lib="bryggan" part="R" description=""/>
-      <sheetpath names="/SSR_interface/SSR_driver_2/" tstamps="/5BF6A1D6/5C098030/"/>
-      <tstamp>5C09780E</tstamp>
-    </comp>
-    <comp ref="R5">
-      <value>30</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
-      <libsource lib="bryggan" part="R" description=""/>
-      <sheetpath names="/SSR_interface/SSR_driver_2/" tstamps="/5BF6A1D6/5C098030/"/>
-      <tstamp>5C097818</tstamp>
-    </comp>
-    <comp ref="Q2">
+    <comp ref="Q602">
       <value>Q_NMOS_GSD</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
-      <sheetpath names="/SSR_interface/SSR_driver_2/" tstamps="/5BF6A1D6/5C098030/"/>
-      <tstamp>5C09F6F4</tstamp>
+      <sheetpath names="/i2c_interface/" tstamps="/5D709072/"/>
+      <tstamp>5D811178</tstamp>
     </comp>
-    <comp ref="R8">
-      <value>230</value>
+    <comp ref="R605">
+      <value>10k</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/i2c_interface/" tstamps="/5D709072/"/>
+      <tstamp>5E77A027</tstamp>
+    </comp>
+    <comp ref="JP601">
+      <value>Jumper</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Jumper" description="Jumper, normally closed"/>
+      <sheetpath names="/i2c_interface/" tstamps="/5D709072/"/>
+      <tstamp>5E7C25B3</tstamp>
+    </comp>
+    <comp ref="U601">
+      <value>MCP23017_ML</value>
+      <footprint>Package_DFN_QFN:QFN-28-1EP_6x6mm_P0.65mm_EP4.25x4.25mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf</datasheet>
+      <libsource lib="Interface_Expansion" part="MCP23017_ML" description="16-bit I/O expander, I2C, interrupts, w pull-ups, QFN-28"/>
+      <sheetpath names="/i2c_interface/" tstamps="/5D709072/"/>
+      <tstamp>5D70FB5A</tstamp>
+    </comp>
+    <comp ref="R701">
+      <value>220</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <libsource lib="bryggan" part="R" description=""/>
-      <sheetpath names="/SSR_interface/Comparator/" tstamps="/5BF6A1D6/5C12D07D/"/>
-      <tstamp>5C12D7A5</tstamp>
+      <sheetpath names="/low_side_outputs/" tstamps="/5D63C483/"/>
+      <tstamp>5D6699BB</tstamp>
     </comp>
-    <comp ref="R6">
-      <value>230</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
-      <libsource lib="bryggan" part="R" description=""/>
-      <sheetpath names="/SSR_interface/Comparator/" tstamps="/5BF6A1D6/5C12D07D/"/>
-      <tstamp>5C12D7AF</tstamp>
-    </comp>
-    <comp ref="C1">
-      <value>C</value>
+    <comp ref="C701">
+      <value>220n</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <sheetpath names="/SSR_interface/Comparator/" tstamps="/5BF6A1D6/5C12D07D/"/>
-      <tstamp>5C12D7BC</tstamp>
+      <sheetpath names="/low_side_outputs/" tstamps="/5D63C483/"/>
+      <tstamp>5D6699C7</tstamp>
     </comp>
-    <comp ref="D1">
+    <comp ref="D701">
       <value>d</value>
       <footprint>Diode_SMD:D_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
-      <sheetpath names="/SSR_interface/Comparator/" tstamps="/5BF6A1D6/5C12D07D/"/>
-      <tstamp>5C12D7C9</tstamp>
+      <sheetpath names="/low_side_outputs/" tstamps="/5D63C483/"/>
+      <tstamp>5D6699D3</tstamp>
     </comp>
-    <comp ref="RV1">
+    <comp ref="RV701">
       <value>10k</value>
       <footprint>Potentiometer_SMD:Potentiometer_Vishay_TS53YL_Vertical</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R_POT" description="Potentiometer"/>
-      <sheetpath names="/SSR_interface/Comparator/" tstamps="/5BF6A1D6/5C12D07D/"/>
-      <tstamp>5C12D7DD</tstamp>
+      <sheetpath names="/low_side_outputs/" tstamps="/5D63C483/"/>
+      <tstamp>5D6699E3</tstamp>
     </comp>
-    <comp ref="J5">
-      <value>Conn_01x02_Male</value>
-      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/SSR_interface/Comparator/" tstamps="/5BF6A1D6/5C12D07D/"/>
-      <tstamp>5C12D7EB</tstamp>
-    </comp>
-    <comp ref="U3">
-      <value>TLC272</value>
-      <footprint>Package_SO:TSSOP-8_4.4x3mm_P0.65mm</footprint>
-      <datasheet>http://www.ti.com/lit/ds/symlink/tlc272.pdf</datasheet>
-      <libsource lib="Amplifier_Operational" part="TLC272" description="Dual LinCMOS Precision Dual Operational Amplifiers, DIP-8/SOIC-8/SSOP-8"/>
-      <sheetpath names="/SSR_interface/Comparator/" tstamps="/5BF6A1D6/5C12D07D/"/>
-      <tstamp>5C12D7F9</tstamp>
-    </comp>
-    <comp ref="R7">
-      <value>230</value>
+    <comp ref="R801">
+      <value>100k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <libsource lib="bryggan" part="R" description=""/>
-      <sheetpath names="/SSR_interface/Comparator/" tstamps="/5BF6A1D6/5C12D07D/"/>
+      <sheetpath names="/low_side_outputs/SSR2_driver/" tstamps="/5D63C483/5D63C6FA/"/>
+      <tstamp>5C09780E</tstamp>
+    </comp>
+    <comp ref="R802">
+      <value>5.6</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/low_side_outputs/SSR2_driver/" tstamps="/5D63C483/5D63C6FA/"/>
+      <tstamp>5C097818</tstamp>
+    </comp>
+    <comp ref="Q801">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/low_side_outputs/SSR2_driver/" tstamps="/5D63C483/5D63C6FA/"/>
+      <tstamp>5C09F6F4</tstamp>
+    </comp>
+    <comp ref="R901">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/low_side_outputs/relay_4_driver/" tstamps="/5D63C483/5D63C7C9/"/>
+      <tstamp>5C09780E</tstamp>
+    </comp>
+    <comp ref="R902">
+      <value>5.6</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/low_side_outputs/relay_4_driver/" tstamps="/5D63C483/5D63C7C9/"/>
+      <tstamp>5C097818</tstamp>
+    </comp>
+    <comp ref="Q901">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/low_side_outputs/relay_4_driver/" tstamps="/5D63C483/5D63C7C9/"/>
+      <tstamp>5C09F6F4</tstamp>
+    </comp>
+    <comp ref="R1001">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/low_side_outputs/SSR1_driver/" tstamps="/5D63C483/5D63C697/"/>
+      <tstamp>5C09780E</tstamp>
+    </comp>
+    <comp ref="R1002">
+      <value>5.6</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/low_side_outputs/SSR1_driver/" tstamps="/5D63C483/5D63C697/"/>
+      <tstamp>5C097818</tstamp>
+    </comp>
+    <comp ref="Q1001">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/low_side_outputs/SSR1_driver/" tstamps="/5D63C483/5D63C697/"/>
+      <tstamp>5C09F6F4</tstamp>
+    </comp>
+    <comp ref="R1101">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/low_side_outputs/extra_1_driver/" tstamps="/5D63C483/5D7F4D71/"/>
+      <tstamp>5C09780E</tstamp>
+    </comp>
+    <comp ref="R1102">
+      <value>5.6</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/low_side_outputs/extra_1_driver/" tstamps="/5D63C483/5D7F4D71/"/>
+      <tstamp>5C097818</tstamp>
+    </comp>
+    <comp ref="Q1101">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/low_side_outputs/extra_1_driver/" tstamps="/5D63C483/5D7F4D71/"/>
+      <tstamp>5C09F6F4</tstamp>
+    </comp>
+    <comp ref="R1201">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/low_side_outputs/extra_2_driver/" tstamps="/5D63C483/5D7F4DF5/"/>
+      <tstamp>5C09780E</tstamp>
+    </comp>
+    <comp ref="R1202">
+      <value>5.6</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/low_side_outputs/extra_2_driver/" tstamps="/5D63C483/5D7F4DF5/"/>
+      <tstamp>5C097818</tstamp>
+    </comp>
+    <comp ref="Q1201">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/low_side_outputs/extra_2_driver/" tstamps="/5D63C483/5D7F4DF5/"/>
+      <tstamp>5C09F6F4</tstamp>
+    </comp>
+    <comp ref="R1301">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/low_side_outputs/relay_3_driver/" tstamps="/5D63C483/5D63C7A1/"/>
+      <tstamp>5C09780E</tstamp>
+    </comp>
+    <comp ref="R1302">
+      <value>5.6</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/low_side_outputs/relay_3_driver/" tstamps="/5D63C483/5D63C7A1/"/>
+      <tstamp>5C097818</tstamp>
+    </comp>
+    <comp ref="Q1301">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/low_side_outputs/relay_3_driver/" tstamps="/5D63C483/5D63C7A1/"/>
+      <tstamp>5C09F6F4</tstamp>
+    </comp>
+    <comp ref="R1401">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/low_side_outputs/relay_2_driver/" tstamps="/5D63C483/5D63C76E/"/>
+      <tstamp>5C09780E</tstamp>
+    </comp>
+    <comp ref="R1402">
+      <value>5.6</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/low_side_outputs/relay_2_driver/" tstamps="/5D63C483/5D63C76E/"/>
+      <tstamp>5C097818</tstamp>
+    </comp>
+    <comp ref="Q1401">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/low_side_outputs/relay_2_driver/" tstamps="/5D63C483/5D63C76E/"/>
+      <tstamp>5C09F6F4</tstamp>
+    </comp>
+    <comp ref="R1501">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/low_side_outputs/relay_1_driver/" tstamps="/5D63C483/5D63C716/"/>
+      <tstamp>5C09780E</tstamp>
+    </comp>
+    <comp ref="R1502">
+      <value>5.6</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/low_side_outputs/relay_1_driver/" tstamps="/5D63C483/5D63C716/"/>
+      <tstamp>5C097818</tstamp>
+    </comp>
+    <comp ref="Q1501">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/low_side_outputs/relay_1_driver/" tstamps="/5D63C483/5D63C716/"/>
+      <tstamp>5C09F6F4</tstamp>
+    </comp>
+    <comp ref="R1603">
+      <value>4k7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/low_side_outputs/SSR_1_2_comparator/" tstamps="/5D63C483/5D66D499/"/>
+      <tstamp>5C12D7A5</tstamp>
+    </comp>
+    <comp ref="R1601">
+      <value>4k7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/low_side_outputs/SSR_1_2_comparator/" tstamps="/5D63C483/5D66D499/"/>
       <tstamp>5C12F882</tstamp>
     </comp>
-    <comp ref="J4">
-      <value>Conn_01x02_Male</value>
-      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/SSR_interface/Comparator/" tstamps="/5BF6A1D6/5C12D07D/"/>
-      <tstamp>5C12F88A</tstamp>
+    <comp ref="U1601">
+      <value>LM324</value>
+      <footprint>Package_SO:TSSOP-14-1EP_4.4x5mm_P0.65mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm2902-n.pdf</datasheet>
+      <libsource lib="Amplifier_Operational" part="LM324" description="Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"/>
+      <sheetpath names="/low_side_outputs/SSR_1_2_comparator/" tstamps="/5D63C483/5D66D499/"/>
+      <tstamp>5D790B8A</tstamp>
     </comp>
-    <comp ref="R11">
+    <comp ref="R1607">
+      <value>4k7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/low_side_outputs/SSR_1_2_comparator/" tstamps="/5D63C483/5D66D499/"/>
+      <tstamp>5D7A114A</tstamp>
+    </comp>
+    <comp ref="R1605">
+      <value>4k7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/low_side_outputs/SSR_1_2_comparator/" tstamps="/5D63C483/5D66D499/"/>
+      <tstamp>5D7A1161</tstamp>
+    </comp>
+    <comp ref="C1601">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/low_side_outputs/SSR_1_2_comparator/" tstamps="/5D63C483/5D66D499/"/>
+      <tstamp>5D7BC0FB</tstamp>
+    </comp>
+    <comp ref="C1602">
+      <value>10pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/low_side_outputs/SSR_1_2_comparator/" tstamps="/5D63C483/5D66D499/"/>
+      <tstamp>5D7BC561</tstamp>
+    </comp>
+    <comp ref="D1601">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/low_side_outputs/SSR_1_2_comparator/" tstamps="/5D63C483/5D66D499/"/>
+      <tstamp>5D7D3748</tstamp>
+    </comp>
+    <comp ref="R1602">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/low_side_outputs/SSR_1_2_comparator/" tstamps="/5D63C483/5D66D499/"/>
+      <tstamp>5D7D3F7B</tstamp>
+    </comp>
+    <comp ref="D1602">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/low_side_outputs/SSR_1_2_comparator/" tstamps="/5D63C483/5D66D499/"/>
+      <tstamp>5D7D92F2</tstamp>
+    </comp>
+    <comp ref="R1604">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/low_side_outputs/SSR_1_2_comparator/" tstamps="/5D63C483/5D66D499/"/>
+      <tstamp>5D7D92F8</tstamp>
+    </comp>
+    <comp ref="D1603">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/low_side_outputs/SSR_1_2_comparator/" tstamps="/5D63C483/5D66D499/"/>
+      <tstamp>5D7DD259</tstamp>
+    </comp>
+    <comp ref="D1604">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/low_side_outputs/SSR_1_2_comparator/" tstamps="/5D63C483/5D66D499/"/>
+      <tstamp>5D7DEF19</tstamp>
+    </comp>
+    <comp ref="R1608">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/low_side_outputs/SSR_1_2_comparator/" tstamps="/5D63C483/5D66D499/"/>
+      <tstamp>5D7DEF1F</tstamp>
+    </comp>
+    <comp ref="R1606">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/low_side_outputs/SSR_1_2_comparator/" tstamps="/5D63C483/5D66D499/"/>
+      <tstamp>5D7DD25F</tstamp>
+    </comp>
+    <comp ref="R1703">
+      <value>4k7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/low_side_outputs/relay_comparator/" tstamps="/5D63C483/5D7EF009/"/>
+      <tstamp>5C12D7A5</tstamp>
+    </comp>
+    <comp ref="R1701">
+      <value>4k7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/low_side_outputs/relay_comparator/" tstamps="/5D63C483/5D7EF009/"/>
+      <tstamp>5C12F882</tstamp>
+    </comp>
+    <comp ref="U1701">
+      <value>LM324</value>
+      <footprint>Package_SO:TSSOP-14-1EP_4.4x5mm_P0.65mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm2902-n.pdf</datasheet>
+      <libsource lib="Amplifier_Operational" part="LM324" description="Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"/>
+      <sheetpath names="/low_side_outputs/relay_comparator/" tstamps="/5D63C483/5D7EF009/"/>
+      <tstamp>5D790B8A</tstamp>
+    </comp>
+    <comp ref="R1707">
+      <value>4k7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/low_side_outputs/relay_comparator/" tstamps="/5D63C483/5D7EF009/"/>
+      <tstamp>5D7A114A</tstamp>
+    </comp>
+    <comp ref="R1705">
+      <value>4k7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/low_side_outputs/relay_comparator/" tstamps="/5D63C483/5D7EF009/"/>
+      <tstamp>5D7A1161</tstamp>
+    </comp>
+    <comp ref="C1701">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/low_side_outputs/relay_comparator/" tstamps="/5D63C483/5D7EF009/"/>
+      <tstamp>5D7BC0FB</tstamp>
+    </comp>
+    <comp ref="C1702">
+      <value>10pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/low_side_outputs/relay_comparator/" tstamps="/5D63C483/5D7EF009/"/>
+      <tstamp>5D7BC561</tstamp>
+    </comp>
+    <comp ref="D1701">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/low_side_outputs/relay_comparator/" tstamps="/5D63C483/5D7EF009/"/>
+      <tstamp>5D7D3748</tstamp>
+    </comp>
+    <comp ref="R1702">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/low_side_outputs/relay_comparator/" tstamps="/5D63C483/5D7EF009/"/>
+      <tstamp>5D7D3F7B</tstamp>
+    </comp>
+    <comp ref="D1702">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/low_side_outputs/relay_comparator/" tstamps="/5D63C483/5D7EF009/"/>
+      <tstamp>5D7D92F2</tstamp>
+    </comp>
+    <comp ref="R1704">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/low_side_outputs/relay_comparator/" tstamps="/5D63C483/5D7EF009/"/>
+      <tstamp>5D7D92F8</tstamp>
+    </comp>
+    <comp ref="D1703">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/low_side_outputs/relay_comparator/" tstamps="/5D63C483/5D7EF009/"/>
+      <tstamp>5D7DD259</tstamp>
+    </comp>
+    <comp ref="D1704">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/low_side_outputs/relay_comparator/" tstamps="/5D63C483/5D7EF009/"/>
+      <tstamp>5D7DEF19</tstamp>
+    </comp>
+    <comp ref="R1708">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/low_side_outputs/relay_comparator/" tstamps="/5D63C483/5D7EF009/"/>
+      <tstamp>5D7DEF1F</tstamp>
+    </comp>
+    <comp ref="R1706">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/low_side_outputs/relay_comparator/" tstamps="/5D63C483/5D7EF009/"/>
+      <tstamp>5D7DD25F</tstamp>
+    </comp>
+    <comp ref="U1801">
+      <value>74AUC2G04</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
+      <libsource lib="74xGxx" part="74AUC2G04" description="Dual NOT Gate, Low-Voltage CMOS"/>
+      <sheetpath names="/SSR_interface/" tstamps="/5D5AE47C/"/>
+      <tstamp>5C0AC439</tstamp>
+    </comp>
+    <comp ref="U1802">
+      <value>quad_and</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf</datasheet>
+      <libsource lib="bryggan" part="quad_and" description="Quad And 2 inputs"/>
+      <sheetpath names="/SSR_interface/" tstamps="/5D5AE47C/"/>
+      <tstamp>5C93A178</tstamp>
+    </comp>
+    <comp ref="JP1801">
+      <value>Jumper_3_Bridged12</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Jumper" part="Jumper_3_Bridged12" description="Jumper, 3-pole, pins 1+2 closed/bridged"/>
+      <sheetpath names="/SSR_interface/" tstamps="/5D5AE47C/"/>
+      <tstamp>5E979073</tstamp>
+    </comp>
+    <comp ref="JP1802">
+      <value>Jumper_3_Bridged12</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Jumper" part="Jumper_3_Bridged12" description="Jumper, 3-pole, pins 1+2 closed/bridged"/>
+      <sheetpath names="/SSR_interface/" tstamps="/5D5AE47C/"/>
+      <tstamp>5E9A01F8</tstamp>
+    </comp>
+    <comp ref="R1802">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/SSR_interface/" tstamps="/5D5AE47C/"/>
+      <tstamp>5D696125</tstamp>
+    </comp>
+    <comp ref="R1801">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/SSR_interface/" tstamps="/5D5AE47C/"/>
+      <tstamp>5D694842</tstamp>
+    </comp>
+    <comp ref="D1801">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/SSR_interface/" tstamps="/5D5AE47C/"/>
+      <tstamp>5D625162</tstamp>
+    </comp>
+    <comp ref="R1805">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/SSR_interface/" tstamps="/5D5AE47C/"/>
+      <tstamp>5D623CDF</tstamp>
+    </comp>
+    <comp ref="R1804">
+      <value>5k6</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/SSR_interface/" tstamps="/5D5AE47C/"/>
+      <tstamp>5D61B685</tstamp>
+    </comp>
+    <comp ref="R1803">
+      <value>3k3</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/SSR_interface/" tstamps="/5D5AE47C/"/>
+      <tstamp>5C0AFD6B</tstamp>
+    </comp>
+    <comp ref="R2003">
       <value>4.7k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <libsource lib="pspice" part="R" description="Resistor symbol for simulation only"/>
-      <sheetpath names="/Temp_interface/" tstamps="/5BF6D5FF/"/>
+      <sheetpath names="/temp_interface/" tstamps="/5BF6D5FF/"/>
       <tstamp>5BF6D983</tstamp>
     </comp>
-    <comp ref="J6">
-      <value>XLR3</value>
-      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-3-5.08_1x03_P5.08mm_Horizontal</footprint>
-      <datasheet> ~</datasheet>
-      <libsource lib="Connector" part="XLR3" description="XLR Connector, Male or Female, 3 Pins"/>
-      <sheetpath names="/Temp_interface/" tstamps="/5BF6D5FF/"/>
-      <tstamp>5BF6D999</tstamp>
-    </comp>
-    <comp ref="D3">
+    <comp ref="D2002">
       <value>D</value>
       <footprint>Diode_SMD:D_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D" description="Diode"/>
-      <sheetpath names="/Temp_interface/" tstamps="/5BF6D5FF/"/>
+      <sheetpath names="/temp_interface/" tstamps="/5BF6D5FF/"/>
       <tstamp>5C099F6B</tstamp>
     </comp>
-    <comp ref="D2">
+    <comp ref="D2001">
       <value>D</value>
       <footprint>Diode_SMD:D_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D" description="Diode"/>
-      <sheetpath names="/Temp_interface/" tstamps="/5BF6D5FF/"/>
+      <sheetpath names="/temp_interface/" tstamps="/5BF6D5FF/"/>
       <tstamp>5C09A55A</tstamp>
     </comp>
-    <comp ref="R9">
+    <comp ref="R2001">
       <value>100</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <libsource lib="bryggan" part="R" description=""/>
-      <sheetpath names="/Temp_interface/" tstamps="/5BF6D5FF/"/>
+      <sheetpath names="/temp_interface/" tstamps="/5BF6D5FF/"/>
       <tstamp>5C09B3EC</tstamp>
     </comp>
-    <comp ref="R10">
+    <comp ref="R2002">
       <value>100</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <libsource lib="bryggan" part="R" description=""/>
-      <sheetpath names="/Temp_interface/" tstamps="/5BF6D5FF/"/>
+      <sheetpath names="/temp_interface/" tstamps="/5BF6D5FF/"/>
       <tstamp>5C09B4B7</tstamp>
+    </comp>
+    <comp ref="R2107">
+      <value>100k</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/" tstamps="/5E942055/"/>
+      <tstamp>5E7E3E47</tstamp>
+    </comp>
+    <comp ref="R2101">
+      <value>R</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/" tstamps="/5E942055/"/>
+      <tstamp>5E7FD72E</tstamp>
+    </comp>
+    <comp ref="C2101">
+      <value>C</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Analog inputs/" tstamps="/5E942055/"/>
+      <tstamp>5E7FF059</tstamp>
+    </comp>
+    <comp ref="IC2102">
+      <value>AD8551ARZ</value>
+      <datasheet>https://componentsearchengine.com/Datasheets/2/AD8551ARZ.pdf</datasheet>
+      <fields>
+        <field name="Description">Analog Devices AD8551ARZ Op Amp, 1.5MHz CMOS, Rail to Rail, 3 V, 8-Pin SOIC</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Analog Devices</field>
+        <field name="Manufacturer_Part_Number">AD8551ARZ</field>
+        <field name="Mouser Part Number">584-AD8551ARZ</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=584-AD8551ARZ</field>
+        <field name="RS Part Number">0412844</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/0412844</field>
+      </fields>
+      <libsource lib="AD8551ARZ" part="AD8551ARZ" description="Analog Devices AD8551ARZ Op Amp, 1.5MHz CMOS, Rail to Rail, 3 V, 8-Pin SOIC"/>
+      <sheetpath names="/Analog inputs/" tstamps="/5E942055/"/>
+      <tstamp>5E7DEED3</tstamp>
+    </comp>
+    <comp ref="C2106">
+      <value>100n</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Analog inputs/" tstamps="/5E942055/"/>
+      <tstamp>5E7DCEA0</tstamp>
+    </comp>
+    <comp ref="C2103">
+      <value>C</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Analog inputs/" tstamps="/5E942055/"/>
+      <tstamp>5E8243F7</tstamp>
+    </comp>
+    <comp ref="R2103">
+      <value>R</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/" tstamps="/5E942055/"/>
+      <tstamp>5E8380AE</tstamp>
+    </comp>
+    <comp ref="R2110">
+      <value>1k</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/" tstamps="/5E942055/"/>
+      <tstamp>5E84F833</tstamp>
+    </comp>
+    <comp ref="C2102">
+      <value>C</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Analog inputs/" tstamps="/5E942055/"/>
+      <tstamp>5E866BE3</tstamp>
+    </comp>
+    <comp ref="C2108">
+      <value>C</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Analog inputs/" tstamps="/5E942055/"/>
+      <tstamp>5E7854E8</tstamp>
+    </comp>
+    <comp ref="TP2101">
+      <value>TestPoint</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/Analog inputs/" tstamps="/5E942055/"/>
+      <tstamp>5E981336</tstamp>
+    </comp>
+    <comp ref="TP2103">
+      <value>TestPoint</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/Analog inputs/" tstamps="/5E942055/"/>
+      <tstamp>5E981751</tstamp>
+    </comp>
+    <comp ref="TP2102">
+      <value>TestPoint</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/Analog inputs/" tstamps="/5E942055/"/>
+      <tstamp>5E982C8D</tstamp>
+    </comp>
+    <comp ref="IC2101">
+      <value>ADS124S08IPBSR</value>
+      <datasheet>http://www.ti.com/lit/gpn/ads124s08</datasheet>
+      <fields>
+        <field name="Description">24-Bit, 4kSPS, 12-Ch Delta-Sigma ADC with PGA and Voltage Reference for Precision Sensor Measurement</field>
+        <field name="Height">1.2</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">ADS124S08IPBSR</field>
+        <field name="Mouser Part Number">595-ADS124S08IPBSR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=595-ADS124S08IPBSR</field>
+      </fields>
+      <libsource lib="ADS124S08IPBSR" part="ADS124S08IPBSR" description="24-Bit, 4kSPS, 12-Ch Delta-Sigma ADC with PGA and Voltage Reference for Precision Sensor Measurement"/>
+      <sheetpath names="/Analog inputs/" tstamps="/5E942055/"/>
+      <tstamp>5E93CA2F</tstamp>
+    </comp>
+    <comp ref="C2107">
+      <value>1u</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Analog inputs/" tstamps="/5E942055/"/>
+      <tstamp>5E95AC6A</tstamp>
+    </comp>
+    <comp ref="C2105">
+      <value>0.1u</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Analog inputs/" tstamps="/5E942055/"/>
+      <tstamp>5E95E61F</tstamp>
+    </comp>
+    <comp ref="R2111">
+      <value>47R</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/" tstamps="/5E942055/"/>
+      <tstamp>5E96BD7A</tstamp>
+    </comp>
+    <comp ref="R2104">
+      <value>47R</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/" tstamps="/5E942055/"/>
+      <tstamp>5E978208</tstamp>
+    </comp>
+    <comp ref="R2105">
+      <value>47R</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/" tstamps="/5E942055/"/>
+      <tstamp>5E978503</tstamp>
+    </comp>
+    <comp ref="R2106">
+      <value>47R</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/" tstamps="/5E942055/"/>
+      <tstamp>5E978873</tstamp>
+    </comp>
+    <comp ref="R2108">
+      <value>47R</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/" tstamps="/5E942055/"/>
+      <tstamp>5E978C5D</tstamp>
+    </comp>
+    <comp ref="R2109">
+      <value>47R</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/" tstamps="/5E942055/"/>
+      <tstamp>5E978ECA</tstamp>
+    </comp>
+    <comp ref="R2102">
+      <value>47R</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/" tstamps="/5E942055/"/>
+      <tstamp>5E980346</tstamp>
+    </comp>
+    <comp ref="C2104">
+      <value>330n</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Analog inputs/" tstamps="/5E942055/"/>
+      <tstamp>5E94A788</tstamp>
+    </comp>
+    <comp ref="Q2101">
+      <value>Q_NMOS_GSD</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/Analog inputs/" tstamps="/5E942055/"/>
+      <tstamp>5E89560E</tstamp>
+    </comp>
+    <comp ref="U2201">
+      <value>LM324</value>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm2902-n.pdf</datasheet>
+      <libsource lib="Amplifier_Operational" part="LM324" description="Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"/>
+      <sheetpath names="/Analog inputs/PT-100-1/" tstamps="/5E942055/5E943CD5/"/>
+      <tstamp>5E7A82D6</tstamp>
+    </comp>
+    <comp ref="R2207">
+      <value>20k</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/PT-100-1/" tstamps="/5E942055/5E943CD5/"/>
+      <tstamp>5E7BD59F</tstamp>
+    </comp>
+    <comp ref="R2206">
+      <value>28k</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/PT-100-1/" tstamps="/5E942055/5E943CD5/"/>
+      <tstamp>5E7BD95C</tstamp>
+    </comp>
+    <comp ref="R2211">
+      <value>100k</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/PT-100-1/" tstamps="/5E942055/5E943CD5/"/>
+      <tstamp>5E7BDBB0</tstamp>
+    </comp>
+    <comp ref="R2205">
+      <value>20k</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/PT-100-1/" tstamps="/5E942055/5E943CD5/"/>
+      <tstamp>5E7BE05A</tstamp>
+    </comp>
+    <comp ref="R2213">
+      <value>1k</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/PT-100-1/" tstamps="/5E942055/5E943CD5/"/>
+      <tstamp>5E850C41</tstamp>
+    </comp>
+    <comp ref="R2215">
+      <value>1k</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/PT-100-1/" tstamps="/5E942055/5E943CD5/"/>
+      <tstamp>5E862587</tstamp>
+    </comp>
+    <comp ref="U2202">
+      <value>LM334M</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm134.pdf</datasheet>
+      <libsource lib="Reference_Current" part="LM334M" description="1μA to 10mA 3-Terminal Adjustable Current Source, SO-8"/>
+      <sheetpath names="/Analog inputs/PT-100-1/" tstamps="/5E942055/5E943CD5/"/>
+      <tstamp>5E993787</tstamp>
+    </comp>
+    <comp ref="RV2201">
+      <value>220R</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/Analog inputs/PT-100-1/" tstamps="/5E942055/5E943CD5/"/>
+      <tstamp>5E976B3B</tstamp>
+    </comp>
+    <comp ref="D2201">
+      <value>1N457</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/Analog inputs/PT-100-1/" tstamps="/5E942055/5E943CD5/"/>
+      <tstamp>5E9A6FC4</tstamp>
+    </comp>
+    <comp ref="R2201">
+      <value>75R</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/PT-100-1/" tstamps="/5E942055/5E943CD5/"/>
+      <tstamp>5E9A2CD0</tstamp>
+    </comp>
+    <comp ref="R2223">
+      <value>20k</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/PT-100-1/" tstamps="/5E942055/5E943CD5/"/>
+      <tstamp>5E9F06D1</tstamp>
+    </comp>
+    <comp ref="R2222">
+      <value>28k</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/PT-100-1/" tstamps="/5E942055/5E943CD5/"/>
+      <tstamp>5E9F06D7</tstamp>
+    </comp>
+    <comp ref="R2227">
+      <value>100k</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/PT-100-1/" tstamps="/5E942055/5E943CD5/"/>
+      <tstamp>5E9F06DD</tstamp>
+    </comp>
+    <comp ref="R2221">
+      <value>20k</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/PT-100-1/" tstamps="/5E942055/5E943CD5/"/>
+      <tstamp>5E9F06E3</tstamp>
+    </comp>
+    <comp ref="R2229">
+      <value>1k</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/PT-100-1/" tstamps="/5E942055/5E943CD5/"/>
+      <tstamp>5E9F06F9</tstamp>
+    </comp>
+    <comp ref="D2207">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOT-23_ANK</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/Analog inputs/PT-100-1/" tstamps="/5E942055/5E943CD5/"/>
+      <tstamp>5E9F0700</tstamp>
+    </comp>
+    <comp ref="R2231">
+      <value>1k</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/PT-100-1/" tstamps="/5E942055/5E943CD5/"/>
+      <tstamp>5E9F0706</tstamp>
+    </comp>
+    <comp ref="R2210">
+      <value>20k</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/PT-100-1/" tstamps="/5E942055/5E943CD5/"/>
+      <tstamp>5EA3D1B5</tstamp>
+    </comp>
+    <comp ref="R2209">
+      <value>28k</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/PT-100-1/" tstamps="/5E942055/5E943CD5/"/>
+      <tstamp>5EA3D1BB</tstamp>
+    </comp>
+    <comp ref="R2212">
+      <value>100k</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/PT-100-1/" tstamps="/5E942055/5E943CD5/"/>
+      <tstamp>5EA3D1C1</tstamp>
+    </comp>
+    <comp ref="R2208">
+      <value>20k</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/PT-100-1/" tstamps="/5E942055/5E943CD5/"/>
+      <tstamp>5EA3D1C7</tstamp>
+    </comp>
+    <comp ref="R2214">
+      <value>1k</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/PT-100-1/" tstamps="/5E942055/5E943CD5/"/>
+      <tstamp>5EA3D1E0</tstamp>
+    </comp>
+    <comp ref="D2204">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOT-23_ANK</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/Analog inputs/PT-100-1/" tstamps="/5E942055/5E943CD5/"/>
+      <tstamp>5EA3D1E7</tstamp>
+    </comp>
+    <comp ref="R2216">
+      <value>1k</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/PT-100-1/" tstamps="/5E942055/5E943CD5/"/>
+      <tstamp>5EA3D1ED</tstamp>
+    </comp>
+    <comp ref="R2226">
+      <value>20k</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/PT-100-1/" tstamps="/5E942055/5E943CD5/"/>
+      <tstamp>5EA3D220</tstamp>
+    </comp>
+    <comp ref="R2225">
+      <value>28k</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/PT-100-1/" tstamps="/5E942055/5E943CD5/"/>
+      <tstamp>5EA3D226</tstamp>
+    </comp>
+    <comp ref="R2228">
+      <value>100k</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/PT-100-1/" tstamps="/5E942055/5E943CD5/"/>
+      <tstamp>5EA3D22C</tstamp>
+    </comp>
+    <comp ref="R2224">
+      <value>20k</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/PT-100-1/" tstamps="/5E942055/5E943CD5/"/>
+      <tstamp>5EA3D232</tstamp>
+    </comp>
+    <comp ref="R2230">
+      <value>1k</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/PT-100-1/" tstamps="/5E942055/5E943CD5/"/>
+      <tstamp>5EA3D244</tstamp>
+    </comp>
+    <comp ref="D2208">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOT-23_ANK</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/Analog inputs/PT-100-1/" tstamps="/5E942055/5E943CD5/"/>
+      <tstamp>5EA3D24A</tstamp>
+    </comp>
+    <comp ref="R2232">
+      <value>1k</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/PT-100-1/" tstamps="/5E942055/5E943CD5/"/>
+      <tstamp>5EA3D250</tstamp>
+    </comp>
+    <comp ref="C2201">
+      <value>100n</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Analog inputs/PT-100-1/" tstamps="/5E942055/5E943CD5/"/>
+      <tstamp>5EAE5B89</tstamp>
+    </comp>
+    <comp ref="U2203">
+      <value>LM334M</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm134.pdf</datasheet>
+      <libsource lib="Reference_Current" part="LM334M" description="1μA to 10mA 3-Terminal Adjustable Current Source, SO-8"/>
+      <sheetpath names="/Analog inputs/PT-100-1/" tstamps="/5E942055/5E943CD5/"/>
+      <tstamp>5E8EDA30</tstamp>
+    </comp>
+    <comp ref="RV2202">
+      <value>220R</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/Analog inputs/PT-100-1/" tstamps="/5E942055/5E943CD5/"/>
+      <tstamp>5E8EDA36</tstamp>
+    </comp>
+    <comp ref="D2202">
+      <value>1N457</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/Analog inputs/PT-100-1/" tstamps="/5E942055/5E943CD5/"/>
+      <tstamp>5E8EDA3D</tstamp>
+    </comp>
+    <comp ref="R2202">
+      <value>75R</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/PT-100-1/" tstamps="/5E942055/5E943CD5/"/>
+      <tstamp>5E8EDA4B</tstamp>
+    </comp>
+    <comp ref="U2204">
+      <value>LM334M</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm134.pdf</datasheet>
+      <libsource lib="Reference_Current" part="LM334M" description="1μA to 10mA 3-Terminal Adjustable Current Source, SO-8"/>
+      <sheetpath names="/Analog inputs/PT-100-1/" tstamps="/5E942055/5E943CD5/"/>
+      <tstamp>5E9003B9</tstamp>
+    </comp>
+    <comp ref="RV2203">
+      <value>220R</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/Analog inputs/PT-100-1/" tstamps="/5E942055/5E943CD5/"/>
+      <tstamp>5E9003BF</tstamp>
+    </comp>
+    <comp ref="D2205">
+      <value>1N457</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/Analog inputs/PT-100-1/" tstamps="/5E942055/5E943CD5/"/>
+      <tstamp>5E9003C6</tstamp>
+    </comp>
+    <comp ref="R2217">
+      <value>75R</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/PT-100-1/" tstamps="/5E942055/5E943CD5/"/>
+      <tstamp>5E9003D4</tstamp>
+    </comp>
+    <comp ref="U2205">
+      <value>LM334M</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm134.pdf</datasheet>
+      <libsource lib="Reference_Current" part="LM334M" description="1μA to 10mA 3-Terminal Adjustable Current Source, SO-8"/>
+      <sheetpath names="/Analog inputs/PT-100-1/" tstamps="/5E942055/5E943CD5/"/>
+      <tstamp>5E908F59</tstamp>
+    </comp>
+    <comp ref="RV2204">
+      <value>220R</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/Analog inputs/PT-100-1/" tstamps="/5E942055/5E943CD5/"/>
+      <tstamp>5E908F5F</tstamp>
+    </comp>
+    <comp ref="D2206">
+      <value>1N457</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/Analog inputs/PT-100-1/" tstamps="/5E942055/5E943CD5/"/>
+      <tstamp>5E908F66</tstamp>
+    </comp>
+    <comp ref="R2218">
+      <value>75R</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/PT-100-1/" tstamps="/5E942055/5E943CD5/"/>
+      <tstamp>5E908F74</tstamp>
+    </comp>
+    <comp ref="R2203">
+      <value>750R</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/PT-100-1/" tstamps="/5E942055/5E943CD5/"/>
+      <tstamp>5E91484C</tstamp>
+    </comp>
+    <comp ref="R2204">
+      <value>750R</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/PT-100-1/" tstamps="/5E942055/5E943CD5/"/>
+      <tstamp>5E9154CB</tstamp>
+    </comp>
+    <comp ref="R2219">
+      <value>750R</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/PT-100-1/" tstamps="/5E942055/5E943CD5/"/>
+      <tstamp>5E915D23</tstamp>
+    </comp>
+    <comp ref="R2220">
+      <value>750R</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/PT-100-1/" tstamps="/5E942055/5E943CD5/"/>
+      <tstamp>5E9166E3</tstamp>
+    </comp>
+    <comp ref="D2203">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOT-23_ANK</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/Analog inputs/PT-100-1/" tstamps="/5E942055/5E943CD5/"/>
+      <tstamp>5E86086B</tstamp>
+    </comp>
+    <comp ref="R2302">
+      <value>2k7</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/10V-1-4/" tstamps="/5E942055/5E943CED/"/>
+      <tstamp>5E78CF2C</tstamp>
+    </comp>
+    <comp ref="R2309">
+      <value>1k</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/10V-1-4/" tstamps="/5E942055/5E943CED/"/>
+      <tstamp>5E78EC87</tstamp>
+    </comp>
+    <comp ref="R2301">
+      <value>10k</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/10V-1-4/" tstamps="/5E942055/5E943CED/"/>
+      <tstamp>5E78D387</tstamp>
+    </comp>
+    <comp ref="R2312">
+      <value>1k</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/10V-1-4/" tstamps="/5E942055/5E943CED/"/>
+      <tstamp>5E79F9DF</tstamp>
+    </comp>
+    <comp ref="D2307">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOT-23_ANK</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/Analog inputs/10V-1-4/" tstamps="/5E942055/5E943CED/"/>
+      <tstamp>5E79F9D6</tstamp>
+    </comp>
+    <comp ref="D2308">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOT-23_ANK</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/Analog inputs/10V-1-4/" tstamps="/5E942055/5E943CED/"/>
+      <tstamp>5E79F9D0</tstamp>
+    </comp>
+    <comp ref="R2307">
+      <value>10k</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/10V-1-4/" tstamps="/5E942055/5E943CED/"/>
+      <tstamp>5E79F9C7</tstamp>
+    </comp>
+    <comp ref="R2311">
+      <value>1k</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/10V-1-4/" tstamps="/5E942055/5E943CED/"/>
+      <tstamp>5E79BB81</tstamp>
+    </comp>
+    <comp ref="D2305">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOT-23_ANK</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/Analog inputs/10V-1-4/" tstamps="/5E942055/5E943CED/"/>
+      <tstamp>5E79BB78</tstamp>
+    </comp>
+    <comp ref="D2306">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOT-23_ANK</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/Analog inputs/10V-1-4/" tstamps="/5E942055/5E943CED/"/>
+      <tstamp>5E79BB72</tstamp>
+    </comp>
+    <comp ref="R2305">
+      <value>10k</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/10V-1-4/" tstamps="/5E942055/5E943CED/"/>
+      <tstamp>5E79BB69</tstamp>
+    </comp>
+    <comp ref="R2310">
+      <value>1k</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/10V-1-4/" tstamps="/5E942055/5E943CED/"/>
+      <tstamp>5E797739</tstamp>
+    </comp>
+    <comp ref="D2303">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOT-23_ANK</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/Analog inputs/10V-1-4/" tstamps="/5E942055/5E943CED/"/>
+      <tstamp>5E797730</tstamp>
+    </comp>
+    <comp ref="D2304">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOT-23_ANK</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/Analog inputs/10V-1-4/" tstamps="/5E942055/5E943CED/"/>
+      <tstamp>5E79772A</tstamp>
+    </comp>
+    <comp ref="R2303">
+      <value>10k</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/10V-1-4/" tstamps="/5E942055/5E943CED/"/>
+      <tstamp>5E797721</tstamp>
+    </comp>
+    <comp ref="D2301">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOT-23_ANK</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/Analog inputs/10V-1-4/" tstamps="/5E942055/5E943CED/"/>
+      <tstamp>5E78E26C</tstamp>
+    </comp>
+    <comp ref="D2302">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOT-23_ANK</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/Analog inputs/10V-1-4/" tstamps="/5E942055/5E943CED/"/>
+      <tstamp>5E78D8E9</tstamp>
+    </comp>
+    <comp ref="R2233">
+      <value>2k7</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/10V-1-4/" tstamps="/5E942055/5E943CED/"/>
+      <tstamp>5E974F48</tstamp>
+    </comp>
+    <comp ref="R2234">
+      <value>2k7</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/10V-1-4/" tstamps="/5E942055/5E943CED/"/>
+      <tstamp>5E975343</tstamp>
+    </comp>
+    <comp ref="R2235">
+      <value>2k7</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/10V-1-4/" tstamps="/5E942055/5E943CED/"/>
+      <tstamp>5E9756CC</tstamp>
+    </comp>
+    <comp ref="R2401">
+      <value>120R</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/20mA-1-4/" tstamps="/5E942055/5E943D29/"/>
+      <tstamp>5E7A4A16</tstamp>
+    </comp>
+    <comp ref="D2402">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOT-23_ANK</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/Analog inputs/20mA-1-4/" tstamps="/5E942055/5E943D29/"/>
+      <tstamp>5E7A66FC</tstamp>
+    </comp>
+    <comp ref="D2401">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOT-23_ANK</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/Analog inputs/20mA-1-4/" tstamps="/5E942055/5E943D29/"/>
+      <tstamp>5E7A7401</tstamp>
+    </comp>
+    <comp ref="D2404">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOT-23_ANK</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/Analog inputs/20mA-1-4/" tstamps="/5E942055/5E943D29/"/>
+      <tstamp>5E7ADDB2</tstamp>
+    </comp>
+    <comp ref="D2403">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOT-23_ANK</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/Analog inputs/20mA-1-4/" tstamps="/5E942055/5E943D29/"/>
+      <tstamp>5E7ADDB8</tstamp>
+    </comp>
+    <comp ref="D2406">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOT-23_ANK</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/Analog inputs/20mA-1-4/" tstamps="/5E942055/5E943D29/"/>
+      <tstamp>5E7B02CF</tstamp>
+    </comp>
+    <comp ref="D2405">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOT-23_ANK</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/Analog inputs/20mA-1-4/" tstamps="/5E942055/5E943D29/"/>
+      <tstamp>5E7B02D5</tstamp>
+    </comp>
+    <comp ref="D2408">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOT-23_ANK</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/Analog inputs/20mA-1-4/" tstamps="/5E942055/5E943D29/"/>
+      <tstamp>5E7B1D94</tstamp>
+    </comp>
+    <comp ref="D2407">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOT-23_ANK</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/Analog inputs/20mA-1-4/" tstamps="/5E942055/5E943D29/"/>
+      <tstamp>5E7B1D9A</tstamp>
+    </comp>
+    <comp ref="R2405">
+      <value>1k</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/20mA-1-4/" tstamps="/5E942055/5E943D29/"/>
+      <tstamp>5E77DCE5</tstamp>
+    </comp>
+    <comp ref="R2409">
+      <value>1k</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/20mA-1-4/" tstamps="/5E942055/5E943D29/"/>
+      <tstamp>5E78067D</tstamp>
+    </comp>
+    <comp ref="R2410">
+      <value>1k</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/20mA-1-4/" tstamps="/5E942055/5E943D29/"/>
+      <tstamp>5E780B86</tstamp>
+    </comp>
+    <comp ref="R2406">
+      <value>1k</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/20mA-1-4/" tstamps="/5E942055/5E943D29/"/>
+      <tstamp>5E781186</tstamp>
+    </comp>
+    <comp ref="R2407">
+      <value>1k</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/20mA-1-4/" tstamps="/5E942055/5E943D29/"/>
+      <tstamp>5E781437</tstamp>
+    </comp>
+    <comp ref="R2411">
+      <value>1k</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/20mA-1-4/" tstamps="/5E942055/5E943D29/"/>
+      <tstamp>5E781748</tstamp>
+    </comp>
+    <comp ref="R2412">
+      <value>1k</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/20mA-1-4/" tstamps="/5E942055/5E943D29/"/>
+      <tstamp>5E781A70</tstamp>
+    </comp>
+    <comp ref="R2408">
+      <value>1k</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/20mA-1-4/" tstamps="/5E942055/5E943D29/"/>
+      <tstamp>5E781F0E</tstamp>
+    </comp>
+    <comp ref="F2401">
+      <value>160mA</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <sheetpath names="/Analog inputs/20mA-1-4/" tstamps="/5E942055/5E943D29/"/>
+      <tstamp>5E84A09E</tstamp>
+    </comp>
+    <comp ref="R2304">
+      <value>120R</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/20mA-1-4/" tstamps="/5E942055/5E943D29/"/>
+      <tstamp>5E97883A</tstamp>
+    </comp>
+    <comp ref="R2306">
+      <value>120R</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/20mA-1-4/" tstamps="/5E942055/5E943D29/"/>
+      <tstamp>5E978CD6</tstamp>
+    </comp>
+    <comp ref="R2308">
+      <value>120R</value>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Analog inputs/20mA-1-4/" tstamps="/5E942055/5E943D29/"/>
+      <tstamp>5E979401</tstamp>
+    </comp>
+    <comp ref="R2501">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Safety stop/" tstamps="/5E9EF063/"/>
+      <tstamp>5C09780E</tstamp>
+    </comp>
+    <comp ref="R2502">
+      <value>5.6</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="bryggan" part="R" description=""/>
+      <sheetpath names="/Safety stop/" tstamps="/5E9EF063/"/>
+      <tstamp>5C097818</tstamp>
+    </comp>
+    <comp ref="Q2501">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/Safety stop/" tstamps="/5E9EF063/"/>
+      <tstamp>5C09F6F4</tstamp>
     </comp>
   </components>
   <libparts>
-    <libpart lib="4xxx" part="4081">
-      <description>Quad And 2 inputs</description>
-      <docs>http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf</docs>
-      <footprints>
-        <fp>DIP?14*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">4081</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="input"/>
-        <pin num="2" name="~" type="input"/>
-        <pin num="3" name="~" type="output"/>
-        <pin num="4" name="~" type="output"/>
-        <pin num="5" name="~" type="input"/>
-        <pin num="6" name="~" type="input"/>
-        <pin num="7" name="VSS" type="power_in"/>
-        <pin num="8" name="~" type="input"/>
-        <pin num="9" name="~" type="input"/>
-        <pin num="10" name="~" type="output"/>
-        <pin num="11" name="~" type="output"/>
-        <pin num="12" name="~" type="input"/>
-        <pin num="13" name="~" type="input"/>
-        <pin num="14" name="VDD" type="power_in"/>
-      </pins>
-    </libpart>
     <libpart lib="74xGxx" part="74LVC2G04">
       <aliases>
         <alias>74AUC2G04</alias>
@@ -361,96 +2394,217 @@
         <pin num="6" name="~" type="output"/>
       </pins>
     </libpart>
-    <libpart lib="Amplifier_Operational" part="LM2904">
+    <libpart lib="AD8551ARZ" part="AD8551ARZ">
+      <description>Analog Devices AD8551ARZ Op Amp, 1.5MHz CMOS, Rail to Rail, 3 V, 8-Pin SOIC</description>
+      <docs>https://componentsearchengine.com/Datasheets/2/AD8551ARZ.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">AD8551ARZ</field>
+        <field name="Footprint">SOIC127P600X175-8N</field>
+        <field name="Datasheet">https://componentsearchengine.com/Datasheets/2/AD8551ARZ.pdf</field>
+        <field name="Description">Analog Devices AD8551ARZ Op Amp, 1.5MHz CMOS, Rail to Rail, 3 V, 8-Pin SOIC</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Analog Devices</field>
+        <field name="Manufacturer_Part_Number">AD8551ARZ</field>
+        <field name="Mouser Part Number">584-AD8551ARZ</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=584-AD8551ARZ</field>
+        <field name="RS Part Number">0412844</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/0412844</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC_1" type="NotConnected"/>
+        <pin num="2" name="-IN_A" type="input"/>
+        <pin num="3" name="+IN_A" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="NC_2" type="NotConnected"/>
+        <pin num="6" name="OUT_A" type="output"/>
+        <pin num="7" name="V+" type="power_in"/>
+        <pin num="8" name="NC_3" type="NotConnected"/>
+      </pins>
+    </libpart>
+    <libpart lib="ADS124S08IPBSR" part="ADS124S08IPBSR">
+      <description>24-Bit, 4kSPS, 12-Ch Delta-Sigma ADC with PGA and Voltage Reference for Precision Sensor Measurement</description>
+      <docs>http://www.ti.com/lit/gpn/ads124s08</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">ADS124S08IPBSR</field>
+        <field name="Footprint">QFP50P700X700X120-32N</field>
+        <field name="Datasheet">http://www.ti.com/lit/gpn/ads124s08</field>
+        <field name="Description">24-Bit, 4kSPS, 12-Ch Delta-Sigma ADC with PGA and Voltage Reference for Precision Sensor Measurement</field>
+        <field name="Height">1.2</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">ADS124S08IPBSR</field>
+        <field name="Mouser Part Number">595-ADS124S08IPBSR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=595-ADS124S08IPBSR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="AINCOM" type="passive"/>
+        <pin num="2" name="AIN5" type="BiDi"/>
+        <pin num="3" name="AIN4" type="BiDi"/>
+        <pin num="4" name="AIN3" type="BiDi"/>
+        <pin num="5" name="AIN2" type="BiDi"/>
+        <pin num="6" name="AIN1" type="BiDi"/>
+        <pin num="7" name="AIN0" type="BiDi"/>
+        <pin num="8" name="START/SYNC" type="BiDi"/>
+        <pin num="9" name="~CS" type="BiDi"/>
+        <pin num="10" name="DIN" type="BiDi"/>
+        <pin num="11" name="SCLK" type="BiDi"/>
+        <pin num="12" name="DOUT/~DRDY" type="BiDi"/>
+        <pin num="13" name="~DRDY" type="BiDi"/>
+        <pin num="14" name="DGND" type="power_in"/>
+        <pin num="15" name="IOVDD" type="power_in"/>
+        <pin num="16" name="DVDD" type="power_in"/>
+        <pin num="17" name="CLK" type="input"/>
+        <pin num="18" name="~RESET" type="BiDi"/>
+        <pin num="19" name="GPIO3/AIN11" type="BiDi"/>
+        <pin num="20" name="GPIO2/AIN10" type="BiDi"/>
+        <pin num="21" name="GPIO1/AIN9" type="BiDi"/>
+        <pin num="22" name="GPIO0/AIN8" type="BiDi"/>
+        <pin num="23" name="REFOUT" type="BiDi"/>
+        <pin num="24" name="REFCOM" type="passive"/>
+        <pin num="25" name="NC" type="NotConnected"/>
+        <pin num="26" name="AVDD" type="power_in"/>
+        <pin num="27" name="AVSS" type="power_in"/>
+        <pin num="28" name="AVSS-SW" type="power_in"/>
+        <pin num="29" name="REFN0" type="BiDi"/>
+        <pin num="30" name="REFP0" type="BiDi"/>
+        <pin num="31" name="REFN1/AIN7" type="BiDi"/>
+        <pin num="32" name="REFP1/AIN6" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="Amplifier_Operational" part="LM2902">
       <aliases>
-        <alias>LM358</alias>
-        <alias>AD8620</alias>
-        <alias>LMC6062</alias>
-        <alias>LMC6082</alias>
-        <alias>TL062</alias>
-        <alias>TL072</alias>
-        <alias>TL082</alias>
-        <alias>NE5532</alias>
-        <alias>SA5532</alias>
-        <alias>RC4558</alias>
-        <alias>RC4560</alias>
-        <alias>RC4580</alias>
-        <alias>LMV358</alias>
-        <alias>TS912</alias>
-        <alias>TSV912IDT</alias>
-        <alias>TSV912IST</alias>
-        <alias>TLC272</alias>
-        <alias>TLC277</alias>
-        <alias>MCP602</alias>
-        <alias>OPA2134</alias>
-        <alias>OPA2340</alias>
-        <alias>OPA2376xxD</alias>
-        <alias>OPA2376xxDGK</alias>
-        <alias>MC33078</alias>
-        <alias>MC33178</alias>
-        <alias>LM4562</alias>
-        <alias>OP249</alias>
-        <alias>OP275</alias>
-        <alias>ADA4075-2</alias>
-        <alias>MCP6002-xP</alias>
-        <alias>MCP6002-xSN</alias>
-        <alias>MCP6002-xMS</alias>
-        <alias>LM7332</alias>
-        <alias>OPA2333xxD</alias>
-        <alias>OPA2333xxDGK</alias>
-        <alias>LMC6482</alias>
-        <alias>LT1492</alias>
-        <alias>LTC6081xMS8</alias>
-        <alias>LM6172</alias>
-        <alias>MCP6L92</alias>
-        <alias>NJM2043</alias>
-        <alias>NJM2114</alias>
-        <alias>NJM4556A</alias>
-        <alias>NJM4558</alias>
-        <alias>NJM4559</alias>
-        <alias>NJM4560</alias>
-        <alias>NJM4580</alias>
-        <alias>NJM5532</alias>
-        <alias>ADA4807-2ARM</alias>
-        <alias>OPA2691</alias>
-        <alias>LT6233</alias>
-        <alias>OPA2356xxD</alias>
-        <alias>OPA2356xxDGK</alias>
-        <alias>OPA1612AxD</alias>
-        <alias>MC33172</alias>
-        <alias>OPA1602</alias>
+        <alias>LM324</alias>
+        <alias>TLC274</alias>
+        <alias>TLC279</alias>
+        <alias>TL074</alias>
+        <alias>LM324A</alias>
+        <alias>MCP6004</alias>
+        <alias>TL084</alias>
+        <alias>TL064</alias>
+        <alias>LMV324</alias>
+        <alias>LMC6484</alias>
+        <alias>MCP604</alias>
+        <alias>MC33079</alias>
+        <alias>MC33174</alias>
+        <alias>MC33179</alias>
+        <alias>OPA1604</alias>
+        <alias>OPA1679</alias>
+        <alias>OPA4134</alias>
+        <alias>OPA4340UA</alias>
+        <alias>OPA4376</alias>
+        <alias>MCP6L94</alias>
+        <alias>TSV914</alias>
+        <alias>ADA4807-4</alias>
+        <alias>TSV994</alias>
       </aliases>
-      <description>Dual Operational Amplifiers, DIP-8/SOIC-8/TSSOP-8/VSSOP-8</description>
-      <docs>http://www.ti.com/lit/ds/symlink/lm358.pdf</docs>
+      <description>Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm2902-n.pdf</docs>
       <footprints>
-        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>SOIC*3.9x8.7mm*P1.27mm*</fp>
         <fp>DIP*W7.62mm*</fp>
-        <fp>TO*99*</fp>
-        <fp>OnSemi*Micro8*</fp>
-        <fp>TSSOP*3x3mm*P0.65mm*</fp>
-        <fp>TSSOP*4.4x3mm*P0.65mm*</fp>
-        <fp>MSOP*3x3mm*P0.65mm*</fp>
-        <fp>SSOP*3.9x4.9mm*P0.635mm*</fp>
-        <fp>LFCSP*2x2mm*P0.5mm*</fp>
-        <fp>*SIP*</fp>
-        <fp>SOIC*5.3x6.2mm*P1.27mm*</fp>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+        <fp>SSOP*5.3x6.2mm*P0.65mm*</fp>
+        <fp>MSOP*3x3mm*P0.5mm*</fp>
       </footprints>
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">LM2904</field>
+        <field name="Value">LM2902</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="output"/>
         <pin num="2" name="-" type="input"/>
         <pin num="3" name="+" type="input"/>
-        <pin num="4" name="V-" type="power_in"/>
+        <pin num="4" name="V+" type="power_in"/>
         <pin num="5" name="+" type="input"/>
         <pin num="6" name="-" type="input"/>
         <pin num="7" name="~" type="output"/>
-        <pin num="8" name="V+" type="power_in"/>
+        <pin num="8" name="~" type="output"/>
+        <pin num="9" name="-" type="input"/>
+        <pin num="10" name="+" type="input"/>
+        <pin num="11" name="V-" type="power_in"/>
+        <pin num="12" name="+" type="input"/>
+        <pin num="13" name="-" type="input"/>
+        <pin num="14" name="~" type="output"/>
       </pins>
     </libpart>
-    <libpart lib="Connector" part="Conn_01x02_Male">
+    <libpart lib="Analog_DAC" part="MCP4728">
+      <description>12-bit digital to analog converter, quad output, 2.048V internal reference, integrated EEPROM, I2C interface</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/22187E.pdf</docs>
+      <footprints>
+        <fp>*SOP*3x3mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP4728</field>
+        <field name="Footprint">Package_SO:MSOP-10_3x3mm_P0.5mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="SCL" type="input"/>
+        <pin num="3" name="SDA" type="BiDi"/>
+        <pin num="4" name="~LDAC" type="input"/>
+        <pin num="5" name="RDY/~BSY" type="output"/>
+        <pin num="6" name="VOUTA" type="output"/>
+        <pin num="7" name="VOUTB" type="output"/>
+        <pin num="8" name="VOUTC" type="output"/>
+        <pin num="9" name="VOUTD" type="output"/>
+        <pin num="10" name="VSS" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x03_Male">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x08_Male">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
       <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <docs>~</docs>
       <footprints>
@@ -458,27 +2612,57 @@
       </footprints>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">Conn_01x02_Male</field>
+        <field name="Value">Conn_01x02</field>
       </fields>
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
         <pin num="2" name="Pin_2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Connector" part="XLR3">
-      <description>XLR Connector, Male or Female, 3 Pins</description>
-      <docs> ~</docs>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
       <footprints>
-        <fp>Jack*XLR*</fp>
+        <fp>Connector*:*_1x??_*</fp>
       </footprints>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">XLR3</field>
+        <field name="Value">Conn_01x03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="passive"/>
         <pin num="2" name="~" type="passive"/>
-        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="C_Small">
@@ -514,6 +2698,24 @@
         <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Device" part="D_Small">
       <description>Diode, small symbol</description>
       <docs>~</docs>
@@ -526,6 +2728,71 @@
       <fields>
         <field name="Reference">D</field>
         <field name="Value">D_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse">
+      <description>Fuse</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Jumper">
+      <description>Jumper, normally closed</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
       </fields>
       <pins>
         <pin num="1" name="K" type="passive"/>
@@ -559,6 +2826,116 @@
         <pin num="1" name="1" type="passive"/>
         <pin num="2" name="2" type="passive"/>
         <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Interface_Expansion" part="MCP23017_ML">
+      <description>16-bit I/O expander, I2C, interrupts, w pull-ups, QFN-28</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf</docs>
+      <footprints>
+        <fp>QFN*6x6mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP23017_ML</field>
+        <field name="Footprint">Package_DFN_QFN:QFN-28-1EP_6x6mm_P0.65mm_EP4.25x4.25mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GPB4" type="BiDi"/>
+        <pin num="2" name="GPB5" type="BiDi"/>
+        <pin num="3" name="GPB6" type="BiDi"/>
+        <pin num="4" name="GPB7" type="BiDi"/>
+        <pin num="5" name="VDD" type="power_in"/>
+        <pin num="6" name="VSS" type="power_in"/>
+        <pin num="7" name="NC" type="NotConnected"/>
+        <pin num="8" name="SCK" type="input"/>
+        <pin num="9" name="SDA" type="BiDi"/>
+        <pin num="10" name="NC" type="NotConnected"/>
+        <pin num="11" name="A0" type="input"/>
+        <pin num="12" name="A1" type="input"/>
+        <pin num="13" name="A2" type="input"/>
+        <pin num="14" name="~RESET~" type="input"/>
+        <pin num="15" name="INTB" type="3state"/>
+        <pin num="16" name="INTA" type="3state"/>
+        <pin num="17" name="GPA0" type="BiDi"/>
+        <pin num="18" name="GPA1" type="BiDi"/>
+        <pin num="19" name="GPA2" type="BiDi"/>
+        <pin num="20" name="GPA3" type="BiDi"/>
+        <pin num="21" name="GPA4" type="BiDi"/>
+        <pin num="22" name="GPA5" type="BiDi"/>
+        <pin num="23" name="GPA6" type="BiDi"/>
+        <pin num="24" name="GPA7" type="BiDi"/>
+        <pin num="25" name="GPB0" type="BiDi"/>
+        <pin num="26" name="GPB1" type="BiDi"/>
+        <pin num="27" name="GPB2" type="BiDi"/>
+        <pin num="28" name="GPB3" type="BiDi"/>
+        <pin num="29" name="EP" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="Jumper_3_Bridged12">
+      <description>Jumper, 3-pole, pins 1+2 closed/bridged</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Bridged12*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_3_Bridged12</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="C" type="input"/>
+        <pin num="3" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reference_Current" part="LM334M">
+      <description>1μA to 10mA 3-Terminal Adjustable Current Source, SO-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm134.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9m*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM334M</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+        <pin num="7" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Switching" part="LM2674M-12">
+      <aliases>
+        <alias>LM2674M-3.3</alias>
+        <alias>LM2674M-5.0</alias>
+        <alias>LM2674M-ADJ</alias>
+        <alias>LM2675M-12</alias>
+        <alias>LM2675M-3.3</alias>
+        <alias>LM2675M-5</alias>
+        <alias>LM2675M-ADJ</alias>
+      </aliases>
+      <description>12V, 500mA Step-Down Voltage Regulator, SO-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm2674.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM2674M-12</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CB" type="input"/>
+        <pin num="2" name="NC" type="NotConnected"/>
+        <pin num="3" name="NC" type="NotConnected"/>
+        <pin num="4" name="FB" type="input"/>
+        <pin num="5" name="ON/~OFF" type="input"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="VIN" type="power_in"/>
+        <pin num="8" name="VSW" type="output"/>
       </pins>
     </libpart>
     <libpart lib="bryggan" part="R">
@@ -623,6 +3000,33 @@
         <pin num="40" name="GPIO21" type="input"/>
       </pins>
     </libpart>
+    <libpart lib="bryggan" part="quad_and">
+      <description>Quad And 2 inputs</description>
+      <docs>http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf</docs>
+      <footprints>
+        <fp>DIP?14*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">quad_and</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="~" type="output"/>
+        <pin num="4" name="~" type="input"/>
+        <pin num="5" name="~" type="input"/>
+        <pin num="6" name="~" type="input"/>
+        <pin num="7" name="VSS" type="power_in"/>
+        <pin num="8" name="~" type="input"/>
+        <pin num="9" name="~" type="input"/>
+        <pin num="10" name="~" type="output"/>
+        <pin num="11" name="~" type="output"/>
+        <pin num="12" name="~" type="input"/>
+        <pin num="13" name="~" type="input"/>
+        <pin num="14" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
     <libpart lib="pspice" part="R">
       <description>Resistor symbol for simulation only</description>
       <docs>~</docs>
@@ -637,272 +3041,1399 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="4xxx">
-      <uri>/usr/share/kicad/library/4xxx.lib</uri>
-    </library>
     <library logical="74xGxx">
       <uri>/usr/share/kicad/library/74xGxx.lib</uri>
+    </library>
+    <library logical="AD8551ARZ">
+      <uri>/home/kristoffer/Private/electrical/motherboard/../libraries/AD8551ARZ/AD8551ARZ.lib</uri>
+    </library>
+    <library logical="ADS124S08IPBSR">
+      <uri>/home/kristoffer/Private/electrical/motherboard/../libraries/ADS124S08IPBSR/ADS124S08IPBSR.lib</uri>
     </library>
     <library logical="Amplifier_Operational">
       <uri>/usr/share/kicad/library/Amplifier_Operational.lib</uri>
     </library>
+    <library logical="Analog_DAC">
+      <uri>/usr/share/kicad/library/Analog_DAC.lib</uri>
+    </library>
     <library logical="Connector">
       <uri>/usr/share/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/library/Connector_Generic.lib</uri>
     </library>
     <library logical="Device">
       <uri>/usr/share/kicad/library/Device.lib</uri>
     </library>
+    <library logical="Interface_Expansion">
+      <uri>/usr/share/kicad/library/Interface_Expansion.lib</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>/usr/share/kicad/library/Jumper.lib</uri>
+    </library>
+    <library logical="Reference_Current">
+      <uri>/usr/share/kicad/library/Reference_Current.lib</uri>
+    </library>
+    <library logical="Regulator_Switching">
+      <uri>/usr/share/kicad/library/Regulator_Switching.lib</uri>
+    </library>
     <library logical="bryggan">
-      <uri>/home/jakob/personal/dev/bryggans/electrical/libraries/bryggan.lib</uri>
+      <uri>/home/kristoffer/Private/electrical/motherboard/../libraries/bryggan.lib</uri>
     </library>
     <library logical="pspice">
       <uri>/usr/share/kicad/library/pspice.lib</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="/Temp_interface/+3.3V">
-      <node ref="J6" pin="1"/>
-      <node ref="R11" pin="1"/>
-      <node ref="D3" pin="1"/>
-      <node ref="P1" pin="1"/>
+    <net code="1" name="Net-(P101-Pad35)">
+      <node ref="P101" pin="35"/>
     </net>
-    <net code="2" name="/Temp_interface/TEMP_GPIO">
-      <node ref="P1" pin="7"/>
-      <node ref="R9" pin="2"/>
+    <net code="2" name="/~ADC_DRDY">
+      <node ref="P101" pin="32"/>
+      <node ref="R2109" pin="2"/>
     </net>
-    <net code="3" name="/SSR_interface/SSR2_GPIO">
-      <node ref="P1" pin="33"/>
-      <node ref="U2" pin="12"/>
-      <node ref="U2" pin="6"/>
-      <node ref="U1" pin="3"/>
+    <net code="3" name="Net-(P101-Pad31)">
+      <node ref="P101" pin="31"/>
     </net>
-    <net code="4" name="/SSR_interface/SSR1_GPIO">
-      <node ref="U2" pin="1"/>
-      <node ref="U1" pin="1"/>
-      <node ref="P1" pin="36"/>
-      <node ref="U2" pin="13"/>
+    <net code="4" name="Net-(P101-Pad29)">
+      <node ref="P101" pin="29"/>
     </net>
-    <net code="5" name="Net-(P1-Pad37)">
-      <node ref="P1" pin="37"/>
+    <net code="5" name="Net-(P101-Pad28)">
+      <node ref="P101" pin="28"/>
     </net>
-    <net code="6" name="Net-(P1-Pad27)">
-      <node ref="P1" pin="27"/>
+    <net code="6" name="Net-(P101-Pad27)">
+      <node ref="P101" pin="27"/>
     </net>
-    <net code="7" name="Net-(P1-Pad28)">
-      <node ref="P1" pin="28"/>
+    <net code="7" name="Net-(P101-Pad26)">
+      <node ref="P101" pin="26"/>
     </net>
-    <net code="8" name="Net-(P1-Pad10)">
-      <node ref="P1" pin="10"/>
+    <net code="8" name="/~ADC_CS">
+      <node ref="P101" pin="24"/>
+      <node ref="R2104" pin="2"/>
     </net>
-    <net code="9" name="Net-(P1-Pad19)">
-      <node ref="P1" pin="19"/>
+    <net code="9" name="/ADC_START_SYNC">
+      <node ref="R2102" pin="2"/>
+      <node ref="P101" pin="36"/>
     </net>
-    <net code="10" name="Net-(P1-Pad21)">
-      <node ref="P1" pin="21"/>
+    <net code="10" name="Net-(P101-Pad22)">
+      <node ref="P101" pin="22"/>
     </net>
-    <net code="11" name="Net-(P1-Pad23)">
-      <node ref="P1" pin="23"/>
+    <net code="11" name="Net-(P101-Pad17)">
+      <node ref="P101" pin="17"/>
     </net>
-    <net code="12" name="Net-(P1-Pad24)">
-      <node ref="P1" pin="24"/>
+    <net code="12" name="Net-(P101-Pad15)">
+      <node ref="P101" pin="15"/>
     </net>
-    <net code="13" name="Net-(P1-Pad26)">
-      <node ref="P1" pin="26"/>
+    <net code="13" name="Net-(P101-Pad13)">
+      <node ref="P101" pin="13"/>
     </net>
-    <net code="14" name="Net-(P1-Pad29)">
-      <node ref="P1" pin="29"/>
+    <net code="14" name="Net-(P101-Pad12)">
+      <node ref="P101" pin="12"/>
     </net>
-    <net code="15" name="Net-(P1-Pad31)">
-      <node ref="P1" pin="31"/>
+    <net code="15" name="+3V3">
+      <node ref="Q601" pin="1"/>
+      <node ref="D2002" pin="1"/>
+      <node ref="Q602" pin="1"/>
+      <node ref="Q2101" pin="3"/>
+      <node ref="C2105" pin="1"/>
+      <node ref="R2003" pin="1"/>
+      <node ref="C105" pin="1"/>
+      <node ref="C102" pin="1"/>
+      <node ref="C108" pin="1"/>
+      <node ref="IC2101" pin="15"/>
+      <node ref="IC2101" pin="16"/>
+      <node ref="P101" pin="1"/>
+      <node ref="R602" pin="2"/>
+      <node ref="R601" pin="2"/>
+      <node ref="J106" pin="2"/>
     </net>
-    <net code="16" name="Net-(P1-Pad32)">
-      <node ref="P1" pin="32"/>
+    <net code="16" name="/relay_2_enclosure">
+      <node ref="Q1401" pin="3"/>
+      <node ref="J107" pin="6"/>
     </net>
-    <net code="17" name="Net-(P1-Pad17)">
-      <node ref="P1" pin="17"/>
+    <net code="17" name="/relay_1_enclosure">
+      <node ref="J107" pin="5"/>
+      <node ref="Q1501" pin="3"/>
     </net>
-    <net code="18" name="+5V">
-      <node ref="U3" pin="8"/>
-      <node ref="U2" pin="14"/>
-      <node ref="R6" pin="1"/>
-      <node ref="U1" pin="5"/>
-      <node ref="U1" pin="5"/>
-      <node ref="P1" pin="4"/>
-      <node ref="J1" pin="2"/>
-      <node ref="P1" pin="2"/>
+    <net code="18" name="/extra_2_enclosure">
+      <node ref="J107" pin="4"/>
+      <node ref="Q1201" pin="3"/>
     </net>
-    <net code="19" name="GND">
-      <node ref="R3" pin="2"/>
-      <node ref="J6" pin="3"/>
-      <node ref="R2" pin="2"/>
-      <node ref="R5" pin="2"/>
-      <node ref="R4" pin="2"/>
-      <node ref="D2" pin="2"/>
-      <node ref="P1" pin="20"/>
-      <node ref="J1" pin="1"/>
-      <node ref="U3" pin="4"/>
-      <node ref="J5" pin="1"/>
-      <node ref="J4" pin="1"/>
-      <node ref="RV1" pin="3"/>
-      <node ref="C1" pin="2"/>
-      <node ref="D1" pin="1"/>
-      <node ref="U1" pin="2"/>
-      <node ref="U1" pin="2"/>
-      <node ref="J3" pin="1"/>
-      <node ref="U2" pin="7"/>
-      <node ref="J7" pin="1"/>
-      <node ref="J2" pin="1"/>
+    <net code="19" name="/extra_1_enclosure">
+      <node ref="J107" pin="3"/>
+      <node ref="Q1101" pin="3"/>
     </net>
-    <net code="20" name="Net-(P1-Pad8)">
-      <node ref="P1" pin="8"/>
+    <net code="20" name="/SSR_2_enclosure">
+      <node ref="J107" pin="2"/>
+      <node ref="Q801" pin="3"/>
     </net>
-    <net code="21" name="Net-(P1-Pad5)">
-      <node ref="P1" pin="5"/>
+    <net code="21" name="/SSR_1_enclosure">
+      <node ref="J107" pin="1"/>
+      <node ref="Q1001" pin="3"/>
     </net>
-    <net code="22" name="Net-(P1-Pad3)">
-      <node ref="P1" pin="3"/>
+    <net code="22" name="Net-(P101-Pad11)">
+      <node ref="P101" pin="11"/>
     </net>
-    <net code="23" name="Net-(P1-Pad12)">
-      <node ref="P1" pin="12"/>
+    <net code="23" name="/VFD_comm/txd_pi">
+      <node ref="P101" pin="8"/>
     </net>
-    <net code="24" name="Net-(P1-Pad35)">
-      <node ref="P1" pin="35"/>
+    <net code="24" name="Net-(P101-Pad40)">
+      <node ref="P101" pin="40"/>
     </net>
-    <net code="25" name="Net-(P1-Pad38)">
-      <node ref="P1" pin="38"/>
+    <net code="25" name="+5V">
+      <node ref="R604" pin="1"/>
+      <node ref="C1602" pin="1"/>
+      <node ref="U1802" pin="14"/>
+      <node ref="JP302" pin="2"/>
+      <node ref="C603" pin="1"/>
+      <node ref="C107" pin="1"/>
+      <node ref="P101" pin="4"/>
+      <node ref="C1601" pin="1"/>
+      <node ref="C101" pin="1"/>
+      <node ref="JP301" pin="2"/>
+      <node ref="C2106" pin="1"/>
+      <node ref="C104" pin="1"/>
+      <node ref="U1801" pin="5"/>
+      <node ref="C2104" pin="1"/>
+      <node ref="U1601" pin="4"/>
+      <node ref="P101" pin="2"/>
+      <node ref="IC2102" pin="7"/>
+      <node ref="C2201" pin="1"/>
+      <node ref="IC2101" pin="26"/>
+      <node ref="U1801" pin="5"/>
+      <node ref="R701" pin="1"/>
+      <node ref="JP601" pin="1"/>
+      <node ref="U601" pin="5"/>
+      <node ref="C604" pin="1"/>
+      <node ref="U1701" pin="4"/>
+      <node ref="R603" pin="1"/>
+      <node ref="U2201" pin="4"/>
+      <node ref="J101" pin="2"/>
+      <node ref="C1701" pin="1"/>
+      <node ref="C1702" pin="1"/>
     </net>
-    <net code="26" name="Net-(P1-Pad40)">
-      <node ref="P1" pin="40"/>
+    <net code="26" name="Net-(P101-Pad38)">
+      <node ref="P101" pin="38"/>
     </net>
-    <net code="27" name="Net-(P1-Pad30)">
-      <node ref="P1" pin="30"/>
+    <net code="27" name="Net-(P101-Pad37)">
+      <node ref="P101" pin="37"/>
     </net>
-    <net code="28" name="Net-(P1-Pad25)">
-      <node ref="P1" pin="25"/>
+    <net code="28" name="/SSR_interface/error_signal">
+      <node ref="R1804" pin="1"/>
+      <node ref="P101" pin="18"/>
+      <node ref="R1803" pin="1"/>
     </net>
-    <net code="29" name="Net-(P1-Pad22)">
-      <node ref="P1" pin="22"/>
+    <net code="29" name="/SSR_interface/SSR2_GPIO">
+      <node ref="R1801" pin="1"/>
+      <node ref="U1802" pin="12"/>
+      <node ref="U1802" pin="4"/>
+      <node ref="U601" pin="18"/>
+      <node ref="JP1802" pin="3"/>
+      <node ref="U1801" pin="3"/>
     </net>
-    <net code="30" name="Net-(P1-Pad15)">
-      <node ref="P1" pin="15"/>
+    <net code="30" name="/SSR_interface/SSR1_GPIO">
+      <node ref="U1802" pin="2"/>
+      <node ref="U1802" pin="13"/>
+      <node ref="U601" pin="17"/>
+      <node ref="R1802" pin="1"/>
+      <node ref="JP1801" pin="3"/>
+      <node ref="U1801" pin="1"/>
     </net>
-    <net code="31" name="Net-(P1-Pad18)">
-      <node ref="P1" pin="18"/>
+    <net code="31" name="/VFD_comm/rxd_pi">
+      <node ref="P101" pin="10"/>
     </net>
-    <net code="32" name="Net-(P1-Pad16)">
-      <node ref="P1" pin="16"/>
+    <net code="32" name="/VFD_comm/rxd_conn">
+      <node ref="J105" pin="2"/>
     </net>
-    <net code="33" name="Net-(P1-Pad14)">
-      <node ref="P1" pin="14"/>
+    <net code="33" name="/VFD_comm/txd_conn">
+      <node ref="J105" pin="1"/>
     </net>
-    <net code="34" name="Net-(P1-Pad13)">
-      <node ref="P1" pin="13"/>
+    <net code="34" name="+24V">
+      <node ref="U201" pin="7"/>
+      <node ref="U201" pin="5"/>
+      <node ref="C103" pin="1"/>
+      <node ref="J104" pin="1"/>
+      <node ref="J101" pin="3"/>
+      <node ref="C201" pin="1"/>
+      <node ref="F2401" pin="2"/>
+      <node ref="C109" pin="1"/>
+      <node ref="C106" pin="1"/>
     </net>
-    <net code="35" name="Net-(P1-Pad11)">
-      <node ref="P1" pin="11"/>
+    <net code="35" name="/Safety stop/sig_in">
+      <node ref="Q2501" pin="1"/>
+      <node ref="R2501" pin="1"/>
+      <node ref="P101" pin="16"/>
     </net>
-    <net code="36" name="Net-(P1-Pad34)">
-      <node ref="P1" pin="34"/>
+    <net code="36" name="/Safety stop/drain">
+      <node ref="J104" pin="2"/>
+      <node ref="Q2501" pin="3"/>
     </net>
-    <net code="37" name="Net-(P1-Pad9)">
-      <node ref="P1" pin="9"/>
+    <net code="37" name="/Safety stop/indicator">
+      <node ref="R2502" pin="1"/>
+      <node ref="Q2501" pin="2"/>
     </net>
-    <net code="38" name="Net-(P1-Pad6)">
-      <node ref="P1" pin="6"/>
+    <net code="38" name="/temp_interface/TEMP_IN">
+      <node ref="J106" pin="1"/>
+      <node ref="R2003" pin="2"/>
+      <node ref="R2002" pin="1"/>
     </net>
-    <net code="39" name="Net-(P1-Pad39)">
-      <node ref="P1" pin="39"/>
+    <net code="39" name="/temp_interface/TEMP_GPIO">
+      <node ref="P101" pin="7"/>
+      <node ref="R2001" pin="2"/>
     </net>
-    <net code="40" name="Net-(J2-Pad2)">
-      <node ref="J2" pin="2"/>
-      <node ref="R1" pin="1"/>
+    <net code="40" name="/SPI_MISO">
+      <node ref="R2108" pin="2"/>
+      <node ref="P101" pin="21"/>
     </net>
-    <net code="41" name="Net-(R1-Pad2)">
-      <node ref="U2" pin="11"/>
-      <node ref="R1" pin="2"/>
+    <net code="41" name="/SPI_SCLK">
+      <node ref="R2106" pin="2"/>
+      <node ref="P101" pin="23"/>
     </net>
-    <net code="42" name="Net-(U2-Pad10)">
-      <node ref="U2" pin="10"/>
+    <net code="42" name="/SPI_MOSI">
+      <node ref="R2105" pin="2"/>
+      <node ref="P101" pin="19"/>
     </net>
-    <net code="43" name="Net-(U2-Pad9)">
-      <node ref="U2" pin="9"/>
+    <net code="43" name="/~ADC_RESET">
+      <node ref="P101" pin="33"/>
+      <node ref="R2111" pin="2"/>
     </net>
-    <net code="44" name="Net-(U2-Pad8)">
-      <node ref="U2" pin="8"/>
+    <net code="44" name="/DAC/D_out_20mA_high">
+      <node ref="J102" pin="7"/>
+      <node ref="Q503" pin="3"/>
     </net>
-    <net code="45" name="/SSR_interface/SSR_driver_2/ssr_in">
-      <node ref="J7" pin="2"/>
-      <node ref="Q2" pin="3"/>
+    <net code="45" name="/DAC/C_out_20mA_high">
+      <node ref="J102" pin="5"/>
+      <node ref="Q502" pin="3"/>
     </net>
-    <net code="46" name="/SSR_interface/SSR_driver_1/ssr_in">
-      <node ref="Q1" pin="3"/>
-      <node ref="J3" pin="2"/>
+    <net code="46" name="/DAC/B_out_20mA_high">
+      <node ref="Q501" pin="3"/>
+      <node ref="J102" pin="3"/>
     </net>
-    <net code="47" name="/SSR_interface/SSR_driver_1/indicator">
-      <node ref="U3" pin="5"/>
-      <node ref="R3" pin="1"/>
-      <node ref="Q1" pin="2"/>
+    <net code="47" name="/DAC/A_out_20mA_high">
+      <node ref="J102" pin="1"/>
+      <node ref="Q504" pin="3"/>
     </net>
-    <net code="48" name="/SSR_interface/SSR_driver_2/indicator">
-      <node ref="U3" pin="3"/>
-      <node ref="Q2" pin="2"/>
-      <node ref="R5" pin="1"/>
+    <net code="48" name="/DAC/sda">
+      <node ref="Q601" pin="2"/>
+      <node ref="U302" pin="3"/>
+      <node ref="R601" pin="1"/>
+      <node ref="P101" pin="3"/>
+      <node ref="U301" pin="3"/>
     </net>
-    <net code="49" name="Net-(U1-Pad4)">
-      <node ref="U1" pin="4"/>
-      <node ref="U2" pin="2"/>
+    <net code="49" name="/DAC/A_out_10V">
+      <node ref="J103" pin="1"/>
+      <node ref="R417" pin="2"/>
+      <node ref="R413" pin="1"/>
     </net>
-    <net code="50" name="Net-(U1-Pad6)">
-      <node ref="U1" pin="6"/>
-      <node ref="U2" pin="5"/>
+    <net code="50" name="/i2c_interface/sck">
+      <node ref="R602" pin="1"/>
+      <node ref="Q602" pin="2"/>
+      <node ref="U301" pin="2"/>
+      <node ref="P101" pin="5"/>
+      <node ref="U302" pin="2"/>
     </net>
-    <net code="51" name="/SSR_interface/SSR_driver_2/sig_in">
-      <node ref="Q2" pin="1"/>
-      <node ref="R4" pin="1"/>
-      <node ref="U2" pin="3"/>
+    <net code="51" name="/SSR_interface/SSR2_GPIO_safe">
+      <node ref="Q801" pin="1"/>
+      <node ref="JP1802" pin="2"/>
+      <node ref="R801" pin="1"/>
     </net>
-    <net code="52" name="/SSR_interface/SSR_driver_1/sig_in">
-      <node ref="Q1" pin="1"/>
-      <node ref="R2" pin="1"/>
-      <node ref="U2" pin="4"/>
+    <net code="52" name="/relay_4_enclosure">
+      <node ref="Q901" pin="3"/>
+      <node ref="J107" pin="8"/>
     </net>
-    <net code="53" name="Net-(J6-Pad2)">
-      <node ref="R10" pin="1"/>
-      <node ref="R11" pin="2"/>
-      <node ref="J6" pin="2"/>
+    <net code="53" name="/relay_3_enclosure">
+      <node ref="Q1301" pin="3"/>
+      <node ref="J107" pin="7"/>
     </net>
-    <net code="54" name="Net-(D2-Pad1)">
-      <node ref="R9" pin="1"/>
-      <node ref="R10" pin="2"/>
-      <node ref="D3" pin="2"/>
-      <node ref="D2" pin="1"/>
+    <net code="54" name="/SSR_interface/SSR1_GPIO_safe">
+      <node ref="Q1001" pin="1"/>
+      <node ref="JP1801" pin="2"/>
+      <node ref="R1001" pin="1"/>
     </net>
-    <net code="55" name="Net-(D1-Pad2)">
-      <node ref="D1" pin="2"/>
-      <node ref="RV1" pin="1"/>
-      <node ref="R6" pin="2"/>
+    <net code="55" name="/i2c_interface/relay_1_i2c_out">
+      <node ref="R1501" pin="1"/>
+      <node ref="Q1501" pin="1"/>
+      <node ref="U601" pin="21"/>
     </net>
-    <net code="56" name="Net-(J4-Pad2)">
-      <node ref="J4" pin="2"/>
-      <node ref="R7" pin="2"/>
+    <net code="56" name="/i2c_interface/relay_2_i2c_out">
+      <node ref="U601" pin="22"/>
+      <node ref="Q1401" pin="1"/>
+      <node ref="R1401" pin="1"/>
     </net>
-    <net code="57" name="Net-(J5-Pad2)">
-      <node ref="J5" pin="2"/>
-      <node ref="R8" pin="2"/>
+    <net code="57" name="/i2c_interface/relay_3_i2c_out">
+      <node ref="R1301" pin="1"/>
+      <node ref="Q1301" pin="1"/>
+      <node ref="U601" pin="23"/>
     </net>
-    <net code="58" name="Net-(R8-Pad1)">
-      <node ref="R8" pin="1"/>
-      <node ref="U3" pin="7"/>
+    <net code="58" name="/i2c_interface/relay_4_i2c_out">
+      <node ref="U601" pin="24"/>
+      <node ref="R901" pin="1"/>
+      <node ref="Q901" pin="1"/>
     </net>
-    <net code="59" name="Net-(R7-Pad1)">
-      <node ref="U3" pin="1"/>
-      <node ref="R7" pin="1"/>
+    <net code="59" name="/low_side_outputs/extra_1_in">
+      <node ref="Q1101" pin="1"/>
+      <node ref="R1101" pin="1"/>
+      <node ref="U601" pin="19"/>
     </net>
-    <net code="60" name="Net-(C1-Pad1)">
-      <node ref="U3" pin="6"/>
-      <node ref="C1" pin="1"/>
-      <node ref="RV1" pin="2"/>
-      <node ref="U3" pin="2"/>
+    <net code="60" name="/extra_1_ind">
+      <node ref="U601" pin="27"/>
+      <node ref="R1607" pin="2"/>
+    </net>
+    <net code="61" name="/extra_2_ind">
+      <node ref="R1605" pin="2"/>
+      <node ref="U601" pin="28"/>
+    </net>
+    <net code="62" name="/relay_4_ind">
+      <node ref="R1705" pin="2"/>
+      <node ref="U601" pin="4"/>
+    </net>
+    <net code="63" name="/relay_3_ind">
+      <node ref="U601" pin="3"/>
+      <node ref="R1707" pin="2"/>
+    </net>
+    <net code="64" name="/SSR_2_ind">
+      <node ref="U601" pin="26"/>
+      <node ref="R1603" pin="2"/>
+    </net>
+    <net code="65" name="/relay_2_ind">
+      <node ref="U601" pin="2"/>
+      <node ref="R1703" pin="2"/>
+    </net>
+    <net code="66" name="/relay_1_ind">
+      <node ref="R1701" pin="2"/>
+      <node ref="U601" pin="1"/>
+    </net>
+    <net code="67" name="/SSR_1_ind">
+      <node ref="U601" pin="25"/>
+      <node ref="R1601" pin="2"/>
+    </net>
+    <net code="68" name="/low_side_outputs/extra_2_in">
+      <node ref="U601" pin="20"/>
+      <node ref="R1201" pin="1"/>
+      <node ref="Q1201" pin="1"/>
+    </net>
+    <net code="69" name="/DAC/B_out_10V">
+      <node ref="J103" pin="3"/>
+      <node ref="R418" pin="2"/>
+      <node ref="R414" pin="1"/>
+    </net>
+    <net code="70" name="/DAC/C_out_10V">
+      <node ref="R419" pin="2"/>
+      <node ref="R415" pin="1"/>
+      <node ref="J103" pin="5"/>
+    </net>
+    <net code="71" name="/DAC/D_out_10V">
+      <node ref="J103" pin="7"/>
+      <node ref="R420" pin="2"/>
+      <node ref="R416" pin="1"/>
+    </net>
+    <net code="72" name="Net-(D2001-Pad1)">
+      <node ref="D2001" pin="1"/>
+      <node ref="D2002" pin="2"/>
+      <node ref="R2001" pin="1"/>
+      <node ref="R2002" pin="2"/>
+    </net>
+    <net code="73" name="Net-(U1801-Pad6)">
+      <node ref="U1802" pin="5"/>
+      <node ref="U1801" pin="6"/>
+    </net>
+    <net code="74" name="Net-(U1802-Pad8)">
+      <node ref="U1802" pin="8"/>
+    </net>
+    <net code="75" name="Net-(U1802-Pad10)">
+      <node ref="U1802" pin="10"/>
+    </net>
+    <net code="76" name="Net-(U1802-Pad9)">
+      <node ref="U1802" pin="9"/>
+    </net>
+    <net code="77" name="Net-(JP1801-Pad1)">
+      <node ref="U1802" pin="3"/>
+      <node ref="JP1801" pin="1"/>
+    </net>
+    <net code="78" name="Net-(JP1802-Pad1)">
+      <node ref="U1802" pin="6"/>
+      <node ref="JP1802" pin="1"/>
+    </net>
+    <net code="79" name="Net-(U1801-Pad4)">
+      <node ref="U1801" pin="4"/>
+      <node ref="U1802" pin="1"/>
+    </net>
+    <net code="80" name="Net-(R1803-Pad2)">
+      <node ref="R1805" pin="1"/>
+      <node ref="R1803" pin="2"/>
+      <node ref="U1802" pin="11"/>
+    </net>
+    <net code="81" name="Net-(D1801-Pad2)">
+      <node ref="R1805" pin="2"/>
+      <node ref="D1801" pin="2"/>
+    </net>
+    <net code="82" name="/low_side_outputs/SSR1_driver/indicator">
+      <node ref="U1601" pin="3"/>
+      <node ref="R1002" pin="1"/>
+      <node ref="Q1001" pin="2"/>
+    </net>
+    <net code="83" name="/low_side_outputs/relay_3_driver/indicator">
+      <node ref="R1302" pin="1"/>
+      <node ref="Q1301" pin="2"/>
+      <node ref="U1701" pin="10"/>
+    </net>
+    <net code="84" name="/low_side_outputs/SSR2_driver/indicator">
+      <node ref="Q801" pin="2"/>
+      <node ref="U1601" pin="5"/>
+      <node ref="R802" pin="1"/>
+    </net>
+    <net code="85" name="/low_side_outputs/relay_4_driver/indicator">
+      <node ref="U1701" pin="12"/>
+      <node ref="Q901" pin="2"/>
+      <node ref="R902" pin="1"/>
+    </net>
+    <net code="86" name="/low_side_outputs/SSR_1_2_comparator/reference_voltage">
+      <node ref="U1601" pin="9"/>
+      <node ref="C701" pin="1"/>
+      <node ref="U1601" pin="2"/>
+      <node ref="U1601" pin="6"/>
+      <node ref="U1601" pin="13"/>
+      <node ref="RV701" pin="2"/>
+      <node ref="U1701" pin="13"/>
+      <node ref="U1701" pin="9"/>
+      <node ref="U1701" pin="6"/>
+      <node ref="U1701" pin="2"/>
+    </net>
+    <net code="87" name="Net-(D701-Pad2)">
+      <node ref="D701" pin="2"/>
+      <node ref="R701" pin="2"/>
+      <node ref="RV701" pin="1"/>
+    </net>
+    <net code="88" name="/low_side_outputs/relay_2_driver/indicator">
+      <node ref="Q1401" pin="2"/>
+      <node ref="R1402" pin="1"/>
+      <node ref="U1701" pin="5"/>
+    </net>
+    <net code="89" name="/low_side_outputs/extra_1_driver/indicator">
+      <node ref="R1102" pin="1"/>
+      <node ref="Q1101" pin="2"/>
+      <node ref="U1601" pin="10"/>
+    </net>
+    <net code="90" name="/low_side_outputs/extra_2_driver/indicator">
+      <node ref="R1202" pin="1"/>
+      <node ref="U1601" pin="12"/>
+      <node ref="Q1201" pin="2"/>
+    </net>
+    <net code="91" name="/low_side_outputs/relay_1_driver/indicator">
+      <node ref="Q1501" pin="2"/>
+      <node ref="U1701" pin="3"/>
+      <node ref="R1502" pin="1"/>
+    </net>
+    <net code="92" name="Net-(C602-Pad1)">
+      <node ref="R604" pin="2"/>
+      <node ref="U601" pin="8"/>
+      <node ref="Q602" pin="3"/>
+      <node ref="C602" pin="1"/>
+    </net>
+    <net code="93" name="Net-(C601-Pad1)">
+      <node ref="Q601" pin="3"/>
+      <node ref="R603" pin="2"/>
+      <node ref="C601" pin="1"/>
+      <node ref="U601" pin="9"/>
+    </net>
+    <net code="94" name="Net-(U601-Pad16)">
+      <node ref="U601" pin="16"/>
+    </net>
+    <net code="95" name="Net-(U601-Pad15)">
+      <node ref="U601" pin="15"/>
+    </net>
+    <net code="96" name="Net-(U601-Pad10)">
+      <node ref="U601" pin="10"/>
+    </net>
+    <net code="97" name="Net-(JP601-Pad2)">
+      <node ref="U601" pin="14"/>
+      <node ref="R605" pin="1"/>
+      <node ref="JP601" pin="2"/>
+    </net>
+    <net code="98" name="Net-(U601-Pad7)">
+      <node ref="U601" pin="7"/>
+    </net>
+    <net code="99" name="/DAC/DAC_amp/C_in">
+      <node ref="R403" pin="2"/>
+      <node ref="U301" pin="8"/>
+    </net>
+    <net code="100" name="Net-(R302-Pad1)">
+      <node ref="U302" pin="4"/>
+      <node ref="R302" pin="1"/>
+    </net>
+    <net code="101" name="/DAC/DAC_amp/D_in">
+      <node ref="U301" pin="9"/>
+      <node ref="R404" pin="2"/>
+    </net>
+    <net code="102" name="/DAC/DAC_amp/B_in">
+      <node ref="R402" pin="2"/>
+      <node ref="U301" pin="7"/>
+    </net>
+    <net code="103" name="Net-(U301-Pad5)">
+      <node ref="U301" pin="5"/>
+    </net>
+    <net code="104" name="Net-(R301-Pad1)">
+      <node ref="U301" pin="4"/>
+      <node ref="R301" pin="1"/>
+    </net>
+    <net code="105" name="Net-(U302-Pad5)">
+      <node ref="U302" pin="5"/>
+    </net>
+    <net code="106" name="/DAC/DAC current loop amp/B_in">
+      <node ref="U302" pin="7"/>
+      <node ref="R501" pin="2"/>
+    </net>
+    <net code="107" name="/DAC/DAC current loop amp/C_in">
+      <node ref="U302" pin="8"/>
+      <node ref="R502" pin="2"/>
+    </net>
+    <net code="108" name="/DAC/DAC current loop amp/D_in">
+      <node ref="R503" pin="2"/>
+      <node ref="U302" pin="9"/>
+    </net>
+    <net code="109" name="/DAC/DAC_amp/A_in">
+      <node ref="U301" pin="6"/>
+      <node ref="R401" pin="2"/>
+    </net>
+    <net code="110" name="/DAC/DAC current loop amp/A_in">
+      <node ref="R504" pin="2"/>
+      <node ref="U302" pin="6"/>
+    </net>
+    <net code="111" name="Net-(C302-Pad1)">
+      <node ref="C302" pin="1"/>
+      <node ref="C304" pin="1"/>
+      <node ref="U302" pin="1"/>
+      <node ref="JP302" pin="1"/>
+    </net>
+    <net code="112" name="Net-(C301-Pad1)">
+      <node ref="JP301" pin="1"/>
+      <node ref="U301" pin="1"/>
+      <node ref="C303" pin="1"/>
+      <node ref="C301" pin="1"/>
+    </net>
+    <net code="113" name="Net-(C202-Pad1)">
+      <node ref="D201" pin="1"/>
+      <node ref="L201" pin="1"/>
+      <node ref="C202" pin="1"/>
+      <node ref="U201" pin="8"/>
+    </net>
+    <net code="114" name="Net-(U201-Pad3)">
+      <node ref="U201" pin="3"/>
+    </net>
+    <net code="115" name="Net-(U201-Pad2)">
+      <node ref="U201" pin="2"/>
+    </net>
+    <net code="116" name="Net-(C202-Pad2)">
+      <node ref="U201" pin="1"/>
+      <node ref="C202" pin="2"/>
+    </net>
+    <net code="117" name="+12V">
+      <node ref="L201" pin="2"/>
+      <node ref="U201" pin="4"/>
+      <node ref="U501" pin="4"/>
+      <node ref="U401" pin="4"/>
+      <node ref="C203" pin="1"/>
+      <node ref="C204" pin="1"/>
+    </net>
+    <net code="118" name="Net-(IC2101-Pad12)">
+      <node ref="IC2101" pin="12"/>
+      <node ref="R2108" pin="1"/>
+    </net>
+    <net code="119" name="Net-(IC2101-Pad13)">
+      <node ref="R2109" pin="1"/>
+      <node ref="IC2101" pin="13"/>
+    </net>
+    <net code="120" name="Net-(IC2101-Pad18)">
+      <node ref="IC2101" pin="18"/>
+      <node ref="R2111" pin="1"/>
+    </net>
+    <net code="121" name="/Analog inputs/10V_B">
+      <node ref="R2310" pin="1"/>
+      <node ref="IC2101" pin="2"/>
+    </net>
+    <net code="122" name="Net-(IC2101-Pad11)">
+      <node ref="IC2101" pin="11"/>
+      <node ref="R2106" pin="1"/>
+    </net>
+    <net code="123" name="Net-(IC2101-Pad25)">
+      <node ref="IC2101" pin="25"/>
+    </net>
+    <net code="124" name="Net-(IC2101-Pad29)">
+      <node ref="IC2101" pin="29"/>
+    </net>
+    <net code="125" name="Net-(IC2101-Pad10)">
+      <node ref="IC2101" pin="10"/>
+      <node ref="R2105" pin="1"/>
+    </net>
+    <net code="126" name="Net-(IC2101-Pad9)">
+      <node ref="R2104" pin="1"/>
+      <node ref="IC2101" pin="9"/>
+    </net>
+    <net code="127" name="/Analog inputs/10V_A">
+      <node ref="IC2101" pin="3"/>
+      <node ref="R2309" pin="1"/>
+    </net>
+    <net code="128" name="Net-(C2101-Pad1)">
+      <node ref="R2101" pin="1"/>
+      <node ref="C2101" pin="1"/>
+      <node ref="IC2102" pin="3"/>
+      <node ref="TP2101" pin="1"/>
+    </net>
+    <net code="129" name="Net-(C2103-Pad1)">
+      <node ref="Q2101" pin="1"/>
+      <node ref="R2103" pin="1"/>
+      <node ref="R2107" pin="1"/>
+      <node ref="C2103" pin="1"/>
+      <node ref="TP2102" pin="1"/>
+    </net>
+    <net code="130" name="/Analog inputs/Vref">
+      <node ref="R2101" pin="2"/>
+      <node ref="C2107" pin="1"/>
+      <node ref="IC2101" pin="23"/>
+    </net>
+    <net code="131" name="Net-(IC2102-Pad1)">
+      <node ref="IC2102" pin="1"/>
+    </net>
+    <net code="132" name="Net-(IC2102-Pad5)">
+      <node ref="IC2102" pin="5"/>
+    </net>
+    <net code="133" name="/Analog inputs/Vref_inter">
+      <node ref="IC2102" pin="6"/>
+      <node ref="C2102" pin="1"/>
+      <node ref="R2103" pin="2"/>
+    </net>
+    <net code="134" name="Net-(IC2102-Pad8)">
+      <node ref="IC2102" pin="8"/>
+    </net>
+    <net code="135" name="/Analog inputs/10V_C">
+      <node ref="R2311" pin="1"/>
+      <node ref="IC2101" pin="32"/>
+    </net>
+    <net code="136" name="/Analog inputs/10V-1-4/C_in">
+      <node ref="R2305" pin="1"/>
+    </net>
+    <net code="137" name="/Analog inputs/10V-1-4/B_in">
+      <node ref="R2303" pin="1"/>
+    </net>
+    <net code="138" name="/Analog inputs/10V-1-4/A_in">
+      <node ref="R2301" pin="1"/>
+    </net>
+    <net code="139" name="/Analog inputs/PT-100-1/D_tap">
+      <node ref="R2226" pin="2"/>
+    </net>
+    <net code="140" name="/Analog inputs/PT-100-1/D_pos">
+      <node ref="R2225" pin="2"/>
+    </net>
+    <net code="141" name="/Analog inputs/PT-100-1/C_tap">
+      <node ref="R2210" pin="2"/>
+    </net>
+    <net code="142" name="/Analog inputs/PT-100-1/C_pos">
+      <node ref="R2209" pin="2"/>
+    </net>
+    <net code="143" name="/Analog inputs/10V-1-4/D_in">
+      <node ref="R2307" pin="1"/>
+    </net>
+    <net code="144" name="/Analog inputs/PT-100-1/B_tap">
+      <node ref="R2223" pin="2"/>
+    </net>
+    <net code="145" name="/Analog inputs/PT-100-1/B_pos">
+      <node ref="R2222" pin="2"/>
+    </net>
+    <net code="146" name="/Analog inputs/PT100_A">
+      <node ref="IC2101" pin="7"/>
+      <node ref="R2215" pin="1"/>
+    </net>
+    <net code="147" name="/Analog inputs/PT-100-1/A_tap">
+      <node ref="R2207" pin="2"/>
+    </net>
+    <net code="148" name="GND">
+      <node ref="R508" pin="1"/>
+      <node ref="C1701" pin="2"/>
+      <node ref="C505" pin="2"/>
+      <node ref="R2224" pin="2"/>
+      <node ref="R2304" pin="2"/>
+      <node ref="R511" pin="2"/>
+      <node ref="D2404" pin="2"/>
+      <node ref="R515" pin="2"/>
+      <node ref="R507" pin="1"/>
+      <node ref="R514" pin="2"/>
+      <node ref="D2402" pin="2"/>
+      <node ref="U2201" pin="11"/>
+      <node ref="C2201" pin="2"/>
+      <node ref="R513" pin="2"/>
+      <node ref="R2221" pin="2"/>
+      <node ref="R505" pin="1"/>
+      <node ref="D2408" pin="2"/>
+      <node ref="R2233" pin="2"/>
+      <node ref="D2406" pin="2"/>
+      <node ref="R2401" pin="2"/>
+      <node ref="R2205" pin="2"/>
+      <node ref="D1703" pin="1"/>
+      <node ref="D1701" pin="1"/>
+      <node ref="D1704" pin="1"/>
+      <node ref="R512" pin="2"/>
+      <node ref="D1702" pin="1"/>
+      <node ref="R516" pin="2"/>
+      <node ref="U501" pin="11"/>
+      <node ref="R409" pin="2"/>
+      <node ref="R407" pin="1"/>
+      <node ref="R1102" pin="2"/>
+      <node ref="R2302" pin="2"/>
+      <node ref="R2208" pin="2"/>
+      <node ref="C404" pin="2"/>
+      <node ref="R411" pin="2"/>
+      <node ref="R410" pin="2"/>
+      <node ref="C403" pin="2"/>
+      <node ref="U401" pin="11"/>
+      <node ref="R1202" pin="2"/>
+      <node ref="C405" pin="2"/>
+      <node ref="C406" pin="2"/>
+      <node ref="R1201" pin="2"/>
+      <node ref="D2302" pin="2"/>
+      <node ref="R2234" pin="2"/>
+      <node ref="R408" pin="1"/>
+      <node ref="R412" pin="2"/>
+      <node ref="R1101" pin="2"/>
+      <node ref="U1701" pin="11"/>
+      <node ref="C1702" pin="2"/>
+      <node ref="R2306" pin="2"/>
+      <node ref="R2308" pin="2"/>
+      <node ref="R510" pin="2"/>
+      <node ref="D2304" pin="2"/>
+      <node ref="D2306" pin="2"/>
+      <node ref="R509" pin="2"/>
+      <node ref="R2235" pin="2"/>
+      <node ref="R406" pin="1"/>
+      <node ref="R405" pin="1"/>
+      <node ref="D2308" pin="2"/>
+      <node ref="R506" pin="1"/>
+      <node ref="C506" pin="2"/>
+      <node ref="C503" pin="2"/>
+      <node ref="C504" pin="2"/>
+      <node ref="C204" pin="2"/>
+      <node ref="J102" pin="8"/>
+      <node ref="C2108" pin="2"/>
+      <node ref="J102" pin="6"/>
+      <node ref="C203" pin="2"/>
+      <node ref="D201" pin="2"/>
+      <node ref="C201" pin="2"/>
+      <node ref="R2107" pin="2"/>
+      <node ref="U302" pin="10"/>
+      <node ref="U201" pin="6"/>
+      <node ref="U1801" pin="2"/>
+      <node ref="R2110" pin="2"/>
+      <node ref="C103" pin="2"/>
+      <node ref="J102" pin="2"/>
+      <node ref="J102" pin="4"/>
+      <node ref="C302" pin="2"/>
+      <node ref="C301" pin="2"/>
+      <node ref="R1801" pin="2"/>
+      <node ref="R1802" pin="2"/>
+      <node ref="RV701" pin="3"/>
+      <node ref="C304" pin="2"/>
+      <node ref="R301" pin="2"/>
+      <node ref="C109" pin="2"/>
+      <node ref="U1802" pin="7"/>
+      <node ref="D1801" pin="1"/>
+      <node ref="C108" pin="2"/>
+      <node ref="IC2101" pin="1"/>
+      <node ref="IC2101" pin="24"/>
+      <node ref="IC2101" pin="27"/>
+      <node ref="J103" pin="4"/>
+      <node ref="IC2101" pin="28"/>
+      <node ref="J103" pin="6"/>
+      <node ref="J103" pin="2"/>
+      <node ref="J103" pin="8"/>
+      <node ref="IC2101" pin="17"/>
+      <node ref="IC2101" pin="14"/>
+      <node ref="U1801" pin="2"/>
+      <node ref="C2103" pin="2"/>
+      <node ref="D2001" pin="2"/>
+      <node ref="R1804" pin="2"/>
+      <node ref="C2101" pin="2"/>
+      <node ref="IC2102" pin="4"/>
+      <node ref="J101" pin="1"/>
+      <node ref="C106" pin="2"/>
+      <node ref="C104" pin="2"/>
+      <node ref="C2107" pin="2"/>
+      <node ref="J105" pin="3"/>
+      <node ref="C105" pin="2"/>
+      <node ref="C101" pin="2"/>
+      <node ref="C107" pin="2"/>
+      <node ref="C2105" pin="2"/>
+      <node ref="C2106" pin="2"/>
+      <node ref="C102" pin="2"/>
+      <node ref="C604" pin="2"/>
+      <node ref="D1601" pin="1"/>
+      <node ref="C602" pin="2"/>
+      <node ref="R605" pin="2"/>
+      <node ref="C603" pin="2"/>
+      <node ref="P101" pin="20"/>
+      <node ref="P101" pin="25"/>
+      <node ref="C601" pin="2"/>
+      <node ref="U601" pin="11"/>
+      <node ref="U601" pin="13"/>
+      <node ref="U601" pin="12"/>
+      <node ref="P101" pin="14"/>
+      <node ref="C1601" pin="2"/>
+      <node ref="C1602" pin="2"/>
+      <node ref="P101" pin="30"/>
+      <node ref="P101" pin="34"/>
+      <node ref="U1601" pin="11"/>
+      <node ref="P101" pin="39"/>
+      <node ref="P101" pin="6"/>
+      <node ref="D1604" pin="1"/>
+      <node ref="P101" pin="9"/>
+      <node ref="U601" pin="29"/>
+      <node ref="D1603" pin="1"/>
+      <node ref="U601" pin="6"/>
+      <node ref="J106" pin="3"/>
+      <node ref="R2501" pin="2"/>
+      <node ref="R2502" pin="2"/>
+      <node ref="R1001" pin="2"/>
+      <node ref="R1002" pin="2"/>
+      <node ref="R802" pin="2"/>
+      <node ref="R801" pin="2"/>
+      <node ref="R302" pin="2"/>
+      <node ref="C701" pin="2"/>
+      <node ref="C303" pin="2"/>
+      <node ref="U301" pin="10"/>
+      <node ref="C2104" pin="2"/>
+      <node ref="R1301" pin="2"/>
+      <node ref="R1302" pin="2"/>
+      <node ref="R901" pin="2"/>
+      <node ref="R902" pin="2"/>
+      <node ref="D1602" pin="1"/>
+      <node ref="D701" pin="1"/>
+      <node ref="R1502" pin="2"/>
+      <node ref="R1501" pin="2"/>
+      <node ref="R1402" pin="2"/>
+      <node ref="R1401" pin="2"/>
+    </net>
+    <net code="149" name="/Analog inputs/PT-100-1/A_pos">
+      <node ref="D2201" pin="1"/>
+      <node ref="R2203" pin="1"/>
+      <node ref="R2206" pin="2"/>
+    </net>
+    <net code="150" name="/Analog inputs/Vref_buf">
+      <node ref="U2202" pin="4"/>
+      <node ref="U2204" pin="4"/>
+      <node ref="U2203" pin="4"/>
+      <node ref="D2204" pin="1"/>
+      <node ref="D2207" pin="1"/>
+      <node ref="D2208" pin="1"/>
+      <node ref="U2205" pin="4"/>
+      <node ref="D2203" pin="1"/>
+      <node ref="IC2102" pin="2"/>
+      <node ref="D2307" pin="1"/>
+      <node ref="R2110" pin="1"/>
+      <node ref="C2102" pin="2"/>
+      <node ref="C2108" pin="1"/>
+      <node ref="D2303" pin="1"/>
+      <node ref="TP2103" pin="1"/>
+      <node ref="D2301" pin="1"/>
+      <node ref="Q2101" pin="2"/>
+      <node ref="D2305" pin="1"/>
+    </net>
+    <net code="151" name="/Analog inputs/PT100_B">
+      <node ref="IC2101" pin="6"/>
+      <node ref="R2231" pin="1"/>
+    </net>
+    <net code="152" name="/Analog inputs/PT100_C">
+      <node ref="IC2101" pin="5"/>
+      <node ref="R2216" pin="1"/>
+    </net>
+    <net code="153" name="/Analog inputs/PT100_D">
+      <node ref="R2232" pin="1"/>
+      <node ref="IC2101" pin="4"/>
+    </net>
+    <net code="154" name="/Analog inputs/10V_D">
+      <node ref="IC2101" pin="31"/>
+      <node ref="R2312" pin="1"/>
+    </net>
+    <net code="155" name="Net-(IC2101-Pad30)">
+      <node ref="IC2101" pin="30"/>
+    </net>
+    <net code="156" name="/Analog inputs/20mA-1-4/A_in_high">
+      <node ref="F2401" pin="1"/>
+    </net>
+    <net code="157" name="/Analog inputs/20mA-1-4/D_in_low">
+      <node ref="R2408" pin="2"/>
+      <node ref="R2308" pin="1"/>
+    </net>
+    <net code="158" name="/Analog inputs/20mA-1-4/C_in_low">
+      <node ref="R2407" pin="2"/>
+      <node ref="R2306" pin="1"/>
+    </net>
+    <net code="159" name="/Analog inputs/20mA-1-4/B_in_low">
+      <node ref="R2406" pin="2"/>
+      <node ref="R2304" pin="1"/>
+    </net>
+    <net code="160" name="/Analog inputs/20mA-1-4/A_in_low">
+      <node ref="R2405" pin="2"/>
+      <node ref="R2401" pin="1"/>
+    </net>
+    <net code="161" name="/Analog inputs/20mA_D">
+      <node ref="R2412" pin="1"/>
+      <node ref="IC2101" pin="19"/>
+    </net>
+    <net code="162" name="/Analog inputs/20mA_C">
+      <node ref="R2411" pin="1"/>
+      <node ref="IC2101" pin="20"/>
+    </net>
+    <net code="163" name="/Analog inputs/20mA_B">
+      <node ref="R2410" pin="1"/>
+      <node ref="IC2101" pin="21"/>
+    </net>
+    <net code="164" name="/Analog inputs/20mA_A">
+      <node ref="R2409" pin="1"/>
+      <node ref="IC2101" pin="22"/>
+    </net>
+    <net code="165" name="/Analog inputs/20mA-1-4/Vref">
+      <node ref="D2401" pin="1"/>
+      <node ref="D2407" pin="1"/>
+      <node ref="D2405" pin="1"/>
+      <node ref="D2403" pin="1"/>
+    </net>
+    <net code="166" name="Net-(IC2101-Pad8)">
+      <node ref="R2102" pin="1"/>
+      <node ref="IC2101" pin="8"/>
+    </net>
+    <net code="167" name="Net-(D1602-Pad2)">
+      <node ref="D1602" pin="2"/>
+      <node ref="R1604" pin="2"/>
+    </net>
+    <net code="168" name="Net-(D1601-Pad2)">
+      <node ref="D1601" pin="2"/>
+      <node ref="R1602" pin="2"/>
+    </net>
+    <net code="169" name="Net-(R1601-Pad1)">
+      <node ref="U1601" pin="1"/>
+      <node ref="R1601" pin="1"/>
+      <node ref="R1602" pin="1"/>
+    </net>
+    <net code="170" name="Net-(D1604-Pad2)">
+      <node ref="D1604" pin="2"/>
+      <node ref="R1608" pin="2"/>
+    </net>
+    <net code="171" name="Net-(D1603-Pad2)">
+      <node ref="D1603" pin="2"/>
+      <node ref="R1606" pin="2"/>
+    </net>
+    <net code="172" name="Net-(R1603-Pad1)">
+      <node ref="R1603" pin="1"/>
+      <node ref="U1601" pin="7"/>
+      <node ref="R1604" pin="1"/>
+    </net>
+    <net code="173" name="Net-(R1605-Pad1)">
+      <node ref="R1606" pin="1"/>
+      <node ref="U1601" pin="8"/>
+      <node ref="R1605" pin="1"/>
+    </net>
+    <net code="174" name="Net-(R1607-Pad1)">
+      <node ref="R1608" pin="1"/>
+      <node ref="U1601" pin="14"/>
+      <node ref="R1607" pin="1"/>
+    </net>
+    <net code="175" name="Net-(D1702-Pad2)">
+      <node ref="R1704" pin="2"/>
+      <node ref="D1702" pin="2"/>
+    </net>
+    <net code="176" name="Net-(R1703-Pad1)">
+      <node ref="U1701" pin="7"/>
+      <node ref="R1703" pin="1"/>
+      <node ref="R1704" pin="1"/>
+    </net>
+    <net code="177" name="Net-(D1701-Pad2)">
+      <node ref="D1701" pin="2"/>
+      <node ref="R1702" pin="2"/>
+    </net>
+    <net code="178" name="Net-(R1701-Pad1)">
+      <node ref="R1701" pin="1"/>
+      <node ref="U1701" pin="1"/>
+      <node ref="R1702" pin="1"/>
+    </net>
+    <net code="179" name="Net-(D1704-Pad2)">
+      <node ref="D1704" pin="2"/>
+      <node ref="R1708" pin="2"/>
+    </net>
+    <net code="180" name="Net-(D1703-Pad2)">
+      <node ref="R1706" pin="2"/>
+      <node ref="D1703" pin="2"/>
+    </net>
+    <net code="181" name="Net-(R1705-Pad1)">
+      <node ref="U1701" pin="8"/>
+      <node ref="R1705" pin="1"/>
+      <node ref="R1706" pin="1"/>
+    </net>
+    <net code="182" name="Net-(R1707-Pad1)">
+      <node ref="R1708" pin="1"/>
+      <node ref="R1707" pin="1"/>
+      <node ref="U1701" pin="14"/>
+    </net>
+    <net code="183" name="Net-(R418-Pad1)">
+      <node ref="U401" pin="7"/>
+      <node ref="R418" pin="1"/>
+    </net>
+    <net code="184" name="Net-(R419-Pad1)">
+      <node ref="R419" pin="1"/>
+      <node ref="U401" pin="8"/>
+    </net>
+    <net code="185" name="Net-(R420-Pad1)">
+      <node ref="U401" pin="14"/>
+      <node ref="R420" pin="1"/>
+    </net>
+    <net code="186" name="Net-(R412-Pad1)">
+      <node ref="R412" pin="1"/>
+      <node ref="R416" pin="2"/>
+      <node ref="U401" pin="13"/>
+    </net>
+    <net code="187" name="Net-(C406-Pad1)">
+      <node ref="C406" pin="1"/>
+      <node ref="R408" pin="2"/>
+      <node ref="U401" pin="12"/>
+      <node ref="R404" pin="1"/>
+    </net>
+    <net code="188" name="Net-(C405-Pad1)">
+      <node ref="U401" pin="10"/>
+      <node ref="R403" pin="1"/>
+      <node ref="C405" pin="1"/>
+      <node ref="R407" pin="2"/>
+    </net>
+    <net code="189" name="Net-(R417-Pad1)">
+      <node ref="R417" pin="1"/>
+      <node ref="U401" pin="1"/>
+    </net>
+    <net code="190" name="Net-(R409-Pad1)">
+      <node ref="R413" pin="2"/>
+      <node ref="R409" pin="1"/>
+      <node ref="U401" pin="2"/>
+    </net>
+    <net code="191" name="Net-(C401-Pad2)">
+      <node ref="C402" pin="2"/>
+      <node ref="C401" pin="2"/>
+    </net>
+    <net code="192" name="Net-(C401-Pad1)">
+      <node ref="C401" pin="1"/>
+      <node ref="C402" pin="1"/>
+    </net>
+    <net code="193" name="Net-(R410-Pad1)">
+      <node ref="R414" pin="2"/>
+      <node ref="R410" pin="1"/>
+      <node ref="U401" pin="6"/>
+    </net>
+    <net code="194" name="Net-(C404-Pad1)">
+      <node ref="R402" pin="1"/>
+      <node ref="C404" pin="1"/>
+      <node ref="R406" pin="2"/>
+      <node ref="U401" pin="5"/>
+    </net>
+    <net code="195" name="Net-(C403-Pad1)">
+      <node ref="R405" pin="2"/>
+      <node ref="U401" pin="3"/>
+      <node ref="R401" pin="1"/>
+      <node ref="C403" pin="1"/>
+    </net>
+    <net code="196" name="Net-(R411-Pad1)">
+      <node ref="R411" pin="1"/>
+      <node ref="R415" pin="2"/>
+      <node ref="U401" pin="9"/>
+    </net>
+    <net code="197" name="Net-(C504-Pad1)">
+      <node ref="R502" pin="1"/>
+      <node ref="C504" pin="1"/>
+      <node ref="R506" pin="2"/>
+      <node ref="U501" pin="10"/>
+    </net>
+    <net code="198" name="Net-(Q502-Pad1)">
+      <node ref="R514" pin="1"/>
+      <node ref="Q502" pin="1"/>
+      <node ref="U501" pin="8"/>
+    </net>
+    <net code="199" name="Net-(Q502-Pad2)">
+      <node ref="Q502" pin="2"/>
+      <node ref="U501" pin="9"/>
+      <node ref="R510" pin="1"/>
+    </net>
+    <net code="200" name="Net-(Q501-Pad1)">
+      <node ref="R513" pin="1"/>
+      <node ref="U501" pin="7"/>
+      <node ref="Q501" pin="1"/>
+    </net>
+    <net code="201" name="Net-(Q503-Pad1)">
+      <node ref="Q503" pin="1"/>
+      <node ref="U501" pin="14"/>
+      <node ref="R515" pin="1"/>
+    </net>
+    <net code="202" name="Net-(Q503-Pad2)">
+      <node ref="Q503" pin="2"/>
+      <node ref="U501" pin="13"/>
+      <node ref="R511" pin="1"/>
+    </net>
+    <net code="203" name="Net-(Q504-Pad1)">
+      <node ref="R516" pin="1"/>
+      <node ref="U501" pin="1"/>
+      <node ref="Q504" pin="1"/>
+    </net>
+    <net code="204" name="Net-(C505-Pad1)">
+      <node ref="R503" pin="1"/>
+      <node ref="C505" pin="1"/>
+      <node ref="U501" pin="12"/>
+      <node ref="R507" pin="2"/>
+    </net>
+    <net code="205" name="Net-(C506-Pad1)">
+      <node ref="U501" pin="3"/>
+      <node ref="R508" pin="2"/>
+      <node ref="C506" pin="1"/>
+      <node ref="R504" pin="1"/>
+    </net>
+    <net code="206" name="Net-(Q501-Pad2)">
+      <node ref="R509" pin="1"/>
+      <node ref="Q501" pin="2"/>
+      <node ref="U501" pin="6"/>
+    </net>
+    <net code="207" name="Net-(C503-Pad1)">
+      <node ref="C503" pin="1"/>
+      <node ref="R505" pin="2"/>
+      <node ref="U501" pin="5"/>
+      <node ref="R501" pin="1"/>
+    </net>
+    <net code="208" name="Net-(C501-Pad2)">
+      <node ref="C502" pin="2"/>
+      <node ref="C501" pin="2"/>
+    </net>
+    <net code="209" name="Net-(C501-Pad1)">
+      <node ref="C501" pin="1"/>
+      <node ref="C502" pin="1"/>
+    </net>
+    <net code="210" name="Net-(Q504-Pad2)">
+      <node ref="R512" pin="1"/>
+      <node ref="U501" pin="2"/>
+      <node ref="Q504" pin="2"/>
+    </net>
+    <net code="211" name="Net-(RV2202-Pad1)">
+      <node ref="U2203" pin="3"/>
+      <node ref="U2203" pin="2"/>
+      <node ref="U2203" pin="7"/>
+      <node ref="RV2202" pin="1"/>
+      <node ref="U2203" pin="6"/>
+    </net>
+    <net code="212" name="Net-(R2202-Pad2)">
+      <node ref="R2202" pin="2"/>
+      <node ref="U2203" pin="1"/>
+      <node ref="R2204" pin="2"/>
+    </net>
+    <net code="213" name="Net-(R2202-Pad1)">
+      <node ref="R2202" pin="1"/>
+      <node ref="RV2202" pin="2"/>
+    </net>
+    <net code="214" name="Net-(D2202-Pad2)">
+      <node ref="RV2202" pin="3"/>
+      <node ref="D2202" pin="2"/>
+    </net>
+    <net code="215" name="Net-(D2205-Pad2)">
+      <node ref="D2205" pin="2"/>
+      <node ref="RV2203" pin="3"/>
+    </net>
+    <net code="216" name="Net-(RV2203-Pad1)">
+      <node ref="U2204" pin="6"/>
+      <node ref="U2204" pin="2"/>
+      <node ref="U2204" pin="3"/>
+      <node ref="RV2203" pin="1"/>
+      <node ref="U2204" pin="7"/>
+    </net>
+    <net code="217" name="Net-(D2202-Pad1)">
+      <node ref="R2204" pin="1"/>
+      <node ref="D2202" pin="1"/>
+    </net>
+    <net code="218" name="Net-(R2227-Pad1)">
+      <node ref="U2201" pin="7"/>
+      <node ref="R2229" pin="2"/>
+      <node ref="R2227" pin="1"/>
+    </net>
+    <net code="219" name="Net-(R2205-Pad1)">
+      <node ref="R2205" pin="1"/>
+      <node ref="U2201" pin="3"/>
+      <node ref="R2206" pin="1"/>
+    </net>
+    <net code="220" name="Net-(D2205-Pad1)">
+      <node ref="D2205" pin="1"/>
+      <node ref="R2219" pin="1"/>
+    </net>
+    <net code="221" name="Net-(D2206-Pad1)">
+      <node ref="D2206" pin="1"/>
+      <node ref="R2220" pin="1"/>
+    </net>
+    <net code="222" name="Net-(R2211-Pad1)">
+      <node ref="R2213" pin="2"/>
+      <node ref="U2201" pin="1"/>
+      <node ref="R2211" pin="1"/>
+    </net>
+    <net code="223" name="Net-(R2207-Pad1)">
+      <node ref="U2201" pin="2"/>
+      <node ref="R2211" pin="2"/>
+      <node ref="R2207" pin="1"/>
+    </net>
+    <net code="224" name="Net-(RV2204-Pad1)">
+      <node ref="U2205" pin="6"/>
+      <node ref="U2205" pin="7"/>
+      <node ref="RV2204" pin="1"/>
+      <node ref="U2205" pin="2"/>
+      <node ref="U2205" pin="3"/>
+    </net>
+    <net code="225" name="Net-(R2217-Pad2)">
+      <node ref="R2217" pin="2"/>
+      <node ref="R2219" pin="2"/>
+      <node ref="U2204" pin="1"/>
+    </net>
+    <net code="226" name="Net-(R2217-Pad1)">
+      <node ref="R2217" pin="1"/>
+      <node ref="RV2203" pin="2"/>
+    </net>
+    <net code="227" name="Net-(D2206-Pad2)">
+      <node ref="RV2204" pin="3"/>
+      <node ref="D2206" pin="2"/>
+    </net>
+    <net code="228" name="Net-(R2218-Pad2)">
+      <node ref="R2220" pin="2"/>
+      <node ref="R2218" pin="2"/>
+      <node ref="U2205" pin="1"/>
+    </net>
+    <net code="229" name="Net-(R2218-Pad1)">
+      <node ref="RV2204" pin="2"/>
+      <node ref="R2218" pin="1"/>
+    </net>
+    <net code="230" name="Net-(R2201-Pad1)">
+      <node ref="R2201" pin="1"/>
+      <node ref="RV2201" pin="2"/>
+    </net>
+    <net code="231" name="Net-(R2201-Pad2)">
+      <node ref="R2201" pin="2"/>
+      <node ref="U2202" pin="1"/>
+      <node ref="R2203" pin="2"/>
+    </net>
+    <net code="232" name="Net-(D2201-Pad2)">
+      <node ref="D2201" pin="2"/>
+      <node ref="RV2201" pin="3"/>
+    </net>
+    <net code="233" name="Net-(RV2201-Pad1)">
+      <node ref="U2202" pin="7"/>
+      <node ref="U2202" pin="6"/>
+      <node ref="RV2201" pin="1"/>
+      <node ref="U2202" pin="3"/>
+      <node ref="U2202" pin="2"/>
+    </net>
+    <net code="234" name="Net-(R2221-Pad1)">
+      <node ref="R2221" pin="1"/>
+      <node ref="U2201" pin="5"/>
+      <node ref="R2222" pin="1"/>
+    </net>
+    <net code="235" name="Net-(R2223-Pad1)">
+      <node ref="U2201" pin="6"/>
+      <node ref="R2223" pin="1"/>
+      <node ref="R2227" pin="2"/>
+    </net>
+    <net code="236" name="Net-(D2203-Pad2)">
+      <node ref="R2213" pin="1"/>
+      <node ref="R2215" pin="2"/>
+      <node ref="D2203" pin="2"/>
+    </net>
+    <net code="237" name="Net-(D2208-Pad2)">
+      <node ref="R2232" pin="2"/>
+      <node ref="D2208" pin="2"/>
+      <node ref="R2230" pin="1"/>
+    </net>
+    <net code="238" name="Net-(R2226-Pad1)">
+      <node ref="R2228" pin="2"/>
+      <node ref="R2226" pin="1"/>
+      <node ref="U2201" pin="13"/>
+    </net>
+    <net code="239" name="Net-(R2224-Pad1)">
+      <node ref="R2224" pin="1"/>
+      <node ref="R2225" pin="1"/>
+      <node ref="U2201" pin="12"/>
+    </net>
+    <net code="240" name="Net-(D2204-Pad2)">
+      <node ref="R2214" pin="1"/>
+      <node ref="D2204" pin="2"/>
+      <node ref="R2216" pin="2"/>
+    </net>
+    <net code="241" name="Net-(R2228-Pad1)">
+      <node ref="U2201" pin="14"/>
+      <node ref="R2230" pin="2"/>
+      <node ref="R2228" pin="1"/>
+    </net>
+    <net code="242" name="Net-(R2210-Pad1)">
+      <node ref="R2210" pin="1"/>
+      <node ref="R2212" pin="2"/>
+      <node ref="U2201" pin="9"/>
+    </net>
+    <net code="243" name="Net-(R2208-Pad1)">
+      <node ref="U2201" pin="10"/>
+      <node ref="R2209" pin="1"/>
+      <node ref="R2208" pin="1"/>
+    </net>
+    <net code="244" name="Net-(D2207-Pad2)">
+      <node ref="R2231" pin="2"/>
+      <node ref="D2207" pin="2"/>
+      <node ref="R2229" pin="1"/>
+    </net>
+    <net code="245" name="Net-(R2212-Pad1)">
+      <node ref="R2214" pin="2"/>
+      <node ref="U2201" pin="8"/>
+      <node ref="R2212" pin="1"/>
+    </net>
+    <net code="246" name="Net-(D2301-Pad2)">
+      <node ref="D2301" pin="2"/>
+      <node ref="R2309" pin="2"/>
+      <node ref="R2302" pin="1"/>
+      <node ref="R2301" pin="2"/>
+      <node ref="D2302" pin="1"/>
+    </net>
+    <net code="247" name="Net-(D2307-Pad2)">
+      <node ref="R2307" pin="2"/>
+      <node ref="D2308" pin="1"/>
+      <node ref="D2307" pin="2"/>
+      <node ref="R2235" pin="1"/>
+      <node ref="R2312" pin="2"/>
+    </net>
+    <net code="248" name="Net-(D2305-Pad2)">
+      <node ref="D2305" pin="2"/>
+      <node ref="D2306" pin="1"/>
+      <node ref="R2234" pin="1"/>
+      <node ref="R2311" pin="2"/>
+      <node ref="R2305" pin="2"/>
+    </net>
+    <net code="249" name="Net-(D2303-Pad2)">
+      <node ref="D2304" pin="1"/>
+      <node ref="R2233" pin="1"/>
+      <node ref="D2303" pin="2"/>
+      <node ref="R2310" pin="2"/>
+      <node ref="R2303" pin="2"/>
+    </net>
+    <net code="250" name="Net-(D2407-Pad2)">
+      <node ref="R2412" pin="2"/>
+      <node ref="D2407" pin="2"/>
+      <node ref="R2408" pin="1"/>
+      <node ref="D2408" pin="1"/>
+    </net>
+    <net code="251" name="Net-(D2403-Pad2)">
+      <node ref="R2410" pin="2"/>
+      <node ref="R2406" pin="1"/>
+      <node ref="D2404" pin="1"/>
+      <node ref="D2403" pin="2"/>
+    </net>
+    <net code="252" name="Net-(D2401-Pad2)">
+      <node ref="D2402" pin="1"/>
+      <node ref="D2401" pin="2"/>
+      <node ref="R2405" pin="1"/>
+      <node ref="R2409" pin="2"/>
+    </net>
+    <net code="253" name="Net-(D2405-Pad2)">
+      <node ref="R2411" pin="2"/>
+      <node ref="D2405" pin="2"/>
+      <node ref="R2407" pin="1"/>
+      <node ref="D2406" pin="1"/>
     </net>
   </nets>
 </export>

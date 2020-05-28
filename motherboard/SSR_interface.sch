@@ -23,7 +23,7 @@ U 2 1 5C0AC439
 P 3700 4300
 F 0 "U1801" H 3675 4567 50  0000 C CNN
 F 1 "74AUC2G04" H 3675 4476 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6" H 3700 4300 50  0001 C CNN
+F 2 "" H 3700 4300 50  0001 C CNN
 F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3700 4300 50  0001 C CNN
 	2    3700 4300
 	1    0    0    -1  
@@ -34,7 +34,7 @@ U 1 1 5C0AC4C9
 P 3700 3200
 F 0 "U1801" H 3675 3467 50  0000 C CNN
 F 1 "74AUC2G04" H 3675 3376 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6" H 3700 3200 50  0001 C CNN
+F 2 "" H 3700 3200 50  0001 C CNN
 F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3700 3200 50  0001 C CNN
 	1    3700 3200
 	1    0    0    -1  
@@ -146,7 +146,7 @@ U 1 1 5C93A178
 P 4700 3150
 F 0 "U1802" H 4700 3475 50  0000 C CNN
 F 1 "quad_and" H 4700 3384 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4700 3150 50  0001 C CNN
+F 2 "" H 4700 3150 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf" H 4700 3150 50  0001 C CNN
 	1    4700 3150
 	1    0    0    -1  
@@ -157,7 +157,7 @@ U 2 1 5C93A299
 P 4700 4250
 F 0 "U1802" H 4700 4575 50  0000 C CNN
 F 1 "quad_and" H 4700 4484 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4700 4250 50  0001 C CNN
+F 2 "" H 4700 4250 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf" H 4700 4250 50  0001 C CNN
 	2    4700 4250
 	1    0    0    -1  
@@ -168,7 +168,7 @@ U 5 1 5C93A40E
 P 4700 1800
 F 0 "U1802" H 4930 1846 50  0000 L CNN
 F 1 "quad_and" H 4930 1755 50  0000 L CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4700 1800 50  0001 C CNN
+F 2 "" H 4700 1800 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf" H 4700 1800 50  0001 C CNN
 	5    4700 1800
 	1    0    0    -1  
@@ -187,7 +187,7 @@ U 3 1 5C93A2FD
 P 5800 1700
 F 0 "U1802" H 5800 2025 50  0000 C CNN
 F 1 "quad_and" H 5800 1934 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5800 1700 50  0001 C CNN
+F 2 "" H 5800 1700 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf" H 5800 1700 50  0001 C CNN
 	3    5800 1700
 	1    0    0    -1  
@@ -204,7 +204,7 @@ U 1 1 5E979073
 P 5300 3400
 F 0 "JP1801" V 5254 3467 50  0000 L CNN
 F 1 "Jumper_3_Bridged12" V 5345 3467 50  0000 L CNN
-F 2 "" H 5300 3400 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5300 3400 50  0001 C CNN
 F 3 "~" H 5300 3400 50  0001 C CNN
 	1    5300 3400
 	0    -1   1    0   
@@ -219,7 +219,7 @@ U 1 1 5E9A01F8
 P 5300 4500
 F 0 "JP1802" V 5254 4567 50  0000 L CNN
 F 1 "Jumper_3_Bridged12" V 5345 4567 50  0000 L CNN
-F 2 "" H 5300 4500 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5300 4500 50  0001 C CNN
 F 3 "~" H 5300 4500 50  0001 C CNN
 	1    5300 4500
 	0    -1   1    0   
@@ -319,7 +319,7 @@ U 1 1 5D623CDF
 P 5700 5400
 F 0 "R1805" H 5770 5446 50  0000 L CNN
 F 1 "220" H 5770 5355 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5630 5400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5630 5400 50  0001 C CNN
 F 3 "" H 5700 5400 50  0001 C CNN
 	1    5700 5400
 	1    0    0    -1  
@@ -367,7 +367,7 @@ U 4 1 5C93A370
 P 4700 5250
 F 0 "U1802" H 4700 5575 50  0000 C CNN
 F 1 "quad_and" H 4700 5484 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4700 5250 50  0001 C CNN
+F 2 "" H 4700 5250 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf" H 4700 5250 50  0001 C CNN
 	4    4700 5250
 	1    0    0    -1  
