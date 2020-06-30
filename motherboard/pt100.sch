@@ -156,29 +156,18 @@ L bryggan:R R2213
 U 1 1 5E850C41
 P 4150 2675
 F 0 "R2213" V 3943 2675 50  0000 C CNN
-F 1 "1k" V 4034 2675 50  0000 C CNN
+F 1 "4k7" V 4034 2675 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4080 2675 50  0001 C CNN
 F 3 "" H 4150 2675 50  0001 C CNN
 	1    4150 2675
 	0    1    1    0   
 $EndComp
 Connection ~ 4000 2675
-$Comp
-L bryggan:R R2215
-U 1 1 5E862587
-P 4550 2675
-F 0 "R2215" V 4343 2675 50  0000 C CNN
-F 1 "1k" V 4434 2675 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4480 2675 50  0001 C CNN
-F 3 "" H 4550 2675 50  0001 C CNN
-	1    4550 2675
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	4350 2675 4350 2725
 Wire Wire Line
 	4350 2675 4400 2675
-Text HLabel 4350 3025 3    50   Input ~ 0
+Text HLabel 4050 2925 3    50   Input ~ 0
 Vref
 Wire Wire Line
 	4300 2675 4350 2675
@@ -349,45 +338,10 @@ Wire Wire Line
 	9000 3075 9000 2675
 Wire Wire Line
 	7450 2775 8100 2775
-$Comp
-L bryggan:R R2229
-U 1 1 5E9F06F9
-P 9150 2675
-F 0 "R2229" V 8943 2675 50  0000 C CNN
-F 1 "1k" V 9034 2675 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9080 2675 50  0001 C CNN
-F 3 "" H 9150 2675 50  0001 C CNN
-	1    9150 2675
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D D2207
-U 1 1 5E9F0700
-P 9350 2875
-F 0 "D2207" V 9396 2796 50  0000 R CNN
-F 1 "D" V 9305 2796 50  0000 R CNN
-F 2 "Diode_SMD:D_SMA-SMB_Universal_Handsoldering" H 9350 2875 50  0001 C CNN
-F 3 "~" H 9350 2875 50  0001 C CNN
-	1    9350 2875
-	0    -1   -1   0   
-$EndComp
-$Comp
-L bryggan:R R2231
-U 1 1 5E9F0706
-P 9550 2675
-F 0 "R2231" V 9343 2675 50  0000 C CNN
-F 1 "1k" V 9434 2675 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9480 2675 50  0001 C CNN
-F 3 "" H 9550 2675 50  0001 C CNN
-	1    9550 2675
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	9350 2675 9350 2725
 Wire Wire Line
 	9350 2675 9400 2675
-Text HLabel 9350 3025 3    50   Input ~ 0
-Vref
 Wire Wire Line
 	9300 2675 9350 2675
 Connection ~ 9350 2675
@@ -493,45 +447,10 @@ Wire Wire Line
 	4000 5725 4000 5325
 Wire Wire Line
 	2450 5425 3100 5425
-$Comp
-L bryggan:R R2214
-U 1 1 5EA3D1E0
-P 4150 5325
-F 0 "R2214" V 3943 5325 50  0000 C CNN
-F 1 "1k" V 4034 5325 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4080 5325 50  0001 C CNN
-F 3 "" H 4150 5325 50  0001 C CNN
-	1    4150 5325
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D D2204
-U 1 1 5EA3D1E7
-P 4350 5525
-F 0 "D2204" V 4396 5446 50  0000 R CNN
-F 1 "D" V 4305 5446 50  0000 R CNN
-F 2 "Diode_SMD:D_SMA-SMB_Universal_Handsoldering" H 4350 5525 50  0001 C CNN
-F 3 "~" H 4350 5525 50  0001 C CNN
-	1    4350 5525
-	0    -1   -1   0   
-$EndComp
-$Comp
-L bryggan:R R2216
-U 1 1 5EA3D1ED
-P 4550 5325
-F 0 "R2216" V 4343 5325 50  0000 C CNN
-F 1 "1k" V 4434 5325 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4480 5325 50  0001 C CNN
-F 3 "" H 4550 5325 50  0001 C CNN
-	1    4550 5325
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	4350 5325 4350 5375
 Wire Wire Line
 	4350 5325 4400 5325
-Text HLabel 4350 5675 3    50   Input ~ 0
-Vref
 Wire Wire Line
 	4300 5325 4350 5325
 Connection ~ 4350 5325
@@ -615,45 +534,10 @@ Wire Wire Line
 	9000 5725 9000 5325
 Wire Wire Line
 	7450 5425 8100 5425
-$Comp
-L bryggan:R R2230
-U 1 1 5EA3D244
-P 9150 5325
-F 0 "R2230" V 8943 5325 50  0000 C CNN
-F 1 "1k" V 9034 5325 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9080 5325 50  0001 C CNN
-F 3 "" H 9150 5325 50  0001 C CNN
-	1    9150 5325
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D D2208
-U 1 1 5EA3D24A
-P 9350 5525
-F 0 "D2208" V 9396 5446 50  0000 R CNN
-F 1 "D" V 9305 5446 50  0000 R CNN
-F 2 "Diode_SMD:D_SMA-SMB_Universal_Handsoldering" H 9350 5525 50  0001 C CNN
-F 3 "~" H 9350 5525 50  0001 C CNN
-	1    9350 5525
-	0    -1   -1   0   
-$EndComp
-$Comp
-L bryggan:R R2232
-U 1 1 5EA3D250
-P 9550 5325
-F 0 "R2232" V 9343 5325 50  0000 C CNN
-F 1 "1k" V 9434 5325 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9480 5325 50  0001 C CNN
-F 3 "" H 9550 5325 50  0001 C CNN
-	1    9550 5325
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	9350 5325 9350 5375
 Wire Wire Line
-	9350 5325 9400 5325
-Text HLabel 9350 5675 3    50   Input ~ 0
-Vref
+	9350 5325 9375 5325
 Wire Wire Line
 	9300 5325 9350 5325
 Connection ~ 9350 5325
@@ -712,13 +596,10 @@ Wire Wire Line
 	1325 6775 1525 6775
 Connection ~ 3400 5225
 Connection ~ 3400 5425
-Connection ~ 4000 5325
 Connection ~ 8400 5225
 Connection ~ 8400 5425
-Connection ~ 9000 5325
 Connection ~ 8400 2575
 Connection ~ 8400 2775
-Connection ~ 9000 2675
 Wire Wire Line
 	2450 2575 2575 2575
 Wire Wire Line
@@ -1003,21 +884,147 @@ F 3 "" H 7575 4775 50  0001 C CNN
 	1    7575 4775
 	-1   0    0    1   
 $EndComp
-$Comp
-L Device:D D2203
-U 1 1 5E86086B
-P 4350 2875
-F 0 "D2203" V 4396 2796 50  0000 R CNN
-F 1 "D" V 4305 2796 50  0000 R CNN
-F 2 "Diode_SMD:D_SMA-SMB_Universal_Handsoldering" H 4350 2875 50  0001 C CNN
-F 3 "~" H 4350 2875 50  0001 C CNN
-	1    4350 2875
-	0    -1   -1   0   
-$EndComp
 Text Notes 950  1625 0    50   ~ 0
 E24 Values\nfor 7.5 * 10^x resistors
 Text Notes 2800 3325 0    50   ~ 0
 Differentail opamp resistors min 0.2%
 Entry Bus Bus
 	275  1025 375  1125
+$Comp
+L Diode:BAT54S D2101
+U 1 1 5EFF82C8
+P 4350 2925
+F 0 "D2101" H 4350 3058 50  0000 C CNN
+F 1 "BAT54S" H 4350 3149 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4425 3050 50  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 4230 2925 50  0001 C CNN
+	1    4350 2925
+	-1   0    0    1   
+$EndComp
+NoConn ~ 4650 2925
+Text HLabel 4050 5575 3    50   Input ~ 0
+Vref
+$Comp
+L Diode:BAT54S D2102
+U 1 1 5F019F6E
+P 4350 5575
+F 0 "D2102" H 4350 5708 50  0000 C CNN
+F 1 "BAT54S" H 4350 5799 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4425 5700 50  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 4230 5575 50  0001 C CNN
+	1    4350 5575
+	-1   0    0    1   
+$EndComp
+NoConn ~ 4650 5575
+Text HLabel 9050 5575 3    50   Input ~ 0
+Vref
+$Comp
+L Diode:BAT54S D2104
+U 1 1 5F02A28C
+P 9350 5575
+F 0 "D2104" H 9350 5708 50  0000 C CNN
+F 1 "BAT54S" H 9350 5799 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9425 5700 50  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 9230 5575 50  0001 C CNN
+	1    9350 5575
+	-1   0    0    1   
+$EndComp
+NoConn ~ 9650 5575
+Text HLabel 9050 2925 3    50   Input ~ 0
+Vref
+$Comp
+L Diode:BAT54S D2103
+U 1 1 5F034D26
+P 9350 2925
+F 0 "D2103" H 9350 3058 50  0000 C CNN
+F 1 "BAT54S" H 9350 3149 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9425 3050 50  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 9230 2925 50  0001 C CNN
+	1    9350 2925
+	-1   0    0    1   
+$EndComp
+NoConn ~ 9650 2925
+$Comp
+L bryggan:R R?
+U 1 1 5EFDA3DF
+P 4550 2675
+F 0 "R?" V 4343 2675 50  0000 C CNN
+F 1 "4k7" V 4434 2675 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4480 2675 50  0001 C CNN
+F 3 "" H 4550 2675 50  0001 C CNN
+	1    4550 2675
+	0    1    1    0   
+$EndComp
+$Comp
+L bryggan:R R?
+U 1 1 5EFDAAD9
+P 4150 5325
+F 0 "R?" V 3943 5325 50  0000 C CNN
+F 1 "4k7" V 4034 5325 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4080 5325 50  0001 C CNN
+F 3 "" H 4150 5325 50  0001 C CNN
+	1    4150 5325
+	0    1    1    0   
+$EndComp
+Connection ~ 4000 5325
+$Comp
+L bryggan:R R?
+U 1 1 5EFDB2A6
+P 4550 5325
+F 0 "R?" V 4343 5325 50  0000 C CNN
+F 1 "4k7" V 4434 5325 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4480 5325 50  0001 C CNN
+F 3 "" H 4550 5325 50  0001 C CNN
+	1    4550 5325
+	0    1    1    0   
+$EndComp
+$Comp
+L bryggan:R R?
+U 1 1 5EFDBB1D
+P 9150 2675
+F 0 "R?" V 8943 2675 50  0000 C CNN
+F 1 "4k7" V 9034 2675 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9080 2675 50  0001 C CNN
+F 3 "" H 9150 2675 50  0001 C CNN
+	1    9150 2675
+	0    1    1    0   
+$EndComp
+Connection ~ 9000 2675
+$Comp
+L bryggan:R R?
+U 1 1 5EFDC2D3
+P 9550 2675
+F 0 "R?" V 9343 2675 50  0000 C CNN
+F 1 "4k7" V 9434 2675 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9480 2675 50  0001 C CNN
+F 3 "" H 9550 2675 50  0001 C CNN
+	1    9550 2675
+	0    1    1    0   
+$EndComp
+$Comp
+L bryggan:R R?
+U 1 1 5EFDCC9C
+P 9150 5325
+F 0 "R?" V 8943 5325 50  0000 C CNN
+F 1 "4k7" V 9034 5325 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9080 5325 50  0001 C CNN
+F 3 "" H 9150 5325 50  0001 C CNN
+	1    9150 5325
+	0    1    1    0   
+$EndComp
+Connection ~ 9000 5325
+$Comp
+L bryggan:R R?
+U 1 1 5EFDD622
+P 9550 5325
+F 0 "R?" V 9343 5325 50  0000 C CNN
+F 1 "4k7" V 9434 5325 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9480 5325 50  0001 C CNN
+F 3 "" H 9550 5325 50  0001 C CNN
+	1    9550 5325
+	0    1    1    0   
+$EndComp
+Connection ~ 9375 5325
+Wire Wire Line
+	9375 5325 9400 5325
 $EndSCHEMATC

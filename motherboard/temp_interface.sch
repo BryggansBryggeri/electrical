@@ -40,28 +40,6 @@ Wire Wire Line
 Wire Wire Line
 	4600 3900 5600 3900
 $Comp
-L Device:D D2002
-U 1 1 5C099F6B
-P 5600 3600
-F 0 "D2002" V 5646 3521 50  0000 R CNN
-F 1 "D" V 5555 3521 50  0000 R CNN
-F 2 "Diode_SMD:D_0603_1608Metric" H 5600 3600 50  0001 C CNN
-F 3 "~" H 5600 3600 50  0001 C CNN
-	1    5600 3600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D D2001
-U 1 1 5C09A55A
-P 5600 3050
-F 0 "D2001" V 5646 2971 50  0000 R CNN
-F 1 "D" V 5555 2971 50  0000 R CNN
-F 2 "Diode_SMD:D_0603_1608Metric" H 5600 3050 50  0001 C CNN
-F 3 "~" H 5600 3050 50  0001 C CNN
-	1    5600 3050
-	0    -1   -1   0   
-$EndComp
-$Comp
 L bryggan:GND #PWR02001
 U 1 1 5C09A99D
 P 5600 2650
@@ -73,7 +51,7 @@ F 3 "" H 5600 2650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	5600 2650 5600 2900
+	5600 2650 5600 3000
 $Comp
 L bryggan:R R2001
 U 1 1 5C09B3EC
@@ -97,18 +75,9 @@ F 3 "" H 5950 3300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5350 3300 5600 3300
-Wire Wire Line
 	6100 3300 6200 3300
 Wire Wire Line
-	5600 3200 5600 3300
-Connection ~ 5600 3300
-Wire Wire Line
-	5600 3300 5800 3300
-Wire Wire Line
-	5600 3300 5600 3450
-Wire Wire Line
-	5600 3750 5600 3900
+	5600 3600 5600 3900
 Connection ~ 5600 3900
 Wire Wire Line
 	5600 3900 6200 3900
@@ -117,4 +86,20 @@ TEMP_IN
 Wire Wire Line
 	6650 3300 6200 3300
 Connection ~ 6200 3300
+$Comp
+L Diode:BAT54S D1901
+U 1 1 5EFE943F
+P 5600 3300
+F 0 "D1901" V 5554 3388 50  0000 L CNN
+F 1 "BAT54S" V 5645 3388 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5675 3425 50  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 5480 3300 50  0001 C CNN
+	1    5600 3300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5350 3300 5400 3300
+Connection ~ 5400 3300
+Wire Wire Line
+	5400 3300 5800 3300
 $EndSCHEMATC

@@ -41,50 +41,15 @@ Wire Wire Line
 	1800 1575 1850 1575
 Wire Wire Line
 	1850 1575 1850 1625
-$Comp
-L Device:D D2402
-U 1 1 5E7A66FC
-P 2600 1775
-F 0 "D2402" V 2554 1854 50  0000 L CNN
-F 1 "D" V 2645 1854 50  0000 L CNN
-F 2 "Diode_SMD:D_SMA-SMB_Universal_Handsoldering" H 2600 1775 50  0001 C CNN
-F 3 "~" H 2600 1775 50  0001 C CNN
-	1    2600 1775
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D D2401
-U 1 1 5E7A7401
-P 2600 1375
-F 0 "D2401" V 2554 1454 50  0000 L CNN
-F 1 "D" V 2645 1454 50  0000 L CNN
-F 2 "Diode_SMD:D_SMA-SMB_Universal_Handsoldering" H 2600 1375 50  0001 C CNN
-F 3 "~" H 2600 1375 50  0001 C CNN
-	1    2600 1375
-	0    1    1    0   
-$EndComp
 Text HLabel 2600 1225 1    50   Input ~ 0
 Vref
-Text HLabel 3050 1575 2    50   Output ~ 0
-A_out
 Wire Wire Line
 	1850 1925 1850 1975
 Wire Wire Line
 	1850 1975 2600 1975
-Wire Wire Line
-	2600 1975 2600 1925
 Connection ~ 1850 1975
 Wire Wire Line
 	1850 1975 1850 2025
-Wire Wire Line
-	2600 1625 2600 1575
-Wire Wire Line
-	2750 1575 2600 1575
-Connection ~ 2600 1575
-Wire Wire Line
-	2600 1575 2600 1525
-Wire Wire Line
-	2450 1575 2600 1575
 Wire Wire Line
 	2150 1575 1850 1575
 Connection ~ 1850 1575
@@ -107,50 +72,15 @@ Wire Wire Line
 	1800 2925 1850 2925
 Wire Wire Line
 	1850 2925 1850 2975
-$Comp
-L Device:D D2404
-U 1 1 5E7ADDB2
-P 2600 3125
-F 0 "D2404" V 2554 3204 50  0000 L CNN
-F 1 "D" V 2645 3204 50  0000 L CNN
-F 2 "Diode_SMD:D_SMA-SMB_Universal_Handsoldering" H 2600 3125 50  0001 C CNN
-F 3 "~" H 2600 3125 50  0001 C CNN
-	1    2600 3125
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D D2403
-U 1 1 5E7ADDB8
-P 2600 2725
-F 0 "D2403" V 2554 2804 50  0000 L CNN
-F 1 "D" V 2645 2804 50  0000 L CNN
-F 2 "Diode_SMD:D_SMA-SMB_Universal_Handsoldering" H 2600 2725 50  0001 C CNN
-F 3 "~" H 2600 2725 50  0001 C CNN
-	1    2600 2725
-	0    1    1    0   
-$EndComp
 Text HLabel 2600 2575 1    50   Input ~ 0
 Vref
-Text HLabel 3050 2925 2    50   Output ~ 0
-B_out
 Wire Wire Line
 	1850 3275 1850 3325
 Wire Wire Line
 	1850 3325 2600 3325
-Wire Wire Line
-	2600 3325 2600 3275
 Connection ~ 1850 3325
 Wire Wire Line
 	1850 3325 1850 3375
-Wire Wire Line
-	2600 2975 2600 2925
-Wire Wire Line
-	2750 2925 2600 2925
-Connection ~ 2600 2925
-Wire Wire Line
-	2600 2925 2600 2875
-Wire Wire Line
-	2450 2925 2600 2925
 Wire Wire Line
 	2150 2925 1850 2925
 Connection ~ 1850 2925
@@ -173,50 +103,15 @@ Wire Wire Line
 	1800 4225 1850 4225
 Wire Wire Line
 	1850 4225 1850 4275
-$Comp
-L Device:D D2406
-U 1 1 5E7B02CF
-P 2600 4425
-F 0 "D2406" V 2554 4504 50  0000 L CNN
-F 1 "D" V 2645 4504 50  0000 L CNN
-F 2 "Diode_SMD:D_SMA-SMB_Universal_Handsoldering" H 2600 4425 50  0001 C CNN
-F 3 "~" H 2600 4425 50  0001 C CNN
-	1    2600 4425
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D D2405
-U 1 1 5E7B02D5
-P 2600 4025
-F 0 "D2405" V 2554 4104 50  0000 L CNN
-F 1 "D" V 2645 4104 50  0000 L CNN
-F 2 "Diode_SMD:D_SMA-SMB_Universal_Handsoldering" H 2600 4025 50  0001 C CNN
-F 3 "~" H 2600 4025 50  0001 C CNN
-	1    2600 4025
-	0    1    1    0   
-$EndComp
 Text HLabel 2600 3875 1    50   Input ~ 0
 Vref
-Text HLabel 3050 4225 2    50   Output ~ 0
-C_out
 Wire Wire Line
 	1850 4575 1850 4625
 Wire Wire Line
 	1850 4625 2600 4625
-Wire Wire Line
-	2600 4625 2600 4575
 Connection ~ 1850 4625
 Wire Wire Line
 	1850 4625 1850 4675
-Wire Wire Line
-	2600 4275 2600 4225
-Wire Wire Line
-	2750 4225 2600 4225
-Connection ~ 2600 4225
-Wire Wire Line
-	2600 4225 2600 4175
-Wire Wire Line
-	2450 4225 2600 4225
 Wire Wire Line
 	2150 4225 1850 4225
 Connection ~ 1850 4225
@@ -239,50 +134,17 @@ Wire Wire Line
 	1800 5575 1850 5575
 Wire Wire Line
 	1850 5575 1850 5625
-$Comp
-L Device:D D2408
-U 1 1 5E7B1D94
-P 2600 5775
-F 0 "D2408" V 2554 5854 50  0000 L CNN
-F 1 "D" V 2645 5854 50  0000 L CNN
-F 2 "Diode_SMD:D_SMA-SMB_Universal_Handsoldering" H 2600 5775 50  0001 C CNN
-F 3 "~" H 2600 5775 50  0001 C CNN
-	1    2600 5775
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D D2407
-U 1 1 5E7B1D9A
-P 2600 5375
-F 0 "D2407" V 2554 5454 50  0000 L CNN
-F 1 "D" V 2645 5454 50  0000 L CNN
-F 2 "Diode_SMD:D_SMA-SMB_Universal_Handsoldering" H 2600 5375 50  0001 C CNN
-F 3 "~" H 2600 5375 50  0001 C CNN
-	1    2600 5375
-	0    1    1    0   
-$EndComp
 Text HLabel 2600 5225 1    50   Input ~ 0
 Vref
-Text HLabel 3050 5575 2    50   Output ~ 0
+Text HLabel 3225 5575 2    50   Output ~ 0
 D_out
 Wire Wire Line
 	1850 5925 1850 5975
 Wire Wire Line
 	1850 5975 2600 5975
-Wire Wire Line
-	2600 5975 2600 5925
 Connection ~ 1850 5975
 Wire Wire Line
 	1850 5975 1850 6025
-Wire Wire Line
-	2600 5625 2600 5575
-Wire Wire Line
-	2750 5575 2600 5575
-Connection ~ 2600 5575
-Wire Wire Line
-	2600 5575 2600 5525
-Wire Wire Line
-	2450 5575 2600 5575
 Wire Wire Line
 	2150 5575 1850 5575
 Connection ~ 1850 5575
@@ -295,28 +157,6 @@ F 1 "1k" V 2184 1575 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2230 1575 50  0001 C CNN
 F 3 "" H 2300 1575 50  0001 C CNN
 	1    2300 1575
-	0    1    1    0   
-$EndComp
-$Comp
-L bryggan:R R2409
-U 1 1 5E78067D
-P 2900 1575
-F 0 "R2409" V 2693 1575 50  0000 C CNN
-F 1 "1k" V 2784 1575 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2830 1575 50  0001 C CNN
-F 3 "" H 2900 1575 50  0001 C CNN
-	1    2900 1575
-	0    1    1    0   
-$EndComp
-$Comp
-L bryggan:R R2410
-U 1 1 5E780B86
-P 2900 2925
-F 0 "R2410" V 2693 2925 50  0000 C CNN
-F 1 "1k" V 2784 2925 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2830 2925 50  0001 C CNN
-F 3 "" H 2900 2925 50  0001 C CNN
-	1    2900 2925
 	0    1    1    0   
 $EndComp
 $Comp
@@ -339,28 +179,6 @@ F 1 "1k" V 2184 4225 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2230 4225 50  0001 C CNN
 F 3 "" H 2300 4225 50  0001 C CNN
 	1    2300 4225
-	0    1    1    0   
-$EndComp
-$Comp
-L bryggan:R R2411
-U 1 1 5E781748
-P 2900 4225
-F 0 "R2411" V 2693 4225 50  0000 C CNN
-F 1 "1k" V 2784 4225 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2830 4225 50  0001 C CNN
-F 3 "" H 2900 4225 50  0001 C CNN
-	1    2900 4225
-	0    1    1    0   
-$EndComp
-$Comp
-L bryggan:R R2412
-U 1 1 5E781A70
-P 2900 5575
-F 0 "R2412" V 2693 5575 50  0000 C CNN
-F 1 "1k" V 2784 5575 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2830 5575 50  0001 C CNN
-F 3 "" H 2900 5575 50  0001 C CNN
-	1    2900 5575
 	0    1    1    0   
 $EndComp
 $Comp
@@ -444,5 +262,143 @@ F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1780 5775 50  0
 F 3 "" H 1850 5775 50  0001 C CNN
 	1    1850 5775
 	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 1975 2600 1875
+Wire Wire Line
+	2600 1225 2600 1275
+Text HLabel 3225 4225 2    50   Output ~ 0
+C_out
+Text HLabel 3225 2925 2    50   Output ~ 0
+B_out
+Text HLabel 3225 1575 2    50   Output ~ 0
+A_out
+$Comp
+L Diode:BAT54S D?
+U 1 1 5F07C26C
+P 2600 1575
+AR Path="/5E942055/5E943CED/5F07C26C" Ref="D?"  Part="1" 
+AR Path="/5E942055/5E943D29/5F07C26C" Ref="D2301"  Part="1" 
+F 0 "D2301" V 2646 1663 50  0000 L CNN
+F 1 "BAT54S" V 2555 1663 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2675 1700 50  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 2480 1575 50  0001 C CNN
+	1    2600 1575
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2450 1575 2800 1575
+Wire Wire Line
+	2925 1575 2800 1575
+Connection ~ 2800 1575
+Wire Wire Line
+	2600 3325 2600 3225
+Wire Wire Line
+	2600 2575 2600 2625
+$Comp
+L Diode:BAT54S D?
+U 1 1 5F093EE4
+P 2600 2925
+AR Path="/5E942055/5E943CED/5F093EE4" Ref="D?"  Part="1" 
+AR Path="/5E942055/5E943D29/5F093EE4" Ref="D2302"  Part="1" 
+F 0 "D2302" V 2646 3013 50  0000 L CNN
+F 1 "BAT54S" V 2555 3013 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2675 3050 50  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 2480 2925 50  0001 C CNN
+	1    2600 2925
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2450 2925 2800 2925
+Wire Wire Line
+	2925 2925 2800 2925
+Connection ~ 2800 2925
+Wire Wire Line
+	2600 4625 2600 4525
+Wire Wire Line
+	2600 3875 2600 3925
+$Comp
+L Diode:BAT54S D?
+U 1 1 5F0949A4
+P 2600 4225
+AR Path="/5E942055/5E943CED/5F0949A4" Ref="D?"  Part="1" 
+AR Path="/5E942055/5E943D29/5F0949A4" Ref="D2303"  Part="1" 
+F 0 "D2303" V 2646 4313 50  0000 L CNN
+F 1 "BAT54S" V 2555 4313 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2675 4350 50  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 2480 4225 50  0001 C CNN
+	1    2600 4225
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2450 4225 2800 4225
+Wire Wire Line
+	2925 4225 2800 4225
+Connection ~ 2800 4225
+Wire Wire Line
+	2600 5975 2600 5875
+Wire Wire Line
+	2600 5225 2600 5275
+$Comp
+L Diode:BAT54S D?
+U 1 1 5F095EA6
+P 2600 5575
+AR Path="/5E942055/5E943CED/5F095EA6" Ref="D?"  Part="1" 
+AR Path="/5E942055/5E943D29/5F095EA6" Ref="D2304"  Part="1" 
+F 0 "D2304" V 2646 5663 50  0000 L CNN
+F 1 "BAT54S" V 2555 5663 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2675 5700 50  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 2480 5575 50  0001 C CNN
+	1    2600 5575
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2450 5575 2800 5575
+Wire Wire Line
+	2925 5575 2800 5575
+Connection ~ 2800 5575
+$Comp
+L bryggan:R R2412
+U 1 1 5E781A70
+P 3075 5575
+F 0 "R2412" V 2868 5575 50  0000 C CNN
+F 1 "10k" V 2959 5575 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3005 5575 50  0001 C CNN
+F 3 "" H 3075 5575 50  0001 C CNN
+	1    3075 5575
+	0    1    1    0   
+$EndComp
+$Comp
+L bryggan:R R?
+U 1 1 5EFE7B1F
+P 3075 4225
+F 0 "R?" V 2868 4225 50  0000 C CNN
+F 1 "10k" V 2959 4225 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3005 4225 50  0001 C CNN
+F 3 "" H 3075 4225 50  0001 C CNN
+	1    3075 4225
+	0    1    1    0   
+$EndComp
+$Comp
+L bryggan:R R?
+U 1 1 5EFE7EE0
+P 3075 2925
+F 0 "R?" V 2868 2925 50  0000 C CNN
+F 1 "10k" V 2959 2925 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3005 2925 50  0001 C CNN
+F 3 "" H 3075 2925 50  0001 C CNN
+	1    3075 2925
+	0    1    1    0   
+$EndComp
+$Comp
+L bryggan:R R?
+U 1 1 5EFE8461
+P 3075 1575
+F 0 "R?" V 2868 1575 50  0000 C CNN
+F 1 "10k" V 2959 1575 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3005 1575 50  0001 C CNN
+F 3 "" H 3075 1575 50  0001 C CNN
+	1    3075 1575
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC
